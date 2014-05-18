@@ -1,7 +1,0 @@
----
-layout: none
----
-<?xml version="1.0" encoding="UTF-8"?>
-{% assign the_name = "News" %}
-{% assign the_category = site.categories.news %}
-{% include category/feed.xml %}
