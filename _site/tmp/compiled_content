@@ -1,0 +1,2648 @@
+{:	data{I"/:ET{:default{	:	lastI"·<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WebCamp Zagreb - 2014</title>
+    <link href='http://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
+        <img src="images/logo.png" alt="">
+      </header>
+      <h2 class="punchline">
+        Tech-oriented conference for<br>web developers &amp; designers 
+      </h2>
+      <h2 class="date-location">
+        &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
+      </h2>
+      <section class="content">
+        <article class="news">
+  <h2>Start of WebCamp 2014 preparations.</h2>
+  <time>18.05.2014.</time>
+  <p>
+    Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community<b>. 
+  </p>
+  <p>
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+  </p>
+</article>
+      </section>
+      <div class="sponsorship-cfp-wrap cf">
+        <a class="left-panel" href="#">
+          <span class="icon">$$</span>
+          <b>Sponsor WebCamp!</b>
+          More about sponsor packages
+        </a>
+        <a class="right-panel" href="#">
+          <span class="icon">{...}</span>
+          <b>Submit your talk</b>
+          Our call-for-paper is open!
+        </a>
+      </div>
+      <footer>
+        &copy; WebCamp Zagreb 2012 &mdash; 2014
+      </footer>
+    </main>
+    
+    
+  </body>
+</html>
+;T:rawI"0<article class="news">
+  <h2>Start of WebCamp 2014 preparations.</h2>
+  <time>18.05.2014.</time>
+  <p>
+    Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community<b>. 
+  </p>
+  <p>
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+  </p>
+</article>;T:preI"0<article class="news">
+  <h2>Start of WebCamp 2014 preparations.</h2>
+  <time>18.05.2014.</time>
+  <p>
+    Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community<b>. 
+  </p>
+  <p>
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+  </p>
+</article>;T:	post@
+I"/stylesheet/;T{;{	;I"™<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Brand New nanoc Site - </title>
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.4"> 
+  </head>
+  <body>
+    <div id="main">
+      @import "compass";
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+}
+
+body {
+  background: adjust-saturation(red, -50);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+
+    </div>
+    <div id="sidebar">
+      <h2>Documentation</h2>
+      <ul>
+        <li><a href="http://nanoc.ws/docs/">Documentation</a></li>
+        <li><a href="http://nanoc.ws/docs/tutorial/">Getting Started</a></li>
+      </ul>
+      <h2>Community</h2>
+      <ul>
+        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
+        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
+        <li><a href="http://github.com/nanoc/nanoc/wiki/">Wiki</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"8@import "compass";
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+}
+
+body {
+  background: adjust-saturation(red, -50);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;T;
+I"8@import "compass";
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+}
+
+body {
+  background: adjust-saturation(red, -50);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;T;@I"/stylesheets/stylesheet/;T{;{;I"	9/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 22, content/stylesheets/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 32, content/stylesheets/normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, content/stylesheets/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+/* line 52, content/stylesheets/normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 66, content/stylesheets/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 76, content/stylesheets/normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, content/stylesheets/normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 96, content/stylesheets/normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 105, content/stylesheets/normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 118, content/stylesheets/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 127, content/stylesheets/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 136, content/stylesheets/normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 144, content/stylesheets/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 152, content/stylesheets/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 162, content/stylesheets/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 174, content/stylesheets/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 183, content/stylesheets/normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 191, content/stylesheets/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 199, content/stylesheets/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 208, content/stylesheets/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 215, content/stylesheets/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 219, content/stylesheets/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 231, content/stylesheets/normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 239, content/stylesheets/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 251, content/stylesheets/normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 263, content/stylesheets/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 274, content/stylesheets/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 288, content/stylesheets/normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 300, content/stylesheets/normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 312, content/stylesheets/normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 327, content/stylesheets/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 337, content/stylesheets/normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 347, content/stylesheets/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, content/stylesheets/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 371, content/stylesheets/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 380, content/stylesheets/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 390, content/stylesheets/normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 403, content/stylesheets/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* apply a natural box layout model to all elements */
+/* line 12, content/stylesheets/stylesheet.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, content/stylesheets/stylesheet.scss */
+body, html {
+  margin: 0;
+  height: 100%;
+  background: url(../images/background.gif);
+}
+
+/* line 23, content/stylesheets/stylesheet.scss */
+body {
+  font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url(../images/hedr.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  color: white;
+}
+
+/* line 32, content/stylesheets/stylesheet.scss */
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 37, content/stylesheets/stylesheet.scss */
+header {
+  padding-top: 25px;
+}
+/* line 39, content/stylesheets/stylesheet.scss */
+header h1 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+/* line 44, content/stylesheets/stylesheet.scss */
+header img {
+  width: 1100px;
+  margin-left: -50px;
+  display: block;
+}
+
+/* line 51, content/stylesheets/stylesheet.scss */
+footer {
+  text-align: center;
+  color: #6b6b6b;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 50px;
+}
+
+/* line 60, content/stylesheets/stylesheet.scss */
+h2.punchline, h2.date-location {
+  color: white;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2.9em;
+  line-height: 1;
+  margin: 0;
+}
+
+/* line 69, content/stylesheets/stylesheet.scss */
+h2.punchline {
+  margin: 25px 0 50px;
+}
+
+/* line 72, content/stylesheets/stylesheet.scss */
+h2.date-location {
+  font-size: 2em;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  line-height: 3;
+}
+
+/* line 78, content/stylesheets/stylesheet.scss */
+section.content {
+  padding: 50px 0;
+}
+
+/* line 81, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap {
+  border-top: 1px solid #6b6b6b;
+  border-bottom: 1px solid #6b6b6b;
+  font-size: 1em;
+}
+/* line 85, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+/* line 88, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap a b {
+  display: block;
+  color: #a6a6a5;
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  margin-top: 17px;
+}
+/* line 97, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap a:hover {
+  color: white;
+}
+/* line 99, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap a:hover b {
+  color: white;
+}
+/* line 102, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap a:hover .icon {
+  background: rgba(255, 255, 255, 0.05);
+}
+/* line 107, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .icon {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #6b6b6b;
+  color: #a6a6a5;
+  line-height: 80px;
+  text-align: center;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-size: 34px;
+  border-radius: 40px;
+}
+/* line 118, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
+  width: 50%;
+  padding: 40px 0;
+}
+/* line 122, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .left-panel {
+  float: left;
+  border-right: 1px solid #6b6b6b;
+}
+/* line 125, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .left-panel .icon {
+  float: left;
+  margin-right: 25px;
+}
+/* line 130, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .right-panel {
+  float: right;
+  text-align: right;
+}
+/* line 133, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .right-panel .icon {
+  float: right;
+  margin-left: 25px;
+}
+
+/* line 140, content/stylesheets/stylesheet.scss */
+article.news {
+  width: 61.8%;
+}
+/* line 142, content/stylesheets/stylesheet.scss */
+article.news h2, article.news time {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #f8d800;
+  margin: 0;
+  font-size: 1.8em;
+}
+/* line 149, content/stylesheets/stylesheet.scss */
+article.news h2:before {
+  content: "\2192";
+  position: absolute;
+  margin: 5px 0 0 -30px;
+  font-size: 0.62em;
+}
+/* line 155, content/stylesheets/stylesheet.scss */
+article.news time {
+  font-size: 1.2em;
+}
+/* line 158, content/stylesheets/stylesheet.scss */
+article.news p {
+  line-height: 1.6;
+  color: #eee;
+}
+/* line 161, content/stylesheets/stylesheet.scss */
+article.news p:last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 178, content/stylesheets/stylesheet.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 183, content/stylesheets/stylesheet.scss */
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 191, content/stylesheets/stylesheet.scss */
+.cf {
+  *zoom: 1;
+}
+;T;	I"*@import "compass";
+@import "compass/css3/images";
+@import "compass/css3/box-sizing";
+@import "modular-scale";
+@import "singularitygs";
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+@import "./normalize.scss";
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+body, html { 
+  margin: 0;
+  height: 100%;
+  background: url(../images/background.gif);
+}
+
+body {
+  font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url(../images/hedr.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  color: white;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 25px;
+  h1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  img {
+    width: 1100px;
+    margin-left: -50px;
+    display: block;
+  }
+}
+
+footer {
+  text-align: center;
+  color: #6b6b6b;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 50px;
+}
+
+h2.punchline, h2.date-location {
+  color: white;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2.9em;
+  line-height: 1;
+  margin: 0;
+}
+h2.punchline {
+  margin: 25px 0 50px; 
+}
+h2.date-location {
+  font-size: 2em;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  line-height: 3;
+}
+section.content {
+  padding: 50px 0;
+}
+.sponsorship-cfp-wrap {
+  border-top: 1px solid #6b6b6b;
+  border-bottom: 1px solid #6b6b6b;
+  font-size: 1em;
+  a {
+    color: #6b6b6b;
+    text-decoration: none;
+    b {
+      display: block;
+      color: #a6a6a5;
+      font-size: 1.7em;
+      font-weight: 400;
+      font-family: Share, Helvetica, Arial, sans-serif;
+      line-height: 1;
+      margin-top: 17px;
+    }
+    &:hover {
+      color: white;
+      b {
+        color: white;
+      }
+      .icon {
+        background: rgba(255,255,255,0.05);
+      }
+    }
+  }
+  .icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #6b6b6b;
+    color: #a6a6a5;
+    line-height: 80px;
+    text-align: center;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    border-radius: 40px;
+  }
+  .left-panel, .right-panel {
+    width: 50%;
+    padding: 40px 0;
+  }
+  .left-panel {
+    float: left;
+    border-right: 1px solid #6b6b6b;
+    .icon {
+      float: left;
+      margin-right: 25px;
+    }
+  }
+  .right-panel {
+    float: right;
+    text-align: right;
+    .icon {
+      float: right;
+      margin-left: 25px;
+    }
+  }
+}
+
+article.news {
+  width: 61.8%;
+  h2, time {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #f8d800;
+    margin: 0;
+    font-size: 1.8em;
+  }
+  h2:before {
+    content: "\2192";
+    position: absolute;
+    margin: 5px 0 0 -30px;
+    font-size: 0.62em;
+  }
+  time {
+    font-size: 1.2em;
+  }
+  p {
+    line-height: 1.6;
+    color: #eee;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+};T;
+@I"/images/logo/;T{;{ I" /fontawesome/css/animation/;T{;{;I"A/*
+   Animation example, for spinners
+*/
+.animate-spin {
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  display: inline-block;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+;T;	@;
+@I"%/fontawesome/css/fontello-codes/;T{;{;I"â
+.icon-left-open:before { content: '\e802'; } /* 'î ‚' */
+.icon-right-open:before { content: '\e803'; } /* 'î ƒ' */
+.icon-twitter:before { content: '\e800'; } /* 'î €' */
+.icon-calendar:before { content: '\e801'; } /* 'î ' */;T;	@";
+@"I"(/fontawesome/css/fontello-embedded/;T{;{;I"83@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?45761325');
+  src: url('../font/fontello.eot?45761325#iefix') format('embedded-opentype'),
+       url('../font/fontello.svg?45761325#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('data:application/octet-stream;base64,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') format('woff'),
+       url('data:application/octet-stream;base64,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KyCwYFBYILBAUVizAiADIBuzAiYDGllCQiMgR7AEQ7CAYmAgsAArIIqKYSCwAkNgZCOwA0NhZFBYsAJDYRuwA0NgWbADJbCAYmGwAiVGYTgjIDwjOBshICBGI0ewACsjYTghWbEmARQrLbA9LLAwKy6xJgEUKy2wPiywMSshIyAgPLAEI0IjOLEmARQrsARDLrAmKy2wPyywABUgR7AAI0KyAAEBFRQTLrAsKi2wQCywABUgR7AAI0KyAAEBFRQTLrAsKi2wQSyxAAEUE7AtKi2wQiywLyotsEMssAAWRSMgLiBGiiNhOLEmARQrLbBELLAII0KwQystsEUssgAAPCstsEYssgABPCstsEcssgEAPCstsEgssgEBPCstsEkssgAAPSstsEossgABPSstsEsssgEAPSstsEwssgEBPSstsE0ssgAAOSstsE4ssgABOSstsE8ssgEAOSstsFAssgEBOSstsFEssgAAOystsFIssgABOystsFMssgEAOystsFQssgEBOystsFUssgAAPistsFYssgABPistsFcssgEAPistsFgssgEBPistsFkssgAAOistsFossgABOistsFsssgEAOistsFwssgEBOistsF0ssDIrLrEmARQrLbBeLLAyK7A2Ky2wXyywMiuwNystsGAssAAWsDIrsDgrLbBhLLAzKy6xJgEUKy2wYiywMyuwNistsGMssDMrsDcrLbBkLLAzK7A4Ky2wZSywNCsusSYBFCstsGYssDQrsDYrLbBnLLA0K7A3Ky2waCywNCuwOCstsGkssDUrLrEmARQrLbBqLLA1K7A2Ky2wayywNSuwNystsGwssDUrsDgrLbBtLCuwCGWwAyRQeLABFTAtAAAAS7gAyFJYsQEBjlm5CAAIAGMgsAEjRLADI3CyBCgJRVJEsgoCByqxBgFEsSQBiFFYsECIWLEGA0SxJgGIUVi4BACIWLEGAURZWVlZuAH/hbAEjbEFAEQAAA==') format('truetype');
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?45761325#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-left-open:before { content: '\e802'; } /* 'î ‚' */
+.icon-right-open:before { content: '\e803'; } /* 'î ƒ' */
+.icon-twitter:before { content: '\e800'; } /* 'î €' */
+.icon-calendar:before { content: '\e801'; } /* 'î ' */;T;	@&;
+@&I")/fontawesome/css/fontello-ie7-codes/;T{;{;I"®
+.icon-left-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-right-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-calendar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); };T;	@*;
+@*I"#/fontawesome/css/fontello-ie7/;T{;{;I"©[class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-left-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-right-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-calendar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); };T;	@.;
+@.I"/fontawesome/css/fontello/;T{;{;I" @font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello-eot.eot?6244144');
+  src: url('../font/fontello-eot.eot?6244144#iefix') format('embedded-opentype'),
+       url('../font/fontello-woff.woff?6244144') format('woff'),
+       url('../font/fontello-ttf.ttf?6244144') format('truetype'),
+       url('../font/fontello-svg.svg?6244144#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?6244144#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-left-open:before { content: '\e802'; } /* 'î ‚' */
+.icon-right-open:before { content: '\e803'; } /* 'î ƒ' */
+.icon-twitter:before { content: '\e800'; } /* 'î €' */
+.icon-calendar:before { content: '\e801'; } /* 'î ' */;T;	@2;
+@2I"$/fontawesome/font/fontello-eot/;T{;{ I"$/fontawesome/font/fontello-svg/;T{;{ I"$/fontawesome/font/fontello-ttf/;T{;{ I"%/fontawesome/font/fontello-woff/;T{;{ I"/fontawesome/LICENSE/;T{;{;I"´Font license info
+
+
+## Font Awesome
+
+   Copyright (C) 2012 by Dave Gandy
+
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/
+
+
+;T;	@B;
+@BI"/fontawesome/README/;T{;{;I"HThis webfont is generated by http://fontello.com open source project.
+
+
+================================================================================
+Please, note, that you should obey original font licences, used to make this
+webfont pack. Details available in LICENSE.txt file.
+
+- Usually, it's enough to publish content of LICENSE.txt file somewhere on your
+  site in "About" section.
+
+- If your project is open-source, usually, it will be ok to make LICENSE.txt
+  file publically available in your repository.
+
+- Fonts, used in Fontello, don't require to make clickable links on your site.
+  But any kind of additional authors crediting is welcome.
+================================================================================
+
+
+Comments on archive content
+---------------------------
+
+- /font/* - fonts in different formats
+
+- /css/*  - different kinds of css, for all situations. Should be ok with 
+  twitter bootstrap. Also, you can skip <i> style and assign icon classes
+  directly to text elements, if you don't mind about IE7.
+
+- demo.html - demo file, to show your webfont content
+
+- LICENSE.txt - license info about source fonts, used to build your one.
+
+- config.json - keeps your settings. You can import it back to fontello anytime,
+  to continue your work
+
+
+Why so many CSS files ?
+-----------------------
+
+Because we like to fit all your needs :)
+
+- basic file, <your_font_name>.css - is usually enougth, in contains @font-face
+  and character codes definition
+
+- *-ie7.css - if you need IE7 support, but still don't wish to put char codes
+  directly into html
+
+- *-codes.css and *-ie7-codes.css - if you like to use your own @font-face
+  rules, but still wish to benefit of css generation. That can be very
+  convenient for automated assets build systems. When you need to update font -
+  no needs to manually edit files, just override old version with archive
+  content. See fontello source codes for example.
+
+- *-embedded.css - basic css file, but with embedded WOFF font, to avoid
+  CORS issues in Firefox and IE9+, when fonts are hosted on the separate domain.
+  We strongly recommend to resolve this issue by `Access-Control-Allow-Origin`
+  server headers. But if you ok with dirty hack - this file is for you. Note,
+  that data url moved to separate @font-face to avoid problems with <IE9, when
+  string is too long.
+
+- animate.css - use it to get ideas about spinner rotation animation.
+
+
+Attention for server setup
+--------------------------
+
+You MUST setup server to reply with proper `mime-types` for font files. In other
+case, some browsers will fail to show fonts.
+
+Usually, `apache` already has necessary settings, but `nginx` and other
+webservers should be tuned. Here is list of mime types for our file extentions:
+
+- `application/vnd.ms-fontobject` - eot
+- `application/x-font-woff` - woff
+- `application/x-font-ttf` - ttf
+- `image/svg+xml` - svg
+;T;	@F;
+@FI"/stylesheets/normalize/;T{;{;I"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 22, content/stylesheets/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 32, content/stylesheets/normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, content/stylesheets/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+/* line 52, content/stylesheets/normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 66, content/stylesheets/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 76, content/stylesheets/normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, content/stylesheets/normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 96, content/stylesheets/normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 105, content/stylesheets/normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 118, content/stylesheets/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 127, content/stylesheets/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 136, content/stylesheets/normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 144, content/stylesheets/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 152, content/stylesheets/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 162, content/stylesheets/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 174, content/stylesheets/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 183, content/stylesheets/normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 191, content/stylesheets/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 199, content/stylesheets/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 208, content/stylesheets/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 215, content/stylesheets/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 219, content/stylesheets/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 231, content/stylesheets/normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 239, content/stylesheets/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 251, content/stylesheets/normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 263, content/stylesheets/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 274, content/stylesheets/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 288, content/stylesheets/normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 300, content/stylesheets/normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 312, content/stylesheets/normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 327, content/stylesheets/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 337, content/stylesheets/normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 347, content/stylesheets/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, content/stylesheets/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 371, content/stylesheets/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 380, content/stylesheets/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 390, content/stylesheets/normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 403, content/stylesheets/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+;T;	I"z/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+    background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+
+button,
+select {
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+;T;
+@JI"/images/placeholder/;T{;{ I"/fontawesome/config/;T{;{ I"/fontawesome/demo/;T{;{;I"€<!DOCTYPE html>
+<html>
+  <head><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset="UTF-8"><style type="text/css">/*
+ * Bootstrap v2.2.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+.span12 {
+  width: 940px;
+}
+.span11 {
+  width: 860px;
+}
+.span10 {
+  width: 780px;
+}
+.span9 {
+  width: 700px;
+}
+.span8 {
+  width: 620px;
+}
+.span7 {
+  width: 540px;
+}
+.span6 {
+  width: 460px;
+}
+.span5 {
+  width: 380px;
+}
+.span4 {
+  width: 300px;
+}
+.span3 {
+  width: 220px;
+}
+.span2 {
+  width: 140px;
+}
+.span1 {
+  width: 60px;
+}
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+  float: right;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+small {
+  font-size: 85%;
+}
+h1 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+}
+h1 {
+  line-height: 40px;
+}
+h1 {
+  font-size: 38.5px;
+}
+h1 small {
+  font-size: 24.5px;
+}
+body {
+  margin-top: 90px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  z-index: 10;
+}
+.footer {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}
+</style>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]>
+    <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+        
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="container header">
+      <h1>
+        fontello
+         <small>font demo</small>
+      </h1>
+      <label class="switch">
+        <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
+      </label>
+    </div>
+    <div id="icons" class="container">
+      <div class="row">
+        <div title="Code: 0xe802" class="the-icons span3"><i class="icon-left-open"></i> <span class="i-name">icon-left-open</span><span class="i-code">0xe802</span></div>
+        <div title="Code: 0xe803" class="the-icons span3"><i class="icon-right-open"></i> <span class="i-name">icon-right-open</span><span class="i-code">0xe803</span></div>
+        <div title="Code: 0xe800" class="the-icons span3"><i class="icon-twitter"></i> <span class="i-name">icon-twitter</span><span class="i-code">0xe800</span></div>
+        <div title="Code: 0xe801" class="the-icons span3"><i class="icon-calendar"></i> <span class="i-name">icon-calendar</span><span class="i-code">0xe801</span></div>
+      </div>
+    </div>
+    <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
+  </body>
+</html>;T;	@U;
+@UI"/images/meetup1/;T{;{ I"/images/capan_predavanje/;T{;{ I"/CNAME/;T{;{ I"/images/background/;T{;{ I"/images/hedr/;T{;{ :versioni
