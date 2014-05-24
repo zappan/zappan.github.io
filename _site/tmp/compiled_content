@@ -1,4 +1,4 @@
-{:	data{*I"/:ET{:default{	:	lastI"+<!DOCTYPE HTML>
+{:	data{+I"/:ET{:default{	:	lastI"·<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -65,30 +65,31 @@
     </main>
 
     <section class="organizers">
-        
-          <img src="/images/organizers/code_at_six.png">
-        
-          <img src="/images/organizers/frontman_hr.png">
-        
-          <img src="/images/organizers/girl_geek_dinners.png">
-        
-          <br>
-          
-          <img src="/images/organizers/hujak.png">
-          
-          <img src="/images/organizers/javascriptzagreb.png">
-        
-          <img src="/images/organizers/ms_community.png">
-        
-          <img src="/images/organizers/python_hr.png">
-        
-          <img src="/images/organizers/zgphp.png">
-        
-      </section>
-      <footer>
-        &copy; WebCamp Zagreb 2012 &mdash; 2014
-      </footer>
-    
+      <a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+      <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+      <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+      <br />
+      <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+      <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+      <a href="http://www.meetup.com/JavaScript-Zagreb/" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+      <a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+      <a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+      
+    </section>
+    <footer>
+      &copy; WebCamp Zagreb 2012 &mdash; 2014
+    </footer>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35198834-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
   </body>
 </html>
 ;T:rawI"‘<article class="news">
@@ -3046,7 +3047,7 @@ I"<h2 class="section-title">Call for Papers</h2>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
 </article>;T;@hI"$/images/organizers/code_at_six/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/hujak/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"%/images/organizers/ms_community/;T{;{ I""/images/organizers/python_hr/;T{;{ I"/images/organizers/zgphp/;T{;{ I"/images/organizersbg/;T{;{ I"
-/cfp/;T{;{	;I"D<!DOCTYPE HTML>
+/cfp/;T{;{	;I"˙<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3131,30 +3132,31 @@ I"<h2 class="section-title">Call for Papers</h2>
     </main>
 
     <section class="organizers">
-        
-          <img src="/images/organizers/code_at_six.png">
-        
-          <img src="/images/organizers/frontman_hr.png">
-        
-          <img src="/images/organizers/girl_geek_dinners.png">
-        
-          <br>
-          
-          <img src="/images/organizers/hujak.png">
-          
-          <img src="/images/organizers/javascriptzagreb.png">
-        
-          <img src="/images/organizers/ms_community.png">
-        
-          <img src="/images/organizers/python_hr.png">
-        
-          <img src="/images/organizers/zgphp.png">
-        
-      </section>
-      <footer>
-        &copy; WebCamp Zagreb 2012 &mdash; 2014
-      </footer>
-    
+      <a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+      <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+      <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+      <br />
+      <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+      <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+      <a href="http://www.meetup.com/JavaScript-Zagreb/" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+      <a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+      <a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+      
+    </section>
+    <footer>
+      &copy; WebCamp Zagreb 2012 &mdash; 2014
+    </footer>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35198834-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
   </body>
 </html>
 ;T;	I"Ì<h2 class="section-title">Call for Papers</h2>
@@ -3234,7 +3236,7 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@ÑI"/sponsors/;T{;{	;I"D<!DOCTYPE HTML>
+</article>;T;@ÑI"/sponsors/;T{;{	;I"˙<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3292,30 +3294,31 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
     </main>
 
     <section class="organizers">
-        
-          <img src="/images/organizers/code_at_six.png">
-        
-          <img src="/images/organizers/frontman_hr.png">
-        
-          <img src="/images/organizers/girl_geek_dinners.png">
-        
-          <br>
-          
-          <img src="/images/organizers/hujak.png">
-          
-          <img src="/images/organizers/javascriptzagreb.png">
-        
-          <img src="/images/organizers/ms_community.png">
-        
-          <img src="/images/organizers/python_hr.png">
-        
-          <img src="/images/organizers/zgphp.png">
-        
-      </section>
-      <footer>
-        &copy; WebCamp Zagreb 2012 &mdash; 2014
-      </footer>
-    
+      <a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+      <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+      <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+      <br />
+      <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+      <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+      <a href="http://www.meetup.com/JavaScript-Zagreb/" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+      <a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+      <a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+      
+    </section>
+    <footer>
+      &copy; WebCamp Zagreb 2012 &mdash; 2014
+    </footer>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35198834-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
   </body>
 </html>
 ;T;	I"Ì<h2 class="section-title">Call for Sponsorship</h2>
@@ -3341,4 +3344,130 @@ I"Ì<h2 class="section-title">Call for Sponsorship</h2>
   <p>Sponsor this event to gain visibility with our audience and enjoy the fact that your sponsorship will help assure the success of WebCamp Zagreb 2014.</p>
 
   <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
-</article>;T;@ä:versioni
+</article>;T;@äI"/organizers/;T{;{	;I"·<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WebCamp Zagreb - 2014</title>
+    <link href='http://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
+        <img src="/images/logo.png" alt="">
+      </header>
+      <h2 class="punchline">
+        Tech &mdash; oriented conference for<br>developers &amp; designers 
+      </h2>
+      <h2 class="date-location">
+        &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
+      </h2>
+      <p class="introduction">
+        WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
+      </p>
+      <hr>
+      <section class="content cf" id="content">
+        <div class="wrap">
+                  <div class="organizers_block" id="organizers">
+			<div class="inner_wrap">
+                <h2>Organizers</h2>
+				<a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+                <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+                <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+                <br />
+                <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+                <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+                <a href="http://www.meetup.com/JavaScript-Zagreb/" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+				<a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+				<a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+			</div>
+		</div>
+
+        </div>
+        
+        <div class="sponsorship-cfp-wrap cf">
+          <a class="left-panel cf" href="/sponsors/index.html#content">
+            <span class="icon">$$</span>
+            <b>Sponsor WebCamp!</b>
+            More about sponsor packages
+          </a>
+          <a class="right-panel cf" href="/cfp/index.html#content">
+            <span class="icon">{...}</span>
+            <b>Submit your talk</b>
+            Our call-for-paper is open!
+          </a>
+        </div>
+      </section>
+      <a href="#" class="back-to-top">&uarr; Back to top</a>
+    </main>
+
+    <section class="organizers">
+      
+        <img src="/images/organizers/code_at_six.png">
+      
+        <img src="/images/organizers/frontman_hr.png">
+      
+        <img src="/images/organizers/girl_geek_dinners.png">
+      
+        <br>
+        
+        <img src="/images/organizers/hujak.png">
+        
+        <img src="/images/organizers/javascriptzagreb.png">
+      
+        <img src="/images/organizers/ms_community.png">
+      
+        <img src="/images/organizers/python_hr.png">
+      
+        <img src="/images/organizers/zgphp.png">
+      
+    </section>
+    <footer>
+      &copy; WebCamp Zagreb 2012 &mdash; 2014
+    </footer>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35198834-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  </body>
+</html>
+;T;	I"¶        <div class="organizers_block" id="organizers">
+			<div class="inner_wrap">
+                <h2>Organizers</h2>
+				<a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+                <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+                <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+                <br />
+                <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+                <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+                <a href="http://www.meetup.com/JavaScript-Zagreb/" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+				<a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+				<a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+			</div>
+		</div>
+;T;
+I"¶        <div class="organizers_block" id="organizers">
+			<div class="inner_wrap">
+                <h2>Organizers</h2>
+				<a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+                <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+                <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+                <br />
+                <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+                <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+                <a href="http://www.meetup.com/JavaScript-Zagreb/" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+				<a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+				<a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+			</div>
+		</div>
+;T;@ê:versioni
