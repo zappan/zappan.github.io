@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"�<!DOCTYPE HTML>
+{:	data{'I"/:ET{:default{	:	lastI"�<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -19,18 +19,9 @@
       <h2 class="date-location">
         &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
       </h2>
-      <section class="content">
-        <article class="news">
-  <h2>Start of WebCamp 2014 preparations.</h2>
-  <time>18.05.2014.</time>
-  <p>
-    Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community</b>. 
-  </p>
-  <p>
-    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
-  </p>
-</article>
-      </section>
+      <p class="introduction">
+        WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
+      </p>
       <div class="sponsorship-cfp-wrap cf">
         <a class="left-panel" href="#">
           <span class="icon">$$</span>
@@ -43,6 +34,83 @@
           Our call-for-paper is open!
         </a>
       </div>
+      <section class="content">
+        <article class="news">
+  <h2>Call for papers 2014.</h2>
+  <time>26.05.2014.</time>
+  <p>
+    WebCamp Zagreb is proud to announce that the call for papers is now open. As a tech conference organized by the community for the community, your participation is greatly appreciated. <strong>Become one of our speakers</strong>.
+  </p>
+  <p>
+    HURRY UP: First 30 submissions will be given a free ticket! 
+  </p>
+</article>
+
+<article class="news">
+  <h2>Start of WebCamp 2014 preparations.</h2>
+  <time>18.05.2014.</time>
+  <p>
+    Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community</b>. 
+  </p>
+  <p>
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+  </p>
+</article>
+<hr>
+<h2 class="section-title">Call for Papers</h2>
+<article>
+  <time>26.05.2014.</time>
+  <p>
+  It’s a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
+
+  </p>
+  <p>
+  It’s all about the community, WebCamp Zagreb is organized by local user groups:  <a title="Code@Six" href="http://codeatsix.infinum.hr/meetup">Code@Six</a>, <a title="Frontman HR" href="http://www.frontman-hr.org/">FrontmanHr</a>, <a title="Future DEV" href="http://www.mscommunity.hr/">FutureDEV</a>, <a title="Girl Geek Dinners Hrvatska" href="http://croatia.girlgeekdinners.com/">Girl Geek Dinners Hrvatska</a>, <a title="HUJAK" href="http://hujak.hr/">HUJAK</a>, <a title="JavaScript Zagreb" href="https://twitter.com/jszgb">Javascript Zagreb</a>, <a href="http://www.meetup.com/Python-Hrvatska/">Python Hrvatska</a> and <a title="ZgPHP" href="http://zgphp.org/">ZgPHP</a>.
+
+  </p>
+  <p>
+  Before inviting the first visitors, we have to build a great collection of talks.
+
+  </p>
+  <p>
+  This is where we need your help. We need your talk; or more of them. Feel free to submit all of your ideas, we have a diverse range of interests so all submissions are welcome! While it’s not important which technology, language or tool you use, let your suggestions be interesting and fresh to a broad audience. Just make the talk web related (even if it’s along shot). We love first hand experience talks!
+
+  </p>
+  <p>
+  Talks should be of a technical nature, not promotional. Try to cover both good and bad sides and keep the presentation as objective as possible. If you want to present a specific project, give us an inside perspective. Just keep in mind that we’re looking for tech talks, not sales pitches.
+
+  </p>
+  <p>
+  Here’s some ideas to get you started: application architecture, hosting, cloud solutions, software development methodology, application testing, development/design tools, design, client and server side development, mobile web, specific technologies/tools/libraries, SQL or NoSQL databases and data storages, tech experience you love or dislike, managing or web team organization, collaboration tools, distributed or remote teamwork experiences.
+
+  </p>
+  <p>
+  All talks are 25 minutes long and this includes the Q&amp;A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It’s highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&amp;A.
+  </p>
+  <p>
+  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  </p>
+  <p>
+  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  </p>
+  <p>
+  If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
+  </p>
+</article>
+<hr>
+<h2 class="section-title">Call for Sponsorship</h2>
+<article>
+  <p>WebCamp Zagreb invites you to become a sponsor for our annual WebCamp Zagreb 2014 Conference which will be held at the Conference center Hypo Expo XII on October 4, 2014.</p>
+
+  <p>Started in 2012 by local user groups to promote the exchange of knowledge and experience in healthy cooperation between communities, WebCamp managed to attract visitors from neighbouring countries and the wider region, reaching over 600 visitors last year.</p>
+
+  <p>While WebCamp Zagreb is focused on the wider region and international audience, local user groups will also organize the Week of Webcamp, a series of events in the days before main event.</p>
+
+  <p>Sponsor this event to gain visibility with our audience and enjoy the fact that your sponsorship will help assure the success of WebCamp Zagreb 2014.</p>
+
+  <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
+</article>
+      </section>
       <footer>
         &copy; WebCamp Zagreb 2012 &mdash; 2014
       </footer>
@@ -51,7 +119,18 @@
     
   </body>
 </html>
-;T:rawI"1<article class="news">
+;T:rawI"�<article class="news">
+  <h2>Call for papers 2014.</h2>
+  <time>26.05.2014.</time>
+  <p>
+    WebCamp Zagreb is proud to announce that the call for papers is now open. As a tech conference organized by the community for the community, your participation is greatly appreciated. <strong>Become one of our speakers</strong>.
+  </p>
+  <p>
+    HURRY UP: First 30 submissions will be given a free ticket! 
+  </p>
+</article>
+
+<article class="news">
   <h2>Start of WebCamp 2014 preparations.</h2>
   <time>18.05.2014.</time>
   <p>
@@ -60,7 +139,72 @@
   <p>
     With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
   </p>
-</article>;T:preI"1<article class="news">
+</article>
+<hr>
+<h2 class="section-title">Call for Papers</h2>
+<article>
+  <time>26.05.2014.</time>
+  <p>
+  It’s a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
+
+  </p>
+  <p>
+  It’s all about the community, WebCamp Zagreb is organized by local user groups:  <a title="Code@Six" href="http://codeatsix.infinum.hr/meetup">Code@Six</a>, <a title="Frontman HR" href="http://www.frontman-hr.org/">FrontmanHr</a>, <a title="Future DEV" href="http://www.mscommunity.hr/">FutureDEV</a>, <a title="Girl Geek Dinners Hrvatska" href="http://croatia.girlgeekdinners.com/">Girl Geek Dinners Hrvatska</a>, <a title="HUJAK" href="http://hujak.hr/">HUJAK</a>, <a title="JavaScript Zagreb" href="https://twitter.com/jszgb">Javascript Zagreb</a>, <a href="http://www.meetup.com/Python-Hrvatska/">Python Hrvatska</a> and <a title="ZgPHP" href="http://zgphp.org/">ZgPHP</a>.
+
+  </p>
+  <p>
+  Before inviting the first visitors, we have to build a great collection of talks.
+
+  </p>
+  <p>
+  This is where we need your help. We need your talk; or more of them. Feel free to submit all of your ideas, we have a diverse range of interests so all submissions are welcome! While it’s not important which technology, language or tool you use, let your suggestions be interesting and fresh to a broad audience. Just make the talk web related (even if it’s along shot). We love first hand experience talks!
+
+  </p>
+  <p>
+  Talks should be of a technical nature, not promotional. Try to cover both good and bad sides and keep the presentation as objective as possible. If you want to present a specific project, give us an inside perspective. Just keep in mind that we’re looking for tech talks, not sales pitches.
+
+  </p>
+  <p>
+  Here’s some ideas to get you started: application architecture, hosting, cloud solutions, software development methodology, application testing, development/design tools, design, client and server side development, mobile web, specific technologies/tools/libraries, SQL or NoSQL databases and data storages, tech experience you love or dislike, managing or web team organization, collaboration tools, distributed or remote teamwork experiences.
+
+  </p>
+  <p>
+  All talks are 25 minutes long and this includes the Q&amp;A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It’s highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&amp;A.
+  </p>
+  <p>
+  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  </p>
+  <p>
+  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  </p>
+  <p>
+  If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
+  </p>
+</article>
+<hr>
+<h2 class="section-title">Call for Sponsorship</h2>
+<article>
+  <p>WebCamp Zagreb invites you to become a sponsor for our annual WebCamp Zagreb 2014 Conference which will be held at the Conference center Hypo Expo XII on October 4, 2014.</p>
+
+  <p>Started in 2012 by local user groups to promote the exchange of knowledge and experience in healthy cooperation between communities, WebCamp managed to attract visitors from neighbouring countries and the wider region, reaching over 600 visitors last year.</p>
+
+  <p>While WebCamp Zagreb is focused on the wider region and international audience, local user groups will also organize the Week of Webcamp, a series of events in the days before main event.</p>
+
+  <p>Sponsor this event to gain visibility with our audience and enjoy the fact that your sponsorship will help assure the success of WebCamp Zagreb 2014.</p>
+
+  <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
+</article>;T:preI"�<article class="news">
+  <h2>Call for papers 2014.</h2>
+  <time>26.05.2014.</time>
+  <p>
+    WebCamp Zagreb is proud to announce that the call for papers is now open. As a tech conference organized by the community for the community, your participation is greatly appreciated. <strong>Become one of our speakers</strong>.
+  </p>
+  <p>
+    HURRY UP: First 30 submissions will be given a free ticket! 
+  </p>
+</article>
+
+<article class="news">
   <h2>Start of WebCamp 2014 preparations.</h2>
   <time>18.05.2014.</time>
   <p>
@@ -69,6 +213,60 @@
   <p>
     With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
   </p>
+</article>
+<hr>
+<h2 class="section-title">Call for Papers</h2>
+<article>
+  <time>26.05.2014.</time>
+  <p>
+  It’s a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
+
+  </p>
+  <p>
+  It’s all about the community, WebCamp Zagreb is organized by local user groups:  <a title="Code@Six" href="http://codeatsix.infinum.hr/meetup">Code@Six</a>, <a title="Frontman HR" href="http://www.frontman-hr.org/">FrontmanHr</a>, <a title="Future DEV" href="http://www.mscommunity.hr/">FutureDEV</a>, <a title="Girl Geek Dinners Hrvatska" href="http://croatia.girlgeekdinners.com/">Girl Geek Dinners Hrvatska</a>, <a title="HUJAK" href="http://hujak.hr/">HUJAK</a>, <a title="JavaScript Zagreb" href="https://twitter.com/jszgb">Javascript Zagreb</a>, <a href="http://www.meetup.com/Python-Hrvatska/">Python Hrvatska</a> and <a title="ZgPHP" href="http://zgphp.org/">ZgPHP</a>.
+
+  </p>
+  <p>
+  Before inviting the first visitors, we have to build a great collection of talks.
+
+  </p>
+  <p>
+  This is where we need your help. We need your talk; or more of them. Feel free to submit all of your ideas, we have a diverse range of interests so all submissions are welcome! While it’s not important which technology, language or tool you use, let your suggestions be interesting and fresh to a broad audience. Just make the talk web related (even if it’s along shot). We love first hand experience talks!
+
+  </p>
+  <p>
+  Talks should be of a technical nature, not promotional. Try to cover both good and bad sides and keep the presentation as objective as possible. If you want to present a specific project, give us an inside perspective. Just keep in mind that we’re looking for tech talks, not sales pitches.
+
+  </p>
+  <p>
+  Here’s some ideas to get you started: application architecture, hosting, cloud solutions, software development methodology, application testing, development/design tools, design, client and server side development, mobile web, specific technologies/tools/libraries, SQL or NoSQL databases and data storages, tech experience you love or dislike, managing or web team organization, collaboration tools, distributed or remote teamwork experiences.
+
+  </p>
+  <p>
+  All talks are 25 minutes long and this includes the Q&amp;A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It’s highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&amp;A.
+  </p>
+  <p>
+  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  </p>
+  <p>
+  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  </p>
+  <p>
+  If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
+  </p>
+</article>
+<hr>
+<h2 class="section-title">Call for Sponsorship</h2>
+<article>
+  <p>WebCamp Zagreb invites you to become a sponsor for our annual WebCamp Zagreb 2014 Conference which will be held at the Conference center Hypo Expo XII on October 4, 2014.</p>
+
+  <p>Started in 2012 by local user groups to promote the exchange of knowledge and experience in healthy cooperation between communities, WebCamp managed to attract visitors from neighbouring countries and the wider region, reaching over 600 visitors last year.</p>
+
+  <p>While WebCamp Zagreb is focused on the wider region and international audience, local user groups will also organize the Week of Webcamp, a series of events in the days before main event.</p>
+
+  <p>Sponsor this event to gain visibility with our audience and enjoy the fact that your sponsorship will help assure the success of WebCamp Zagreb 2014.</p>
+
+  <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
 </article>;T:	post@
 I"/stylesheet/;T{;{	;I"�<!DOCTYPE HTML>
 <html lang="en">
@@ -409,7 +607,7 @@ a:hover {
 
   line-height: 20px;
 }
-;T;@I"/stylesheets/stylesheet/;T{;{;I"	9/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+;T;@I"/stylesheets/stylesheet/;T{;{;I"�</*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -857,23 +1055,32 @@ main {
 }
 
 /* line 37, content/stylesheets/stylesheet.scss */
+a {
+  color: #55A4E0;
+}
+/* line 39, content/stylesheets/stylesheet.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 44, content/stylesheets/stylesheet.scss */
 header {
   padding-top: 25px;
 }
-/* line 39, content/stylesheets/stylesheet.scss */
+/* line 46, content/stylesheets/stylesheet.scss */
 header h1 {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
-/* line 44, content/stylesheets/stylesheet.scss */
+/* line 51, content/stylesheets/stylesheet.scss */
 header img {
   width: 1100px;
   margin-left: -50px;
   display: block;
 }
 
-/* line 51, content/stylesheets/stylesheet.scss */
+/* line 58, content/stylesheets/stylesheet.scss */
 footer {
   text-align: center;
   color: #6b6b6b;
@@ -883,7 +1090,7 @@ footer {
   line-height: 50px;
 }
 
-/* line 60, content/stylesheets/stylesheet.scss */
+/* line 67, content/stylesheets/stylesheet.scss */
 h2.punchline, h2.date-location {
   color: white;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -894,12 +1101,12 @@ h2.punchline, h2.date-location {
   margin: 0;
 }
 
-/* line 69, content/stylesheets/stylesheet.scss */
+/* line 76, content/stylesheets/stylesheet.scss */
 h2.punchline {
   margin: 25px 0 50px;
 }
 
-/* line 72, content/stylesheets/stylesheet.scss */
+/* line 79, content/stylesheets/stylesheet.scss */
 h2.date-location {
   font-size: 2em;
   border-top: 2px solid white;
@@ -907,23 +1114,23 @@ h2.date-location {
   line-height: 3;
 }
 
-/* line 78, content/stylesheets/stylesheet.scss */
+/* line 85, content/stylesheets/stylesheet.scss */
 section.content {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 
-/* line 81, content/stylesheets/stylesheet.scss */
+/* line 88, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap {
   border-top: 1px solid #6b6b6b;
   border-bottom: 1px solid #6b6b6b;
   font-size: 1em;
 }
-/* line 85, content/stylesheets/stylesheet.scss */
+/* line 92, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a {
   color: #6b6b6b;
   text-decoration: none;
 }
-/* line 88, content/stylesheets/stylesheet.scss */
+/* line 95, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a b {
   display: block;
   color: #a6a6a5;
@@ -933,19 +1140,19 @@ section.content {
   line-height: 1;
   margin-top: 17px;
 }
-/* line 97, content/stylesheets/stylesheet.scss */
+/* line 104, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover {
   color: white;
 }
-/* line 99, content/stylesheets/stylesheet.scss */
+/* line 106, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover b {
   color: white;
 }
-/* line 102, content/stylesheets/stylesheet.scss */
+/* line 109, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover .icon {
   background: rgba(255, 255, 255, 0.05);
 }
-/* line 107, content/stylesheets/stylesheet.scss */
+/* line 114, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .icon {
   width: 80px;
   height: 80px;
@@ -957,63 +1164,96 @@ section.content {
   font-size: 34px;
   border-radius: 40px;
 }
-/* line 118, content/stylesheets/stylesheet.scss */
+/* line 125, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
   width: 50%;
   padding: 40px 0;
 }
-/* line 122, content/stylesheets/stylesheet.scss */
+/* line 129, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel {
   float: left;
   border-right: 1px solid #6b6b6b;
 }
-/* line 125, content/stylesheets/stylesheet.scss */
+/* line 132, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel .icon {
   float: left;
   margin-right: 25px;
 }
-/* line 130, content/stylesheets/stylesheet.scss */
+/* line 137, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .right-panel {
   float: right;
   text-align: right;
 }
-/* line 133, content/stylesheets/stylesheet.scss */
+/* line 140, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .right-panel .icon {
   float: right;
   margin-left: 25px;
 }
 
-/* line 140, content/stylesheets/stylesheet.scss */
-article.news {
-  width: 61.8%;
-}
-/* line 142, content/stylesheets/stylesheet.scss */
-article.news h2, article.news time {
+/* line 148, content/stylesheets/stylesheet.scss */
+article.news h2, article.news time, article h2, article time {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #f8d800;
   margin: 0;
   font-size: 1.8em;
 }
-/* line 149, content/stylesheets/stylesheet.scss */
-article.news h2:before {
+/* line 155, content/stylesheets/stylesheet.scss */
+article.news h2:before, article h2:before {
   content: "\2192";
   position: absolute;
   margin: 5px 0 0 -30px;
   font-size: 0.62em;
 }
-/* line 155, content/stylesheets/stylesheet.scss */
-article.news time {
+/* line 161, content/stylesheets/stylesheet.scss */
+article.news time, article time {
   font-size: 1.2em;
 }
-/* line 158, content/stylesheets/stylesheet.scss */
-article.news p {
+/* line 164, content/stylesheets/stylesheet.scss */
+article.news p, article p {
   line-height: 1.6;
   color: #eee;
 }
-/* line 161, content/stylesheets/stylesheet.scss */
-article.news p:last-child {
+/* line 167, content/stylesheets/stylesheet.scss */
+article.news p:last-child, article p:last-child {
   margin-bottom: 0;
+}
+
+/* line 173, content/stylesheets/stylesheet.scss */
+article.news {
+  width: 61.8%;
+  margin-bottom: 20px;
+}
+/* line 176, content/stylesheets/stylesheet.scss */
+article.news:last-child {
+  margin-bottom: 0;
+}
+
+/* line 181, content/stylesheets/stylesheet.scss */
+h2.section-title {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+/* line 188, content/stylesheets/stylesheet.scss */
+hr {
+  margin: 20px 0;
+  border: 2px solid white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* line 196, content/stylesheets/stylesheet.scss */
+p.introduction {
+  line-height: 1.6;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 25px 0;
+  color: #eee;
 }
 
 /**
@@ -1025,7 +1265,7 @@ article.news p:last-child {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 178, content/stylesheets/stylesheet.scss */
+/* line 215, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1034,7 +1274,7 @@ article.news p:last-child {
   /* 2 */
 }
 
-/* line 183, content/stylesheets/stylesheet.scss */
+/* line 220, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1043,11 +1283,11 @@ article.news p:last-child {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 191, content/stylesheets/stylesheet.scss */
+/* line 228, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"*@import "compass";
+;T;	I"e@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -1081,6 +1321,13 @@ body {
 main {
   width: 960px;
   margin: 0 auto;
+}
+
+a {
+  color: #55A4E0;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 header {
@@ -1125,7 +1372,7 @@ h2.date-location {
   line-height: 3;
 }
 section.content {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .sponsorship-cfp-wrap {
   border-top: 1px solid #6b6b6b;
@@ -1186,8 +1433,7 @@ section.content {
   }
 }
 
-article.news {
-  width: 61.8%;
+article.news, article {
   h2, time {
     font-family: Share, Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -1211,7 +1457,38 @@ article.news {
       margin-bottom: 0;
     }
   }
+}
 
+article.news {
+  width: 61.8%;
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h2.section-title {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+hr {
+  margin: 20px 0;
+  border: 2px solid white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+p.introduction {
+  line-height: 1.6;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 25px 0;
+  color: #eee;
 }
 
 /**
@@ -2645,4 +2922,170 @@ body {
     <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
   </body>
 </html>;T;	@U;
-@UI"/images/meetup1/;T{;{ I"/images/capan_predavanje/;T{;{ I"/CNAME/;T{;{ I"/images/background/;T{;{ I"/images/hedr/;T{;{ :versioni
+@UI"/images/meetup1/;T{;{ I"/images/capan_predavanje/;T{;{ I"/CNAME/;T{;{ I"/images/background/;T{;{ I"/images/hedr/;T{;{ I"/call-for-papers/;T{;{	;I"
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WebCamp Zagreb - 2014</title>
+    <link href='http://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
+        <img src="images/logo.png" alt="">
+      </header>
+      <h2 class="punchline">
+        Tech-oriented conference for<br>web developers &amp; designers 
+      </h2>
+      <h2 class="date-location">
+        &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
+      </h2>
+      <p class="introduction">
+        WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
+      </p>
+      <div class="sponsorship-cfp-wrap cf">
+        <a class="left-panel" href="#">
+          <span class="icon">$$</span>
+          <b>Sponsor WebCamp!</b>
+          More about sponsor packages
+        </a>
+        <a class="right-panel" href="#">
+          <span class="icon">{...}</span>
+          <b>Submit your talk</b>
+          Our call-for-paper is open!
+        </a>
+      </div>
+      <section class="content">
+        <article class="news">
+  <h2>Call for papers 2014.</h2>
+  <time>26.05.2014.</time>
+  <p>
+	It’s a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
+
+  </p>
+  <p>
+	It’s all about the community, WebCamp Zagreb is organized by local user groups:  <a title="Code@Six" href="http://codeatsix.infinum.hr/meetup">Code@Six</a>, <a title="Frontman HR" href="http://www.frontman-hr.org/">FrontmanHr</a>, <a title="Future DEV" href="http://www.mscommunity.hr/">FutureDEV</a>, <a title="Girl Geek Dinners Hrvatska" href="http://croatia.girlgeekdinners.com/">Girl Geek Dinners Hrvatska</a>, <a title="HUJAK" href="http://hujak.hr/">HUJAK</a>, <a title="JavaScript Zagreb" href="https://twitter.com/jszgb">Javascript Zagreb</a>, <a href="http://www.meetup.com/Python-Hrvatska/">Python Hrvatska</a> and <a title="ZgPHP" href="http://zgphp.org/">ZgPHP</a>.
+
+  </p>
+  <p>
+	Before inviting the first visitors, we have to build a great collection of talks.
+
+  </p>
+  <p>
+	This is where we need your help. We need your talk; or more of them. Feel free to submit all of your ideas, we have a diverse range of interests so all submissions are welcome! While it’s not important which technology, language or tool you use, let your suggestions be interesting and fresh to a broad audience. Just make the talk web related (even if it’s along shot). We love first hand experience talks!
+
+  </p>
+  <p>
+	Talks should be of a technical nature, not promotional. Try to cover both good and bad sides and keep the presentation as objective as possible. If you want to present a specific project, give us an inside perspective. Just keep in mind that we’re looking for tech talks, not sales pitches.
+
+  </p>
+  <p>
+	Here’s some ideas to get you started: application architecture, hosting, cloud solutions, software development methodology, application testing, development/design tools, design, client and server side development, mobile web, specific technologies/tools/libraries, SQL or NoSQL databases and data storages, tech experience you love or dislike, managing or web team organization, collaboration tools, distributed or remote teamwork experiences.
+
+  </p>
+  <p>
+	All talks are 25 minutes long and this includes the Q&A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It’s highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&A.
+  </p>
+  <p>
+	Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  </p>
+  <p>
+	Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  </p>
+  <p>
+	If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
+  </p>
+</article>
+      </section>
+      <footer>
+        &copy; WebCamp Zagreb 2012 &mdash; 2014
+      </footer>
+    </main>
+    
+    
+  </body>
+</html>
+;T;	I"�<article class="news">
+  <h2>Call for papers 2014.</h2>
+  <time>26.05.2014.</time>
+  <p>
+	It’s a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
+
+  </p>
+  <p>
+	It’s all about the community, WebCamp Zagreb is organized by local user groups:  <a title="Code@Six" href="http://codeatsix.infinum.hr/meetup">Code@Six</a>, <a title="Frontman HR" href="http://www.frontman-hr.org/">FrontmanHr</a>, <a title="Future DEV" href="http://www.mscommunity.hr/">FutureDEV</a>, <a title="Girl Geek Dinners Hrvatska" href="http://croatia.girlgeekdinners.com/">Girl Geek Dinners Hrvatska</a>, <a title="HUJAK" href="http://hujak.hr/">HUJAK</a>, <a title="JavaScript Zagreb" href="https://twitter.com/jszgb">Javascript Zagreb</a>, <a href="http://www.meetup.com/Python-Hrvatska/">Python Hrvatska</a> and <a title="ZgPHP" href="http://zgphp.org/">ZgPHP</a>.
+
+  </p>
+  <p>
+	Before inviting the first visitors, we have to build a great collection of talks.
+
+  </p>
+  <p>
+	This is where we need your help. We need your talk; or more of them. Feel free to submit all of your ideas, we have a diverse range of interests so all submissions are welcome! While it’s not important which technology, language or tool you use, let your suggestions be interesting and fresh to a broad audience. Just make the talk web related (even if it’s along shot). We love first hand experience talks!
+
+  </p>
+  <p>
+	Talks should be of a technical nature, not promotional. Try to cover both good and bad sides and keep the presentation as objective as possible. If you want to present a specific project, give us an inside perspective. Just keep in mind that we’re looking for tech talks, not sales pitches.
+
+  </p>
+  <p>
+	Here’s some ideas to get you started: application architecture, hosting, cloud solutions, software development methodology, application testing, development/design tools, design, client and server side development, mobile web, specific technologies/tools/libraries, SQL or NoSQL databases and data storages, tech experience you love or dislike, managing or web team organization, collaboration tools, distributed or remote teamwork experiences.
+
+  </p>
+  <p>
+	All talks are 25 minutes long and this includes the Q&A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It’s highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&A.
+  </p>
+  <p>
+	Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  </p>
+  <p>
+	Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  </p>
+  <p>
+	If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
+  </p>
+</article>;T;
+I"�<article class="news">
+  <h2>Call for papers 2014.</h2>
+  <time>26.05.2014.</time>
+  <p>
+	It’s a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
+
+  </p>
+  <p>
+	It’s all about the community, WebCamp Zagreb is organized by local user groups:  <a title="Code@Six" href="http://codeatsix.infinum.hr/meetup">Code@Six</a>, <a title="Frontman HR" href="http://www.frontman-hr.org/">FrontmanHr</a>, <a title="Future DEV" href="http://www.mscommunity.hr/">FutureDEV</a>, <a title="Girl Geek Dinners Hrvatska" href="http://croatia.girlgeekdinners.com/">Girl Geek Dinners Hrvatska</a>, <a title="HUJAK" href="http://hujak.hr/">HUJAK</a>, <a title="JavaScript Zagreb" href="https://twitter.com/jszgb">Javascript Zagreb</a>, <a href="http://www.meetup.com/Python-Hrvatska/">Python Hrvatska</a> and <a title="ZgPHP" href="http://zgphp.org/">ZgPHP</a>.
+
+  </p>
+  <p>
+	Before inviting the first visitors, we have to build a great collection of talks.
+
+  </p>
+  <p>
+	This is where we need your help. We need your talk; or more of them. Feel free to submit all of your ideas, we have a diverse range of interests so all submissions are welcome! While it’s not important which technology, language or tool you use, let your suggestions be interesting and fresh to a broad audience. Just make the talk web related (even if it’s along shot). We love first hand experience talks!
+
+  </p>
+  <p>
+	Talks should be of a technical nature, not promotional. Try to cover both good and bad sides and keep the presentation as objective as possible. If you want to present a specific project, give us an inside perspective. Just keep in mind that we’re looking for tech talks, not sales pitches.
+
+  </p>
+  <p>
+	Here’s some ideas to get you started: application architecture, hosting, cloud solutions, software development methodology, application testing, development/design tools, design, client and server side development, mobile web, specific technologies/tools/libraries, SQL or NoSQL databases and data storages, tech experience you love or dislike, managing or web team organization, collaboration tools, distributed or remote teamwork experiences.
+
+  </p>
+  <p>
+	All talks are 25 minutes long and this includes the Q&A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It’s highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&A.
+  </p>
+  <p>
+	Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  </p>
+  <p>
+	Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  </p>
+  <p>
+	If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
+  </p>
+</article>;T;@hI"$/images/organizers/code_at_six/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/hujak/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"%/images/organizers/ms_community/;T{;{ I""/images/organizers/python_hr/;T{;{ I"/images/organizers/zgphp/;T{;{ :versioni
