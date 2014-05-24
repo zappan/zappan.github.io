@@ -1,4 +1,4 @@
-{:	data{+I"/:ET{:default{	:	lastI"·<!DOCTYPE HTML>
+{:	data{,I"/:ET{:default{	:	lastI"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <main>
       <header>
         <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
-        <img src="/images/logo.png" alt="">
+        <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
       <h2 class="punchline">
         Tech &mdash; oriented conference for<br>developers &amp; designers 
@@ -43,7 +43,7 @@
     Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community</b>. 
   </p>
   <p>
-    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
 </article>
         </div>
@@ -60,6 +60,21 @@
             Our call-for-paper is open!
           </a>
         </div>
+
+        <div class="twitter-wrap">
+          <h3>
+            <a href="http://twitter.com/webcampzg">
+              <img src="/images/twitter.png" alt="">
+              @webcampzg on Twitter
+            </a>
+          </h3>
+          <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        
+        
+
+
       </section>
       <a href="#" class="back-to-top">&uarr; Back to top</a>
     </main>
@@ -92,7 +107,7 @@
     </script>
   </body>
 </html>
-;T:rawI"‘<article class="news">
+;T:rawI"Î<article class="news">
   <h2>Call for papers 2014.</h2>
   <time>26.05.2014.</time>
   <p>
@@ -110,9 +125,9 @@
     Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community</b>. 
   </p>
   <p>
-    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
-</article>;T:preI"‘<article class="news">
+</article>;T:preI"Î<article class="news">
   <h2>Call for papers 2014.</h2>
   <time>26.05.2014.</time>
   <p>
@@ -130,7 +145,7 @@
     Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community</b>. 
   </p>
   <p>
-    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: we are going <b>all english</b> this year! 
+    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
 </article>;T:	post@
 I"/stylesheet/;T{;{	;I"ô<!DOCTYPE HTML>
@@ -472,7 +487,7 @@ a:hover {
 
   line-height: 20px;
 }
-;T;@I"/stylesheets/stylesheet/;T{;{;I"Ø@/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+;T;@I"/stylesheets/stylesheet/;T{;{;I"C/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -1061,7 +1076,35 @@ section.content .wrap {
   padding-top: 0;
 }
 
-/* line 154, content/stylesheets/stylesheet.scss */
+/* line 153, content/stylesheets/stylesheet.scss */
+.twitter-wrap {
+  float: right;
+  width: 38.2%;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+/* line 158, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3 {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #a6a6a5;
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 25px;
+  height: 25px;
+}
+/* line 166, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3 a {
+  color: #a6a6a5;
+  text-decoration: none;
+}
+/* line 170, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3 img {
+  width: 30px;
+  float: right;
+}
+
+/* line 177, content/stylesheets/stylesheet.scss */
 article.news h2, article.news time, article h2, article time {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1069,37 +1112,37 @@ article.news h2, article.news time, article h2, article time {
   margin: 0;
   font-size: 1.8em;
 }
-/* line 161, content/stylesheets/stylesheet.scss */
+/* line 184, content/stylesheets/stylesheet.scss */
 article.news h2:before, article h2:before {
   content: "\2192";
   position: absolute;
   margin: 5px 0 0 -30px;
   font-size: 0.62em;
 }
-/* line 167, content/stylesheets/stylesheet.scss */
+/* line 190, content/stylesheets/stylesheet.scss */
 article.news time, article time {
   font-size: 1.2em;
 }
-/* line 170, content/stylesheets/stylesheet.scss */
+/* line 193, content/stylesheets/stylesheet.scss */
 article.news p, article p {
   line-height: 1.6;
   color: #ddd;
 }
-/* line 173, content/stylesheets/stylesheet.scss */
+/* line 196, content/stylesheets/stylesheet.scss */
 article.news p:last-child, article p:last-child {
   margin-bottom: 0;
 }
 
-/* line 179, content/stylesheets/stylesheet.scss */
+/* line 202, content/stylesheets/stylesheet.scss */
 article.news {
   margin-bottom: 20px;
 }
-/* line 181, content/stylesheets/stylesheet.scss */
+/* line 204, content/stylesheets/stylesheet.scss */
 article.news:last-child {
   margin-bottom: 0;
 }
 
-/* line 186, content/stylesheets/stylesheet.scss */
+/* line 209, content/stylesheets/stylesheet.scss */
 h2.section-title {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1107,7 +1150,7 @@ h2.section-title {
   margin: 0;
 }
 
-/* line 193, content/stylesheets/stylesheet.scss */
+/* line 216, content/stylesheets/stylesheet.scss */
 hr {
   margin: 20px 0;
   border: 2px solid white;
@@ -1116,7 +1159,7 @@ hr {
   border-right: none;
 }
 
-/* line 201, content/stylesheets/stylesheet.scss */
+/* line 224, content/stylesheets/stylesheet.scss */
 p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -1126,7 +1169,7 @@ p.introduction {
   color: #ddd;
 }
 
-/* line 209, content/stylesheets/stylesheet.scss */
+/* line 232, content/stylesheets/stylesheet.scss */
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
@@ -1135,13 +1178,13 @@ p.introduction {
   padding: 20px;
   text-align: center;
 }
-/* line 216, content/stylesheets/stylesheet.scss */
+/* line 239, content/stylesheets/stylesheet.scss */
 .organizers img {
   display: inline-block;
   margin: 10px 10px;
 }
 
-/* line 221, content/stylesheets/stylesheet.scss */
+/* line 244, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1169,7 +1212,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 244, content/stylesheets/stylesheet.scss */
+/* line 267, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1178,7 +1221,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 249, content/stylesheets/stylesheet.scss */
+/* line 272, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1187,11 +1230,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 257, content/stylesheets/stylesheet.scss */
+/* line 280, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"Ï@import "compass";
+;T;	I"y@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -1343,6 +1386,29 @@ section.content {
   }
 }
 
+.twitter-wrap {
+  float: right;
+  width: 38.2%;
+  padding-left: 20px;
+  margin-top: 25px;
+  h3 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #a6a6a5;
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 25px;
+    height: 25px;
+    a {
+      color: #a6a6a5;
+      text-decoration: none;
+    }
+    img {
+      width: 30px;
+      float: right;
+    }
+  }
+}
 article.news, article {
   h2, time {
     font-family: Share, Helvetica, Arial, sans-serif;
@@ -3047,7 +3113,7 @@ I"<h2 class="section-title">Call for Papers</h2>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
 </article>;T;@hI"$/images/organizers/code_at_six/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/hujak/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"%/images/organizers/ms_community/;T{;{ I""/images/organizers/python_hr/;T{;{ I"/images/organizers/zgphp/;T{;{ I"/images/organizersbg/;T{;{ I"
-/cfp/;T{;{	;I"˙<!DOCTYPE HTML>
+/cfp/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3060,7 +3126,7 @@ I"<h2 class="section-title">Call for Papers</h2>
     <main>
       <header>
         <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
-        <img src="/images/logo.png" alt="">
+        <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
       <h2 class="punchline">
         Tech &mdash; oriented conference for<br>developers &amp; designers 
@@ -3127,6 +3193,21 @@ I"<h2 class="section-title">Call for Papers</h2>
             Our call-for-paper is open!
           </a>
         </div>
+
+        <div class="twitter-wrap">
+          <h3>
+            <a href="http://twitter.com/webcampzg">
+              <img src="/images/twitter.png" alt="">
+              @webcampzg on Twitter
+            </a>
+          </h3>
+          <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        
+        
+
+
       </section>
       <a href="#" class="back-to-top">&uarr; Back to top</a>
     </main>
@@ -3236,7 +3317,7 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@ÑI"/sponsors/;T{;{	;I"˙<!DOCTYPE HTML>
+</article>;T;@ÑI"/sponsors/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3249,7 +3330,7 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
     <main>
       <header>
         <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
-        <img src="/images/logo.png" alt="">
+        <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
       <h2 class="punchline">
         Tech &mdash; oriented conference for<br>developers &amp; designers 
@@ -3289,6 +3370,21 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
             Our call-for-paper is open!
           </a>
         </div>
+
+        <div class="twitter-wrap">
+          <h3>
+            <a href="http://twitter.com/webcampzg">
+              <img src="/images/twitter.png" alt="">
+              @webcampzg on Twitter
+            </a>
+          </h3>
+          <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        
+        
+
+
       </section>
       <a href="#" class="back-to-top">&uarr; Back to top</a>
     </main>
@@ -3470,4 +3566,4 @@ I"¶        <div class="organizers_block" id="organizers">
 				<a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
 			</div>
 		</div>
-;T;@ê:versioni
+;T;@êI"/images/twitter/;T{;{ :versioni

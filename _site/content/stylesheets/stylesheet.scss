@@ -150,6 +150,29 @@ section.content {
   }
 }
 
+.twitter-wrap {
+  float: right;
+  width: 38.2%;
+  padding-left: 20px;
+  margin-top: 25px;
+  h3 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #a6a6a5;
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 25px;
+    height: 25px;
+    a {
+      color: #a6a6a5;
+      text-decoration: none;
+    }
+    img {
+      width: 30px;
+      float: right;
+    }
+  }
+}
 article.news, article {
   h2, time {
     font-family: Share, Helvetica, Arial, sans-serif;
