@@ -587,7 +587,39 @@ section.content .wrap {
   padding-top: 0;
 }
 
-/* line 154, content/stylesheets/stylesheet.scss */
+/* line 153, content/stylesheets/stylesheet.scss */
+.twitter-wrap {
+  float: right;
+  width: 38.2%;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+/* line 158, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3 {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #a6a6a5;
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 25px;
+  height: 25px;
+}
+/* line 166, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3.facebook {
+  margin-top: 25px;
+}
+/* line 169, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3 a {
+  color: #a6a6a5;
+  text-decoration: none;
+}
+/* line 173, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3 img {
+  height: 25px;
+  float: right;
+}
+
+/* line 180, content/stylesheets/stylesheet.scss */
 article.news h2, article.news time, article h2, article time {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -595,37 +627,37 @@ article.news h2, article.news time, article h2, article time {
   margin: 0;
   font-size: 1.8em;
 }
-/* line 161, content/stylesheets/stylesheet.scss */
+/* line 187, content/stylesheets/stylesheet.scss */
 article.news h2:before, article h2:before {
   content: "\2192";
   position: absolute;
   margin: 5px 0 0 -30px;
   font-size: 0.62em;
 }
-/* line 167, content/stylesheets/stylesheet.scss */
+/* line 193, content/stylesheets/stylesheet.scss */
 article.news time, article time {
   font-size: 1.2em;
 }
-/* line 170, content/stylesheets/stylesheet.scss */
+/* line 196, content/stylesheets/stylesheet.scss */
 article.news p, article p {
   line-height: 1.6;
   color: #ddd;
 }
-/* line 173, content/stylesheets/stylesheet.scss */
+/* line 199, content/stylesheets/stylesheet.scss */
 article.news p:last-child, article p:last-child {
   margin-bottom: 0;
 }
 
-/* line 179, content/stylesheets/stylesheet.scss */
+/* line 205, content/stylesheets/stylesheet.scss */
 article.news {
   margin-bottom: 20px;
 }
-/* line 181, content/stylesheets/stylesheet.scss */
+/* line 207, content/stylesheets/stylesheet.scss */
 article.news:last-child {
   margin-bottom: 0;
 }
 
-/* line 186, content/stylesheets/stylesheet.scss */
+/* line 212, content/stylesheets/stylesheet.scss */
 h2.section-title {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -633,7 +665,7 @@ h2.section-title {
   margin: 0;
 }
 
-/* line 193, content/stylesheets/stylesheet.scss */
+/* line 219, content/stylesheets/stylesheet.scss */
 hr {
   margin: 20px 0;
   border: 2px solid white;
@@ -642,7 +674,7 @@ hr {
   border-right: none;
 }
 
-/* line 201, content/stylesheets/stylesheet.scss */
+/* line 227, content/stylesheets/stylesheet.scss */
 p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -652,7 +684,7 @@ p.introduction {
   color: #ddd;
 }
 
-/* line 209, content/stylesheets/stylesheet.scss */
+/* line 235, content/stylesheets/stylesheet.scss */
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
@@ -661,13 +693,13 @@ p.introduction {
   padding: 20px;
   text-align: center;
 }
-/* line 216, content/stylesheets/stylesheet.scss */
+/* line 242, content/stylesheets/stylesheet.scss */
 .organizers img {
   display: inline-block;
   margin: 10px 10px;
 }
 
-/* line 221, content/stylesheets/stylesheet.scss */
+/* line 247, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -695,7 +727,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 244, content/stylesheets/stylesheet.scss */
+/* line 270, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -704,7 +736,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 249, content/stylesheets/stylesheet.scss */
+/* line 275, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -713,7 +745,7 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 257, content/stylesheets/stylesheet.scss */
+/* line 283, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }

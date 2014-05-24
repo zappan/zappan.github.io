@@ -163,12 +163,15 @@ section.content {
     font-size: 1.4em;
     line-height: 25px;
     height: 25px;
+    &.facebook {
+      margin-top: 25px;
+    }
     a {
       color: #a6a6a5;
       text-decoration: none;
     }
     img {
-      width: 30px;
+      height: 25px;
       float: right;
     }
   }

@@ -1,4 +1,4 @@
-{:	data{,I"/:ET{:default{	:	lastI"<!DOCTYPE HTML>
+{:	data{-I"/:ET{:default{	:	lastI"Á<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
         <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
       <h2 class="punchline">
-        Tech &mdash; oriented conference for<br>developers &amp; designers 
+        Technology oriented conference for<br>developers &amp; designers 
       </h2>
       <h2 class="date-location">
         &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
@@ -70,6 +70,13 @@
           </h3>
           <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <h3 class="facebook">
+            <a href="http://facebook.com/WebCampZg">
+              <img src="/images/fb.png" alt="">
+              @webcampzg on Facebook
+            </a>
+          </h3>
+
         </div>
         
         
@@ -487,7 +494,7 @@ a:hover {
 
   line-height: 20px;
 }
-;T;@I"/stylesheets/stylesheet/;T{;{;I"C/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+;T;@I"/stylesheets/stylesheet/;T{;{;I"rC/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -1094,17 +1101,21 @@ section.content .wrap {
   height: 25px;
 }
 /* line 166, content/stylesheets/stylesheet.scss */
+.twitter-wrap h3.facebook {
+  margin-top: 25px;
+}
+/* line 169, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 a {
   color: #a6a6a5;
   text-decoration: none;
 }
-/* line 170, content/stylesheets/stylesheet.scss */
+/* line 173, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 img {
-  width: 30px;
+  height: 25px;
   float: right;
 }
 
-/* line 177, content/stylesheets/stylesheet.scss */
+/* line 180, content/stylesheets/stylesheet.scss */
 article.news h2, article.news time, article h2, article time {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1112,37 +1123,37 @@ article.news h2, article.news time, article h2, article time {
   margin: 0;
   font-size: 1.8em;
 }
-/* line 184, content/stylesheets/stylesheet.scss */
+/* line 187, content/stylesheets/stylesheet.scss */
 article.news h2:before, article h2:before {
   content: "\2192";
   position: absolute;
   margin: 5px 0 0 -30px;
   font-size: 0.62em;
 }
-/* line 190, content/stylesheets/stylesheet.scss */
+/* line 193, content/stylesheets/stylesheet.scss */
 article.news time, article time {
   font-size: 1.2em;
 }
-/* line 193, content/stylesheets/stylesheet.scss */
+/* line 196, content/stylesheets/stylesheet.scss */
 article.news p, article p {
   line-height: 1.6;
   color: #ddd;
 }
-/* line 196, content/stylesheets/stylesheet.scss */
+/* line 199, content/stylesheets/stylesheet.scss */
 article.news p:last-child, article p:last-child {
   margin-bottom: 0;
 }
 
-/* line 202, content/stylesheets/stylesheet.scss */
+/* line 205, content/stylesheets/stylesheet.scss */
 article.news {
   margin-bottom: 20px;
 }
-/* line 204, content/stylesheets/stylesheet.scss */
+/* line 207, content/stylesheets/stylesheet.scss */
 article.news:last-child {
   margin-bottom: 0;
 }
 
-/* line 209, content/stylesheets/stylesheet.scss */
+/* line 212, content/stylesheets/stylesheet.scss */
 h2.section-title {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1150,7 +1161,7 @@ h2.section-title {
   margin: 0;
 }
 
-/* line 216, content/stylesheets/stylesheet.scss */
+/* line 219, content/stylesheets/stylesheet.scss */
 hr {
   margin: 20px 0;
   border: 2px solid white;
@@ -1159,7 +1170,7 @@ hr {
   border-right: none;
 }
 
-/* line 224, content/stylesheets/stylesheet.scss */
+/* line 227, content/stylesheets/stylesheet.scss */
 p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -1169,7 +1180,7 @@ p.introduction {
   color: #ddd;
 }
 
-/* line 232, content/stylesheets/stylesheet.scss */
+/* line 235, content/stylesheets/stylesheet.scss */
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
@@ -1178,13 +1189,13 @@ p.introduction {
   padding: 20px;
   text-align: center;
 }
-/* line 239, content/stylesheets/stylesheet.scss */
+/* line 242, content/stylesheets/stylesheet.scss */
 .organizers img {
   display: inline-block;
   margin: 10px 10px;
 }
 
-/* line 244, content/stylesheets/stylesheet.scss */
+/* line 247, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1212,7 +1223,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 267, content/stylesheets/stylesheet.scss */
+/* line 270, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1221,7 +1232,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 272, content/stylesheets/stylesheet.scss */
+/* line 275, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1230,11 +1241,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 280, content/stylesheets/stylesheet.scss */
+/* line 283, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"y@import "compass";
+;T;	I"©@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -1399,12 +1410,15 @@ section.content {
     font-size: 1.4em;
     line-height: 25px;
     height: 25px;
+    &.facebook {
+      margin-top: 25px;
+    }
     a {
       color: #a6a6a5;
       text-decoration: none;
     }
     img {
-      width: 30px;
+      height: 25px;
       float: right;
     }
   }
@@ -3113,7 +3127,7 @@ I"<h2 class="section-title">Call for Papers</h2>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
 </article>;T;@hI"$/images/organizers/code_at_six/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/hujak/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"%/images/organizers/ms_community/;T{;{ I""/images/organizers/python_hr/;T{;{ I"/images/organizers/zgphp/;T{;{ I"/images/organizersbg/;T{;{ I"
-/cfp/;T{;{	;I"<!DOCTYPE HTML>
+/cfp/;T{;{	;I"˜!<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3129,7 +3143,7 @@ I"<h2 class="section-title">Call for Papers</h2>
         <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
       <h2 class="punchline">
-        Tech &mdash; oriented conference for<br>developers &amp; designers 
+        Technology oriented conference for<br>developers &amp; designers 
       </h2>
       <h2 class="date-location">
         &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
@@ -3170,10 +3184,15 @@ I"<h2 class="section-title">Call for Papers</h2>
   All talks are 25 minutes long and this includes the Q&amp;A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It‚Äôs highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&amp;A.
   </p>
   <p>
-  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>.
+  </p>
+  <b>Increase your chances by submitting proposals early!</b>
   </p>
   <p>
-  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  Selection process this year will be a bit different. Although the call for papers ends on August 1st there will be an additional early bird selection round on July 1st. Proposals submitted upto that date will be voted upon first. Selected speakers can expect emails a few days later, and selected talks will be published after speaker confirmation. All the remaining proposals and those submitted after July 1st will be voted on when the call for papers ends, on August 1st.
+  </p>
+  <p>
+  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail soon after each round. 
   </p>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
@@ -3203,6 +3222,13 @@ I"<h2 class="section-title">Call for Papers</h2>
           </h3>
           <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <h3 class="facebook">
+            <a href="http://facebook.com/WebCampZg">
+              <img src="/images/fb.png" alt="">
+              @webcampzg on Facebook
+            </a>
+          </h3>
+
         </div>
         
         
@@ -3240,7 +3266,7 @@ I"<h2 class="section-title">Call for Papers</h2>
     </script>
   </body>
 </html>
-;T;	I"Ì<h2 class="section-title">Call for Papers</h2>
+;T;	I"˚<h2 class="section-title">Call for Papers</h2>
 <article>
   <p>
   It‚Äôs a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
@@ -3270,16 +3296,21 @@ I"<h2 class="section-title">Call for Papers</h2>
   All talks are 25 minutes long and this includes the Q&amp;A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It‚Äôs highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&amp;A.
   </p>
   <p>
-  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>.
+  </p>
+  <b>Increase your chances by submitting proposals early!</b>
   </p>
   <p>
-  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  Selection process this year will be a bit different. Although the call for papers ends on August 1st there will be an additional early bird selection round on July 1st. Proposals submitted upto that date will be voted upon first. Selected speakers can expect emails a few days later, and selected talks will be published after speaker confirmation. All the remaining proposals and those submitted after July 1st will be voted on when the call for papers ends, on August 1st.
+  </p>
+  <p>
+  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail soon after each round. 
   </p>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
 </article>;T;
-I"Ì<h2 class="section-title">Call for Papers</h2>
+I"˚<h2 class="section-title">Call for Papers</h2>
 <article>
   <p>
   It‚Äôs a great pleasure to invite you to WebCamp Zagreb 2014, a tech conference devoted to web development & design, which will be held on October 4th 2014 in Zagreb, Croatia. This is a call to participate: help us build a great conference once again by becoming a speaker! With great opportunities to network with fellow developers & designers the most important part of every great conference are expert talks. And free pizzas.
@@ -3309,15 +3340,20 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
   All talks are 25 minutes long and this includes the Q&amp;A at the end. This limitation will be strictly enforced to keep the conference schedule on track. It‚Äôs highly recommended to limit your talk to 20 minutes to allow 5 minutes for Q&amp;A.
   </p>
   <p>
-  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>. Call for paper ends on August 1st 2014.
+  Proposals can be submitted through the <a title="Application Form" href="https://docs.google.com/forms/d/1C7cxlokD1DWfG3bUyMN-Le5VIFY4YlR8jxMxMQC4Y-U/viewform">CFP Application Form</a>.
+  </p>
+  <b>Increase your chances by submitting proposals early!</b>
   </p>
   <p>
-  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail by August 15th. 
+  Selection process this year will be a bit different. Although the call for papers ends on August 1st there will be an additional early bird selection round on July 1st. Proposals submitted upto that date will be voted upon first. Selected speakers can expect emails a few days later, and selected talks will be published after speaker confirmation. All the remaining proposals and those submitted after July 1st will be voted on when the call for papers ends, on August 1st.
+  </p>
+  <p>
+  Proposals are evaluated and rated by representatives of each organizing user group. Selected speakers will be contacted directly via e-mail soon after each round. 
   </p>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@ÑI"/sponsors/;T{;{	;I"<!DOCTYPE HTML>
+</article>;T;@ÑI"/sponsors/;T{;{	;I"È<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3333,7 +3369,7 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
         <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
       <h2 class="punchline">
-        Tech &mdash; oriented conference for<br>developers &amp; designers 
+        Technology oriented conference for<br>developers &amp; designers 
       </h2>
       <h2 class="date-location">
         &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
@@ -3380,6 +3416,13 @@ I"Ì<h2 class="section-title">Call for Papers</h2>
           </h3>
           <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <h3 class="facebook">
+            <a href="http://facebook.com/WebCampZg">
+              <img src="/images/fb.png" alt="">
+              @webcampzg on Facebook
+            </a>
+          </h3>
+
         </div>
         
         
@@ -3566,4 +3609,4 @@ I"¶        <div class="organizers_block" id="organizers">
 				<a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
 			</div>
 		</div>
-;T;@êI"/images/twitter/;T{;{ :versioni
+;T;@êI"/images/twitter/;T{;{ I"/images/fb/;T{;{ :versioni
