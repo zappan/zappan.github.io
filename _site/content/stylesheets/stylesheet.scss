@@ -13,6 +13,7 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 
+$slicer-breakpoints: 0 600px 960px;
 
 body, html { 
   margin: 0;
@@ -27,11 +28,19 @@ body {
   background-repeat: no-repeat;
   background-position: 50% top;
   color: white;
+  overflow-x: hidden;
 }
 
 main {
-  width: 960px;
+  max-width: 1000px;
+  min-width: 200px;
   margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: hidden;
+
+  @include at(3){
+    overflow-x: visible;
+  }
 }
 
 a {
@@ -43,16 +52,19 @@ a {
 }
 
 header {
-  padding-top: 25px;
+  padding: 1.3em 0;
   h1 {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
   img {
-    width: 1100px;
-    margin-left: -50px;
+    max-width: 100%;
     display: block;
+    @include at(3){
+      width: 110%;
+      margin-left: -5%;
+    }
   }
 }
 
@@ -62,7 +74,7 @@ footer {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 75px;
+  line-height: 4.5em;
   background: white;
   border-top: 1px dotted #333;
 }
@@ -72,34 +84,53 @@ h2.punchline, h2.date-location {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 2.9em;
   line-height: 1;
   margin: 0;
 }
 h2.punchline {
-  margin: 25px 0 50px; 
-  font-size: 3.5em;
+  margin: 0.25em 0 0.5em; 
   font-weight: 700;
+  font-size: 2em;
+  @include at(2){
+    font-size: 2.6em;
+  }
+  @include at(3){
+    font-size: 3.5em;
+  }
 }
 h2.date-location {
-  font-size: 2em;
   border-top: 2px solid white;
   border-bottom: 1px solid white;
-  line-height: 3;
+  padding: 0.8em 0;
+  line-height: 1.5;
+  font-size: 1.5em;
+  @include at(2){
+    font-size: 1.75em;
+  }
+  @include at(3){
+    font-size: 2em;
+  }
 }
 section.content {
-  padding: 25px 0 50px;
+  padding: 1.5em 0 3em;
   .wrap {
-    float: left;
-    width: 61.8%;
-    padding-right: 20px;
+
+    @include at(3){
+      float: left;
+      width: 61.8%;
+      padding-right: 20px;
+    }
+
   }
 }
 .sponsorship-cfp-wrap {
-  font-size: 1em;
-  float: right;
-  width: 38.2%;
-  padding-left: 20px;
+
+  @include at(3){
+    float: right;
+    width: 38.2%;
+    padding-left: 1.25em;
+  }
+  
   a {
     color: #6b6b6b;
     text-decoration: none;
@@ -111,7 +142,7 @@ section.content {
       font-weight: 400;
       font-family: Share, Helvetica, Arial, sans-serif;
       line-height: 1;
-      margin-top: 17px;
+      margin-top: 0.65em;
     }
     &:hover {
       color: white;
@@ -124,54 +155,84 @@ section.content {
     }
   }
   .icon {
-    width: 80px;
-    height: 80px;
+    width: 2.3em;
+    height: 2.3em;
     border: 2px solid #6b6b6b;
     color: #a6a6a5;
-    line-height: 80px;
+    line-height: 2.3em;
     text-align: center;
     font-family: Share, Helvetica, Arial, sans-serif;
-    font-size: 34px;
-    border-radius: 40px;
+    font-size: 2.1em;
+    border-radius: 50%;
   }
   .left-panel, .right-panel {
-    padding-top: 40px 0;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #6b6b6b;
     .icon {
       float: left;
-      margin-right: 25px;
+      margin-right: 1em;
     }
-  }
-  .left-panel, .right-panel {
-    padding: 25px 0;
-    border-bottom: 1px solid #6b6b6b;
   }
   .left-panel {
     padding-top: 0;
   }
+  @include at(1){
+    margin: -1.3em 0 1.3em 0;
+  }
+  @include at(2){
+    margin: -2.6em 0 1.3em;
+    .left-panel, .right-panel {
+      padding-top: 1.5em;
+      font-size: 0.8em;
+    }
+    .left-panel {
+      width: 50%;
+      border-right: 1px solid #6b6b6b;
+      float: left;
+      .icon {
+        margin-right: 0.5em;
+      }
+    }
+    .right-panel {
+      
+      width: 50%;
+      float: right;
+      text-align: right;
+      .icon { 
+        float: right;
+        margin-right: 0;
+        margin-left: 0.5em;
+      }
+    }
+  }
 }
 
 .twitter-wrap {
-  float: right;
-  width: 38.2%;
-  padding-left: 20px;
-  margin-top: 25px;
+  display: none;
+  @include at(3){
+    float: right;
+    display: block;
+    width: 38.2%;
+    padding-left: 20px;
+  }
+
   h3 {
     font-family: Share, Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #a6a6a5;
     margin: 0;
     font-size: 1.4em;
-    line-height: 25px;
-    height: 25px;
+    line-height: 1.5em;
+    height: 1.5em;
     &.facebook {
-      margin-top: 25px;
+      margin-top: 1.5em;
     }
     a {
       color: #a6a6a5;
       text-decoration: none;
     }
     img {
-      height: 25px;
+      height: 1.5em;
       float: right;
     }
   }
@@ -184,12 +245,16 @@ article.news, article {
     margin: 0;
     font-size: 1.8em;
   }
-  h2:before {
-    content: "\2192";
-    position: absolute;
-    margin: 5px 0 0 -30px;
-    font-size: 0.62em;
+
+  @include at(3){
+    h2:before {
+      content: "\2192";
+      position: absolute;
+      margin: 5px 0 0 -30px;
+      font-size: 0.62em;
+    }
   }
+  
   time {
     font-size: 1.2em;
   }
@@ -217,7 +282,7 @@ h2.section-title {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 1.3em 0;
   border: 2px solid white;
   border-bottom: none;
   border-left: none;
@@ -228,20 +293,38 @@ p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
-  margin: 25px 0;
+  margin: 1.5em 0;
   color: #ddd;
+  @include at(2){
+    font-size: 1.15em;
+  }
+  @include at(3){
+    font-size: 1.3em;
+  }
+
 }
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
   background-color: white;
   border-top: 1px solid #eee;
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
+  @include at(1){
+    padding-top: 40px;
+  }
   img {
     display: inline-block;
-    margin: 10px 10px;
+    margin: 9px 9px;
+  }
+  br {
+    display: none;
+    @include at(2){
+      display: block;
+    }
+    @include at(3){
+      display: block;
+    }
   }
 }
 a.back-to-top {
@@ -255,6 +338,7 @@ a.back-to-top {
   font-size: 0.8em;
   text-decoration: none;
   position: absolute;
+  margin-top: -2px;
   @include border-radius(0px 0px 3px 3px);
 }
 /**

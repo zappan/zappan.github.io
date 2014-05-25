@@ -1,4 +1,4 @@
-{:	data{/I"/:ET{:default{	:	lastI"#<!DOCTYPE HTML>
+{:	data{/I"/:ET{:default{	:	lastI"$<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -24,6 +24,20 @@
       </p>
       <hr>
       <section class="content cf" id="content">
+        
+        <div class="sponsorship-cfp-wrap cf">
+          <a class="left-panel cf" href="/sponsors/index.html#content">
+            <span class="icon">$$</span>
+            <b>Sponsor WebCamp!</b>
+            More about sponsor packages
+          </a>
+          <a class="right-panel cf" href="/cfp/index.html#content">
+            <span class="icon">{...}</span>
+            <b>Submit your talk</b>
+            Our call-for-paper is open!
+          </a>
+        </div>
+
         <div class="wrap">
           <article class="news">
   <h2>Call for papers 2014.</h2>
@@ -46,19 +60,6 @@
     With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
 </article>
-        </div>
-        
-        <div class="sponsorship-cfp-wrap cf">
-          <a class="left-panel cf" href="/sponsors/index.html#content">
-            <span class="icon">$$</span>
-            <b>Sponsor WebCamp!</b>
-            More about sponsor packages
-          </a>
-          <a class="right-panel cf" href="/cfp/index.html#content">
-            <span class="icon">{...}</span>
-            <b>Submit your talk</b>
-            Our call-for-paper is open!
-          </a>
         </div>
 
         <div class="twitter-wrap">
@@ -494,7 +495,7 @@ a:hover {
 
   line-height: 20px;
 }
-;T;@I"/stylesheets/stylesheet/;T{;{;I"rC/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+;T;@I"/stylesheets/stylesheet/;T{;{;I"°N/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -918,14 +919,14 @@ table {
   box-sizing: border-box;
 }
 
-/* line 17, content/stylesheets/stylesheet.scss */
+/* line 18, content/stylesheets/stylesheet.scss */
 body, html {
   margin: 0;
   height: 100%;
   background: url(../images/background.gif);
 }
 
-/* line 23, content/stylesheets/stylesheet.scss */
+/* line 24, content/stylesheets/stylesheet.scss */
 body {
   font-size: 100%;
   font-family: Helvetica, Arial, sans-serif;
@@ -933,104 +934,147 @@ body {
   background-repeat: no-repeat;
   background-position: 50% top;
   color: white;
+  overflow-x: hidden;
 }
 
-/* line 32, content/stylesheets/stylesheet.scss */
+/* line 34, content/stylesheets/stylesheet.scss */
 main {
-  width: 960px;
+  max-width: 1000px;
+  min-width: 200px;
   margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: hidden;
+}
+@media (min-width: 961px) {
+  /* line 34, content/stylesheets/stylesheet.scss */
+  main {
+    overflow-x: visible;
+  }
 }
 
-/* line 37, content/stylesheets/stylesheet.scss */
+/* line 46, content/stylesheets/stylesheet.scss */
 a {
   color: #55A4E0;
 }
-/* line 39, content/stylesheets/stylesheet.scss */
+/* line 48, content/stylesheets/stylesheet.scss */
 a:hover {
   text-decoration: none;
   color: #97C0DF;
 }
 
-/* line 45, content/stylesheets/stylesheet.scss */
+/* line 54, content/stylesheets/stylesheet.scss */
 header {
-  padding-top: 25px;
+  padding: 1.3em 0;
 }
-/* line 47, content/stylesheets/stylesheet.scss */
+/* line 56, content/stylesheets/stylesheet.scss */
 header h1 {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
-/* line 52, content/stylesheets/stylesheet.scss */
+/* line 61, content/stylesheets/stylesheet.scss */
 header img {
-  width: 1100px;
-  margin-left: -50px;
+  max-width: 100%;
   display: block;
 }
+@media (min-width: 961px) {
+  /* line 61, content/stylesheets/stylesheet.scss */
+  header img {
+    width: 110%;
+    margin-left: -5%;
+  }
+}
 
-/* line 59, content/stylesheets/stylesheet.scss */
+/* line 71, content/stylesheets/stylesheet.scss */
 footer {
   text-align: center;
   color: #666;
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 75px;
+  line-height: 4.5em;
   background: white;
   border-top: 1px dotted #333;
 }
 
-/* line 70, content/stylesheets/stylesheet.scss */
+/* line 82, content/stylesheets/stylesheet.scss */
 h2.punchline, h2.date-location {
   color: white;
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 2.9em;
   line-height: 1;
   margin: 0;
 }
 
-/* line 79, content/stylesheets/stylesheet.scss */
+/* line 90, content/stylesheets/stylesheet.scss */
 h2.punchline {
-  margin: 25px 0 50px;
-  font-size: 3.5em;
+  margin: 0.25em 0 0.5em;
   font-weight: 700;
+  font-size: 2em;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 90, content/stylesheets/stylesheet.scss */
+  h2.punchline {
+    font-size: 2.6em;
+  }
+}
+@media (min-width: 961px) {
+  /* line 90, content/stylesheets/stylesheet.scss */
+  h2.punchline {
+    font-size: 3.5em;
+  }
 }
 
-/* line 84, content/stylesheets/stylesheet.scss */
+/* line 101, content/stylesheets/stylesheet.scss */
 h2.date-location {
-  font-size: 2em;
   border-top: 2px solid white;
   border-bottom: 1px solid white;
-  line-height: 3;
+  padding: 0.8em 0;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 101, content/stylesheets/stylesheet.scss */
+  h2.date-location {
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 961px) {
+  /* line 101, content/stylesheets/stylesheet.scss */
+  h2.date-location {
+    font-size: 2em;
+  }
 }
 
-/* line 90, content/stylesheets/stylesheet.scss */
+/* line 114, content/stylesheets/stylesheet.scss */
 section.content {
-  padding: 25px 0 50px;
+  padding: 1.5em 0 3em;
 }
-/* line 92, content/stylesheets/stylesheet.scss */
-section.content .wrap {
-  float: left;
-  width: 61.8%;
-  padding-right: 20px;
+@media (min-width: 961px) {
+  /* line 116, content/stylesheets/stylesheet.scss */
+  section.content .wrap {
+    float: left;
+    width: 61.8%;
+    padding-right: 20px;
+  }
 }
 
-/* line 98, content/stylesheets/stylesheet.scss */
-.sponsorship-cfp-wrap {
-  font-size: 1em;
-  float: right;
-  width: 38.2%;
-  padding-left: 20px;
+@media (min-width: 961px) {
+  /* line 126, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap {
+    float: right;
+    width: 38.2%;
+    padding-left: 1.25em;
+  }
 }
-/* line 103, content/stylesheets/stylesheet.scss */
+/* line 134, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a {
   color: #6b6b6b;
   text-decoration: none;
   display: block;
 }
-/* line 107, content/stylesheets/stylesheet.scss */
+/* line 138, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a b {
   display: block;
   color: #a6a6a5;
@@ -1038,84 +1082,125 @@ section.content .wrap {
   font-weight: 400;
   font-family: Share, Helvetica, Arial, sans-serif;
   line-height: 1;
-  margin-top: 17px;
+  margin-top: 0.65em;
 }
-/* line 116, content/stylesheets/stylesheet.scss */
+/* line 147, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover {
   color: white;
 }
-/* line 118, content/stylesheets/stylesheet.scss */
+/* line 149, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover b {
   color: white;
 }
-/* line 121, content/stylesheets/stylesheet.scss */
+/* line 152, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover .icon {
   background: rgba(255, 255, 255, 0.05);
 }
-/* line 126, content/stylesheets/stylesheet.scss */
+/* line 157, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .icon {
-  width: 80px;
-  height: 80px;
+  width: 2.3em;
+  height: 2.3em;
   border: 2px solid #6b6b6b;
   color: #a6a6a5;
-  line-height: 80px;
+  line-height: 2.3em;
   text-align: center;
   font-family: Share, Helvetica, Arial, sans-serif;
-  font-size: 34px;
-  border-radius: 40px;
+  font-size: 2.1em;
+  border-radius: 50%;
 }
-/* line 137, content/stylesheets/stylesheet.scss */
+/* line 168, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
-  padding-top: 40px 0;
-}
-/* line 139, content/stylesheets/stylesheet.scss */
-.sponsorship-cfp-wrap .left-panel .icon, .sponsorship-cfp-wrap .right-panel .icon {
-  float: left;
-  margin-right: 25px;
-}
-/* line 144, content/stylesheets/stylesheet.scss */
-.sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
-  padding: 25px 0;
+  padding: 1.5em 0;
   border-bottom: 1px solid #6b6b6b;
 }
-/* line 148, content/stylesheets/stylesheet.scss */
+/* line 171, content/stylesheets/stylesheet.scss */
+.sponsorship-cfp-wrap .left-panel .icon, .sponsorship-cfp-wrap .right-panel .icon {
+  float: left;
+  margin-right: 1em;
+}
+/* line 176, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel {
   padding-top: 0;
 }
-
-/* line 153, content/stylesheets/stylesheet.scss */
-.twitter-wrap {
-  float: right;
-  width: 38.2%;
-  padding-left: 20px;
-  margin-top: 25px;
+@media (max-width: 600px) {
+  /* line 126, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap {
+    margin: -1.3em 0 1.3em 0;
+  }
 }
-/* line 158, content/stylesheets/stylesheet.scss */
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 126, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap {
+    margin: -2.6em 0 1.3em;
+  }
+  /* line 184, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
+    padding-top: 1.5em;
+    font-size: 0.8em;
+  }
+  /* line 188, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap .left-panel {
+    width: 50%;
+    border-right: 1px solid #6b6b6b;
+    float: left;
+  }
+  /* line 192, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap .left-panel .icon {
+    margin-right: 0.5em;
+  }
+  /* line 196, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap .right-panel {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+  /* line 201, content/stylesheets/stylesheet.scss */
+  .sponsorship-cfp-wrap .right-panel .icon {
+    float: right;
+    margin-right: 0;
+    margin-left: 0.5em;
+  }
+}
+
+/* line 210, content/stylesheets/stylesheet.scss */
+.twitter-wrap {
+  display: none;
+}
+@media (min-width: 961px) {
+  /* line 210, content/stylesheets/stylesheet.scss */
+  .twitter-wrap {
+    float: right;
+    display: block;
+    width: 38.2%;
+    padding-left: 20px;
+  }
+}
+/* line 219, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #a6a6a5;
   margin: 0;
   font-size: 1.4em;
-  line-height: 25px;
-  height: 25px;
+  line-height: 1.5em;
+  height: 1.5em;
 }
-/* line 166, content/stylesheets/stylesheet.scss */
+/* line 227, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3.facebook {
-  margin-top: 25px;
+  margin-top: 1.5em;
 }
-/* line 169, content/stylesheets/stylesheet.scss */
+/* line 230, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 a {
   color: #a6a6a5;
   text-decoration: none;
 }
-/* line 173, content/stylesheets/stylesheet.scss */
+/* line 234, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 img {
-  height: 25px;
+  height: 1.5em;
   float: right;
 }
 
-/* line 180, content/stylesheets/stylesheet.scss */
+/* line 241, content/stylesheets/stylesheet.scss */
 article.news h2, article.news time, article h2, article time {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1123,37 +1208,39 @@ article.news h2, article.news time, article h2, article time {
   margin: 0;
   font-size: 1.8em;
 }
-/* line 187, content/stylesheets/stylesheet.scss */
-article.news h2:before, article h2:before {
-  content: "\2192";
-  position: absolute;
-  margin: 5px 0 0 -30px;
-  font-size: 0.62em;
+@media (min-width: 961px) {
+  /* line 250, content/stylesheets/stylesheet.scss */
+  article.news h2:before, article h2:before {
+    content: "\2192";
+    position: absolute;
+    margin: 5px 0 0 -30px;
+    font-size: 0.62em;
+  }
 }
-/* line 193, content/stylesheets/stylesheet.scss */
+/* line 258, content/stylesheets/stylesheet.scss */
 article.news time, article time {
   font-size: 1.2em;
 }
-/* line 196, content/stylesheets/stylesheet.scss */
+/* line 261, content/stylesheets/stylesheet.scss */
 article.news p, article p {
   line-height: 1.6;
   color: #ddd;
 }
-/* line 199, content/stylesheets/stylesheet.scss */
+/* line 264, content/stylesheets/stylesheet.scss */
 article.news p:last-child, article p:last-child {
   margin-bottom: 0;
 }
 
-/* line 205, content/stylesheets/stylesheet.scss */
+/* line 270, content/stylesheets/stylesheet.scss */
 article.news {
   margin-bottom: 20px;
 }
-/* line 207, content/stylesheets/stylesheet.scss */
+/* line 272, content/stylesheets/stylesheet.scss */
 article.news:last-child {
   margin-bottom: 0;
 }
 
-/* line 212, content/stylesheets/stylesheet.scss */
+/* line 277, content/stylesheets/stylesheet.scss */
 h2.section-title {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1161,41 +1248,74 @@ h2.section-title {
   margin: 0;
 }
 
-/* line 219, content/stylesheets/stylesheet.scss */
+/* line 284, content/stylesheets/stylesheet.scss */
 hr {
-  margin: 20px 0;
+  margin: 1.3em 0;
   border: 2px solid white;
   border-bottom: none;
   border-left: none;
   border-right: none;
 }
 
-/* line 227, content/stylesheets/stylesheet.scss */
+/* line 292, content/stylesheets/stylesheet.scss */
 p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
-  margin: 25px 0;
+  margin: 1.5em 0;
   color: #ddd;
 }
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 292, content/stylesheets/stylesheet.scss */
+  p.introduction {
+    font-size: 1.15em;
+  }
+}
+@media (min-width: 961px) {
+  /* line 292, content/stylesheets/stylesheet.scss */
+  p.introduction {
+    font-size: 1.3em;
+  }
+}
 
-/* line 235, content/stylesheets/stylesheet.scss */
+/* line 306, content/stylesheets/stylesheet.scss */
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
   background-color: white;
   border-top: 1px solid #eee;
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
 }
-/* line 242, content/stylesheets/stylesheet.scss */
+@media (max-width: 600px) {
+  /* line 306, content/stylesheets/stylesheet.scss */
+  .organizers {
+    padding-top: 40px;
+  }
+}
+/* line 316, content/stylesheets/stylesheet.scss */
 .organizers img {
   display: inline-block;
-  margin: 10px 10px;
+  margin: 9px 9px;
+}
+/* line 320, content/stylesheets/stylesheet.scss */
+.organizers br {
+  display: none;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 320, content/stylesheets/stylesheet.scss */
+  .organizers br {
+    display: block;
+  }
+}
+@media (min-width: 961px) {
+  /* line 320, content/stylesheets/stylesheet.scss */
+  .organizers br {
+    display: block;
+  }
 }
 
-/* line 247, content/stylesheets/stylesheet.scss */
+/* line 330, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1207,6 +1327,7 @@ a.back-to-top {
   font-size: 0.8em;
   text-decoration: none;
   position: absolute;
+  margin-top: -2px;
   -webkit-border-radius: 0px 0px 3px 3px;
   -moz-border-radius: 0px 0px 3px 3px;
   -ms-border-radius: 0px 0px 3px 3px;
@@ -1223,7 +1344,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 270, content/stylesheets/stylesheet.scss */
+/* line 354, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1232,7 +1353,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 275, content/stylesheets/stylesheet.scss */
+/* line 359, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1241,11 +1362,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 283, content/stylesheets/stylesheet.scss */
+/* line 367, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"©@import "compass";
+;T;	I"¬@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -1260,6 +1381,7 @@ a.back-to-top {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 
+$slicer-breakpoints: 0 600px 960px;
 
 body, html { 
   margin: 0;
@@ -1274,11 +1396,19 @@ body {
   background-repeat: no-repeat;
   background-position: 50% top;
   color: white;
+  overflow-x: hidden;
 }
 
 main {
-  width: 960px;
+  max-width: 1000px;
+  min-width: 200px;
   margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: hidden;
+
+  @include at(3){
+    overflow-x: visible;
+  }
 }
 
 a {
@@ -1290,16 +1420,19 @@ a {
 }
 
 header {
-  padding-top: 25px;
+  padding: 1.3em 0;
   h1 {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
   img {
-    width: 1100px;
-    margin-left: -50px;
+    max-width: 100%;
     display: block;
+    @include at(3){
+      width: 110%;
+      margin-left: -5%;
+    }
   }
 }
 
@@ -1309,7 +1442,7 @@ footer {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 75px;
+  line-height: 4.5em;
   background: white;
   border-top: 1px dotted #333;
 }
@@ -1319,34 +1452,53 @@ h2.punchline, h2.date-location {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 2.9em;
   line-height: 1;
   margin: 0;
 }
 h2.punchline {
-  margin: 25px 0 50px; 
-  font-size: 3.5em;
+  margin: 0.25em 0 0.5em; 
   font-weight: 700;
+  font-size: 2em;
+  @include at(2){
+    font-size: 2.6em;
+  }
+  @include at(3){
+    font-size: 3.5em;
+  }
 }
 h2.date-location {
-  font-size: 2em;
   border-top: 2px solid white;
   border-bottom: 1px solid white;
-  line-height: 3;
+  padding: 0.8em 0;
+  line-height: 1.5;
+  font-size: 1.5em;
+  @include at(2){
+    font-size: 1.75em;
+  }
+  @include at(3){
+    font-size: 2em;
+  }
 }
 section.content {
-  padding: 25px 0 50px;
+  padding: 1.5em 0 3em;
   .wrap {
-    float: left;
-    width: 61.8%;
-    padding-right: 20px;
+
+    @include at(3){
+      float: left;
+      width: 61.8%;
+      padding-right: 20px;
+    }
+
   }
 }
 .sponsorship-cfp-wrap {
-  font-size: 1em;
-  float: right;
-  width: 38.2%;
-  padding-left: 20px;
+
+  @include at(3){
+    float: right;
+    width: 38.2%;
+    padding-left: 1.25em;
+  }
+  
   a {
     color: #6b6b6b;
     text-decoration: none;
@@ -1358,7 +1510,7 @@ section.content {
       font-weight: 400;
       font-family: Share, Helvetica, Arial, sans-serif;
       line-height: 1;
-      margin-top: 17px;
+      margin-top: 0.65em;
     }
     &:hover {
       color: white;
@@ -1371,54 +1523,84 @@ section.content {
     }
   }
   .icon {
-    width: 80px;
-    height: 80px;
+    width: 2.3em;
+    height: 2.3em;
     border: 2px solid #6b6b6b;
     color: #a6a6a5;
-    line-height: 80px;
+    line-height: 2.3em;
     text-align: center;
     font-family: Share, Helvetica, Arial, sans-serif;
-    font-size: 34px;
-    border-radius: 40px;
+    font-size: 2.1em;
+    border-radius: 50%;
   }
   .left-panel, .right-panel {
-    padding-top: 40px 0;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #6b6b6b;
     .icon {
       float: left;
-      margin-right: 25px;
+      margin-right: 1em;
     }
-  }
-  .left-panel, .right-panel {
-    padding: 25px 0;
-    border-bottom: 1px solid #6b6b6b;
   }
   .left-panel {
     padding-top: 0;
   }
+  @include at(1){
+    margin: -1.3em 0 1.3em 0;
+  }
+  @include at(2){
+    margin: -2.6em 0 1.3em;
+    .left-panel, .right-panel {
+      padding-top: 1.5em;
+      font-size: 0.8em;
+    }
+    .left-panel {
+      width: 50%;
+      border-right: 1px solid #6b6b6b;
+      float: left;
+      .icon {
+        margin-right: 0.5em;
+      }
+    }
+    .right-panel {
+      
+      width: 50%;
+      float: right;
+      text-align: right;
+      .icon { 
+        float: right;
+        margin-right: 0;
+        margin-left: 0.5em;
+      }
+    }
+  }
 }
 
 .twitter-wrap {
-  float: right;
-  width: 38.2%;
-  padding-left: 20px;
-  margin-top: 25px;
+  display: none;
+  @include at(3){
+    float: right;
+    display: block;
+    width: 38.2%;
+    padding-left: 20px;
+  }
+
   h3 {
     font-family: Share, Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #a6a6a5;
     margin: 0;
     font-size: 1.4em;
-    line-height: 25px;
-    height: 25px;
+    line-height: 1.5em;
+    height: 1.5em;
     &.facebook {
-      margin-top: 25px;
+      margin-top: 1.5em;
     }
     a {
       color: #a6a6a5;
       text-decoration: none;
     }
     img {
-      height: 25px;
+      height: 1.5em;
       float: right;
     }
   }
@@ -1431,12 +1613,16 @@ article.news, article {
     margin: 0;
     font-size: 1.8em;
   }
-  h2:before {
-    content: "\2192";
-    position: absolute;
-    margin: 5px 0 0 -30px;
-    font-size: 0.62em;
+
+  @include at(3){
+    h2:before {
+      content: "\2192";
+      position: absolute;
+      margin: 5px 0 0 -30px;
+      font-size: 0.62em;
+    }
   }
+  
   time {
     font-size: 1.2em;
   }
@@ -1464,7 +1650,7 @@ h2.section-title {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 1.3em 0;
   border: 2px solid white;
   border-bottom: none;
   border-left: none;
@@ -1475,20 +1661,38 @@ p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
-  margin: 25px 0;
+  margin: 1.5em 0;
   color: #ddd;
+  @include at(2){
+    font-size: 1.15em;
+  }
+  @include at(3){
+    font-size: 1.3em;
+  }
+
 }
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
   background-color: white;
   border-top: 1px solid #eee;
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
+  @include at(1){
+    padding-top: 40px;
+  }
   img {
     display: inline-block;
-    margin: 10px 10px;
+    margin: 9px 9px;
+  }
+  br {
+    display: none;
+    @include at(2){
+      display: block;
+    }
+    @include at(3){
+      display: block;
+    }
   }
 }
 a.back-to-top {
@@ -1502,6 +1706,7 @@ a.back-to-top {
   font-size: 0.8em;
   text-decoration: none;
   position: absolute;
+  margin-top: -2px;
   @include border-radius(0px 0px 3px 3px);
 }
 /**
@@ -3127,7 +3332,7 @@ I"<h2 class="section-title">Call for Papers</h2>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
 </article>;T;@hI"$/images/organizers/code_at_six/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/hujak/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"%/images/organizers/ms_community/;T{;{ I""/images/organizers/python_hr/;T{;{ I"/images/organizers/zgphp/;T{;{ I"/images/organizersbg/;T{;{ I"
-/cfp/;T{;{	;I"÷!<!DOCTYPE HTML>
+/cfp/;T{;{	;I"ø!<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3153,6 +3358,20 @@ I"<h2 class="section-title">Call for Papers</h2>
       </p>
       <hr>
       <section class="content cf" id="content">
+        
+        <div class="sponsorship-cfp-wrap cf">
+          <a class="left-panel cf" href="/sponsors/index.html#content">
+            <span class="icon">$$</span>
+            <b>Sponsor WebCamp!</b>
+            More about sponsor packages
+          </a>
+          <a class="right-panel cf" href="/cfp/index.html#content">
+            <span class="icon">{...}</span>
+            <b>Submit your talk</b>
+            Our call-for-paper is open!
+          </a>
+        </div>
+
         <div class="wrap">
           <h2 class="section-title">Call for Papers</h2>
 <article>
@@ -3198,19 +3417,6 @@ I"<h2 class="section-title">Call for Papers</h2>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
 </article>
-        </div>
-        
-        <div class="sponsorship-cfp-wrap cf">
-          <a class="left-panel cf" href="/sponsors/index.html#content">
-            <span class="icon">$$</span>
-            <b>Sponsor WebCamp!</b>
-            More about sponsor packages
-          </a>
-          <a class="right-panel cf" href="/cfp/index.html#content">
-            <span class="icon">{...}</span>
-            <b>Submit your talk</b>
-            Our call-for-paper is open!
-          </a>
         </div>
 
         <div class="twitter-wrap">
@@ -3353,7 +3559,7 @@ I"û<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@„I"/sponsors/;T{;{	;I"é<!DOCTYPE HTML>
+</article>;T;@„I"/sponsors/;T{;{	;I"ê<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3379,6 +3585,20 @@ I"û<h2 class="section-title">Call for Papers</h2>
       </p>
       <hr>
       <section class="content cf" id="content">
+        
+        <div class="sponsorship-cfp-wrap cf">
+          <a class="left-panel cf" href="/sponsors/index.html#content">
+            <span class="icon">$$</span>
+            <b>Sponsor WebCamp!</b>
+            More about sponsor packages
+          </a>
+          <a class="right-panel cf" href="/cfp/index.html#content">
+            <span class="icon">{...}</span>
+            <b>Submit your talk</b>
+            Our call-for-paper is open!
+          </a>
+        </div>
+
         <div class="wrap">
           <h2 class="section-title">Call for Sponsorship</h2>
 <article>
@@ -3392,19 +3612,6 @@ I"û<h2 class="section-title">Call for Papers</h2>
 
   <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
 </article>
-        </div>
-        
-        <div class="sponsorship-cfp-wrap cf">
-          <a class="left-panel cf" href="/sponsors/index.html#content">
-            <span class="icon">$$</span>
-            <b>Sponsor WebCamp!</b>
-            More about sponsor packages
-          </a>
-          <a class="right-panel cf" href="/cfp/index.html#content">
-            <span class="icon">{...}</span>
-            <b>Submit your talk</b>
-            Our call-for-paper is open!
-          </a>
         </div>
 
         <div class="twitter-wrap">
