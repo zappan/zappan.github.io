@@ -59,7 +59,8 @@ header {
     left: -9999px;
   }
   img {
-    max-width: 100%;
+    width: 105%;
+    margin-left: -2.5%;
     display: block;
     @include at(3){
       width: 110%;

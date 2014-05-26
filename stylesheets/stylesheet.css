@@ -477,7 +477,8 @@ header h1 {
 }
 /* line 61, content/stylesheets/stylesheet.scss */
 header img {
-  max-width: 100%;
+  width: 105%;
+  margin-left: -2.5%;
   display: block;
 }
 @media (min-width: 961px) {
@@ -488,7 +489,7 @@ header img {
   }
 }
 
-/* line 71, content/stylesheets/stylesheet.scss */
+/* line 72, content/stylesheets/stylesheet.scss */
 footer {
   text-align: center;
   color: #666;
@@ -500,7 +501,7 @@ footer {
   border-top: 1px dotted #333;
 }
 
-/* line 82, content/stylesheets/stylesheet.scss */
+/* line 83, content/stylesheets/stylesheet.scss */
 h2.punchline, h2.date-location {
   color: white;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -510,26 +511,26 @@ h2.punchline, h2.date-location {
   margin: 0;
 }
 
-/* line 90, content/stylesheets/stylesheet.scss */
+/* line 91, content/stylesheets/stylesheet.scss */
 h2.punchline {
   margin: 0.25em 0 0.5em;
   font-weight: 700;
   font-size: 2em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 90, content/stylesheets/stylesheet.scss */
+  /* line 91, content/stylesheets/stylesheet.scss */
   h2.punchline {
     font-size: 2.6em;
   }
 }
 @media (min-width: 961px) {
-  /* line 90, content/stylesheets/stylesheet.scss */
+  /* line 91, content/stylesheets/stylesheet.scss */
   h2.punchline {
     font-size: 3.5em;
   }
 }
 
-/* line 101, content/stylesheets/stylesheet.scss */
+/* line 102, content/stylesheets/stylesheet.scss */
 h2.date-location {
   border-top: 2px solid white;
   border-bottom: 1px solid white;
@@ -538,24 +539,24 @@ h2.date-location {
   font-size: 1.5em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 101, content/stylesheets/stylesheet.scss */
+  /* line 102, content/stylesheets/stylesheet.scss */
   h2.date-location {
     font-size: 1.75em;
   }
 }
 @media (min-width: 961px) {
-  /* line 101, content/stylesheets/stylesheet.scss */
+  /* line 102, content/stylesheets/stylesheet.scss */
   h2.date-location {
     font-size: 2em;
   }
 }
 
-/* line 114, content/stylesheets/stylesheet.scss */
+/* line 115, content/stylesheets/stylesheet.scss */
 section.content {
   padding: 1.5em 0 3em;
 }
 @media (min-width: 961px) {
-  /* line 116, content/stylesheets/stylesheet.scss */
+  /* line 117, content/stylesheets/stylesheet.scss */
   section.content .wrap {
     float: left;
     width: 61.8%;
@@ -564,20 +565,20 @@ section.content {
 }
 
 @media (min-width: 961px) {
-  /* line 126, content/stylesheets/stylesheet.scss */
+  /* line 127, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap {
     float: right;
     width: 38.2%;
     padding-left: 1.25em;
   }
 }
-/* line 134, content/stylesheets/stylesheet.scss */
+/* line 135, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a {
   color: #6b6b6b;
   text-decoration: none;
   display: block;
 }
-/* line 138, content/stylesheets/stylesheet.scss */
+/* line 139, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a b {
   display: block;
   color: #a6a6a5;
@@ -587,19 +588,19 @@ section.content {
   line-height: 1;
   margin-top: 0.65em;
 }
-/* line 147, content/stylesheets/stylesheet.scss */
+/* line 148, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover {
   color: white;
 }
-/* line 149, content/stylesheets/stylesheet.scss */
+/* line 150, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover b {
   color: white;
 }
-/* line 152, content/stylesheets/stylesheet.scss */
+/* line 153, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover .icon {
   background: rgba(255, 255, 255, 0.05);
 }
-/* line 157, content/stylesheets/stylesheet.scss */
+/* line 158, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .icon {
   width: 2.3em;
   height: 2.3em;
@@ -611,53 +612,53 @@ section.content {
   font-size: 2.1em;
   border-radius: 50%;
 }
-/* line 168, content/stylesheets/stylesheet.scss */
+/* line 169, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
   padding: 1.5em 0;
   border-bottom: 1px solid #6b6b6b;
 }
-/* line 171, content/stylesheets/stylesheet.scss */
+/* line 172, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel .icon, .sponsorship-cfp-wrap .right-panel .icon {
   float: left;
   margin-right: 1em;
 }
-/* line 176, content/stylesheets/stylesheet.scss */
+/* line 177, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel {
   padding-top: 0;
 }
 @media (max-width: 600px) {
-  /* line 126, content/stylesheets/stylesheet.scss */
+  /* line 127, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap {
     margin: -1.3em 0 1.3em 0;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 126, content/stylesheets/stylesheet.scss */
+  /* line 127, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap {
     margin: -2.6em 0 1.3em;
   }
-  /* line 184, content/stylesheets/stylesheet.scss */
+  /* line 185, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
     padding-top: 1.5em;
     font-size: 0.8em;
   }
-  /* line 188, content/stylesheets/stylesheet.scss */
+  /* line 189, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .left-panel {
     width: 50%;
     border-right: 1px solid #6b6b6b;
     float: left;
   }
-  /* line 192, content/stylesheets/stylesheet.scss */
+  /* line 193, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .left-panel .icon {
     margin-right: 0.5em;
   }
-  /* line 196, content/stylesheets/stylesheet.scss */
+  /* line 197, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .right-panel {
     width: 50%;
     float: right;
     text-align: right;
   }
-  /* line 201, content/stylesheets/stylesheet.scss */
+  /* line 202, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .right-panel .icon {
     float: right;
     margin-right: 0;
@@ -665,12 +666,12 @@ section.content {
   }
 }
 
-/* line 210, content/stylesheets/stylesheet.scss */
+/* line 211, content/stylesheets/stylesheet.scss */
 .twitter-wrap {
   display: none;
 }
 @media (min-width: 961px) {
-  /* line 210, content/stylesheets/stylesheet.scss */
+  /* line 211, content/stylesheets/stylesheet.scss */
   .twitter-wrap {
     float: right;
     display: block;
@@ -679,7 +680,7 @@ section.content {
     margin-top: 2.6em;
   }
 }
-/* line 220, content/stylesheets/stylesheet.scss */
+/* line 221, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -689,22 +690,22 @@ section.content {
   line-height: 1.5em;
   height: 1.5em;
 }
-/* line 228, content/stylesheets/stylesheet.scss */
+/* line 229, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3.facebook {
   margin-top: 1.5em;
 }
-/* line 231, content/stylesheets/stylesheet.scss */
+/* line 232, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 a {
   color: #a6a6a5;
   text-decoration: none;
 }
-/* line 235, content/stylesheets/stylesheet.scss */
+/* line 236, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 img {
   height: 1.5em;
   float: right;
 }
 
-/* line 242, content/stylesheets/stylesheet.scss */
+/* line 243, content/stylesheets/stylesheet.scss */
 article.news h2, article.news time, article h2, article time {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -713,7 +714,7 @@ article.news h2, article.news time, article h2, article time {
   font-size: 1.8em;
 }
 @media (min-width: 961px) {
-  /* line 251, content/stylesheets/stylesheet.scss */
+  /* line 252, content/stylesheets/stylesheet.scss */
   article.news h2:before, article h2:before {
     content: "\2192";
     position: absolute;
@@ -721,30 +722,30 @@ article.news h2, article.news time, article h2, article time {
     font-size: 0.62em;
   }
 }
-/* line 259, content/stylesheets/stylesheet.scss */
+/* line 260, content/stylesheets/stylesheet.scss */
 article.news time, article time {
   font-size: 1.2em;
 }
-/* line 262, content/stylesheets/stylesheet.scss */
+/* line 263, content/stylesheets/stylesheet.scss */
 article.news p, article p {
   line-height: 1.6;
   color: #ddd;
 }
-/* line 265, content/stylesheets/stylesheet.scss */
+/* line 266, content/stylesheets/stylesheet.scss */
 article.news p:last-child, article p:last-child {
   margin-bottom: 0;
 }
 
-/* line 271, content/stylesheets/stylesheet.scss */
+/* line 272, content/stylesheets/stylesheet.scss */
 article.news {
   margin-bottom: 20px;
 }
-/* line 273, content/stylesheets/stylesheet.scss */
+/* line 274, content/stylesheets/stylesheet.scss */
 article.news:last-child {
   margin-bottom: 0;
 }
 
-/* line 278, content/stylesheets/stylesheet.scss */
+/* line 279, content/stylesheets/stylesheet.scss */
 h2.section-title {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -752,7 +753,7 @@ h2.section-title {
   margin: 0;
 }
 
-/* line 285, content/stylesheets/stylesheet.scss */
+/* line 286, content/stylesheets/stylesheet.scss */
 hr {
   margin: 1.3em 0;
   border: 2px solid white;
@@ -761,7 +762,7 @@ hr {
   border-right: none;
 }
 
-/* line 293, content/stylesheets/stylesheet.scss */
+/* line 294, content/stylesheets/stylesheet.scss */
 p.introduction {
   line-height: 1.6;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -770,19 +771,19 @@ p.introduction {
   color: #ddd;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 293, content/stylesheets/stylesheet.scss */
+  /* line 294, content/stylesheets/stylesheet.scss */
   p.introduction {
     font-size: 1.15em;
   }
 }
 @media (min-width: 961px) {
-  /* line 293, content/stylesheets/stylesheet.scss */
+  /* line 294, content/stylesheets/stylesheet.scss */
   p.introduction {
     font-size: 1.3em;
   }
 }
 
-/* line 307, content/stylesheets/stylesheet.scss */
+/* line 308, content/stylesheets/stylesheet.scss */
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
@@ -792,34 +793,34 @@ p.introduction {
   text-align: center;
 }
 @media (max-width: 600px) {
-  /* line 307, content/stylesheets/stylesheet.scss */
+  /* line 308, content/stylesheets/stylesheet.scss */
   .organizers {
     padding-top: 40px;
   }
 }
-/* line 317, content/stylesheets/stylesheet.scss */
+/* line 318, content/stylesheets/stylesheet.scss */
 .organizers img {
   display: inline-block;
   margin: 9px 9px;
 }
-/* line 321, content/stylesheets/stylesheet.scss */
+/* line 322, content/stylesheets/stylesheet.scss */
 .organizers br {
   display: none;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 321, content/stylesheets/stylesheet.scss */
+  /* line 322, content/stylesheets/stylesheet.scss */
   .organizers br {
     display: block;
   }
 }
 @media (min-width: 961px) {
-  /* line 321, content/stylesheets/stylesheet.scss */
+  /* line 322, content/stylesheets/stylesheet.scss */
   .organizers br {
     display: block;
   }
 }
 
-/* line 331, content/stylesheets/stylesheet.scss */
+/* line 332, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -848,7 +849,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 355, content/stylesheets/stylesheet.scss */
+/* line 356, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -857,7 +858,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 360, content/stylesheets/stylesheet.scss */
+/* line 361, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -866,7 +867,7 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 368, content/stylesheets/stylesheet.scss */
+/* line 369, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
