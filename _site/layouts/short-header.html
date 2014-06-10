@@ -13,22 +13,19 @@
 var WRInitTime=(new Date()).getTime();
 </script>
 <!-- ClickTale end of Top part -->
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=722382704443005&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <main>
       <header>
-        <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
+        <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
         <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
-      <h2 class="punchline">
-        Technology oriented conference for<br>developers &amp; designers 
-      </h2>
-      <h2 class="date-location">
-        &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
-      </h2>
-      <p class="introduction">
-        WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
-      </p>
-      <hr>
       <section class="content cf" id="content">
         
         <div class="sponsorship-cfp-wrap cf">
@@ -45,27 +42,7 @@ var WRInitTime=(new Date()).getTime();
         </div>
 
         <div class="wrap">
-          <article class="news">
-  <h2>Call for papers 2014.</h2>
-  <time>26.05.2014.</time>
-  <p>
-    WebCamp Zagreb is proud to announce that the call for papers is now open. As a tech conference organized by the community for the community, your participation is greatly appreciated. <a href="/cfp/index.html#content"><strong>Become one of our speakers</strong></a>.
-  </p>
-  <p>
-    <b>HURRY UP: First 30 submissions will get a ticket before the general public!</b>
-  </p>
-</article>
-
-<article class="news">
-  <h2>Start of WebCamp 2014 preparations.</h2>
-  <time>18.05.2014.</time>
-  <p>
-    Encouraged by past WebCamp Zagreb success, we are continuing our tradition: organizing a <b>tech orientented conference by the community for the community</b>. 
-  </p>
-  <p>
-    With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
-  </p>
-</article>
+          <%= yield %>
         </div>
 
         <div class="twitter-wrap">

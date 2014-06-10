@@ -31,6 +31,10 @@ compile '/stylesheets/*' do
   filter :sass, Compass.sass_engine_options
 end
 
+compile '/supporter-packages/*' do
+  layout 'short-header'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
