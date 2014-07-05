@@ -871,3 +871,137 @@ a.back-to-top {
 .cf {
   *zoom: 1;
 }
+
+.twitter-wrap-simple {
+  display:block;
+  float:none;
+  width:100%;
+  margin:2em auto 0;
+  padding-left:0;
+  padding-top:1.5em;
+  clear:both;
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,0.2);
+}
+.twitter-wrap-simple h3,
+.twitter-wrap-simple h3.facebook {
+  display:inline-block;
+  margin:0.5em 1em 0;
+  vertical-align:top;
+}
+.twitter-wrap-simple h3 a {
+  margin-right:0.6em;
+}
+
+.presenter header img {
+  width: 70%;
+  margin:0 auto;
+}
+.presenter h2.date-location {
+  padding:0.4em 0;
+  border-color:rgba(255,255,255,0.2);
+  font-size:1.2em;
+}
+
+.presenter section.content .wrap {
+  width:100%;
+  float:none;
+}
+
+.talk-info .name {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #f8d800;
+  margin: 0;
+  font-size: 2.1em;
+  letter-spacing:-0.03em;
+}
+.talk-info .desc {
+  font-size:1.05em;
+}
+.talk-info .desc p {
+  line-height:1.5;
+}
+
+.presenter-info {
+  margin-top:3.5em;
+}
+.presenter-info .name {
+  margin-top:0.6em;
+  font-weight:700; font-size:2.3em;
+  letter-spacing:-0.03em;
+  text-align:center;
+}
+.presenter-info .name:before {
+  display:none;
+}
+.presenter-info .img {
+  position:relative;
+  width:9em;
+  margin:0 auto;
+}
+.presenter-info .img:before {
+  content:'';
+  position:absolute; left:-10px; right:-10px; top:-10px; bottom:-10px;
+  border:2px solid #6b6b6b;
+  border-radius:50%;
+}
+.presenter-info .img img {
+  position:relative;
+  width:100%; max-width:100%; height:auto;
+  border-radius:50%;
+  vertical-align:top;
+}
+
+
+@media screen and (min-width:600px) {
+  .presenter h2.date-location {
+    padding:0.4em 0;
+    font-size:1.5em;
+  }
+  .presenter-info {
+    margin-top:4.5em;
+  }
+  .presenter-info .name {
+    margin-top:0;
+    text-align:left;
+  }
+  .presenter-info .img {
+    float:left;
+  }
+  .presenter-info .info {
+    overflow:hidden;
+    padding-left:2.7em;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .talk-info .name {
+    font-size: 2.7em;
+  }
+  .talk-info .desc {
+    font-size:1.15em;
+  }
+}
+
+@media screen and (min-width:800px) {
+  .presenter section.content {
+    padding-top:2.8em;
+  }
+  .presenter header img {
+    width:25%;
+    margin:0;
+  }
+  .presenter h2.date-location {
+    font-size:1.7em;
+  }
+  .talk-info .name {
+    font-size: 3.3em;
+  }
+  .talk-info .desc {
+    font-size:1.3em;
+  }
+  .presenter-info .desc {
+    padding-right:6em;
+  }
+}
