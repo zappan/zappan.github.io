@@ -13,50 +13,23 @@
 var WRInitTime=(new Date()).getTime();
 </script>
 <!-- ClickTale end of Top part -->
-
-    <main>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=722382704443005&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <main class="speaker-main">
       <header>
-        <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
+        <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
         <a href="/"><img src="/images/logo.png" alt=""></a>
       </header>
-      <h2 class="punchline">
-        Technology oriented conference for<br>developers &amp; designers 
-      </h2>
-      <h2 class="date-location">
-        &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XII <b>&bull;</b> Slavonska avenija 6 &#8902;
-      </h2>
-      <p class="introduction">
-        WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
-      </p>
-      <hr>
       <section class="content cf" id="content">
         
-        <div class="sponsorship-cfp-wrap cf">
-          <a class="left-panel cf" href="/sponsors/index.html#content">
-            <span class="icon">$$</span>
-            <b>Sponsor WebCamp!</b>
-            More about sponsor packages
-          </a>
-          <a class="right-panel cf" href="/cfp/index.html#content">
-            <span class="icon">{...}</span>
-            <b>Submit your talk</b>
-            Our call-for-paper is open!
-          </a>
-        </div>
-
         <div class="wrap">
-          <h2 class="section-title">Call for Sponsorship</h2>
-<article>
-  <p>WebCamp Zagreb invites you to become a sponsor for our annual WebCamp Zagreb 2014 Conference which will be held at the Conference center Hypo Expo XII on October 4, 2014.</p>
-
-  <p>Started in 2012 by local user groups to promote the exchange of knowledge and experience in healthy cooperation between communities, WebCamp managed to attract visitors from neighbouring countries and the wider region, reaching over 600 visitors last year.</p>
-
-  <p>While WebCamp Zagreb is focused on the wider region and international audience, local user groups will also organize the Week of Webcamp, a series of events in the days before main event.</p>
-
-  <p>Sponsor this event to gain visibility with our audience and enjoy the fact that your sponsorship will help assure the success of WebCamp Zagreb 2014.</p>
-
-  <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
-</article>
+          <%= yield %>
         </div>
 
         <div class="twitter-wrap">
@@ -77,8 +50,10 @@ var WRInitTime=(new Date()).getTime();
 
         </div>
         
+        
+
+
       </section>
-      
       <a href="#" class="back-to-top">&uarr; Back to top</a>
     </main>
 
