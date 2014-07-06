@@ -31,16 +31,24 @@ compile '/stylesheets/*' do
   filter :sass, Compass.sass_engine_options
 end
 
-compile '/supporter-packages/*' do
-  layout 'short-header'
-end
+# compile '/supporter-packages/*' do
+#   layout 'short-header'
+# end
+
+# compile '/speakers/*' do
+#   layout 'speakers'
+# end
+
+# compile '/' do
+#   layout 'homepage'
+# end
 
 compile '*' do
   if item.binary?
     # don’t filter binary items
   else
     filter :erb
-    layout 'default'
+    layout item[:layout] || 'default'
   end
 end
 

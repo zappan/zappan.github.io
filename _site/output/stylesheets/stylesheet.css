@@ -820,7 +820,312 @@ p.introduction {
   }
 }
 
-/* line 332, content/stylesheets/stylesheet.scss */
+/* Homepage speakers list */
+/* line 334, content/stylesheets/stylesheet.scss */
+.speakers {
+  padding: 1.25em 0;
+}
+/* line 337, content/stylesheets/stylesheet.scss */
+.speakers .speakers-list {
+  width: 100%;
+  margin: 3em auto 2em auto;
+  padding: 0;
+  text-align: center;
+}
+/* line 343, content/stylesheets/stylesheet.scss */
+.speakers .speakers-list li {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 4em;
+  text-align: center;
+  list-style: none;
+}
+@media (min-width: 481px) and (max-width: 600px) {
+  /* line 343, content/stylesheets/stylesheet.scss */
+  .speakers .speakers-list li {
+    width: 50%;
+  }
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 343, content/stylesheets/stylesheet.scss */
+  .speakers .speakers-list li {
+    width: 33.33%;
+  }
+}
+@media (min-width: 961px) {
+  /* line 343, content/stylesheets/stylesheet.scss */
+  .speakers .speakers-list li {
+    width: 23%;
+    margin: 0 2% 7% 0;
+  }
+}
+/* line 362, content/stylesheets/stylesheet.scss */
+.speakers .speakers-list li:last-child {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+/* line 370, content/stylesheets/stylesheet.scss */
+a.speaker {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 376, content/stylesheets/stylesheet.scss */
+a.speaker span {
+  display: block;
+}
+/* line 380, content/stylesheets/stylesheet.scss */
+a.speaker .avatar {
+  position: relative;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 389, content/stylesheets/stylesheet.scss */
+a.speaker .avatar img {
+  position: absolute;
+  top: -75px;
+  left: -75px;
+  z-index: 2;
+  -webkit-transform: rotate(-45deg) scale(0.65);
+  -moz-transform: rotate(-45deg) scale(0.65);
+  -ms-transform: rotate(-45deg) scale(0.65);
+  -o-transform: rotate(-45deg) scale(0.65);
+  transform: rotate(-45deg) scale(0.65);
+}
+/* line 397, content/stylesheets/stylesheet.scss */
+a.speaker .avatar::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: #f8d800 0 0 0 0 inset;
+  -moz-box-shadow: #f8d800 0 0 0 0 inset;
+  box-shadow: #f8d800 0 0 0 0 inset;
+  -webkit-transition: -webkit-box-shadow 100ms;
+  -moz-transition: -moz-box-shadow 100ms;
+  -ms-transition: -ms-box-shadow 100ms;
+  -o-transition: -o-box-shadow 100ms;
+  transition: box-shadow 100ms;
+}
+/* line 416, content/stylesheets/stylesheet.scss */
+a.speaker .name, a.speaker .twtr {
+  line-height: 1.6;
+  color: #ddd;
+}
+/* line 421, content/stylesheets/stylesheet.scss */
+a.speaker .name {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  padding-top: 1.75em;
+  margin-top: 1em;
+}
+/* line 428, content/stylesheets/stylesheet.scss */
+a.speaker .twtr {
+  font-size: .75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .0625em;
+  margin-top: .3125em;
+}
+/* line 436, content/stylesheets/stylesheet.scss */
+a.speaker:hover .avatar::before {
+  -webkit-box-shadow: #f8d800 0 0 0 4px inset;
+  -moz-box-shadow: #f8d800 0 0 0 4px inset;
+  box-shadow: #f8d800 0 0 0 4px inset;
+}
+
+/* Speaker/talk page */
+/* line 444, content/stylesheets/stylesheet.scss */
+.speaker-main header img {
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 449, content/stylesheets/stylesheet.scss */
+.speaker-main h2.date-location {
+  padding: 0.4em 0;
+  border-color: rgba(255, 255, 255, 0.2);
+  font-size: 1.2em;
+}
+/* line 455, content/stylesheets/stylesheet.scss */
+.speaker-main section.content .wrap {
+  width: 100%;
+  float: none;
+}
+
+/* line 462, content/stylesheets/stylesheet.scss */
+.talk-info .name {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #f8d800;
+  margin: 0;
+  font-size: 2.1em;
+  letter-spacing: -0.03em;
+}
+/* line 471, content/stylesheets/stylesheet.scss */
+.talk-info .desc {
+  font-size: 1.05em;
+}
+/* line 474, content/stylesheets/stylesheet.scss */
+.talk-info .desc p {
+  line-height: 1.5;
+}
+
+/* line 480, content/stylesheets/stylesheet.scss */
+.speaker-info {
+  margin-top: 3.5em;
+}
+/* line 483, content/stylesheets/stylesheet.scss */
+.speaker-info .name {
+  margin-top: .6em;
+  font-weight: 700;
+  font-size: 2.3em;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+/* line 490, content/stylesheets/stylesheet.scss */
+.speaker-info .name::before {
+  display: none;
+}
+/* line 495, content/stylesheets/stylesheet.scss */
+.speaker-info .img {
+  position: relative;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 504, content/stylesheets/stylesheet.scss */
+.speaker-info .img img {
+  position: absolute;
+  top: -75px;
+  left: -75px;
+  z-index: 2;
+  -webkit-transform: rotate(-45deg) scale(0.65);
+  -moz-transform: rotate(-45deg) scale(0.65);
+  -ms-transform: rotate(-45deg) scale(0.65);
+  -o-transform: rotate(-45deg) scale(0.65);
+  transform: rotate(-45deg) scale(0.65);
+}
+/* line 512, content/stylesheets/stylesheet.scss */
+.speaker-info .img::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: #6b6b6b 0 0 0 2px inset;
+  -moz-box-shadow: #6b6b6b 0 0 0 2px inset;
+  box-shadow: #6b6b6b 0 0 0 2px inset;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 528, content/stylesheets/stylesheet.scss */
+  .speaker-main h2.date-location {
+    padding: 0.4em 0;
+    font-size: 1.5em;
+  }
+
+  /* line 533, content/stylesheets/stylesheet.scss */
+  .speaker-info {
+    margin-top: 4.5em;
+  }
+  /* line 536, content/stylesheets/stylesheet.scss */
+  .speaker-info .name {
+    margin-top: 0;
+    text-align: left;
+  }
+  /* line 541, content/stylesheets/stylesheet.scss */
+  .speaker-info .img {
+    float: left;
+  }
+  /* line 545, content/stylesheets/stylesheet.scss */
+  .speaker-info .info {
+    overflow: hidden;
+    padding-left: 2.7em;
+  }
+}
+@media screen and (min-width: 700px) {
+  /* line 554, content/stylesheets/stylesheet.scss */
+  .talk-info .name {
+    font-size: 2.7em;
+  }
+  /* line 557, content/stylesheets/stylesheet.scss */
+  .talk-info .desc {
+    font-size: 1.15em;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 566, content/stylesheets/stylesheet.scss */
+  .speaker-main section.content {
+    padding-top: 2.8em;
+  }
+  /* line 570, content/stylesheets/stylesheet.scss */
+  .speaker-main header img {
+    width: 25%;
+    margin: 0;
+  }
+  /* line 575, content/stylesheets/stylesheet.scss */
+  .speaker-main h2.date-location {
+    font-size: 1.7em;
+  }
+
+  /* line 580, content/stylesheets/stylesheet.scss */
+  .talk-info .name {
+    font-size: 3.3em;
+  }
+  /* line 583, content/stylesheets/stylesheet.scss */
+  .talk-info .desc {
+    font-size: 1.3em;
+  }
+
+  /* line 587, content/stylesheets/stylesheet.scss */
+  .presenter-info .desc {
+    padding-right: 6em;
+  }
+}
+/* line 592, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -849,7 +1154,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 356, content/stylesheets/stylesheet.scss */
+/* line 616, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -858,7 +1163,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 361, content/stylesheets/stylesheet.scss */
+/* line 621, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -867,7 +1172,7 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 369, content/stylesheets/stylesheet.scss */
+/* line 629, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
