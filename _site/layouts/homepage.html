@@ -72,64 +72,17 @@ var WRInitTime=(new Date()).getTime();
         <h2 class="section-title">Speakers</h2>
 
         <ul class="speakers-list cf">
-          <li>
-            <a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="images/speakers/nicole.jpg" alt="Nicole Sullivan"></span>
-              <span class="name">Nicole Sullivan</span>
-              <span class="twtr">@stubbornella</span>
-            </a>
-          </li>
-          <li>
-            <a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/nicolas.jpg" alt="Nicolas Gallagher"></span>
-              <span class="name">Nicolas Gallagher</span>
-              <span class="twtr">@necolas</span>
-            </a>
-          </li>
-          <li>
-            <a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/ana.jpg" alt="Ana Tudor"></span>
-              <span class="name">Ana Tudor</span>
-              <span class="twtr">@thebabydino</span>
-            </a>
-          </li>
-          <li>
-            <a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/lea.jpg" alt="Lea Verou"></span>
-              <span class="name">Lea Verou</span>
-              <span class="twtr">@leaverou</span>
-            </a>
-          </li>
-          <li><a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/brad.jpg" alt="Brad Frost"></span>
-              <span class="name">Brad Frost</span>
-              <span class="twtr">@brad_frost</span>
-            </a></li>
-          <li><a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/simurai.jpg" alt="Simurai"></span>
-              <span class="name">Simurai</span>
-              <span class="twtr">@simurai</span>
-            </a></li>
-          <li><a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/harry.jpg" alt="Harry Roberts"></span>
-              <span class="name">Harry Roberts</span>
-              <span class="twtr">@csswizardry</span>
-            </a></li>
-          <li><a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/dan.jpg" alt="Dan Mall"></span>
-              <span class="name">Dan Mall</span>
-              <span class="twtr">@danielmall</span>
-            </a></li>
-          <li><a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/chris.jpg" alt="Chris Eppstein"></span>
-              <span class="name">Chris Eppstein</span>
-              <span class="twtr">@chriseppstein</span>
-            </a></li>
-          <li><a href="/speakers/index.html" class="speaker">
-              <span class="avatar"><img src="/images/speakers/jina.jpg" alt="Jina"></span>
-              <span class="name">Jina</span>
-              <span class="twtr">@jina</span>
-            </a></li>
+          <% speakers.each do |speaker| %>
+            <li>
+              <a href="<%= speaker.identifier %>" class="speaker">
+                <span class="avatar"><img src="<%= speaker[:image] %>" alt="<%= speaker[:name] %>"></span>
+                <span class="name"><%= speaker[:name] %></span>
+                <% unless speaker[:twitter].empty? %>
+                  <span class="twtr">@<%= speaker[:twitter] %></span>
+                <% end %>
+              </a>
+            </li>
+          <% end %>
         </ul>
       </section>
       <a href="#" class="back-to-top">&uarr; Back to top</a>

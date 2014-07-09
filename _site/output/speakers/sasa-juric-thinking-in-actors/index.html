@@ -31,23 +31,29 @@
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name"><%= @item[:title] %></h1>
+            <h1 class="name">Thinking in actors</h1>
             <div class="desc">
-              <p><%= @item[:short_abstract] %></p>
+              <p>Implementing highly concurrent backend systems using actor model.</p>
               <p>
-                <%= @item[:long_abstract] %>
+                This talk will present a medium-level design of the live betting system I've built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.
+
+Assuming an audience of experienced backend developers, the talk will provide a bare minimum of theory, and then focus on presenting various decisions made in the system, starting from accepting the data from the external provider, reconciling it with internal database, categorizing it, and pushing it to end-users (browsers).
+
+After the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.
+
+This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.
               </p>
             </div>
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+              <img src="http://2014.webcampzg.org/images/speakers/sasa-juric.png" alt="Saša Jurić" />
             </div>
             <div class="info">
-              <h2 class="name"><%= @item[:name] %></h2>
+              <h2 class="name">Saša Jurić</h2>
               <div class="desc">
                 <p>
-                  <%= @item[:long_bio] %>
+                  A freelancer working on a revolutionary data anonymization system for Aircloak with previous experience in large web and desktop projects using various languages and technologies such as Elixir, Erlang, Ruby, JavaScript, C#, C++. The author of the pending Manning book "Elixir in Action", and an occasional blogger (http://theerlangelist.com). 
                 </p>
               </div>
             </div>

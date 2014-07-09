@@ -35,9 +35,9 @@ end
 #   layout 'short-header'
 # end
 
-# compile '/speakers/*' do
-#   layout 'speakers'
-# end
+compile '/speakers/*' do
+  layout 'speakers'
+end
 
 # compile '/' do
 #   layout 'homepage'
