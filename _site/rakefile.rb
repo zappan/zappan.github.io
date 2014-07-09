@@ -1,12 +1,3 @@
-require 'rss'
-require 'open-uri'
-require 'date'
-require 'nokogiri'
-require 'yaml'
-require 'time'
-
-ENV["TZ"] = "Europe/Zagreb"
-
 namespace :wczg do
 
   desc "Compile site"
