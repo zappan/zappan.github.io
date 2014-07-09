@@ -772,7 +772,7 @@ a:hover {
 
   line-height: 20px;
 }
-;T;@I"/stylesheets/stylesheet/;T{;{;I"Ém/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+;T;@I"/stylesheets/stylesheet/;T{;{;I"—n/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -1906,6 +1906,20 @@ a.speaker:hover .avatar::before {
   }
 }
 /* line 603, content/stylesheets/stylesheet.scss */
+.support-webcamp {
+  clear: both;
+  font-size: 200%;
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #f8d800;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 50px;
+  font-family: Share, Helvetica, Arial, sans-serif;
+}
+
+/* line 616, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1934,7 +1948,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 627, content/stylesheets/stylesheet.scss */
+/* line 640, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1943,7 +1957,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 632, content/stylesheets/stylesheet.scss */
+/* line 645, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1952,11 +1966,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 640, content/stylesheets/stylesheet.scss */
+/* line 653, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"œ*@import "compass";
+;T;	I"È+@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -2556,6 +2570,19 @@ a.speaker {
   .speaker-info .desc {
     padding-right: 6em;
   }
+}
+
+.support-webcamp {
+  clear: both;
+  font-size: 200%;
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #f8d800;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 50px;
+  font-family: Share, Helvetica, Arial, sans-serif;
 }
 
 a.back-to-top {
@@ -7027,7 +7054,7 @@ This will be followed by a more detailed presentation of how automated testing i
 
 In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.
 ;T;
-@;@I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"µ<!DOCTYPE HTML>
+@;@I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"d<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7083,6 +7110,8 @@ In the end, I will present the vast amount of coverage data, spanning more than 
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7150,7 +7179,7 @@ document.write(unescape("%3Cscript%20src='"+
 </body>
 </html>
 ;T;	I"øInteresting things about redis. Horizontal and vertical scailing. Writing Lua scripts to reduse network traffic and to speed up whole application. Not so obvious usages of redis in real life.;T;
-@;@I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"<!DOCTYPE HTML>
+@;@I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"Ã<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7208,6 +7237,8 @@ Currently working as senior software engineer for HomeExchange. Enjoys playing a
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7276,7 +7307,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"œIt would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
 Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.;T;
-@;@I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"¡<!DOCTYPE HTML>
+@;@I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"p<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7336,6 +7367,8 @@ In this talk we examine the modern approaches to fixing JavaScript. Our goal is 
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7407,7 +7440,7 @@ document.write(unescape("%3Cscript%20src='"+
 When such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few ‚Äî defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.
 
 In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.;T;
-@;@I")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"ª<!DOCTYPE HTML>
+@;@I")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"j<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7477,6 +7510,8 @@ I'm passionate about functional programming and would consider myself as Haskell
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7552,7 +7587,7 @@ GET /articles?title=%REST%&embed=author&order=created_at:desc
 ```
 
 This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.;T;
-@#;@"I":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"]<!DOCTYPE HTML>
+@#;@"I":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7610,6 +7645,8 @@ After this talk, the audience knows what problems vagrant solves and how to get 
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7679,7 +7716,7 @@ document.write(unescape("%3Cscript%20src='"+
 ;T;	I"TMany developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. 
 Within this talk, I'll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I'll talk about devops and configuration management briefly and show how one can get started with vagrant.
 After this talk, the audience knows what problems vagrant solves and how to get started.;T;
-@(;@'I"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"Å<!DOCTYPE HTML>
+@(;@'I"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"0<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7746,6 +7783,8 @@ My Interests are process automation, continuous integration and delivery, clean 
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7820,7 +7859,7 @@ We will examine how easy it is to get up and running and manage single or multip
 
 Join us for this talk and you‚Äôll see why this award winning Python project has relevance for your work life through getting your servers under control.
 ;T;
-@-;@,I"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"Ò<!DOCTYPE HTML>
+@-;@,I"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"†<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7885,6 +7924,8 @@ I'm a big fan of free software, a regular at Zagreb's Hacklab in Mama, and a mem
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -7959,7 +8000,7 @@ In this talk, we'll quickly introduce Clojure and its ecosystem (why?), go throu
 
 (with-conference {:name "WebCampZG 2014"}
     (praise "McCarthy"));T;
-@2;@1I"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I":<!DOCTYPE HTML>
+@2;@1I"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"È<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8021,6 +8062,8 @@ This will be a highly technical talk. Expect a lot of diagrams with an occasiona
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -8094,7 +8137,7 @@ Assuming an audience of experienced backend developers, the talk will provide a 
 After the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.
 
 This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.;T;
-@7;@6I"J/speakers/nikica-jokic-agreggating-data-consistently-and-accountably/;T{;{	;I"-<!DOCTYPE HTML>
+@7;@6I"J/speakers/nikica-jokic-agreggating-data-consistently-and-accountably/;T{;{	;I"‹<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8152,6 +8195,8 @@ In this talk, an abstraction layer that was built to solve the described problem
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -8221,7 +8266,7 @@ document.write(unescape("%3Cscript%20src='"+
 ;T;	I"…Imagine you're dealing with social media networks. You're fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what's the real state of data?
 
 In this talk, an abstraction layer that was built to solve the described problem will be presented. It's called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.;T;
-@<;@;I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"S<!DOCTYPE HTML>
+@<;@;I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8287,6 +8332,8 @@ In his spare time, he tries to tame his three kids, without significant success.
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -8358,7 +8405,7 @@ document.write(unescape("%3Cscript%20src='"+
 ZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.
 
 This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.;T;
-@A;@@I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"Õ<!DOCTYPE HTML>
+@A;@@I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"|<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8416,6 +8463,8 @@ Right now I'm working almost exclusively as a freelancer and trying to connect w
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>
@@ -8484,7 +8533,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"ÀThis simulator was developed for an EU research project: AIRobots. 
 How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I'll walk you through the tools and libraries required for this project, its many pitfalls and its successes. ;T;
-@F;@EI"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"@<!DOCTYPE HTML>
+@F;@EI"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"Ô<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8549,6 +8598,8 @@ MSc of Computer Science at FER - University of Zagreb.
           </div>
         </article>
       </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a supporter pack now &raquo;</b></a>
 
       <div class="twitter-wrap twitter-wrap-simple">
         <h3>

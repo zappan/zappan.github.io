@@ -1132,6 +1132,20 @@ a.speaker:hover .avatar::before {
   }
 }
 /* line 603, content/stylesheets/stylesheet.scss */
+.support-webcamp {
+  clear: both;
+  font-size: 200%;
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #f8d800;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 50px;
+  font-family: Share, Helvetica, Arial, sans-serif;
+}
+
+/* line 616, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1160,7 +1174,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 627, content/stylesheets/stylesheet.scss */
+/* line 640, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1169,7 +1183,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 632, content/stylesheets/stylesheet.scss */
+/* line 645, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1178,7 +1192,7 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 640, content/stylesheets/stylesheet.scss */
+/* line 653, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
