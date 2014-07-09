@@ -752,12 +752,12 @@ article.news time, article time {
   font-size: 1.2em;
 }
 /* line 287, content/stylesheets/stylesheet.scss */
-article.news p, article p {
+article.news p, article.news li, article p, article li {
   line-height: 1.6;
   color: #ddd;
 }
 /* line 290, content/stylesheets/stylesheet.scss */
-article.news p:last-child, article p:last-child {
+article.news p:last-child, article.news li:last-child, article p:last-child, article li:last-child {
   margin-bottom: 0;
 }
 
