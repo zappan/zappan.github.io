@@ -31,23 +31,32 @@
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name"><%= @item[:title] %></h1>
+            <h1 class="name">How, When, and Why Clojure?</h1>
             <div class="desc">
-              <p><%= @item[:short_abstract] %></p>
+              <p>Clojure is a modern Lisp targeting JVM, CLR, and JavaScript. Is waking up mid-night screaming due to unmatched parentheses worth it?</p>
               <p>
-                <%= @item[:long_abstract] %>
+                Lisp, the influential second-oldest high-level programming language, has been called "the most intelligent way to misuse a computer" and "the greatest single programming language ever designed". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.
+
+Clojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.
+
+In this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).
+
+(with-conference {:name "WebCampZG 2014"}
+    (praise "McCarthy"))
               </p>
             </div>
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+              <img src="http://2014.webcampzg.org/images/speakers/nikola-plejic.png" alt="Nikola Plejić" />
             </div>
             <div class="info">
-              <h2 class="name"><%= @item[:name] %></h2>
+              <h2 class="name">Nikola Plejić</h2>
               <div class="desc">
                 <p>
-                  <%= @item[:long_bio] %>
+                  Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there's an entire world of other languages, technologies, and approaches to developing software out there.
+
+I'm a big fan of free software, a regular at Zagreb's Hacklab in Mama, and a member of various Croatian tech communities.
                 </p>
               </div>
             </div>

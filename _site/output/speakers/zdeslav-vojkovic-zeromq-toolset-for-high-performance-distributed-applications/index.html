@@ -31,23 +31,33 @@
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name"><%= @item[:title] %></h1>
+            <h1 class="name">ZeroMQ - toolset for high-performance distributed applications</h1>
             <div class="desc">
-              <p><%= @item[:short_abstract] %></p>
+              <p>ZeroMQ is a messaging library which lets you write scalable and performant distributed software. Or, as some say, sockets on steroids.
+</p>
               <p>
-                <%= @item[:long_abstract] %>
+                ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.
+
+ZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.
+
+This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.
               </p>
             </div>
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+              <img src="http://2014.webcampzg.org/images/speakers/zdeslav-vojkovic.png" alt="Zdeslav Vojković" />
             </div>
             <div class="info">
-              <h2 class="name"><%= @item[:name] %></h2>
+              <h2 class="name">Zdeslav Vojković</h2>
               <div class="desc">
                 <p>
-                  <%= @item[:long_bio] %>
+                  Zdeslav Vojkovic started programming ages ago, when ZX Spectrum and C64 were synonyms for home computer. 
+
+He writes code professionally for more than 15 years, has worked in various industries, from automotive to financial, and is co-owner of a small software development workshop where he works as a consultant/contractor/whatever for various clients whom he tries to educate about advantages of open source software.
+
+In his spare time, he tries to tame his three kids, without significant success.
+
                 </p>
               </div>
             </div>

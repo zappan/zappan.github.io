@@ -31,23 +31,27 @@
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name"><%= @item[:title] %></h1>
+            <h1 class="name">Modern Approaches to the Javascript Problem</h1>
             <div class="desc">
-              <p><%= @item[:short_abstract] %></p>
+              <p>A talk about one possible solution to the JavaScript problem. I'll talk about the way I develop for web — React/OM provides expressive frontend; Elixir provides scalable backend. </p>
               <p>
-                <%= @item[:long_abstract] %>
+                It's well known that JavaScript wasn't designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.
+
+When such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few — defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.
+
+In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.
               </p>
             </div>
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+              <img src="http://2014.webcampzg.org/images/speakers/jonn-mostovoy.png" alt="Jonn Mostovoy" />
             </div>
             <div class="info">
-              <h2 class="name"><%= @item[:name] %></h2>
+              <h2 class="name">Jonn Mostovoy</h2>
               <div class="desc">
                 <p>
-                  <%= @item[:long_bio] %>
+                  Born in Rīga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of "mainstream" "boring" technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standart library. Now freelancing and avaliable for hire.
                 </p>
               </div>
             </div>

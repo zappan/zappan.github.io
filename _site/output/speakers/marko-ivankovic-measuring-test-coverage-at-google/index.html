@@ -31,23 +31,32 @@
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name"><%= @item[:title] %></h1>
+            <h1 class="name">Measuring Test Coverage at Google</h1>
             <div class="desc">
-              <p><%= @item[:short_abstract] %></p>
+              <p>Did you ever wonder how testing at Google looks like? What tools we use to help us out and how do we measure and act on test coverage?
+</p>
               <p>
-                <%= @item[:long_abstract] %>
+                A short introduction on the way Google tests it's products, with a short overview of the development process and what tools we use.
+
+This will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.
+
+In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.
+
               </p>
             </div>
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+              <img src="http://2014.webcampzg.org/images/speakers/marko-ivankovic.png" alt="Marko Ivanković" />
             </div>
             <div class="info">
-              <h2 class="name"><%= @item[:name] %></h2>
+              <h2 class="name">Marko Ivanković</h2>
               <div class="desc">
                 <p>
-                  <%= @item[:long_bio] %>
+                  Senior Software Engineer in Test at Google. Tech lead in the Ads Engineering Productivity group in Zurich. Specializing in test coverage and random data generation.
+
+MSc of Computer Science at FER - University of Zagreb.
+
                 </p>
               </div>
             </div>

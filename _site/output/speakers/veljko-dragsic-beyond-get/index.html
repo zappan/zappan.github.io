@@ -31,23 +31,37 @@
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name"><%= @item[:title] %></h1>
+            <h1 class="name">Beyond GET</h1>
             <div class="desc">
-              <p><%= @item[:short_abstract] %></p>
+              <p>Shaping REST API responses with advanced query algebra.</p>
               <p>
-                <%= @item[:long_abstract] %>
+                Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.
+
+The example query below would result in a list of articles ordered by creation date, whose title contains "REST" with embedded author objects:
+
+```
+GET /articles?title=%REST%&embed=author&order=created_at:desc
+```
+
+This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.
               </p>
             </div>
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+              <img src="http://2014.webcampzg.org/images/speakers/veljko-dragasic.png" alt="Veljko Dragšić" />
             </div>
             <div class="info">
-              <h2 class="name"><%= @item[:name] %></h2>
+              <h2 class="name">Veljko Dragšić</h2>
               <div class="desc">
                 <p>
-                  <%= @item[:long_bio] %>
+                  I'm software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.
+
+I currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.
+
+Previous experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.
+
+I'm passionate about functional programming and would consider myself as Haskell newbie.
                 </p>
               </div>
             </div>
