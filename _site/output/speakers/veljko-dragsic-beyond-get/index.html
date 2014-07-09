@@ -34,17 +34,17 @@
             <h1 class="name">Beyond GET</h1>
             <div class="desc">
               <p>Shaping REST API responses with advanced query algebra.</p>
-              <p>
-                Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.
 
-The example query below would result in a list of articles ordered by creation date, whose title contains "REST" with embedded author objects:
+              <p>Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don&#39;t have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.</p>
 
-```
-GET /articles?title=%REST%&embed=author&order=created_at:desc
-```
+<p>The example query below would result in a list of articles ordered by creation date, whose title contains &quot;REST&quot; with embedded author objects:</p>
 
-This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.
-              </p>
+<p><code>
+GET /articles?title=%REST%&amp;embed=author&amp;order=created_at:desc
+</code></p>
+
+<p>This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -54,15 +54,14 @@ This talk will give a proposal of a standardized query algebra, which various fa
             <div class="info">
               <h2 class="name">Veljko Dragšić</h2>
               <div class="desc">
-                <p>
-                  I'm software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.
+                <p>I&#39;m software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.</p>
 
-I currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.
+<p>I currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.</p>
 
-Previous experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.
+<p>Previous experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.</p>
 
-I'm passionate about functional programming and would consider myself as Haskell newbie.
-                </p>
+<p>I&#39;m passionate about functional programming and would consider myself as Haskell newbie.</p>
+
               </div>
             </div>
           </div>

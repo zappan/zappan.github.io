@@ -10,8 +10,11 @@ module Nanoc3::DataSources
         require 'json'
         require 'enumerator'
         require 'babosa'
+        require 'redcarpet'
 
         # Parse as JSON
+        # 
+        markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
         
         raw_items = JSON.parse(File.read('speakers/speakers.json'))
 
@@ -19,15 +22,15 @@ module Nanoc3::DataSources
         raw_items.each_with_index.map do |raw_item, i|
           # Get data
           attributes = {
-            short_abstract: raw_item['short_abstract'],
-            long_abstract: raw_item['long_abstract'],
+            short_abstract: markdown.render(raw_item['short_abstract']),
+            long_abstract: markdown.render(raw_item['long_abstract']),
             title: raw_item['title'],
             image: raw_item['speaker']['image'],
             name: raw_item['speaker']['name'],
             twitter: raw_item['speaker']['twitter'],
             github: raw_item['speaker']['github'],
-            long_bio: raw_item['speaker']['long_bio'],
-            short_bio: raw_item['speaker']['short_bio'],
+            long_bio: markdown.render(raw_item['speaker']['long_bio']),
+            short_bio: markdown.render(raw_item['speaker']['short_bio']),
           }
           identifier = [attributes[:name], attributes[:title]].join(' ').to_slug.normalize.to_s
           mtime = nil

@@ -78,7 +78,7 @@
       "short_bio": "Latvian. Zera yisrael, programmer, cryptoconformist, caldari. Erlang professional. I enjoy discrete math and progressive rock. 0xFD6ADF70.",
       "name": "Jonn Mostovoy",
       "twitter": "podmostom",
-      "long_bio": "Born in Rīga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of \"mainstream\" \"boring\" technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standart library. Now freelancing and avaliable for hire.",
+      "long_bio": "Born in Rīga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of \"mainstream\" \"boring\" technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standard library. Now freelancing and available for hire.",
       "image": "http://2014.webcampzg.org/images/speakers/jonn-mostovoy.png",
       "shirt": "Male L"
     }
@@ -117,7 +117,7 @@
     },
     "short_abstract": "Vagrant let you build development environments that are portable and reproducible",
     "language": "English",
-    "title": "vagrant to the rescue",
+    "title": "Vagrant to the rescue",
     "level": "Elementary",
     "submitted": {
       "sec": 1403558813,
@@ -229,7 +229,7 @@
     },
     "short_abstract": "Ensuring data consistency and mutation accountability when aggregating differing data streams, while still making that data your own.",
     "language": "English",
-    "title": "Agreggating data consistently and accountably.",
+    "title": "Agreggating data consistently and accountably",
     "level": "Advanced",
     "submitted": {
       "sec": 1404138998,
@@ -313,7 +313,7 @@
     },
     "short_abstract": "Did you ever wonder how testing at Google looks like? What tools we use to help us out and how do we measure and act on test coverage?\n",
     "language": "English",
-    "title": "Measuring Test Coverage at Google",
+    "title": "Measuring test coverage at Google",
     "level": "Intermediate",
     "submitted": {
       "sec": 1403971939,

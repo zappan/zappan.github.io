@@ -1,4 +1,4 @@
-{:	data{aI"/:ET{:default{	:	lastI"¹H<!DOCTYPE HTML>
+{:	data{aI"/:ET{:default{	:	lastI"¸H<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -104,7 +104,7 @@
             
             <li>
               Sebastian GÃ¶ttschkes -
-              <a href="/speakers/sebastian-gottschkes-vagrant-to-the-rescue/">vagrant to the rescue</a>
+              <a href="/speakers/sebastian-gottschkes-vagrant-to-the-rescue/">Vagrant to the rescue</a>
             </li>
             
             <li>
@@ -124,7 +124,7 @@
             
             <li>
               Nikica JokiÄ‡ -
-              <a href="/speakers/nikica-jokic-agreggating-data-consistently-and-accountably/">Agreggating data consistently and accountably.</a>
+              <a href="/speakers/nikica-jokic-agreggating-data-consistently-and-accountably/">Agreggating data consistently and accountably</a>
             </li>
             
             <li>
@@ -139,7 +139,7 @@
             
             <li>
               Marko IvankoviÄ‡ -
-              <a href="/speakers/marko-ivankovic-measuring-test-coverage-at-google/">Measuring Test Coverage at Google</a>
+              <a href="/speakers/marko-ivankovic-measuring-test-coverage-at-google/">Measuring test coverage at Google</a>
             </li>
             
           </ul>
@@ -7054,7 +7054,7 @@ This will be followed by a more detailed presentation of how automated testing i
 
 In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.
 ;T;
-@;@I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"d<!DOCTYPE HTML>
+@;@I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"#<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7090,9 +7090,9 @@ In the end, I will present the vast amount of coverage data, spanning more than 
             <h1 class="name">Redis in practice</h1>
             <div class="desc">
               <p>Intro into Redis, Lua scripts i debuggin of Lua scripts in Redis. Real life examples how can Redis speed up your application.</p>
-              <p>
-                Interesting things about redis. Horizontal and vertical scailing. Writing Lua scripts to reduse network traffic and to speed up whole application. Not so obvious usages of redis in real life.
-              </p>
+
+              <p>Interesting things about redis. Horizontal and vertical scailing. Writing Lua scripts to reduse network traffic and to speed up whole application. Not so obvious usages of redis in real life.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7102,9 +7102,8 @@ In the end, I will present the vast amount of coverage data, spanning more than 
             <div class="info">
               <h2 class="name">Marijan Å uflaj</h2>
               <div class="desc">
-                <p>
-                  Young developer willing to learn new things and explore new technologies. Also I like to share my experience about what I know and what I have learned so far. As a student, I work for Trikoder d.o.o. and with few other developers I take care of njuskalo.hr.
-                </p>
+                <p>Young developer willing to learn new things and explore new technologies. Also I like to share my experience about what I know and what I have learned so far. As a student, I work for Trikoder d.o.o. and with few other developers I take care of njuskalo.hr.</p>
+
               </div>
             </div>
           </div>
@@ -7178,8 +7177,9 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"¿Interesting things about redis. Horizontal and vertical scailing. Writing Lua scripts to reduse network traffic and to speed up whole application. Not so obvious usages of redis in real life.;T;
-@;@I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"Ì<!DOCTYPE HTML>
+;T;	I"Ç<p>Interesting things about redis. Horizontal and vertical scailing. Writing Lua scripts to reduse network traffic and to speed up whole application. Not so obvious usages of redis in real life.</p>
+;T;
+@;@I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"‹<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7215,10 +7215,10 @@ document.write(unescape("%3Cscript%20src='"+
             <h1 class="name">Dashboards for devops and other web folks</h1>
             <div class="desc">
               <p>Importance of monitoring key aspects of your web application and organizing gathered data so you can instinctively react and fix problems.</p>
-              <p>
-                It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
-Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.
-              </p>
+
+              <p>It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
+Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7228,10 +7228,9 @@ Talk will focus on importance of monitoring web applications and give advice on 
             <div class="info">
               <h2 class="name">Luka MuÅ¾iniÄ‡</h2>
               <div class="desc">
-                <p>
-                  Passionate about being a developer, teacher and mentor for newcomers into world of programming. Involved in organizing ZgPHP user group meetings, workshops and conferences. 
-Currently working as senior software engineer for HomeExchange. Enjoys playing and watching odd and unpopular sports, at least in Croatia.
-                </p>
+                <p>Passionate about being a developer, teacher and mentor for newcomers into world of programming. Involved in organizing ZgPHP user group meetings, workshops and conferences. 
+Currently working as senior software engineer for HomeExchange. Enjoys playing and watching odd and unpopular sports, at least in Croatia.</p>
+
               </div>
             </div>
           </div>
@@ -7305,9 +7304,10 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"ÏIt would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
-Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.;T;
-@;@I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"p<!DOCTYPE HTML>
+;T;	I"×<p>It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
+Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.</p>
+;T;
+@;@I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"]<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7342,14 +7342,14 @@ Talk will focus on importance of monitoring web applications and give advice on 
           <div class="talk-info">
             <h1 class="name">Modern Approaches to the Javascript Problem</h1>
             <div class="desc">
-              <p>A talk about one possible solution to the JavaScript problem. I'll talk about the way I develop for web â€” React/OM provides expressive frontend; Elixir provides scalable backend. </p>
-              <p>
-                It's well known that JavaScript wasn't designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.
+              <p>A talk about one possible solution to the JavaScript problem. I&#39;ll talk about the way I develop for web â€” React/OM provides expressive frontend; Elixir provides scalable backend. </p>
 
-When such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few â€” defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.
+              <p>It&#39;s well known that JavaScript wasn&#39;t designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.</p>
 
-In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.
-              </p>
+<p>When such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few â€” defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.</p>
+
+<p>In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7359,9 +7359,8 @@ In this talk we examine the modern approaches to fixing JavaScript. Our goal is 
             <div class="info">
               <h2 class="name">Jonn Mostovoy</h2>
               <div class="desc">
-                <p>
-                  Born in RÄ«ga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of "mainstream" "boring" technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standart library. Now freelancing and avaliable for hire.
-                </p>
+                <p>Born in RÄ«ga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of &quot;mainstream&quot; &quot;boring&quot; technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standard library. Now freelancing and available for hire.</p>
+
               </div>
             </div>
           </div>
@@ -7435,12 +7434,13 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"ÃIt's well known that JavaScript wasn't designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.
+;T;	I"á<p>It&#39;s well known that JavaScript wasn&#39;t designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.</p>
 
-When such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few â€” defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.
+<p>When such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few â€” defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.</p>
 
-In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.;T;
-@;@I")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"j<!DOCTYPE HTML>
+<p>In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.</p>
+;T;
+@;@I")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"x<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7476,17 +7476,17 @@ In this talk we examine the modern approaches to fixing JavaScript. Our goal is 
             <h1 class="name">Beyond GET</h1>
             <div class="desc">
               <p>Shaping REST API responses with advanced query algebra.</p>
-              <p>
-                Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.
 
-The example query below would result in a list of articles ordered by creation date, whose title contains "REST" with embedded author objects:
+              <p>Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don&#39;t have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.</p>
 
-```
-GET /articles?title=%REST%&embed=author&order=created_at:desc
-```
+<p>The example query below would result in a list of articles ordered by creation date, whose title contains &quot;REST&quot; with embedded author objects:</p>
 
-This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.
-              </p>
+<p><code>
+GET /articles?title=%REST%&amp;embed=author&amp;order=created_at:desc
+</code></p>
+
+<p>This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7496,15 +7496,14 @@ This talk will give a proposal of a standardized query algebra, which various fa
             <div class="info">
               <h2 class="name">Veljko DragÅ¡iÄ‡</h2>
               <div class="desc">
-                <p>
-                  I'm software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.
+                <p>I&#39;m software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.</p>
 
-I currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.
+<p>I currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.</p>
 
-Previous experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.
+<p>Previous experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.</p>
 
-I'm passionate about functional programming and would consider myself as Haskell newbie.
-                </p>
+<p>I&#39;m passionate about functional programming and would consider myself as Haskell newbie.</p>
+
               </div>
             </div>
           </div>
@@ -7578,16 +7577,17 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.
+;T;	I"=<p>Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don&#39;t have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.</p>
 
-The example query below would result in a list of articles ordered by creation date, whose title contains "REST" with embedded author objects:
+<p>The example query below would result in a list of articles ordered by creation date, whose title contains &quot;REST&quot; with embedded author objects:</p>
 
-```
-GET /articles?title=%REST%&embed=author&order=created_at:desc
-```
+<p><code>
+GET /articles?title=%REST%&amp;embed=author&amp;order=created_at:desc
+</code></p>
 
-This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.;T;
-@#;@"I":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"<!DOCTYPE HTML>
+<p>This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.</p>
+;T;
+@#;@"I":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"Ó<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7620,14 +7620,14 @@ This talk will give a proposal of a standardized query algebra, which various fa
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name">vagrant to the rescue</h1>
+            <h1 class="name">Vagrant to the rescue</h1>
             <div class="desc">
               <p>Vagrant let you build development environments that are portable and reproducible</p>
-              <p>
-                Many developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. 
-Within this talk, I'll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I'll talk about devops and configuration management briefly and show how one can get started with vagrant.
-After this talk, the audience knows what problems vagrant solves and how to get started.
-              </p>
+
+              <p>Many developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. 
+Within this talk, I&#39;ll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I&#39;ll talk about devops and configuration management briefly and show how one can get started with vagrant.
+After this talk, the audience knows what problems vagrant solves and how to get started.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7637,9 +7637,8 @@ After this talk, the audience knows what problems vagrant solves and how to get 
             <div class="info">
               <h2 class="name">Sebastian GÃ¶ttschkes</h2>
               <div class="desc">
-                <p>
-                  I co-founded my first company, Pictureplix, while still in university. Being responsible for the API that connected frontends with our production backend, I learned how to scale stuff and how important it is to develop with a stack that is close to the production environment. I joined wogibtswas.at, a location based bargain hunting plattform in mid 2013 and try to guide a team of software developers through the fog of business requirements. I am using PHP and Python in my free time for various spare projects. All of them run with vagrant of course.
-                </p>
+                <p>I co-founded my first company, Pictureplix, while still in university. Being responsible for the API that connected frontends with our production backend, I learned how to scale stuff and how important it is to develop with a stack that is close to the production environment. I joined wogibtswas.at, a location based bargain hunting plattform in mid 2013 and try to guide a team of software developers through the fog of business requirements. I am using PHP and Python in my free time for various spare projects. All of them run with vagrant of course.</p>
+
               </div>
             </div>
           </div>
@@ -7713,10 +7712,11 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"TMany developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. 
-Within this talk, I'll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I'll talk about devops and configuration management briefly and show how one can get started with vagrant.
-After this talk, the audience knows what problems vagrant solves and how to get started.;T;
-@(;@'I"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"0<!DOCTYPE HTML>
+;T;	I"d<p>Many developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. 
+Within this talk, I&#39;ll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I&#39;ll talk about devops and configuration management briefly and show how one can get started with vagrant.
+After this talk, the audience knows what problems vagrant solves and how to get started.</p>
+;T;
+@(;@'I"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"ô<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7752,16 +7752,15 @@ After this talk, the audience knows what problems vagrant solves and how to get 
             <h1 class="name">Ansible, just orchestrate it</h1>
             <div class="desc">
               <p>See why this award winning Python project has relevance for your work life through getting your servers under control</p>
-              <p>
-                Everyone should be using Vagrant or some similar tool for local developer environment.
+
+              <p>Everyone should be using Vagrant or some similar tool for local developer environment.
 Still those containers/VMs need to be configured somehow and on top of that your configuration system should be able to manage your staging and production servers as well, you could be using Puppet, Chef, Salt, shell scripts to achieve this.
 Recently a 3rd generation configuration management system has thown its hat into the ring, and that tools name is Ansible.
 The talk will show how Ansible approaches configuration management, software deployment, remote execution and other tasks.
-We will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. 
+We will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. </p>
 
-Join us for this talk and youâ€™ll see why this award winning Python project has relevance for your work life through getting your servers under control.
+<p>Join us for this talk and youâ€™ll see why this award winning Python project has relevance for your work life through getting your servers under control.</p>
 
-              </p>
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7771,13 +7770,11 @@ Join us for this talk and youâ€™ll see why this award winning Python project has
             <div class="info">
               <h2 class="name">Srdjan Vranac</h2>
               <div class="desc">
-                <p>
-                  I am a developer, consultant, mercenary (used to be known as freelancing).
+                <p>I am a developer, consultant, mercenary (used to be known as freelancing).
 I lead a small team that works on various projects ranging from small family businesses to Fortune 500 companies.
 I write terrible code that performs exceptionally and currently I am wrangling elePHPants and Pythons....
-My Interests are process automation, continuous integration and delivery, clean code, testing, best practices (you have to know them so you can break them if you have to), distributed systems
+My Interests are process automation, continuous integration and delivery, clean code, testing, best practices (you have to know them so you can break them if you have to), distributed systems</p>
 
-                </p>
               </div>
             </div>
           </div>
@@ -7851,15 +7848,15 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"§Everyone should be using Vagrant or some similar tool for local developer environment.
+;T;	I"µ<p>Everyone should be using Vagrant or some similar tool for local developer environment.
 Still those containers/VMs need to be configured somehow and on top of that your configuration system should be able to manage your staging and production servers as well, you could be using Puppet, Chef, Salt, shell scripts to achieve this.
 Recently a 3rd generation configuration management system has thown its hat into the ring, and that tools name is Ansible.
 The talk will show how Ansible approaches configuration management, software deployment, remote execution and other tasks.
-We will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. 
+We will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. </p>
 
-Join us for this talk and youâ€™ll see why this award winning Python project has relevance for your work life through getting your servers under control.
+<p>Join us for this talk and youâ€™ll see why this award winning Python project has relevance for your work life through getting your servers under control.</p>
 ;T;
-@-;@,I"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I" <!DOCTYPE HTML>
+@-;@,I"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"·<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7895,16 +7892,16 @@ Join us for this talk and youâ€™ll see why this award winning Python project has
             <h1 class="name">How, When, and Why Clojure?</h1>
             <div class="desc">
               <p>Clojure is a modern Lisp targeting JVM, CLR, and JavaScript. Is waking up mid-night screaming due to unmatched parentheses worth it?</p>
-              <p>
-                Lisp, the influential second-oldest high-level programming language, has been called "the most intelligent way to misuse a computer" and "the greatest single programming language ever designed". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.
 
-Clojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.
+              <p>Lisp, the influential second-oldest high-level programming language, has been called &quot;the most intelligent way to misuse a computer&quot; and &quot;the greatest single programming language ever designed&quot;. Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren&#39;t always too attractive to newcomers.</p>
 
-In this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).
+<p>Clojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.</p>
 
-(with-conference {:name "WebCampZG 2014"}
-    (praise "McCarthy"))
-              </p>
+<p>In this talk, we&#39;ll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).</p>
+
+<p>(with-conference {:name &quot;WebCampZG 2014&quot;}
+    (praise &quot;McCarthy&quot;))</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -7914,11 +7911,10 @@ In this talk, we'll quickly introduce Clojure and its ecosystem (why?), go throu
             <div class="info">
               <h2 class="name">Nikola PlejiÄ‡</h2>
               <div class="desc">
-                <p>
-                  Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there's an entire world of other languages, technologies, and approaches to developing software out there.
+                <p>Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there&#39;s an entire world of other languages, technologies, and approaches to developing software out there.</p>
 
-I'm a big fan of free software, a regular at Zagreb's Hacklab in Mama, and a member of various Croatian tech communities.
-                </p>
+<p>I&#39;m a big fan of free software, a regular at Zagreb&#39;s Hacklab in Mama, and a member of various Croatian tech communities.</p>
+
               </div>
             </div>
           </div>
@@ -7992,15 +7988,16 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"(Lisp, the influential second-oldest high-level programming language, has been called "the most intelligent way to misuse a computer" and "the greatest single programming language ever designed". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.
+;T;	I"u<p>Lisp, the influential second-oldest high-level programming language, has been called &quot;the most intelligent way to misuse a computer&quot; and &quot;the greatest single programming language ever designed&quot;. Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren&#39;t always too attractive to newcomers.</p>
 
-Clojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.
+<p>Clojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.</p>
 
-In this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).
+<p>In this talk, we&#39;ll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).</p>
 
-(with-conference {:name "WebCampZG 2014"}
-    (praise "McCarthy"));T;
-@2;@1I"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"é<!DOCTYPE HTML>
+<p>(with-conference {:name &quot;WebCampZG 2014&quot;}
+    (praise &quot;McCarthy&quot;))</p>
+;T;
+@2;@1I"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"Ë<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8036,15 +8033,15 @@ In this talk, we'll quickly introduce Clojure and its ecosystem (why?), go throu
             <h1 class="name">Thinking in actors</h1>
             <div class="desc">
               <p>Implementing highly concurrent backend systems using actor model.</p>
-              <p>
-                This talk will present a medium-level design of the live betting system I've built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.
 
-Assuming an audience of experienced backend developers, the talk will provide a bare minimum of theory, and then focus on presenting various decisions made in the system, starting from accepting the data from the external provider, reconciling it with internal database, categorizing it, and pushing it to end-users (browsers).
+              <p>This talk will present a medium-level design of the live betting system I&#39;ve built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.</p>
 
-After the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.
+<p>Assuming an audience of experienced backend developers, the talk will provide a bare minimum of theory, and then focus on presenting various decisions made in the system, starting from accepting the data from the external provider, reconciling it with internal database, categorizing it, and pushing it to end-users (browsers).</p>
 
-This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.
-              </p>
+<p>After the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.</p>
+
+<p>This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -8054,9 +8051,8 @@ This will be a highly technical talk. Expect a lot of diagrams with an occasiona
             <div class="info">
               <h2 class="name">SaÅ¡a JuriÄ‡</h2>
               <div class="desc">
-                <p>
-                  A freelancer working on a revolutionary data anonymization system for Aircloak with previous experience in large web and desktop projects using various languages and technologies such as Elixir, Erlang, Ruby, JavaScript, C#, C++. The author of the pending Manning book "Elixir in Action", and an occasional blogger (http://theerlangelist.com). 
-                </p>
+                <p>A freelancer working on a revolutionary data anonymization system for Aircloak with previous experience in large web and desktop projects using various languages and technologies such as Elixir, Erlang, Ruby, JavaScript, C#, C++. The author of the pending Manning book &quot;Elixir in Action&quot;, and an occasional blogger (http://theerlangelist.com). </p>
+
               </div>
             </div>
           </div>
@@ -8130,14 +8126,15 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"2This talk will present a medium-level design of the live betting system I've built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.
+;T;	I"S<p>This talk will present a medium-level design of the live betting system I&#39;ve built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.</p>
 
-Assuming an audience of experienced backend developers, the talk will provide a bare minimum of theory, and then focus on presenting various decisions made in the system, starting from accepting the data from the external provider, reconciling it with internal database, categorizing it, and pushing it to end-users (browsers).
+<p>Assuming an audience of experienced backend developers, the talk will provide a bare minimum of theory, and then focus on presenting various decisions made in the system, starting from accepting the data from the external provider, reconciling it with internal database, categorizing it, and pushing it to end-users (browsers).</p>
 
-After the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.
+<p>After the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.</p>
 
-This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.;T;
-@7;@6I"J/speakers/nikica-jokic-agreggating-data-consistently-and-accountably/;T{;{	;I"Ü<!DOCTYPE HTML>
+<p>This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.</p>
+;T;
+@7;@6I"J/speakers/nikica-jokic-agreggating-data-consistently-and-accountably/;T{;{	;I"±<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8170,14 +8167,14 @@ This will be a highly technical talk. Expect a lot of diagrams with an occasiona
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name">Agreggating data consistently and accountably.</h1>
+            <h1 class="name">Agreggating data consistently and accountably</h1>
             <div class="desc">
               <p>Ensuring data consistency and mutation accountability when aggregating differing data streams, while still making that data your own.</p>
-              <p>
-                Imagine you're dealing with social media networks. You're fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what's the real state of data?
 
-In this talk, an abstraction layer that was built to solve the described problem will be presented. It's called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.
-              </p>
+              <p>Imagine you&#39;re dealing with social media networks. You&#39;re fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what&#39;s the real state of data?</p>
+
+<p>In this talk, an abstraction layer that was built to solve the described problem will be presented. It&#39;s called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -8187,9 +8184,8 @@ In this talk, an abstraction layer that was built to solve the described problem
             <div class="info">
               <h2 class="name">Nikica JokiÄ‡</h2>
               <div class="desc">
-                <p>
-                  Software developer, working for @bitovi. I dig programming languages, all kinds.
-                </p>
+                <p>Software developer, working for @bitovi. I dig programming languages, all kinds.</p>
+
               </div>
             </div>
           </div>
@@ -8263,10 +8259,11 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"ÉImagine you're dealing with social media networks. You're fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what's the real state of data?
+;T;	I"è<p>Imagine you&#39;re dealing with social media networks. You&#39;re fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what&#39;s the real state of data?</p>
 
-In this talk, an abstraction layer that was built to solve the described problem will be presented. It's called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.;T;
-@<;@;I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"<!DOCTYPE HTML>
+<p>In this talk, an abstraction layer that was built to solve the described problem will be presented. It&#39;s called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.</p>
+;T;
+@<;@;I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"Û<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8301,15 +8298,14 @@ In this talk, an abstraction layer that was built to solve the described problem
           <div class="talk-info">
             <h1 class="name">ZeroMQ - toolset for high-performance distributed applications</h1>
             <div class="desc">
-              <p>ZeroMQ is a messaging library which lets you write scalable and performant distributed software. Or, as some say, sockets on steroids.
-</p>
-              <p>
-                ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.
+              <p>ZeroMQ is a messaging library which lets you write scalable and performant distributed software. Or, as some say, sockets on steroids.</p>
 
-ZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.
+              <p>ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.</p>
 
-This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.
-              </p>
+<p>ZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.</p>
+
+<p>This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -8319,14 +8315,12 @@ This talk will discuss various distributed/concurrent scenarios and show how Zer
             <div class="info">
               <h2 class="name">Zdeslav VojkoviÄ‡</h2>
               <div class="desc">
-                <p>
-                  Zdeslav Vojkovic started programming ages ago, when ZX Spectrum and C64 were synonyms for home computer. 
+                <p>Zdeslav Vojkovic started programming ages ago, when ZX Spectrum and C64 were synonyms for home computer. </p>
 
-He writes code professionally for more than 15 years, has worked in various industries, from automotive to financial, and is co-owner of a small software development workshop where he works as a consultant/contractor/whatever for various clients whom he tries to educate about advantages of open source software.
+<p>He writes code professionally for more than 15 years, has worked in various industries, from automotive to financial, and is co-owner of a small software development workshop where he works as a consultant/contractor/whatever for various clients whom he tries to educate about advantages of open source software.</p>
 
-In his spare time, he tries to tame his three kids, without significant success.
+<p>In his spare time, he tries to tame his three kids, without significant success.</p>
 
-                </p>
               </div>
             </div>
           </div>
@@ -8400,12 +8394,13 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"+ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.
+;T;	I"A<p>ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.</p>
 
-ZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.
+<p>ZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.</p>
 
-This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.;T;
-@A;@@I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"|<!DOCTYPE HTML>
+<p>This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.</p>
+;T;
+@A;@@I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"K<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8441,10 +8436,10 @@ This talk will discuss various distributed/concurrent scenarios and show how Zer
             <h1 class="name">Gaming a drone simulator</h1>
             <div class="desc">
               <p>How do you develop a 3D flight simulator for an experimental drone? Take an open source gaming engine, hone in a lot of Python, and here is your flying drone!</p>
-              <p>
-                This simulator was developed for an EU research project: AIRobots. 
-How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I'll walk you through the tools and libraries required for this project, its many pitfalls and its successes. 
-              </p>
+
+              <p>This simulator was developed for an EU research project: AIRobots. 
+How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I&#39;ll walk you through the tools and libraries required for this project, its many pitfalls and its successes. </p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -8454,10 +8449,9 @@ How do you tie the real drone control system, based on Simulink, to Blender, in 
             <div class="info">
               <h2 class="name">Anna Chiara Bellini</h2>
               <div class="desc">
-                <p>
-                  With almost twenty years of experience in development, I have been working for any kind of project and any size of company, From micro-startups with crazy hours and no rules to large organizations with hyper-detailed specs. In between I've worked on several research projects and I've taught a lot.
-Right now I'm working almost exclusively as a freelancer and trying to connect with as many developers as possible. My current goal is to become proficient in data science. 
-                </p>
+                <p>With almost twenty years of experience in development, I have been working for any kind of project and any size of company, From micro-startups with crazy hours and no rules to large organizations with hyper-detailed specs. In between I&#39;ve worked on several research projects and I&#39;ve taught a lot.
+Right now I&#39;m working almost exclusively as a freelancer and trying to connect with as many developers as possible. My current goal is to become proficient in data science. </p>
+
               </div>
             </div>
           </div>
@@ -8531,9 +8525,10 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"ËThis simulator was developed for an EU research project: AIRobots. 
-How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I'll walk you through the tools and libraries required for this project, its many pitfalls and its successes. ;T;
-@F;@EI"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"ï<!DOCTYPE HTML>
+;T;	I"×<p>This simulator was developed for an EU research project: AIRobots. 
+How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I&#39;ll walk you through the tools and libraries required for this project, its many pitfalls and its successes. </p>
+;T;
+@F;@EI"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"Ä<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8566,18 +8561,16 @@ How do you tie the real drone control system, based on Simulink, to Blender, in 
       <div class="wrap">
         <article class="news">
           <div class="talk-info">
-            <h1 class="name">Measuring Test Coverage at Google</h1>
+            <h1 class="name">Measuring test coverage at Google</h1>
             <div class="desc">
-              <p>Did you ever wonder how testing at Google looks like? What tools we use to help us out and how do we measure and act on test coverage?
-</p>
-              <p>
-                A short introduction on the way Google tests it's products, with a short overview of the development process and what tools we use.
+              <p>Did you ever wonder how testing at Google looks like? What tools we use to help us out and how do we measure and act on test coverage?</p>
 
-This will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.
+              <p>A short introduction on the way Google tests it&#39;s products, with a short overview of the development process and what tools we use.</p>
 
-In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.
+<p>This will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.</p>
 
-              </p>
+<p>In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.</p>
+
             </div>
           </div>
           <div class="speaker-info cf">
@@ -8587,12 +8580,10 @@ In the end, I will present the vast amount of coverage data, spanning more than 
             <div class="info">
               <h2 class="name">Marko IvankoviÄ‡</h2>
               <div class="desc">
-                <p>
-                  Senior Software Engineer in Test at Google. Tech lead in the Ads Engineering Productivity group in Zurich. Specializing in test coverage and random data generation.
+                <p>Senior Software Engineer in Test at Google. Tech lead in the Ads Engineering Productivity group in Zurich. Specializing in test coverage and random data generation.</p>
 
-MSc of Computer Science at FER - University of Zagreb.
+<p>MSc of Computer Science at FER - University of Zagreb.</p>
 
-                </p>
               </div>
             </div>
           </div>
@@ -8666,10 +8657,10 @@ document.write(unescape("%3Cscript%20src='"+
 
 </body>
 </html>
-;T;	I"QA short introduction on the way Google tests it's products, with a short overview of the development process and what tools we use.
+;T;	I"j<p>A short introduction on the way Google tests it&#39;s products, with a short overview of the development process and what tools we use.</p>
 
-This will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.
+<p>This will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.</p>
 
-In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.
+<p>In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.</p>
 ;T;
 @K;@JI"*/images/speakers/anna-chiara-bellini/;T{;{ I"$/images/speakers/jonn-mostovoy/;T{;{ I"#/images/speakers/luka-muzinic/;T{;{ I"%/images/speakers/marijan-suflaj/;T{;{ I"&/images/speakers/marko-ivankovic/;T{;{ I"#/images/speakers/nikica-jokic/;T{;{ I"$/images/speakers/nikola-plejic/;T{;{ I"!/images/speakers/sasa-juric/;T{;{ I"+/images/speakers/sebastian-gottschkes/;T{;{ I"$/images/speakers/srdjan-vranac/;T{;{ I"&/images/speakers/veljko-dragasic/;T{;{ I"'/images/speakers/zdeslav-vojkovic/;T{;{ :versioni
