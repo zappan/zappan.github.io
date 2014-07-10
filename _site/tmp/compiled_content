@@ -1,4 +1,4 @@
-{:	data{bI"/:ET{:default{	:	lastI"�H<!DOCTYPE HTML>
+{:	data{dI"/:ET{:default{	:	lastI"J<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -225,7 +225,7 @@
 
       <ul class="speakers-list cf">
         
-        <li>
+        <li id="speaker-marijan-suflaj">
           <a href="/speakers/marijan-suflaj-redis-in-practice/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/marijan-suflaj.png" alt="Marijan Šuflaj"></span>
             <span class="name">Marijan Šuflaj</span>
@@ -233,7 +233,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-luka-muzinic">
           <a href="/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/luka-muzinic.png" alt="Luka Mužinić"></span>
             <span class="name">Luka Mužinić</span>
@@ -243,7 +243,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-jonn-mostovoy">
           <a href="/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/jonn-mostovoy.png" alt="Jonn Mostovoy"></span>
             <span class="name">Jonn Mostovoy</span>
@@ -253,7 +253,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-veljko-dragsic">
           <a href="/speakers/veljko-dragsic-beyond-get/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/veljko-dragasic.png" alt="Veljko Dragšić"></span>
             <span class="name">Veljko Dragšić</span>
@@ -263,7 +263,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-sebastian-gottschkes">
           <a href="/speakers/sebastian-gottschkes-vagrant-to-the-rescue/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/sebastian-gottschkes.png" alt="Sebastian Göttschkes"></span>
             <span class="name">Sebastian Göttschkes</span>
@@ -273,7 +273,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-srdjan-vranac">
           <a href="/speakers/srdjan-vranac-ansible-just-orchestrate-it/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/srdjan-vranac.png" alt="Srdjan Vranac"></span>
             <span class="name">Srdjan Vranac</span>
@@ -283,7 +283,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-nikola-plejic">
           <a href="/speakers/nikola-plejic-how-when-and-why-clojure/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/nikola-plejic.png" alt="Nikola Plejić"></span>
             <span class="name">Nikola Plejić</span>
@@ -293,7 +293,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-sasa-juric">
           <a href="/speakers/sasa-juric-thinking-in-actors/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/sasa-juric.png" alt="Saša Jurić"></span>
             <span class="name">Saša Jurić</span>
@@ -303,7 +303,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-nikica-jokic">
           <a href="/speakers/nikica-jokic-aggregating-data-consistently-and-accountably/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/nikica-jokic.png" alt="Nikica Jokić"></span>
             <span class="name">Nikica Jokić</span>
@@ -313,7 +313,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-zdeslav-vojkovic">
           <a href="/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/zdeslav-vojkovic.png" alt="Zdeslav Vojković"></span>
             <span class="name">Zdeslav Vojković</span>
@@ -323,7 +323,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-anna-chiara-bellini">
           <a href="/speakers/anna-chiara-bellini-gaming-a-drone-simulator/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/anna-chiara-bellini.png" alt="Anna Chiara Bellini"></span>
             <span class="name">Anna Chiara Bellini</span>
@@ -333,7 +333,7 @@
           </a>
         </li>
         
-        <li>
+        <li id="speaker-marko-ivankovic">
           <a href="/speakers/marko-ivankovic-measuring-test-coverage-at-google/" class="speaker">
             <span class="avatar"><img src="http://2014.webcampzg.org/images/speakers/marko-ivankovic.png" alt="Marko Ivanković"></span>
             <span class="name">Marko Ivanković</span>
@@ -772,7 +772,7 @@ a:hover {
 
   line-height: 20px;
 }
-;T;@I"/stylesheets/stylesheet/;T{;{;I"�n/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+;T;@I"/stylesheets/stylesheet/;T{;{;I"Op/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -1939,6 +1939,16 @@ a.back-to-top {
   border-radius: 0px 0px 3px 3px;
 }
 
+/* line 631, content/stylesheets/stylesheet.scss */
+#speaker-nikica-jokic span.avatar:hover img {
+  content: url("../images/speakers/nikica-jokic2.png");
+  -webkit-transform: rotate(-45deg) scale(0.65);
+  -moz-transform: rotate(-45deg) scale(0.65);
+  -ms-transform: rotate(-45deg) scale(0.65);
+  -o-transform: rotate(-45deg) scale(0.65);
+  transform: rotate(-45deg) scale(0.65);
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -1948,7 +1958,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 640, content/stylesheets/stylesheet.scss */
+/* line 645, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1957,7 +1967,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 645, content/stylesheets/stylesheet.scss */
+/* line 650, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1966,11 +1976,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 653, content/stylesheets/stylesheet.scss */
+/* line 658, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"�+@import "compass";
+;T;	I"�,@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -2598,6 +2608,11 @@ a.back-to-top {
   position: absolute;
   margin-top: -2px;
   @include border-radius(0px 0px 3px 3px);
+}
+
+#speaker-nikica-jokic span.avatar:hover img {
+  content: url('../images/speakers/nikica-jokic2.png');
+  @include transform(rotate(-45deg) scale(0.65));
 }
 /**
  * For modern browsers
@@ -8792,4 +8807,4 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk, an abstraction layer that was built to solve the described problem will be presented. It&#39;s called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.</p>
 ;T;
-@t;@s:versioni
+@t;@sI"%/images/speakers/nikica-joikic2/;T{;{ I"$/images/speakers/nikica-jokic2/;T{;{ :versioni

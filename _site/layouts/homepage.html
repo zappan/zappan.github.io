@@ -150,7 +150,7 @@
 
       <ul class="speakers-list cf">
         <% speakers.each do |speaker| %>
-        <li>
+        <li id="speaker-<%= speaker[:name].to_slug.normalize.to_s %>">
           <a href="<%= speaker.identifier %>" class="speaker">
             <span class="avatar"><img src="<%= speaker[:image] %>" alt="<%= speaker[:name] %>"></span>
             <span class="name"><%= speaker[:name] %></span>
