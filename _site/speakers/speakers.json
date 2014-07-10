@@ -3,7 +3,7 @@
     "_id": {
       "$id": "53af0c091414141d48963a0a"
     },
-    "short_abstract": "Intro into Redis, Lua scripts i debuggin of Lua scripts in Redis. Real life examples how can Redis speed up your application.",
+    "short_abstract": "Intro into Redis, Lua scripts and debugging of Lua scripts in Redis. Real life examples of how can Redis speed up your application.",
     "language": "English",
     "title": "Redis in practice",
     "level": "Intermediate",
@@ -12,7 +12,7 @@
       "usec": 0
     },
     "row_id": 15,
-    "long_abstract": "Interesting things about redis. Horizontal and vertical scailing. Writing Lua scripts to reduse network traffic and to speed up whole application. Not so obvious usages of redis in real life.",
+    "long_abstract": "Interesting things about Redis. Horizontal and vertical scaling. Writing Lua scripts to reduce network traffic and to speed up whole application. Not so obvious usages of redis in real life.",
     "status": "accepted",
     "speaker": {
       "_id": {
@@ -96,7 +96,7 @@
       "usec": 0
     },
     "row_id": 25,
-    "long_abstract": "Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.\n\nThe example query below would result in a list of articles ordered by creation date, whose title contains \"REST\" with embedded author objects:\n\n```\nGET /articles?title=%REST%&embed=author&order=created_at:desc\n```\n\nThis talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.",
+    "long_abstract": "Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.\n\nThe example query below would result in a list of articles ordered by creation date, whose title contains \"REST\" with embedded author objects: \n\n```\nGET /articles?title=%REST%&embed=author&order=created_at: desc\n```\n\nThis talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.",
     "status": "accepted",
     "speaker": {
       "_id": {
@@ -180,7 +180,7 @@
       "usec": 0
     },
     "row_id": 5,
-    "long_abstract": "Lisp, the influential second-oldest high-level programming language, has been called \"the most intelligent way to misuse a computer\" and \"the greatest single programming language ever designed\". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.\n\nClojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.\n\nIn this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).\n\n(with-conference {:name \"WebCampZG 2014\"}\n    (praise \"McCarthy\"))",
+    "long_abstract": "Lisp, the influential second-oldest high-level programming language, has been called \"the most intelligent way to misuse a computer\" and \"the greatest single programming language ever designed\". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.\n\nClojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.\n\nIn this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).\n\n(with-conference {: name \"WebCampZG 2014\"}\n   (praise \"McCarthy\"))",
     "status": "accepted",
     "speaker": {
       "_id": {
@@ -229,7 +229,7 @@
     },
     "short_abstract": "Ensuring data consistency and mutation accountability when aggregating differing data streams, while still making that data your own.",
     "language": "English",
-    "title": "Agreggating data consistently and accountably",
+    "title": "Aggregating data consistently and accountably",
     "level": "Advanced",
     "submitted": {
       "sec": 1404138998,
