@@ -12,7 +12,7 @@
       "usec": 0
     },
     "row_id": 15,
-    "long_abstract": "Interesting things about Redis. Horizontal and vertical scaling. Writing Lua scripts to reduce network traffic and to speed up whole application. Not so obvious usages of redis in real life.",
+    "long_abstract": "You know that old saying \"Right tool for the right job\"? I want to show you some jobs in which Redis is that right tool. We'll talk about some real life examples of how can Redis speed up your application and some of it's not so obvious usages.\n\nThere will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you'll have to debug those Lua scripts and I'll show you one interesting way of how to do it.",
     "status": "accepted",
     "speaker": {
       "_id": {
