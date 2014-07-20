@@ -1175,6 +1175,63 @@ a.back-to-top {
   transform: rotate(-45deg) scale(0.65);
 }
 
+/* line 637, content/stylesheets/stylesheet.scss */
+.supporter-wrap {
+  margin-bottom: 23px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid white;
+}
+/* line 641, content/stylesheets/stylesheet.scss */
+.supporter-wrap h2 {
+  color: #f8d800;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-size: 200%;
+  font-weight: normal;
+  margin: 0;
+}
+/* line 648, content/stylesheets/stylesheet.scss */
+.supporter-wrap p {
+  line-height: 1.5;
+}
+/* line 651, content/stylesheets/stylesheet.scss */
+.supporter-wrap b {
+  color: #f8d800;
+}
+/* line 654, content/stylesheets/stylesheet.scss */
+.supporter-wrap .progress {
+  border: 2px solid #f8d800;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  height: 23px;
+  margin-bottom: 20px;
+}
+/* line 659, content/stylesheets/stylesheet.scss */
+.supporter-wrap .progress .progress-bar {
+  -webkit-border-radius: 8px 0 0 8px;
+  -moz-border-radius: 8px 0 0 8px;
+  -ms-border-radius: 8px 0 0 8px;
+  -o-border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
+  background: #f8d800;
+  height: 100%;
+  width: 0;
+  -webkit-transition: width 0.5s ease-in;
+  -moz-transition: width 0.5s ease-in;
+  -o-transition: width 0.5s ease-in;
+  transition: width 0.5s ease-in;
+}
+/* line 670, content/stylesheets/stylesheet.scss */
+.supporter-wrap .sold {
+  float: left;
+}
+/* line 673, content/stylesheets/stylesheet.scss */
+.supporter-wrap .whos-coming {
+  float: right;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -1184,7 +1241,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 645, content/stylesheets/stylesheet.scss */
+/* line 690, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1193,7 +1250,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 650, content/stylesheets/stylesheet.scss */
+/* line 695, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1202,7 +1259,7 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 658, content/stylesheets/stylesheet.scss */
+/* line 703, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }

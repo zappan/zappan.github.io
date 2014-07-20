@@ -24,6 +24,7 @@ unless defined? LOADED_DEFAULT_CONFIG
 end
 
 passthrough '/fontawesome/*'
+passthrough '/javascripts/*'
 
 passthrough 'CNAME'
 

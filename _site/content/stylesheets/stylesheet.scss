@@ -632,6 +632,51 @@ a.back-to-top {
   content: url('../images/speakers/nikica-jokic2.png');
   @include transform(rotate(-45deg) scale(0.65));
 }
+
+
+.supporter-wrap {
+  margin-bottom: 23px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid white;
+  h2 {
+    color: #f8d800;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    font-weight: normal;
+    margin: 0;
+  }
+  p {
+    line-height: 1.5;
+  }
+  b {
+    color: #f8d800;
+  }
+  .progress {
+    border: 2px solid #f8d800;
+    @include border-radius(20px);
+    height: 23px;
+    margin-bottom: 20px;
+    .progress-bar {
+      @include border-radius(8px 0 0 8px);
+      background: #f8d800;
+      height: 100%;
+      width: 0;
+      -webkit-transition: width 0.5s ease-in;
+      -moz-transition: width 0.5s ease-in;
+      -o-transition: width 0.5s ease-in;
+      transition: width 0.5s ease-in;
+    }
+  }
+  .sold {
+    float: left;
+  }
+  .whos-coming {
+    float: right;
+  }
+}
+
+
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
