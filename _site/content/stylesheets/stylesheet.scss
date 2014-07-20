@@ -633,6 +633,18 @@ a.back-to-top {
   @include transform(rotate(-45deg) scale(0.65));
 }
 
+@-webkit-keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
+@-moz-keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
+@-o-keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
+@keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
 
 .supporter-wrap {
   margin-bottom: 23px;
@@ -673,8 +685,14 @@ a.back-to-top {
   .whos-coming {
     float: right;
   }
+  .loading {
+    color: white;
+    -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
+    -moz-animation: blinkloading 0.5s steps(10, start) infinite;
+    -o-animation: blinkloading 0.5s steps(10, start) infinite;
+    animation: blinkloading 0.5s steps(10, start) infinite;
+  }
 }
-
 
 
 /**

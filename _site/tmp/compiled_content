@@ -1223,7 +1223,7 @@ I"ó<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@I"/;T{;{	;I"à2<!DOCTYPE HTML>
+</article>;T;@I"/;T{;{	;I"È2<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1277,8 +1277,8 @@ I"ó<h2 class="section-title">Call for Papers</h2>
   <div class="progress">
     <div class="progress-bar"></div>
   </div>
-  <div class="sold">
-    <span>0 / 300</span> Supporter Packs sold!
+  <div class="sold loading">
+    Loading...
   </div>
   <!--
   <div class="whos-coming">
@@ -3379,7 +3379,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.</p>
 ;T;
-@±;@°I"/stylesheets/stylesheet/;T{;{;I"v/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+@±;@°I"/stylesheets/stylesheet/;T{;{;I"Py/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -4556,13 +4556,41 @@ a.back-to-top {
   transform: rotate(-45deg) scale(0.65);
 }
 
-/* line 637, content/stylesheets/stylesheet.scss */
+@-webkit-keyframes blinkloading {
+  /* line 637, content/stylesheets/stylesheet.scss */
+  to {
+    color: #0d0c0b;
+  }
+}
+
+@-moz-keyframes blinkloading {
+  /* line 640, content/stylesheets/stylesheet.scss */
+  to {
+    color: #0d0c0b;
+  }
+}
+
+@-o-keyframes blinkloading {
+  /* line 643, content/stylesheets/stylesheet.scss */
+  to {
+    color: #0d0c0b;
+  }
+}
+
+@keyframes blinkloading {
+  /* line 646, content/stylesheets/stylesheet.scss */
+  to {
+    color: #0d0c0b;
+  }
+}
+
+/* line 649, content/stylesheets/stylesheet.scss */
 .supporter-wrap {
   margin-bottom: 23px;
   padding-bottom: 24px;
   border-bottom: 1px solid white;
 }
-/* line 641, content/stylesheets/stylesheet.scss */
+/* line 653, content/stylesheets/stylesheet.scss */
 .supporter-wrap h2 {
   color: #f8d800;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -4570,15 +4598,15 @@ a.back-to-top {
   font-weight: normal;
   margin: 0;
 }
-/* line 648, content/stylesheets/stylesheet.scss */
+/* line 660, content/stylesheets/stylesheet.scss */
 .supporter-wrap p {
   line-height: 1.5;
 }
-/* line 651, content/stylesheets/stylesheet.scss */
+/* line 663, content/stylesheets/stylesheet.scss */
 .supporter-wrap b {
   color: #f8d800;
 }
-/* line 654, content/stylesheets/stylesheet.scss */
+/* line 666, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress {
   border: 2px solid #f8d800;
   -webkit-border-radius: 20px;
@@ -4589,7 +4617,7 @@ a.back-to-top {
   height: 23px;
   margin-bottom: 20px;
 }
-/* line 659, content/stylesheets/stylesheet.scss */
+/* line 671, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
   -webkit-border-radius: 8px 0 0 8px;
   -moz-border-radius: 8px 0 0 8px;
@@ -4604,13 +4632,21 @@ a.back-to-top {
   -o-transition: width 0.5s ease-in;
   transition: width 0.5s ease-in;
 }
-/* line 670, content/stylesheets/stylesheet.scss */
+/* line 682, content/stylesheets/stylesheet.scss */
 .supporter-wrap .sold {
   float: left;
 }
-/* line 673, content/stylesheets/stylesheet.scss */
+/* line 685, content/stylesheets/stylesheet.scss */
 .supporter-wrap .whos-coming {
   float: right;
+}
+/* line 688, content/stylesheets/stylesheet.scss */
+.supporter-wrap .loading {
+  color: white;
+  -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
+  -moz-animation: blinkloading 0.5s steps(10, start) infinite;
+  -o-animation: blinkloading 0.5s steps(10, start) infinite;
+  animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
 /**
@@ -4622,7 +4658,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 690, content/stylesheets/stylesheet.scss */
+/* line 708, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -4631,7 +4667,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 695, content/stylesheets/stylesheet.scss */
+/* line 713, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -4640,11 +4676,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 703, content/stylesheets/stylesheet.scss */
+/* line 721, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"®/@import "compass";
+;T;	I"´1@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -5279,6 +5315,18 @@ a.back-to-top {
   @include transform(rotate(-45deg) scale(0.65));
 }
 
+@-webkit-keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
+@-moz-keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
+@-o-keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
+@keyframes blinkloading {
+  to { color: #0d0c0b; }
+}
 
 .supporter-wrap {
   margin-bottom: 23px;
@@ -5319,8 +5367,14 @@ a.back-to-top {
   .whos-coming {
     float: right;
   }
+  .loading {
+    color: white;
+    -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
+    -moz-animation: blinkloading 0.5s steps(10, start) infinite;
+    -o-animation: blinkloading 0.5s steps(10, start) infinite;
+    animation: blinkloading 0.5s steps(10, start) infinite;
+  }
 }
-
 
 
 /**
@@ -5350,7 +5404,7 @@ a.back-to-top {
     *zoom: 1;
 }
 ;T;
-@µI"/about/;T{;{	;I"AE<!DOCTYPE HTML>
+@µI"/about/;T{;{	;I")E<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -5404,8 +5458,8 @@ a.back-to-top {
   <div class="progress">
     <div class="progress-bar"></div>
   </div>
-  <div class="sold">
-    <span>0 / 300</span> Supporter Packs sold!
+  <div class="sold loading">
+    Loading...
   </div>
   <!--
   <div class="whos-coming">
@@ -15137,7 +15191,7 @@ return jQuery;
 
 }));
 ;T;	@À;
-@ÀI"/javascripts/app/;T{;{;I"„(function(){
+@ÀI"/javascripts/app/;T{;{;I"¬(function(){
 	var supporterPacks = $('.supporter-wrap'),
 		ticketsUrl = 'https://www.entrio.hr/api/webcamp_2014/get_ticket_count?key=846b896bb5c710de27b957385be60a60',
 		names = ["Supporter package", "VIP tickets (supporter pack)"]
@@ -15155,7 +15209,7 @@ return jQuery;
 				}
 			}
 
-			$('.sold span').html(supporters + ' / 300');
+			$('.sold').html(supporters + ' / 300 Supporter Packs sold!').removeClass('loading');
 			$('.progress-bar').width((supporters / 300 * 100) + '%');
 		})
 	}
