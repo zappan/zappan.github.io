@@ -21,27 +21,42 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=722382704443005&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-  <main>
+  <main class="speaker-main">
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <%= render('partials/menu') %>
+      </div>
+      
     </header>
     <section class="content cf" id="content">
-
-      <%= render('partials/ctas') %>
 
       <div class="wrap">
         <%= yield %>
       </div>
 
-      <%= render('partials/social_networks') %>
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a Supporter Pack now &raquo;</b></a>
 
-
-
+      <div class="twitter-wrap twitter-wrap-simple">
+        <h3>
+          <a href="http://twitter.com/webcampzg">
+            <img src="/images/twitter.png" alt="">
+            @webcampzg on Twitter
+          </a>
+        </h3>
+        <h3 class="facebook">
+          <a href="http://facebook.com/WebCampZg">
+            <img src="/images/fb.png" alt="">
+            @webcampzg on Facebook
+          </a>
+        </h3>
+      </div>
 
     </section>
     <a href="#" class="back-to-top">&uarr; Back to top</a>
   </main>
+
   <%= render('partials/footer') %>
   <%= render('partials/scripts') %>
 </body>

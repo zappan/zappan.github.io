@@ -1,4 +1,4 @@
-{:	data{7I"/stylesheets/normalize/:ET{:default{:	lastI"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+{:	data{8I"/stylesheets/normalize/:ET{:default{:	lastI"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -820,7 +820,7 @@ table {
     border-spacing: 0;
 }
 ;T:pre@
-I"/sponsors/;T{;{	;I" <!DOCTYPE HTML>
+I"/sponsors/;T{;{	;I""<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -850,7 +850,21 @@ I"/sponsors/;T{;{	;I" <!DOCTYPE HTML>
     <p class="introduction">
       WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
     </p>
-    <hr>
+    <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" class="active">Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
     <section class="content cf" id="content">
 
       <div class="sponsorship-cfp-wrap cf">
@@ -947,7 +961,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"Ì<h2 class="section-title">Call for Sponsorship</h2>
@@ -974,7 +989,7 @@ I"Ì<h2 class="section-title">Call for Sponsorship</h2>
 
   <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
 </article>;T:	post@I"
-/cfp/;T{;{	;I"–#<!DOCTYPE HTML>
+/cfp/;T{;{	;I"(%<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1004,7 +1019,21 @@ I"Ì<h2 class="section-title">Call for Sponsorship</h2>
     <p class="introduction">
       WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
     </p>
-    <hr>
+    <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" class="active">Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
     <section class="content cf" id="content">
 
       <div class="sponsorship-cfp-wrap cf">
@@ -1133,7 +1162,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"Û<h2 class="section-title">Call for Papers</h2>
@@ -1223,7 +1253,7 @@ I"Û<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@I"/;T{;{	;I"»2<!DOCTYPE HTML>
+</article>;T;@I"/;T{;{	;I"∑3<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1253,7 +1283,21 @@ I"Û<h2 class="section-title">Call for Papers</h2>
     <p class="introduction">
       WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
     </p>
-    <hr>
+    <ul class="menu cf">
+  <li>
+    <a href="/" class="active">Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
     <section class="content cf" id="content">
       <div class="sponsorship-cfp-wrap cf">
   <a class="left-panel cf" href="/sponsors/index.html#content">
@@ -1280,11 +1324,10 @@ I"Û<h2 class="section-title">Call for Papers</h2>
   <div class="sold loading">
     Loading...
   </div>
-  <!--
   <div class="whos-coming">
-    <a href="/whos-coming/">See who's coming &raquo;</a>
+    <a href="/visitors/">See who's coming &raquo;</a>
   </div>
-  -->
+  
 </div>
         <article class="news">
   <h2>The first talks, Supporter Packs, English only, and much much more</h2>
@@ -1565,7 +1608,7 @@ I"^<article class="news">
   <p>
     With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
-</article>;T;@I"/images/hedr/;T{;{ I"/images/organizersbg/;T{;{ I"%/images/speakers/marijan-suflaj/;T{;{ I"$/images/speakers/nikica-jokic2/;T{;{ I"+/images/speakers/sebastian-gottschkes/;T{;{ I"$/images/speakers/jonn-mostovoy/;T{;{ I"#/images/speakers/nikica-jokic/;T{;{ I"!/images/speakers/sasa-juric/;T{;{ I"'/images/speakers/zdeslav-vojkovic/;T{;{ I"&/images/speakers/marko-ivankovic/;T{;{ I"&/images/speakers/veljko-dragasic/;T{;{ I"#/images/speakers/luka-muzinic/;T{;{ I"$/images/speakers/nikola-plejic/;T{;{ I"$/images/speakers/srdjan-vranac/;T{;{ I"*/images/speakers/anna-chiara-bellini/;T{;{ I"/images/fb/;T{;{ I"/images/twitter/;T{;{ I"/images/logo/;T{;{ I"/images/background/;T{;{ I""/images/organizers/python_hr/;T{;{ I"$/images/organizers/code_at_six/;T{;{ I"/images/organizers/hujak/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/zgphp/;T{;{ I"%/images/organizers/ms_community/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"/documents/sponsors/;T{;{ I"/supporter-packages/;T{;{	;I"„<!DOCTYPE HTML>
+</article>;T;@I"/images/hedr/;T{;{ I"/images/organizersbg/;T{;{ I"%/images/speakers/marijan-suflaj/;T{;{ I"$/images/speakers/nikica-jokic2/;T{;{ I"+/images/speakers/sebastian-gottschkes/;T{;{ I"$/images/speakers/jonn-mostovoy/;T{;{ I"#/images/speakers/nikica-jokic/;T{;{ I"!/images/speakers/sasa-juric/;T{;{ I"'/images/speakers/zdeslav-vojkovic/;T{;{ I"&/images/speakers/marko-ivankovic/;T{;{ I"&/images/speakers/veljko-dragasic/;T{;{ I"#/images/speakers/luka-muzinic/;T{;{ I"$/images/speakers/nikola-plejic/;T{;{ I"$/images/speakers/srdjan-vranac/;T{;{ I"*/images/speakers/anna-chiara-bellini/;T{;{ I"/images/fb/;T{;{ I"/images/twitter/;T{;{ I"/images/logo/;T{;{ I"/images/background/;T{;{ I""/images/organizers/python_hr/;T{;{ I"$/images/organizers/code_at_six/;T{;{ I"/images/organizers/hujak/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/zgphp/;T{;{ I"%/images/organizers/ms_community/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"/documents/sponsors/;T{;{ I"/supporter-packages/;T{;{	;I"@<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1707,6 +1750,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"<h2 class="section-title">Supporter packs </h2>
@@ -1766,7 +1811,7 @@ I"<h2 class="section-title">Supporter packs </h2>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="webcampzg" data-hashtags="wczg">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>;T;@uI"/CNAME/;T{;{ I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"Î<!DOCTYPE HTML>
+</div>;T;@uI"/CNAME/;T{;{ I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"n<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1793,6 +1838,23 @@ I"<h2 class="section-title">Supporter packs </h2>
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -1888,14 +1950,15 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"Ä<p>You know that old saying &quot;Right tool for the right job&quot;? I want to show you some jobs in which Redis is that right tool. We&#39;ll talk about some real life examples of how can Redis speed up your application and some of it&#39;s not so obvious usages.</p>
 
 <p>There will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you&#39;ll have to debug those Lua scripts and I&#39;ll show you one interesting way of how to do it.</p>
 ;T;
-@;@~I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"î<!DOCTYPE HTML>
+@;@~I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1922,6 +1985,23 @@ document.write(unescape("%3Cscript%20src='"+
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2017,13 +2097,14 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"◊<p>It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
 Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.</p>
 ;T;
-@;@~I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"f<!DOCTYPE HTML>
+@;@~I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"È<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2050,6 +2131,23 @@ Talk will focus on importance of monitoring web applications and give advice on 
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2147,7 +2245,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"·<p>It&#39;s well known that JavaScript wasn&#39;t designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.</p>
@@ -2156,7 +2255,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.</p>
 ;T;
-@Ñ;@ÉI")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"É<!DOCTYPE HTML>
+@Ñ;@ÉI")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2183,6 +2282,23 @@ document.write(unescape("%3Cscript%20src='"+
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2290,7 +2406,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"?<p>Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don&#39;t have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.</p>
@@ -2303,7 +2420,7 @@ GET /articles?title=%REST%&amp;embed=author&amp;order=created_at: desc
 
 <p>This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.</p>
 ;T;
-@â;@àI":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"‹<!DOCTYPE HTML>
+@â;@àI":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"_<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2330,6 +2447,23 @@ GET /articles?title=%REST%&amp;embed=author&amp;order=created_at: desc
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2425,14 +2559,15 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"d<p>Many developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. 
 Within this talk, I&#39;ll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I&#39;ll talk about devops and configuration management briefly and show how one can get started with vagrant.
 After this talk, the audience knows what problems vagrant solves and how to get started.</p>
 ;T;
-@é;@çI"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"˝<!DOCTYPE HTML>
+@é;@çI"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"Ä<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2459,6 +2594,23 @@ After this talk, the audience knows what problems vagrant solves and how to get 
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2561,7 +2713,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"µ<p>Everyone should be using Vagrant or some similar tool for local developer environment.
@@ -2572,7 +2725,7 @@ We will examine how easy it is to get up and running and manage single or multip
 
 <p>Join us for this talk and you‚Äôll see why this award winning Python project has relevance for your work life through getting your servers under control.</p>
 ;T;
-@ì;@íI"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"¿<!DOCTYPE HTML>
+@ì;@íI"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"C<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2599,6 +2752,23 @@ We will examine how easy it is to get up and running and manage single or multip
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2701,7 +2871,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"u<p>Lisp, the influential second-oldest high-level programming language, has been called &quot;the most intelligent way to misuse a computer&quot; and &quot;the greatest single programming language ever designed&quot;. Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren&#39;t always too attractive to newcomers.</p>
@@ -2713,7 +2884,7 @@ document.write(unescape("%3Cscript%20src='"+
 <p>(with-conference {: name &quot;WebCampZG 2014&quot;}
    (praise &quot;McCarthy&quot;))</p>
 ;T;
-@ò;@óI"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"‘<!DOCTYPE HTML>
+@ò;@óI"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"W<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2740,6 +2911,23 @@ document.write(unescape("%3Cscript%20src='"+
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2839,7 +3027,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"S<p>This talk will present a medium-level design of the live betting system I&#39;ve built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.</p>
@@ -2850,7 +3039,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.</p>
 ;T;
-@ù;@úI"J/speakers/nikica-jokic-aggregating-data-consistently-and-accountably/;T{;{	;I"∫<!DOCTYPE HTML>
+@ù;@úI"J/speakers/nikica-jokic-aggregating-data-consistently-and-accountably/;T{;{	;I"=<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2877,6 +3066,23 @@ document.write(unescape("%3Cscript%20src='"+
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -2972,14 +3178,15 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"Ë<p>Imagine you&#39;re dealing with social media networks. You&#39;re fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what&#39;s the real state of data?</p>
 
 <p>In this talk, an abstraction layer that was built to solve the described problem will be presented. It&#39;s called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.</p>
 ;T;
-@¢;@°I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"‰<!DOCTYPE HTML>
+@¢;@°I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"g<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3006,6 +3213,23 @@ document.write(unescape("%3Cscript%20src='"+
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -3107,7 +3331,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"A<p>ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.</p>
@@ -3116,7 +3341,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.</p>
 ;T;
-@ß;@¶I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"T<!DOCTYPE HTML>
+@ß;@¶I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"◊<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3143,6 +3368,23 @@ document.write(unescape("%3Cscript%20src='"+
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -3238,13 +3480,14 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"◊<p>This simulator was developed for an EU research project: AIRobots. 
 How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I&#39;ll walk you through the tools and libraries required for this project, its many pitfalls and its successes. </p>
 ;T;
-@¨;@´I"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"Õ<!DOCTYPE HTML>
+@¨;@´I"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"P<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3271,6 +3514,23 @@ How do you tie the real drone control system, based on Simulink, to Blender, in 
     <header>
       <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
       <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+      </div>
     </header>
     <section class="content cf" id="content">
 
@@ -3370,7 +3630,8 @@ document.write(unescape("%3Cscript%20src='"+
 </script>
 
 <!-- ClickTale end of Bottom part -->
-
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
 </body>
 </html>
 ;T;	I"j<p>A short introduction on the way Google tests it&#39;s products, with a short overview of the development process and what tools we use.</p>
@@ -3379,7 +3640,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.</p>
 ;T;
-@±;@∞I"/stylesheets/stylesheet/;T{;{;I"Py/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+@±;@∞I"/stylesheets/stylesheet/;T{;{;I"Å/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -4649,6 +4910,92 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
+/* line 697, content/stylesheets/stylesheet.scss */
+.visitors-wrap {
+  margin: 20px 0 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0 10px 20px 20px;
+}
+/* line 702, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor {
+  float: left;
+  width: 33.333%;
+  padding: 20px 10px 0 0;
+}
+/* line 706, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 710, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor span, .visitors-wrap .visitor a {
+  display: block;
+  line-height: 20px;
+  height: 20px;
+}
+/* line 715, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor span {
+  margin-top: 5px;
+}
+
+/* line 721, content/stylesheets/stylesheet.scss */
+h2.visitors-title {
+  font-size: 3.3em;
+  color: #f8d800;
+  font-weight: bold;
+}
+
+/* line 727, content/stylesheets/stylesheet.scss */
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 50px -1px 30px 0;
+}
+/* line 731, content/stylesheets/stylesheet.scss */
+ul.menu li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 25%;
+}
+/* line 736, content/stylesheets/stylesheet.scss */
+ul.menu li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 0 1px 0 0;
+}
+/* line 747, content/stylesheets/stylesheet.scss */
+ul.menu li a:hover, ul.menu li a.active {
+  color: black;
+  background: #f8d800;
+}
+
+/* line 755, content/stylesheets/stylesheet.scss */
+.small-menu {
+  width: 68.2%;
+  float: right;
+  margin: -105px 20px 0 0;
+}
+/* line 759, content/stylesheets/stylesheet.scss */
+.small-menu ul.menu li a {
+  font-size: 1.2em;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 764, content/stylesheets/stylesheet.scss */
+.small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
+  color: black;
+  background: #f8d800;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -4658,7 +5005,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 708, content/stylesheets/stylesheet.scss */
+/* line 781, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -4667,7 +5014,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 713, content/stylesheets/stylesheet.scss */
+/* line 786, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -4676,11 +5023,11 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 721, content/stylesheets/stylesheet.scss */
+/* line 794, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"¥1@import "compass";
+;T;	I"†6@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -5376,6 +5723,79 @@ a.back-to-top {
   }
 }
 
+.visitors-wrap {
+  margin: 20px 0 0;
+  background: rgba(0,0,0,0.2);
+  padding: 0 10px 20px 20px;
+ 
+  .visitor {
+    float: left;
+    width: 33.333%;
+    padding: 20px 10px 0 0;
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+    span, a {
+      display: block;
+      line-height: 20px;
+      height: 20px;
+    }
+    span {
+      margin-top: 5px;
+    }
+  }
+}
+
+h2.visitors-title {
+  font-size: 3.3em;
+  color: #f8d800;
+  font-weight: bold
+}
+
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 50px -1px 30px 0;
+  li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 25%;
+    a {
+      display: block;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: white;
+      background: rgba(255,255,255,0.1);
+      text-decoration: none;
+      font-family: Share, Helvetica, Arial, sans-serif;
+      font-size: 1.5em;
+      margin: 0 1px 0 0;
+      &:hover, &.active  {
+        color: black;
+        background: #f8d800;
+      }
+    }
+  }
+}
+
+.small-menu {
+  width: 68.2%;
+  float: right;
+  margin: -105px 20px 0 0;
+  ul.menu li a {
+    font-size: 1.2em;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0,0,0,0.3);
+    &:hover, &.active {
+      color: black;
+      background: #f8d800;
+    }
+  }
+}
 
 /**
  * For modern browsers
@@ -5404,7 +5824,8 @@ a.back-to-top {
     *zoom: 1;
 }
 ;T;
-@µI"/about/;T{;{	;I")E<!DOCTYPE HTML>
+@µI"/about/;T{;{	;I"
+F<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -5434,7 +5855,21 @@ a.back-to-top {
     <p class="introduction">
       WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
     </p>
-    <hr>
+    <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
     <section class="content cf" id="content">
       <div class="sponsorship-cfp-wrap cf">
   <a class="left-panel cf" href="/sponsors/index.html#content">
@@ -5461,11 +5896,10 @@ a.back-to-top {
   <div class="sold loading">
     Loading...
   </div>
-  <!--
   <div class="whos-coming">
-    <a href="/whos-coming/">See who's coming &raquo;</a>
+    <a href="/visitors/">See who's coming &raquo;</a>
   </div>
-  -->
+  
 </div>
         <article class="news">
   <h2>The first talks, Supporter Packs, English only, and much much more</h2>
@@ -15191,27 +15625,200 @@ return jQuery;
 
 }));
 ;T;	@¿;
-@¿I"/javascripts/app/;T{;{;I"¨(function(){
-	var supporterPacks = $('.supporter-wrap'),
-		ticketsUrl = 'https://www.entrio.hr/api/webcamp_2014/get_ticket_count?key=846b896bb5c710de27b957385be60a60',
-		names = ["Supporter package", "VIP tickets (supporter pack)"]
-	if(supporterPacks.length){
-		var req = $.ajax({
-			url : ticketsUrl,
-			dataType : 'jsonp'
-		});
-		req.then(function(data){
-			var supporters = 0;
+@¿I"/javascripts/app/;T{;{;I"ï(function(){
 
-			for(var i = 0; i < data.length; i++){
-				if($.inArray(data[i].category_name, names) > -1){
-					supporters += data[i].count;
-				}
-			}
+	var templates = {
+		img : '<img src="http://www.gravatar.com/avatar/{email_hash}?s=50">',
+		name : '<span class="visitor-name">{first_name} {last_name}</span>',
+		twitter : '<a href="http://twitter.com/{twitter}" class="visitor-twitter">@{twitter}</a>'
+	};
 
-			$('.sold').html(supporters + ' / 300 Supporter Packs sold!').removeClass('loading');
-			$('.progress-bar').width((supporters / 300 * 100) + '%');
+	var renderTemplate = function(template, obj){
+		return templates[template].replace(/\{([a-z_]+)\}/g, function(all, match){
+			return obj[match].replace(/^@/, '');
 		})
 	}
+
+
+	var supporterPacks = $('.supporter-wrap'),
+		visitors = $('.visitors-wrap'),
+		ticketsUrl = 'https://www.entrio.hr/api/webcamp_2014/get_ticket_count?key=846b896bb5c710de27b957385be60a60',
+		names = ["Supporter package", "VIP tickets (supporter pack)"],
+		visitorsUrl = 'https://www.entrio.hr/api/webcamp_2014/get_visitors?key=846b896bb5c710de27b957385be60a60';
+
+	if(supporterPacks.length){
+		(function(){
+			var req = $.ajax({
+				url : ticketsUrl,
+				dataType : 'jsonp'
+			});
+			req.then(function(data){
+				var supporters = 0;
+
+				for(var i = 0; i < data.length; i++){
+					if($.inArray(data[i].category_name, names) > -1){
+						supporters += data[i].count;
+					}
+				}
+
+				$('.sold').html(supporters + ' / 300 Supporter Packs sold!').removeClass('loading');
+				$('.progress-bar').width((supporters / 300 * 100) + '%');
+			})
+		})()
+	}
+
+	if(visitors.length){
+		(function(){
+			var req = $.ajax({
+				url : visitorsUrl,
+				dataType : 'jsonp'
+			});
+			req.then(function(data){
+				var html = [],
+					visitorHtml, visitor;
+				for(var i = 0; i < data.length; i++){
+					visitor = data[i];
+
+					visitorHtml = ['<div class="visitor cf">'];
+
+					visitorHtml.push(renderTemplate('img', visitor));
+					visitorHtml.push(renderTemplate('name', visitor));
+					
+					if(visitor.twitter){
+						visitorHtml.push(renderTemplate('twitter', visitor));
+					}
+
+					visitorHtml.push('</div>');
+					html.push(visitorHtml.join(''));
+				}
+
+				visitors.html(html.join(''));
+			})
+		})()
+	}
 })();;T;	@ƒ;
-@ƒ:versioni
+@ƒI"/visitors/;T{;{	;I"t<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WebCamp Zagreb - 2014</title>
+  <link href='http://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+  <!-- ClickTale Top part -->
+  <script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+  </script>
+  <!-- ClickTale end of Top part -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=722382704443005&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <main class="speaker-main">
+    <header>
+      <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
+      <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/cfp" >Submit a talk</a>
+  </li>
+  <li>
+    <a href="/visitors" class="active">Who's coming</a>
+  </li>
+</ul>
+
+      </div>
+      
+    </header>
+    <section class="content cf" id="content">
+
+      <div class="wrap">
+        <h2 class="section-title visitors-title">See who's coming</h2>
+<article class="visitors-wrap cf"></article>
+      </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp">Make WebCamp a 2-day conference - <b>buy a Supporter Pack now &raquo;</b></a>
+
+      <div class="twitter-wrap twitter-wrap-simple">
+        <h3>
+          <a href="http://twitter.com/webcampzg">
+            <img src="/images/twitter.png" alt="">
+            @webcampzg on Twitter
+          </a>
+        </h3>
+        <h3 class="facebook">
+          <a href="http://facebook.com/WebCampZg">
+            <img src="/images/fb.png" alt="">
+            @webcampzg on Facebook
+          </a>
+        </h3>
+      </div>
+
+    </section>
+    <a href="#" class="back-to-top">&uarr; Back to top</a>
+  </main>
+
+    <section class="organizers">
+    <a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+    <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+    <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+    <br />
+    <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+    <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+    <a href="http://jszgb.com" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+    <a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+    <a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+    
+  </section>
+  <footer>
+    &copy; WebCamp Zagreb 2012 &mdash; 2014
+  </footer>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35198834-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  
+  <!-- ClickTale Bottom part -->
+
+  <script type='text/javascript'>
+// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+// 
+//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+//
+// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+document.write(unescape("%3Cscript%20src='"+
+  (document.location.protocol=='https:'?
+    "https://cdnssl.clicktale.net/www07/ptc/90a0f588-6e5f-4859-b64b-9abdc7cabdca.js":
+    "http://cdn.clicktale.net/www07/ptc/90a0f588-6e5f-4859-b64b-9abdc7cabdca.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- ClickTale end of Bottom part -->
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
+</body>
+</html>
+;T;	I"p<h2 class="section-title visitors-title">See who's coming</h2>
+<article class="visitors-wrap cf"></article>;T;
+I"p<h2 class="section-title visitors-title">See who's coming</h2>
+<article class="visitors-wrap cf"></article>;T;@»:versioni

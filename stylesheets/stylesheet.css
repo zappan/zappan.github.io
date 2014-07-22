@@ -1268,6 +1268,92 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
+/* line 697, content/stylesheets/stylesheet.scss */
+.visitors-wrap {
+  margin: 20px 0 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0 10px 20px 20px;
+}
+/* line 702, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor {
+  float: left;
+  width: 33.333%;
+  padding: 20px 10px 0 0;
+}
+/* line 706, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 710, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor span, .visitors-wrap .visitor a {
+  display: block;
+  line-height: 20px;
+  height: 20px;
+}
+/* line 715, content/stylesheets/stylesheet.scss */
+.visitors-wrap .visitor span {
+  margin-top: 5px;
+}
+
+/* line 721, content/stylesheets/stylesheet.scss */
+h2.visitors-title {
+  font-size: 3.3em;
+  color: #f8d800;
+  font-weight: bold;
+}
+
+/* line 727, content/stylesheets/stylesheet.scss */
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 50px -1px 30px 0;
+}
+/* line 731, content/stylesheets/stylesheet.scss */
+ul.menu li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 25%;
+}
+/* line 736, content/stylesheets/stylesheet.scss */
+ul.menu li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 0 1px 0 0;
+}
+/* line 747, content/stylesheets/stylesheet.scss */
+ul.menu li a:hover, ul.menu li a.active {
+  color: black;
+  background: #f8d800;
+}
+
+/* line 755, content/stylesheets/stylesheet.scss */
+.small-menu {
+  width: 68.2%;
+  float: right;
+  margin: -105px 20px 0 0;
+}
+/* line 759, content/stylesheets/stylesheet.scss */
+.small-menu ul.menu li a {
+  font-size: 1.2em;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 764, content/stylesheets/stylesheet.scss */
+.small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
+  color: black;
+  background: #f8d800;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -1277,7 +1363,7 @@ a.back-to-top {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 708, content/stylesheets/stylesheet.scss */
+/* line 781, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1286,7 +1372,7 @@ a.back-to-top {
   /* 2 */
 }
 
-/* line 713, content/stylesheets/stylesheet.scss */
+/* line 786, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1295,7 +1381,7 @@ a.back-to-top {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 721, content/stylesheets/stylesheet.scss */
+/* line 794, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
