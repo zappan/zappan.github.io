@@ -15625,7 +15625,7 @@ return jQuery;
 
 }));
 ;T;	@À;
-@ÀI"/javascripts/app/;T{;{;I"•(function(){
+@ÀI"/javascripts/app/;T{;{;I"—(function(){
 
 	var templates = {
 		img : '<img src="http://www.gravatar.com/avatar/{email_hash}?s=50">',
@@ -15653,7 +15653,7 @@ return jQuery;
 				dataType : 'jsonp'
 			});
 			req.then(function(data){
-				var supporters = 0;
+				var supporters = 150;
 
 				for(var i = 0; i < data.length; i++){
 					if($.inArray(data[i].category_name, names) > -1){

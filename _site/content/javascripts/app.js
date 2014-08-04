@@ -26,7 +26,7 @@
 				dataType : 'jsonp'
 			});
 			req.then(function(data){
-				var supporters = 0;
+				var supporters = 150;
 
 				for(var i = 0; i < data.length; i++){
 					if($.inArray(data[i].category_name, names) > -1){
