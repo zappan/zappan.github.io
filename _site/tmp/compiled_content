@@ -15625,7 +15625,7 @@ return jQuery;
 
 }));
 ;T;	@À;
-@ÀI"/javascripts/app/;T{;{;I"—(function(){
+@ÀI"/javascripts/app/;T{;{;I"¦(function(){
 
 	var templates = {
 		img : '<img src="http://www.gravatar.com/avatar/{email_hash}?s=50">',
@@ -15662,7 +15662,7 @@ return jQuery;
 				}
 
 				$('.sold').html(supporters + ' / 300 Supporter Packs sold!').removeClass('loading');
-				$('.progress-bar').width((supporters / 300 * 100) + '%');
+				$('.progress-bar').width(Math.min(100, (supporters / 300 * 100)) + '%');
 			})
 		})()
 	}

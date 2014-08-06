@@ -35,7 +35,7 @@
 				}
 
 				$('.sold').html(supporters + ' / 300 Supporter Packs sold!').removeClass('loading');
-				$('.progress-bar').width((supporters / 300 * 100) + '%');
+				$('.progress-bar').width(Math.min(100, (supporters / 300 * 100)) + '%');
 			})
 		})()
 	}
