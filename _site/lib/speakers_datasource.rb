@@ -20,12 +20,16 @@ module Nanoc3::DataSources
 
         # Convert to items
         raw_items.each_with_index.map do |raw_item, i|
+
+          image = raw_item["speaker"]["name"].to_slug.normalize.to_s + '.jpg'
+          path = "/" + ['images', 'speakers', image].join('/')
+
           # Get data
           attributes = {
             short_abstract: markdown.render(raw_item['short_abstract']),
             long_abstract: markdown.render(raw_item['long_abstract']),
             title: raw_item['title'],
-            image: raw_item['speaker']['image'],
+            image: path,
             name: raw_item['speaker']['name'],
             twitter: raw_item['speaker']['twitter'],
             github: raw_item['speaker']['github'],

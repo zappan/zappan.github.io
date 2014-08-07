@@ -51,9 +51,8 @@
           <a href="<%= speaker.identifier %>" class="speaker">
             <span class="avatar"><img src="<%= speaker[:image] %>" alt="<%= speaker[:name] %>"></span>
             <span class="name"><%= speaker[:name] %></span>
-            <% unless speaker[:twitter].empty? %>
-            <span class="twtr">@<%= speaker[:twitter] %></span>
-            <% end %>
+            <span class="twtr"><% unless speaker[:twitter].empty? %>@<%= speaker[:twitter] %><% else %>&nbsp;<% end %></span>
+           
           </a>
         </li>
         <% end %>
