@@ -668,6 +668,7 @@ a.back-to-top {
     @include border-radius(20px);
     height: 23px;
     margin-bottom: 20px;
+    overflow: hidden;
     .progress-bar {
       @include border-radius(8px 0 0 8px);
       background: #f8d800;
@@ -698,7 +699,7 @@ a.back-to-top {
   margin: 20px 0 0;
   background: rgba(0,0,0,0.2);
   padding: 0 10px 20px 20px;
- 
+
   .visitor {
     float: left;
     width: 33.333%;
