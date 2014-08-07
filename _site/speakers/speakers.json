@@ -1,86 +1,114 @@
 [
   {
     "_id": {
-      "$id": "53af0c091414141d48963a0a"
+      "$id": "53dc99bb6fc3850d17182e1d"
     },
-    "short_abstract": "Intro into Redis, Lua scripts and debugging of Lua scripts in Redis. Real life examples of how can Redis speed up your application.",
-    "language": "English",
-    "title": "Redis in practice",
-    "level": "Intermediate",
-    "submitted": {
-      "sec": 1401760371,
-      "usec": 0
-    },
-    "row_id": 15,
-    "long_abstract": "You know that old saying \"Right tool for the right job\"? I want to show you some jobs in which Redis is that right tool. We'll talk about some real life examples of how can Redis speed up your application and some of it's not so obvious usages.\n\nThere will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you'll have to debug those Lua scripts and I'll show you one interesting way of how to do it.",
     "status": "accepted",
-    "speaker": {
-      "_id": {
-        "$id": "53af0bad14141403187e96a5"
-      },
-      "github": "zlikavac32",
-      "short_bio": "Student on FER, Computer science section. I love artificial intelligence and algorithms. In my free time I drive my bike and go hunting.",
-      "name": "Marijan Šuflaj",
-      "twitter": "",
-      "long_bio": "Young developer willing to learn new things and explore new technologies. Also I like to share my experience about what I know and what I have learned so far. As a student, I work for Trikoder d.o.o. and with few other developers I take care of njuskalo.hr.",
-      "image": "http://2014.webcampzg.org/images/speakers/marijan-suflaj.png",
-      "shirt": "Male L"
-    }
-  },
-  {
-    "_id": {
-      "$id": "53af0c0a1414141d48963a0c"
-    },
-    "short_abstract": "Importance of monitoring key aspects of your web application and organizing gathered data so you can instinctively react and fix problems.",
+    "short_abstract": "This talk will cover the goods and the bads of choosing  javascript as a solution for everything. ",
+    "long_abstract": "Let us start by quoting Atwood's Law: “any application that can be written in JavaScript, will eventually be written in JavaScript”. And so it came to be - you either love it or hate it but JavaScript became the “all solving hammer”. It has come to the point that you can write anything in it - including your very own desktop and mobile application, using only web frontend technologies ruled by the almighty JavaScript.\nThe secret ingredient for this recipe is to “just add JavaScript”. In this talk some alternatives to native desktop and mobile development will be presented. There will be alternatives such as phonegap, node-webit and even something promising as NativeScript. But it won’t just sing praises to the mighty JavaScript king it will also cover the dark side of developing this type of software.",
     "language": "English",
-    "title": "Dashboards for devops and other web folks",
+    "title": "Building applications with a hammer ",
     "level": "Elementary",
     "submitted": {
-      "sec": 1401926723,
+      "sec": 1406907310,
       "usec": 0
     },
-    "row_id": 17,
-    "long_abstract": "It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. \nTalk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.",
-    "status": "accepted",
+    "row_id": 102,
     "speaker": {
       "_id": {
-        "$id": "53af0bae14141403187e96a8"
+        "$id": "53dc99b96fc3850d17182e1c"
       },
       "github": "",
-      "short_bio": "Passion driven developer, involved in running local PHP usergroup and mentoring new developers. Fails like a pro at being a stand-up comedian.",
-      "name": "Luka Mužinić",
-      "twitter": "lmuzinic",
-      "long_bio": "Passionate about being a developer, teacher and mentor for newcomers into world of programming. Involved in organizing ZgPHP user group meetings, workshops and conferences. \nCurrently working as senior software engineer for HomeExchange. Enjoys playing and watching odd and unpopular sports, at least in Croatia.",
-      "image": "http://2014.webcampzg.org/images/speakers/luka-muzinic.png",
+      "short_bio": "JavaScript connoisseur",
+      "name": "Kresimir Antolic ",
+      "twitter": "Kantolic ",
+      "long_bio": "The main reason why Kresimir entered the mystical world of web development is the fact he had no Internet access while growing up. Once he was introduced to its magic he instantly fell in love with it and all the possibilities this platform provides.  Now he’s passionate about the Web and having the possibility to work on it and hopes to do so for many years to come.\n\nHe spends his days as a JavaScript Team Dictator at Infinum. He loves his job and the Web.",
+      "image": "https://pbs-0.twimg.com/profile_images/426061032759386112/arbGRnew.jpeg",
       "shirt": "Male XL"
     }
   },
   {
     "_id": {
-      "$id": "53af0c0b1414141d48963a12"
+      "$id": "53db39431414141e04df2ab8"
     },
-    "short_abstract": "A talk about one possible solution to the JavaScript problem. I'll talk about the way I develop for web — React/OM provides expressive frontend; Elixir provides scalable backend. ",
+    "status": "accepted",
+    "short_abstract": "The idea of this talk is to convey how important it is that we have our development environment as close to production as possible.",
+    "long_abstract": "These days applications are getting more and more complex. It's becoming quite difficult to keep track of all the different components an application needs to function (a database, an AMQP, a web server, a document store...). It keeps getting harder and harder to setup new development environments and to bring new developers into the team. Stuff works on one dev machine but doesn't on others? Code breaks often when deployed to production even though all tests were passing and it worked on the dev machine?\n\nIn this talk I am going to show how to utilize light weight lxc containers using docker, and make your development process much more straightforward. How to share container images among your development team and be sure that everyone is running the exact same stack. Do all this without hogging too many resources, without the need for complex provisioning scripts and management systems. And above all else, how to do it fast!\n",
     "language": "English",
-    "title": "Modern Approaches to the Javascript Problem",
-    "level": "Intermediate",
+    "title": "Supercharge your development environment using Docker",
+    "level": "Elementary",
     "submitted": {
-      "sec": 1402213361,
+      "sec": 1406845680,
       "usec": 0
     },
-    "row_id": 23,
-    "long_abstract": "It's well known that JavaScript wasn't designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.\n\nWhen such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few — defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.\n\nIn this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.",
+    "row_id": 97,
+    "speaker": {
+      "_id": {
+        "$id": "53db39431414141e04df2ab7"
+      },
+      "github": "https://github.com/denibertovic",
+      "short_bio": "Software Engineer. Python. Haskell. Linux. Devops.",
+      "name": "Deni Bertovic",
+      "twitter": "denibertovic",
+      "long_bio": "Deni is a Software Engineer from Zagreb/Croatia, currently focusing mainly on Python, but enjoys learning about Clojure, Haskell and FP languages in general. Deni likes to do Sysadmin stuff with special interest in virtualization, continuous deployment and automating everything he can. When he's not hacking on open source, he spends most of his time happily coding away at GoodCode.io.\n\nInterested in continuous #deployment, #debian, #django, #docker, #functional programming, #haskell, #lxc, #python, #testing, #virtualization, #web.",
+      "image": "http://pixbin.us/media/cache/8f/32/8f32f1045f3ebaf3d3468738d76ebde5.jpg",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53b320ab141414136846868f"
+    },
+    "short_abstract": "How do you develop a 3D flight simulator for an experimental drone? Take an open source gaming engine, hone in a lot of Python, and here is your flying drone!",
+    "language": "English",
+    "title": "Gaming a drone simulator",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1404238539,
+      "usec": 0
+    },
+    "row_id": 56,
+    "long_abstract": "This simulator was developed for an EU research project: AIRobots. \nHow do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I'll walk you through the tools and libraries required for this project, its many pitfalls and its successes. ",
     "status": "accepted",
     "speaker": {
       "_id": {
-        "$id": "53af0baf14141403187e96ac"
+        "$id": "53b320ab141414136846868e"
       },
-      "github": "manpages",
-      "short_bio": "Latvian. Zera yisrael, programmer, cryptoconformist, caldari. Erlang professional. I enjoy discrete math and progressive rock. 0xFD6ADF70.",
-      "name": "Jonn Mostovoy",
-      "twitter": "podmostom",
-      "long_bio": "Born in Rīga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of \"mainstream\" \"boring\" technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standard library. Now freelancing and available for hire.",
-      "image": "http://2014.webcampzg.org/images/speakers/jonn-mostovoy.png",
-      "shirt": "Male L"
+      "github": "acbellini",
+      "short_bio": "If being curious, enjoying new technologies, loving to study and tear apart tools and architecture means being young, then I'm a very young engineer :)",
+      "name": "Anna Chiara Bellini",
+      "twitter": "annachiara_b",
+      "long_bio": "With almost twenty years of experience in development, I have been working for any kind of project and any size of company, From micro-startups with crazy hours and no rules to large organizations with hyper-detailed specs. In between I've worked on several research projects and I've taught a lot.\nRight now I'm working almost exclusively as a freelancer and trying to connect with as many developers as possible. My current goal is to become proficient in data science. ",
+      "image": "http://2014.webcampzg.org/images/speakers/anna-chiara-bellini.png",
+      "shirt": "Female M"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d7686fc385384df66189"
+    },
+    "status": "accepted",
+    "short_abstract": "Learn how Etsy designs and builds responsive emails that provide a consistent experience for readers and look great across desktop and mobile email clients. \n",
+    "long_abstract": "At Etsy, our tracking metrics tell us that more than 50% of our emails are opened on mobile devices. This means we need to rethink the way we design and build our emails to accommodate a growing list of multi-width devices and their distinct rendering quirks.\n\nWe want our readers to have the best possible experience when they view our emails, so we’re experimenting with new techniques that move away from desktop-orientated, fixed-width designs and incorporate more flexible layouts that look good on every client, including iPhones, iPads, Android, Webmail and more.\n\nWe’ll walk you through a recent case study whereby 'building specifically for mobile' influenced the design and development decisions we ultimately made. We'll also highlight the value of a simple, two-column layout and show you ways to code for mobile to achieve pixel perfect emails that look great across a multitude of phones, tablets and desktop devices.",
+    "language": "English",
+    "title": "Responsive Emails, from Design to Development",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1405518760,
+      "usec": 0
+    },
+    "row_id": 65,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d7676fc385384df66188"
+      },
+      "github": "mdnetto",
+      "short_bio": "Michelle D'Netto is a software engineer and email crafter at Etsy. She lives mostly in her inbox and loves coding up new emails designed by her talented co-workers.\n",
+      "name": "Michelle D'Netto",
+      "twitter": "mdnetto",
+      "long_bio": "Michelle D’Netto is a software engineer who has been working at Etsy for four years. She lives in her inbox while developing beautifully designed marketing emails that showcase an assortment of hand-made items featured on Etsy.com.\n\nMichelle is a true maker. She makes jewelry in her spare time often experiments with glass, clay and other mediums.\n\nMichelle works and plays in Brooklyn, New York.",
+      "image": "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/p417x417/65567_10151267374816400_1805750388_n.jpg",
+      "shirt": "Female M"
     }
   },
   {
@@ -96,7 +124,7 @@
       "usec": 0
     },
     "row_id": 25,
-    "long_abstract": "Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.\n\nThe example query below would result in a list of articles ordered by creation date, whose title contains \"REST\" with embedded author objects: \n\n```\nGET /articles?title=%REST%&embed=author&order=created_at: desc\n```\n\nThis talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.",
+    "long_abstract": "Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.\n\nThe example query below would result in a list of articles ordered by creation date, whose title contains \"REST\" with embedded author objects:\n\n```\nGET /articles?title=%REST%&embed=author&order=created_at:desc\n```\n\nThis talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.",
     "status": "accepted",
     "speaker": {
       "_id": {
@@ -109,6 +137,34 @@
       "long_bio": "I'm software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.\n\nI currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.\n\nPrevious experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.\n\nI'm passionate about functional programming and would consider myself as Haskell newbie.",
       "image": "http://2014.webcampzg.org/images/speakers/veljko-dragasic.png",
       "shirt": "Male S"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53db39441414141e04df2abc"
+    },
+    "status": "accepted",
+    "short_abstract": "Selenium scraping of other people's fun and profit",
+    "long_abstract": "Selenium is neat. It allows you to automate system tests and yadda yadda acceptance yadda...\n\nYawn. Real developers don't automate tests, they automate bank scrapes!\nGrabbing account balances on Monday, transferring money on Tuesday, that's how we roll.\n\n~ A tongue-in-cheek presentation about the exercise in futility of scraping net banking interfaces. ~\n\nWe'll show you some of the more absurd measures banks deploy to guard their security.\nSecurity? You mean obscurity? Why would a bank need an API in 2014, hell we only just switched from Cobol on Cogs.\n\nDealing with an ever-changing canvas, a torrent of banners and \"new offers\" on a bank interface can be stressful.\nWe'll show you the behemoth of a stack that was required to deal with a couple hundred integrated banks.\nConcretely, a chimera of Scala, PHP, Java, C#, JS and a lot of WD-40 that makes the thing actually work.\n\nYeah, WebDriver Firefox _is_ neat, but CasperJS is spooky fast. So, let's combine the two!\nEverything may crash ~ so arm yourselves with exceptional exception handling ~ or you may just want to pivot to manually scanning printouts.",
+    "language": "English",
+    "title": "Man in the middle attack on banks",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406848363,
+      "usec": 0
+    },
+    "row_id": 99,
+    "speaker": {
+      "_id": {
+        "$id": "53db39441414141e04df2abb"
+      },
+      "github": "melezov",
+      "short_bio": "Loves to procrastinate. Unless it's an interesting problem. Then it's urgent.",
+      "name": "Marko Elezović",
+      "twitter": "melezov",
+      "long_bio": "Marko Elezović is the tech lead of Instantor AB, primarily dealing with cash flow credit risk assessments.\n\nIn a loving relationship with new, disruptive and buzzword compliant technologies.\nHaving recently organized the HRScala meetup group, he is trying to rally fans of alternative JVM languages under its flag.\n\nCEO of Element and DSL Platform.\n",
+      "image": "http://2013.webcampzg.org/wp-content/uploads/2013/09/marko_elezovic-200x200.jpg",
+      "shirt": "Male XL"
     }
   },
   {
@@ -141,57 +197,57 @@
   },
   {
     "_id": {
-      "$id": "53af0c061414141d489639fd"
+      "$id": "53af0c0f1414141d48963a22"
     },
-    "short_abstract": "See why this award winning Python project has relevance for your work life through getting your servers under control",
+    "short_abstract": "Did you ever wonder how testing at Google looks like? What tools we use to help us out and how do we measure and act on test coverage?\n",
     "language": "English",
-    "title": "Ansible, just orchestrate it",
+    "title": "Measuring test coverage at Google",
     "level": "Intermediate",
     "submitted": {
-      "sec": 1400967600,
+      "sec": 1403971939,
       "usec": 0
     },
-    "row_id": 2,
-    "long_abstract": "Everyone should be using Vagrant or some similar tool for local developer environment.\nStill those containers/VMs need to be configured somehow and on top of that your configuration system should be able to manage your staging and production servers as well, you could be using Puppet, Chef, Salt, shell scripts to achieve this.\nRecently a 3rd generation configuration management system has thown its hat into the ring, and that tools name is Ansible.\nThe talk will show how Ansible approaches configuration management, software deployment, remote execution and other tasks.\nWe will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. \n\nJoin us for this talk and you’ll see why this award winning Python project has relevance for your work life through getting your servers under control.\n",
+    "row_id": 39,
+    "long_abstract": "A short introduction on the way Google tests it's products, with a short overview of the development process and what tools we use.\n\nThis will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.\n\nIn the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.\n",
     "status": "accepted",
     "speaker": {
       "_id": {
-        "$id": "53af0baa14141403187e969b"
+        "$id": "53af0bb314141403187e96ba"
       },
-      "github": "vranac",
-      "short_bio": "I am a developer, consultant, mercenary (used to be known as freelancing), writing terrible code that performs exceptionally, wrangling elePHPants and pythons\n",
-      "name": "Srdjan Vranac",
-      "twitter": "vranac",
-      "long_bio": "I am a developer, consultant, mercenary (used to be known as freelancing).\nI lead a small team that works on various projects ranging from small family businesses to Fortune 500 companies.\nI write terrible code that performs exceptionally and currently I am wrangling elePHPants and Pythons....\nMy Interests are process automation, continuous integration and delivery, clean code, testing, best practices (you have to know them so you can break them if you have to), distributed systems\n",
-      "image": "http://2014.webcampzg.org/images/speakers/srdjan-vranac.png",
-      "shirt": "Male XXL"
+      "github": "ivankovic",
+      "short_bio": "Wizard Hacker",
+      "name": "Marko Ivanković",
+      "twitter": "",
+      "long_bio": "Senior Software Engineer in Test at Google. Tech lead in the Ads Engineering Productivity group in Zurich. Specializing in test coverage and random data generation.\n\nMSc of Computer Science at FER - University of Zagreb.\n",
+      "image": "http://2014.webcampzg.org/images/speakers/marko-ivankovic.png",
+      "shirt": "Male XL"
     }
   },
   {
     "_id": {
-      "$id": "53af0c071414141d48963a00"
+      "$id": "53b1d3ce141414115c7c9b04"
     },
-    "short_abstract": "Clojure is a modern Lisp targeting JVM, CLR, and JavaScript. Is waking up mid-night screaming due to unmatched parentheses worth it?",
+    "short_abstract": "Ensuring data consistency and mutation accountability when aggregating differing data streams, while still making that data your own.",
     "language": "English",
-    "title": "How, When, and Why Clojure?",
-    "level": "Elementary",
+    "title": "Aggregating data consistently and accountably",
+    "level": "Advanced",
     "submitted": {
-      "sec": 1401147239,
+      "sec": 1404138998,
       "usec": 0
     },
-    "row_id": 5,
-    "long_abstract": "Lisp, the influential second-oldest high-level programming language, has been called \"the most intelligent way to misuse a computer\" and \"the greatest single programming language ever designed\". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.\n\nClojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.\n\nIn this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).\n\n(with-conference {: name \"WebCampZG 2014\"}\n   (praise \"McCarthy\"))",
+    "row_id": 47,
+    "long_abstract": "Imagine you're dealing with social media networks. You're fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what's the real state of data?\n\nIn this talk, an abstraction layer that was built to solve the described problem will be presented. It's called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.",
     "status": "accepted",
     "speaker": {
       "_id": {
-        "$id": "53af0bab14141403187e969e"
+        "$id": "53b1d3ce141414115c7c9b03"
       },
-      "github": "nikolaplejic",
-      "short_bio": "I like programming computers.",
-      "name": "Nikola Plejić",
-      "twitter": "nikolaplejic",
-      "long_bio": "Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there's an entire world of other languages, technologies, and approaches to developing software out there.\n\nI'm a big fan of free software, a regular at Zagreb's Hacklab in Mama, and a member of various Croatian tech communities.",
-      "image": "http://2014.webcampzg.org/images/speakers/nikola-plejic.png",
+      "github": "neektza",
+      "short_bio": "PLT guy, always interested in learning (cool) new stuff and working on challenging projects.",
+      "name": "Nikica Jokić",
+      "twitter": "neektza",
+      "long_bio": "Software developer, working for @bitovi. I dig programming languages, all kinds.",
+      "image": "http://2014.webcampzg.org/images/speakers/nikica-jokic.png",
       "shirt": "Male L"
     }
   },
@@ -225,30 +281,310 @@
   },
   {
     "_id": {
-      "$id": "53b1d3ce141414115c7c9b04"
+      "$id": "53d8d4966fc3853a3b4ff4db"
     },
-    "short_abstract": "Ensuring data consistency and mutation accountability when aggregating differing data streams, while still making that data your own.",
+    "status": "accepted",
+    "short_abstract": "A tongue-in-cheek talk listing common mistakes in web development, reinventions of the wheel, etc. Will touch on frontend, backend, databases...",
+    "long_abstract": "The talk serves as a \"what not to do\" for web development. It covers generic more-or-less-known exploited flaws, as well as those produced or exploited ;) by the author.\n\nTechnology-wise it will cover frontend, backend, databases, ...",
     "language": "English",
-    "title": "Aggregating data consistently and accountably",
-    "level": "Advanced",
+    "title": "Bad ideas and worst practices",
+    "level": "Elementary",
     "submitted": {
-      "sec": 1404138998,
+      "sec": 1406652579,
       "usec": 0
     },
-    "row_id": 47,
-    "long_abstract": "Imagine you're dealing with social media networks. You're fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what's the real state of data?\n\nIn this talk, an abstraction layer that was built to solve the described problem will be presented. It's called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.",
+    "row_id": 83,
+    "speaker": {
+      "_id": {
+        "$id": "53d8d4956fc3853a3b4ff4da"
+      },
+      "github": "allixsenos",
+      "short_bio": "Doing web for a living for over 10 years, escaped from ASP to PHP, from PHP to Python. despises frontend, likes doing talks.",
+      "name": "Luka Kladaric",
+      "twitter": "allixsenos",
+      "long_bio": "After 10 years of web development just about ready to go herd sheep on some hill somewhere. Currently CTO at hitlistapp.com, formerly developer at deviantart.com. Ran a small web studio in Croatia with a dozen happy customers. Dreams in matrixcode.",
+      "image": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10420410_10154281932860368_3858648230653567025_n.jpg",
+      "shirt": "Male XXL"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d76b6fc385384df6619b"
+    },
+    "status": "accepted",
+    "short_abstract": "ElasticSearch - index server, json documents, feature-rich, scalable. How ES can be used instead of/with relational DB? 2 use-cases",
+    "long_abstract": "Although ElasticSearch (ES) primary purpose is to be used as index/search server, in its featureset ES overlaps with common NoSql database; better to say, document database.\n\nWhy this could be interesting and how this could be used effectively?\n\nTalk overview: \n\n - ES - history, background, philosophy, featureset overview, focus on indexing/search features\n - short presentation on how to get started - installation, indexing and search/retrieving\n - Database should provide following functions: store, search, retrieve -> differences between relational, document and search databases\n - it is not unusual to use ES additionally as an document database (store and retrieve)\n - an use-case will be presented where ES can be used as a single database in the system (benefits and drawbacks)\n - what if a relational database is introduced in previosly demonstrated system (benefits and drawbacks)\n - ES is a nice and in reality ready-to-use example that can change perspective of development of some type of software systems\n",
+    "language": "English",
+    "title": "ElasticSearch - index server used as a document database (with examples)",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406388261,
+      "usec": 0
+    },
+    "row_id": 75,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d76a6fc385384df6619a"
+      },
+      "github": "",
+      "short_bio": "Freelancer, Sr. Software Engineer",
+      "name": "Robert Lujo",
+      "twitter": "trebor74hr",
+      "long_bio": "Mr.Sc., developing software since C64, 17 years of professional experience, from small to enterprise applications, Končar, Sunce osiguranje, Combis, Eu-informatika, Adacta (as a freelancer), freelancer. \n\nTechnologies: whatever client needs, web, desktop, java, c# ... tools of choice for last 8 years: web, python, django. \n\nSystem architect, lead developer, project manager...",
+      "image": "https://pbs.twimg.com/profile_images/1209702114/portrait-IMG_4202_400x400.png",
+      "shirt": "Male XL"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53af0c0b1414141d48963a12"
+    },
+    "short_abstract": "A talk about one possible solution to the JavaScript problem. I'll talk about the way I develop for web — React/OM provides expressive frontend; Elixir provides scalable backend. ",
+    "language": "English",
+    "title": "Modern Approaches to the Javascript Problem",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1402213361,
+      "usec": 0
+    },
+    "row_id": 23,
+    "long_abstract": "It's well known that JavaScript wasn't designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.\n\nWhen such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few — defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.\n\nIn this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.",
     "status": "accepted",
     "speaker": {
       "_id": {
-        "$id": "53b1d3ce141414115c7c9b03"
+        "$id": "53af0baf14141403187e96ac"
       },
-      "github": "neektza",
-      "short_bio": "PLT guy, always interested in learning (cool) new stuff and working on challenging projects.",
-      "name": "Nikica Jokić",
-      "twitter": "neektza",
-      "long_bio": "Software developer, working for @bitovi. I dig programming languages, all kinds.",
-      "image": "http://2014.webcampzg.org/images/speakers/nikica-jokic.png",
+      "github": "manpages",
+      "short_bio": "Latvian. Zera yisrael, programmer, cryptoconformist, caldari. Erlang professional. I enjoy discrete math and progressive rock. 0xFD6ADF70.",
+      "name": "Jonn Mostovoy",
+      "twitter": "podmostom",
+      "long_bio": "Born in Rīga, Latvia. Installed my first UNIX-like system when I was 14. Worked as a web developer since I was 16. Worked in banking. Eventually got tired of \"mainstream\" \"boring\" technology stacks as those are too verbose and clumsy and switched to Erlang. Worked as a senior Erlang developer, then worked in a Canadian startup. Kinda known for implementing pretty printing for Elixir standard library. Now freelancing and available for hire.",
+      "image": "http://2014.webcampzg.org/images/speakers/jonn-mostovoy.png",
       "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53af0c0a1414141d48963a0c"
+    },
+    "short_abstract": "Importance of monitoring key aspects of your web application and organizing gathered data so you can instinctively react and fix problems.",
+    "language": "English",
+    "title": "Dashboards for devops and other web folks",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1401926723,
+      "usec": 0
+    },
+    "row_id": 17,
+    "long_abstract": "It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. \nTalk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bae14141403187e96a8"
+      },
+      "github": "",
+      "short_bio": "Passion driven developer, involved in running local PHP usergroup and mentoring new developers. Fails like a pro at being a stand-up comedian.",
+      "name": "Luka Mužinić",
+      "twitter": "lmuzinic",
+      "long_bio": "Passionate about being a developer, teacher and mentor for newcomers into world of programming. Involved in organizing ZgPHP user group meetings, workshops and conferences. \nCurrently working as senior software engineer for HomeExchange. Enjoys playing and watching odd and unpopular sports, at least in Croatia.",
+      "image": "http://2014.webcampzg.org/images/speakers/luka-muzinic.png",
+      "shirt": "Male XL"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d7686fc385384df6618b"
+    },
+    "status": "accepted",
+    "short_abstract": "How Etsy tracks millions of packages -- from vendors all over the world using over 100 different shipping providers -- in an efficient and scalable manner.",
+    "long_abstract": "At Etsy, we track millions of packages daily that get shipped through several shipping carriers worldwide like USPS, FedEx, DHL and several others. Daily updates, from whether a shipping label has been created to whether a package is out for delivery -- are in the order of millions.\n\nOur goal with providing shipping tracking information to our members -- both sellers and buyers -- is to provide accurate, timely tracking data that answers the question “where is my package right now?”\n\nTracking packages is an example of a general class of problems that require getting frequent updates for large amounts of data. More importantly, as the Etsy marketplace grows, this data set becomes increasingly larger, posing the challenge of being able to flawlessly manage long term and sustained growth.\n\nUsing a combination of data sharding, sql, asynchronous processing, faux-queueing and batch processing, we’ve created an efficient, scalable, and resilient system built on existing infrastructure that needs minimal maintenance.\n\nIn this talk we will walk you through the problem definition, the architecture we built, and the metrics we use for monitoring the system.",
+    "language": "English",
+    "title": "Building a scalable system for tracking Shipping Packages",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1405527728,
+      "usec": 0
+    },
+    "row_id": 66,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d7686fc385384df6618a"
+      },
+      "github": "",
+      "short_bio": "Premshree Pillai is an engineer at Etsy working on various infrastructure pieces, currently on the Shipping team. In the past he has worked on several experimental products at Yahoo.",
+      "name": "Premshree Pillai",
+      "twitter": "premshree",
+      "long_bio": "Premshree Pillai is an engineer and has worked with Etsy for four years, working on various infrastructure projects. In the past he helped build several products at Yahoo!, including Live, 360, and International Blogs.\n\nOutside of work, Premshree loves to cook, take photos, travel, and understand history.",
+      "image": "https://www.dropbox.com/s/ov0v57tw3iiqu2l/me-dumbo-park-png.png",
+      "shirt": "Male S"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53af0c071414141d48963a00"
+    },
+    "short_abstract": "Clojure is a modern Lisp targeting JVM, CLR, and JavaScript. Is waking up mid-night screaming due to unmatched parentheses worth it?",
+    "language": "English",
+    "title": "How, When, and Why Clojure?",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1401147239,
+      "usec": 0
+    },
+    "row_id": 5,
+    "long_abstract": "Lisp, the influential second-oldest high-level programming language, has been called \"the most intelligent way to misuse a computer\" and \"the greatest single programming language ever designed\". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.\n\nClojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.\n\nIn this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).\n\n(with-conference {:name \"WebCampZG 2014\"}\n    (praise \"McCarthy\"))",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bab14141403187e969e"
+      },
+      "github": "nikolaplejic",
+      "short_bio": "I like programming computers.",
+      "name": "Nikola Plejić",
+      "twitter": "nikolaplejic",
+      "long_bio": "Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there's an entire world of other languages, technologies, and approaches to developing software out there.\n\nI'm a big fan of free software, a regular at Zagreb's Hacklab in Mama, and a member of various Croatian tech communities.",
+      "image": "http://2014.webcampzg.org/images/speakers/nikola-plejic.png",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d7696fc385384df66191"
+    },
+    "status": "accepted",
+    "short_abstract": "We'll talk about the importance of a good web API, cover REST and RPC, show best and worst practices, and try to convince you that API design matters.",
+    "long_abstract": "Far from its humble beginnings as a way to present content to visitors, the Web today is as much about APIs as it is about content. With mobile and JavaScript-heavy applications becoming the dominant way to interact online, APIs connecting the frontend applications with the backend services are also becoming more important. This is even more so when the API is exposed to 3rd-party (client, mobile and mashup) developers.\n\nBut building a good API is still more an art than a science for many. Although there are best practices, they are not widely known or they are ignored, and when the problems become apparent in production, it's too late.\n\nThis talk will talk about the importance of good web API, show best practices, show worst practices (and argue why they're bad), and hopefully convince you to pay attention to your APIs even if \"nobody but devs can see it\".\n",
+    "language": "English",
+    "title": "How to build a web API",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1405726628,
+      "usec": 0
+    },
+    "row_id": 69,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d7696fc385384df66190"
+      },
+      "github": "senko",
+      "short_bio": "A practitioning bit-shifting magician turned cat herder. Runs Good Code, a team of passionate web developers working on projects all around the world.",
+      "name": "Senko Rasic",
+      "twitter": "senkorasic",
+      "long_bio": "Senko runs a web development shop by day and experiments with programming languages by night. Programmer since the days of C64, for the past few years he's worked on all kinds of web application projects.\n\nLately he spends his days with an email client and spreadsheet more than a code editor, and he's as likely to rant about processes, methodologies and go-to-market strategies as to rant about generalized algebraic data types in Haskell and concurrency in Go.\n\nHe's \n\nSenko Rašić je zaljubljenik u programiranje od kad je kao klinac na poklon dobio C64 bez igrica, a u open source od kad je otkrio Linux. U zadnje vrijeme sve manje programira, a sve više vremena provodi vodeći tvrtku Dobar Kod koja se bavi razvojem web aplikacija za klijente širom svijeta.\n\n",
+      "image": "https://www.dropbox.com/s/po503wgucr2b5tr/Senko-Hipster-Avatar-2.jpg?dl=1",
+      "shirt": "Male XXL"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d8d4946fc3853a3b4ff4d9"
+    },
+    "status": "accepted",
+    "short_abstract": "Storytelling isn't something that should be scorned at, but embraced and used to its full potential to solve real problems.",
+    "long_abstract": "When someone says \"storytelling\", either marketing or children bedtime stories come to mind. Both are valid, but far from being the only places storytelling appears in. Stories are illustrative, easily memorable and often reach us on an emotional level. They are very much a part of design and engineering cultures today, it's just that we're not consciously aware of them. Let us go through some examples and see how you can use storytelling to improve motivation, planning, hiring and changing perspectives. Whatever we tell ourselves, people often don't respond to reason, they respond to emotion. It doesn't matter if you're a project manager, a freelance designer or an engineer in an agile team - this applies to everyone.",
+    "language": "English",
+    "title": "Storytelling in design and engineering",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1406646893,
+      "usec": 0
+    },
+    "row_id": 82,
+    "speaker": {
+      "_id": {
+        "$id": "53d8d4926fc3853a3b4ff4d7"
+      },
+      "github": "merlinrebrovic",
+      "short_bio": "Designer. Engineer. Wizard.",
+      "name": "Merlin Rebrovic",
+      "twitter": "merlinrebrovic",
+      "long_bio": "Merlin works as an interaction designer at Google and YouTube. With a computer science degree and a few years of working experience as a software engineer, he shifted to design realizing that you need both design and engineering to make great products. When not building something new, Merlin can be found reading or relaxing in nature. ",
+      "image": "http://merlin.rebrovic.net/pub/profile_HD.jpg",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d7696fc385384df66194"
+    },
+    "status": "accepted",
+    "short_abstract": "Introduction to basics of Google Glass development using Google Mirror API",
+    "long_abstract": "There are two ways to develop Google Glass application. Advanced method is using standard GDK (Android) development for building native applications that run on Glass. However, Google has made it possible for web developers with no Java/Android knowledge to build simple applications and interact with Google Glass using REST services and their knowledge of web development. This demo is targeting web developers with basic knowledge of REST",
+    "language": "English",
+    "title": "Google Glass for Web Developers",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406217546,
+      "usec": 0
+    },
+    "row_id": 71,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d7696fc385384df66193"
+      },
+      "github": "dselmanovic",
+      "short_bio": "Software developer with over 15 years of experience creating wonderful things in different development platforms. Engaged as one of one of TopTal freelancers and Head of development in DevLogic Sarajevo",
+      "name": "Demir Selmanovic",
+      "twitter": "",
+      "long_bio": "Developer and project manager with over 15 years of professional experience in a wide range of software development roles. Excels as a solo developer, team member, team leader, or manager of multiple distributed teams. Working closely with clients to define ideas and deliver products. Latest personal preference is NodeJS and Android development but looking at history it is likely to change again in the next few years.",
+      "image": "https://www.toptal.com/uploads/user/photo/27528/large_001.jpg",
+      "shirt": "Male XL"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53af0c091414141d48963a0a"
+    },
+    "short_abstract": "Intro into Redis, Lua scripts and debugging of Lua scripts in Redis. Real life examples of how can Redis speed up your application.",
+    "language": "English",
+    "title": "Redis in practice",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1401760371,
+      "usec": 0
+    },
+    "row_id": 15,
+    "long_abstract": "You know that old saying \"Right tool for the right job\"? I want to show you some jobs in which Redis is that right tool. We'll talk about some real life examples of how can Redis speed up your application and some of it's not so obvious usages.\n\nThere will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you'll have to debug those Lua scripts and I'll show you one interesting way of how to do it.",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bad14141403187e96a5"
+      },
+      "github": "zlikavac32",
+      "short_bio": "Student on FER, Computer science section. I love artificial intelligence and algorithms. In my free time I drive my bike and go hunting.",
+      "name": "Marijan Šuflaj",
+      "twitter": "",
+      "long_bio": "Young developer willing to learn new things and explore new technologies. Also I like to share my experience about what I know and what I have learned so far. As a student, I work for Trikoder d.o.o. and with few other developers I take care of njuskalo.hr.",
+      "image": "http://2014.webcampzg.org/images/speakers/marijan-suflaj.png",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d8d4996fc3853a3b4ff4de"
+    },
+    "status": "accepted",
+    "short_abstract": "A talk with advice about using actual advice I've received",
+    "long_abstract": "Despite all the advice that's given to us, we seem intent on ignoring it. For better or worse, we rarely follow it until years later we understand what the person was trying to tell us.\n\nIn this talk, I'll share the most helpful, humiliating and hilarious pieces of advice I ever got and how they shaped my career (whether I listened or not). We'll also discuss why giving and receiving advice is important, how to handle it gracefully and why it can be so powerful. As Dijkstra said: \"We must be very careful when we give advice to younger people: sometimes they follow it!\"",
+    "language": "English",
+    "title": "Things I Believe Now That I'm Old",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1406677971,
+      "usec": 0
+    },
+    "row_id": 85,
+    "speaker": {
+      "_id": {
+        "$id": "53d8d4976fc3853a3b4ff4dc"
+      },
+      "github": "rosstuck",
+      "short_bio": "Independent consultant and engineer",
+      "name": "Ross Tuck",
+      "twitter": "rosstuck",
+      "long_bio": "I’m an independent consultant and engineer, originally from the US and now living in the Netherlands. I started coding in 2000 and now specialize in building web apps, primarily with PHP and Javascript. I also speak at conferences and write articles. My hobbies are reading and hats.",
+      "image": "https://pbs.twimg.com/profile_images/655208872/ross2.jpg",
+      "shirt": "Male M"
     }
   },
   {
@@ -281,58 +617,86 @@
   },
   {
     "_id": {
-      "$id": "53b320ab141414136846868f"
+      "$id": "53af0c061414141d489639fd"
     },
-    "short_abstract": "How do you develop a 3D flight simulator for an experimental drone? Take an open source gaming engine, hone in a lot of Python, and here is your flying drone!",
+    "short_abstract": "See why this award winning Python project has relevance for your work life through getting your servers under control",
     "language": "English",
-    "title": "Gaming a drone simulator",
-    "level": "Elementary",
+    "title": "Ansible, just orchestrate it",
+    "level": "Intermediate",
     "submitted": {
-      "sec": 1404238539,
+      "sec": 1400967600,
       "usec": 0
     },
-    "row_id": 56,
-    "long_abstract": "This simulator was developed for an EU research project: AIRobots. \nHow do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I'll walk you through the tools and libraries required for this project, its many pitfalls and its successes. ",
+    "row_id": 2,
+    "long_abstract": "Everyone should be using Vagrant or some similar tool for local developer environment.\nStill those containers/VMs need to be configured somehow and on top of that your configuration system should be able to manage your staging and production servers as well, you could be using Puppet, Chef, Salt, shell scripts to achieve this.\nRecently a 3rd generation configuration management system has thown its hat into the ring, and that tools name is Ansible.\nThe talk will show how Ansible approaches configuration management, software deployment, remote execution and other tasks.\nWe will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. \n\nJoin us for this talk and you’ll see why this award winning Python project has relevance for your work life through getting your servers under control.\n",
     "status": "accepted",
     "speaker": {
       "_id": {
-        "$id": "53b320ab141414136846868e"
+        "$id": "53af0baa14141403187e969b"
       },
-      "github": "acbellini",
-      "short_bio": "If being curious, enjoying new technologies, loving to study and tear apart tools and architecture means being young, then I'm a very young engineer :)",
-      "name": "Anna Chiara Bellini",
-      "twitter": "annachiara_b",
-      "long_bio": "With almost twenty years of experience in development, I have been working for any kind of project and any size of company, From micro-startups with crazy hours and no rules to large organizations with hyper-detailed specs. In between I've worked on several research projects and I've taught a lot.\nRight now I'm working almost exclusively as a freelancer and trying to connect with as many developers as possible. My current goal is to become proficient in data science. ",
-      "image": "http://2014.webcampzg.org/images/speakers/anna-chiara-bellini.png",
-      "shirt": "Female M"
+      "github": "vranac",
+      "short_bio": "I am a developer, consultant, mercenary (used to be known as freelancing), writing terrible code that performs exceptionally, wrangling elePHPants and pythons\n",
+      "name": "Srdjan Vranac",
+      "twitter": "vranac",
+      "long_bio": "I am a developer, consultant, mercenary (used to be known as freelancing).\nI lead a small team that works on various projects ranging from small family businesses to Fortune 500 companies.\nI write terrible code that performs exceptionally and currently I am wrangling elePHPants and Pythons....\nMy Interests are process automation, continuous integration and delivery, clean code, testing, best practices (you have to know them so you can break them if you have to), distributed systems\n",
+      "image": "http://2014.webcampzg.org/images/speakers/srdjan-vranac.png",
+      "shirt": "Male XXL"
     }
   },
   {
     "_id": {
-      "$id": "53af0c0f1414141d48963a22"
+      "$id": "53db39431414141e04df2ab6"
     },
-    "short_abstract": "Did you ever wonder how testing at Google looks like? What tools we use to help us out and how do we measure and act on test coverage?\n",
+    "status": "accepted",
+    "short_abstract": "This presentation shows web developers how to build next-generation web apps using various Web Components (native and Polymer framework).",
+    "long_abstract": "Web Components (ie. HTML Templates, Shadow DOM, Custom Elements and HTML Imports) are the highlight of current web standards development, with Google and Mozilla pioneering the implementation of the specification draft. While numerous presentations all over the world have introduced Web Components to web developers, not many have demonstrated the practical aspects. This presentation will use existing tools to show web developers how they can make next-generation web apps using custom HTML elements from a wide spectrum of vendors – from giants such as Google to open-source enthusiasts on GitHub.",
     "language": "English",
-    "title": "Measuring test coverage at Google",
+    "title": "Get Practical with Web Components",
     "level": "Intermediate",
     "submitted": {
-      "sec": 1403971939,
+      "sec": 1406839852,
       "usec": 0
     },
-    "row_id": 39,
-    "long_abstract": "A short introduction on the way Google tests it's products, with a short overview of the development process and what tools we use.\n\nThis will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.\n\nIn the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.\n",
-    "status": "accepted",
+    "row_id": 96,
     "speaker": {
       "_id": {
-        "$id": "53af0bb314141403187e96ba"
+        "$id": "53db39431414141e04df2ab5"
       },
-      "github": "ivankovic",
-      "short_bio": "Wizard Hacker",
-      "name": "Marko Ivanković",
-      "twitter": "",
-      "long_bio": "Senior Software Engineer in Test at Google. Tech lead in the Ads Engineering Productivity group in Zurich. Specializing in test coverage and random data generation.\n\nMSc of Computer Science at FER - University of Zagreb.\n",
-      "image": "http://2014.webcampzg.org/images/speakers/marko-ivankovic.png",
-      "shirt": "Male XL"
+      "github": "warpech",
+      "short_bio": "Creative technologist implementing Web Components at Starcounter and maintaining an open source data grid editor, Handsontable.",
+      "name": "Marcin Warpechowski",
+      "twitter": "warpech",
+      "long_bio": "Marcin Warpechowski is a developer at Starcounter. He builds web applications with emerging Open Web Platform technologies, including Web Components, and is the creator of an open source data grid editor, Handsontable. He lives in Gdynia, Poland.",
+      "image": "https://dl.dropboxusercontent.com/u/313942/Marcin%20_W.png",
+      "shirt": "Male M"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d76a6fc385384df66197"
+    },
+    "status": "accepted",
+    "short_abstract": "It may be hard to start writing FP code until you start to think functionally. Turns out you can do it in almost all modern OOP languages!",
+    "long_abstract": "The goal of this talk is to show easy steps for transitioning from OOP to functional programming.\n\nWe'll start this talk with explaining the benefits of functional programming and discussing the stigma that's associated with it. After that we'll see how FP languages are getting used in real life and that we can indeed write a web app using solely FP languages.\n\nAfter that we'll show samples of functional code as written in many OOP languages (JavaScript, C# and Ruby) and compare it to the implementation in F#, an FP language.\n\nThis talk was already held at Developers Arena in Sarajevo in a slightly trimmed version (20 min). The slides are available: https://speakerdeck.com/damir/oop-and-fp-bridging-the-gap",
+    "language": "English",
+    "title": "OOP and FP: Bridging the Gap",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406304563,
+      "usec": 0
+    },
+    "row_id": 73,
+    "speaker": {
+      "_id": {
+        "$id": "53af0bab14141403187e969d"
+      },
+      "github": "sidonath",
+      "short_bio": "I write Ruby and JavaScript/CoffeeScript, run, hang out above the city with my fiancé and a camera. Adopted by two cats: Mogwai and Midori.",
+      "name": "Damir Zekić",
+      "twitter": "sidonath",
+      "long_bio": "Damir has been developing web applications for over ten years and is currently working on STCKbay, a fashion marketplace, using Ruby on Rails and Ember.js.\n\nSince March 2013 Damir has been organizing Sarma: Sarajevo Ruby meetups and helped organize two BarCamps in Sarajevo in 2012 and 2013.\n\nWhen not working, he's still writing code either to learn a new language, explore a new framework, or contribute to OSS. When not writing code, he can be seen running, hiking or taking photos.",
+      "image": "http://f.cl.ly/items/3V011Y061R281R39160P/damir.png",
+      "shirt": "Male L"
     }
   }
 ]

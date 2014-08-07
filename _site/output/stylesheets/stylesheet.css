@@ -1236,8 +1236,9 @@ a.back-to-top {
   border-radius: 20px;
   height: 23px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
-/* line 689, content/stylesheets/stylesheet.scss */
+/* line 690, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
   -webkit-border-radius: 8px 0 0 8px;
   -moz-border-radius: 8px 0 0 8px;
@@ -1252,15 +1253,15 @@ a.back-to-top {
   -o-transition: width 0.5s ease-in;
   transition: width 0.5s ease-in;
 }
-/* line 700, content/stylesheets/stylesheet.scss */
+/* line 701, content/stylesheets/stylesheet.scss */
 .supporter-wrap .sold {
   float: left;
 }
-/* line 703, content/stylesheets/stylesheet.scss */
+/* line 704, content/stylesheets/stylesheet.scss */
 .supporter-wrap .whos-coming {
   float: right;
 }
-/* line 706, content/stylesheets/stylesheet.scss */
+/* line 707, content/stylesheets/stylesheet.scss */
 .supporter-wrap .loading {
   color: white;
   -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
@@ -1269,55 +1270,55 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
-/* line 715, content/stylesheets/stylesheet.scss */
+/* line 716, content/stylesheets/stylesheet.scss */
 .visitors-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 10px 20px 20px;
 }
-/* line 720, content/stylesheets/stylesheet.scss */
+/* line 721, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor {
   float: left;
   width: 33.333%;
   padding: 20px 10px 0 0;
 }
-/* line 724, content/stylesheets/stylesheet.scss */
+/* line 725, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor img {
   float: left;
   margin-right: 10px;
 }
-/* line 728, content/stylesheets/stylesheet.scss */
+/* line 729, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span, .visitors-wrap .visitor a {
   display: block;
   line-height: 20px;
   height: 20px;
 }
-/* line 733, content/stylesheets/stylesheet.scss */
+/* line 734, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span {
   margin-top: 5px;
 }
 
-/* line 739, content/stylesheets/stylesheet.scss */
+/* line 740, content/stylesheets/stylesheet.scss */
 h2.visitors-title {
   font-size: 3.3em;
   color: #f8d800;
   font-weight: bold;
 }
 
-/* line 745, content/stylesheets/stylesheet.scss */
+/* line 746, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 749, content/stylesheets/stylesheet.scss */
+/* line 750, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 25%;
 }
-/* line 754, content/stylesheets/stylesheet.scss */
+/* line 755, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -1330,44 +1331,44 @@ ul.menu li a {
   font-size: 1.5em;
   margin: 0 1px 0 0;
 }
-/* line 765, content/stylesheets/stylesheet.scss */
+/* line 766, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 773, content/stylesheets/stylesheet.scss */
+/* line 774, content/stylesheets/stylesheet.scss */
 .small-menu {
   width: 68.2%;
   float: right;
   margin: -105px 20px 0 0;
 }
-/* line 777, content/stylesheets/stylesheet.scss */
+/* line 778, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 782, content/stylesheets/stylesheet.scss */
+/* line 783, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
 /* Footer subscribe form */
-/* line 790, content/stylesheets/stylesheet.scss */
+/* line 791, content/stylesheets/stylesheet.scss */
 .newsletter-subscription {
   background: white;
   border-top: 1px dotted #333333;
   padding: 20px 0;
 }
-/* line 795, content/stylesheets/stylesheet.scss */
+/* line 796, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form {
   color: black;
   padding: 10px 3% 10px 3%;
 }
-/* line 799, content/stylesheets/stylesheet.scss */
+/* line 800, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form h2 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1376,7 +1377,7 @@ ul.menu li a:hover, ul.menu li a.active {
   font-size: 1.25em;
   text-align: center;
 }
-/* line 808, content/stylesheets/stylesheet.scss */
+/* line 809, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form .indicates-required {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1384,96 +1385,96 @@ ul.menu li a:hover, ul.menu li a.active {
   padding: 1em 0;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 808, content/stylesheets/stylesheet.scss */
+  /* line 809, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .indicates-required {
     padding: .75em 0;
   }
 }
-/* line 818, content/stylesheets/stylesheet.scss */
+/* line 819, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form .indicates-required span.asterisk {
   font-size: 1.25em;
 }
-/* line 823, content/stylesheets/stylesheet.scss */
+/* line 824, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group {
   display: inline-block;
   clear: none;
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  /* line 823, content/stylesheets/stylesheet.scss */
+  /* line 824, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group {
     float: left;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 832, content/stylesheets/stylesheet.scss */
+  /* line 833, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group + .mc-field-group {
     margin-left: -4px;
   }
 }
 @media (min-width: 961px) {
-  /* line 838, content/stylesheets/stylesheet.scss */
+  /* line 839, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group + .mc-field-group {
     margin-left: -4px;
   }
 }
-/* line 843, content/stylesheets/stylesheet.scss */
+/* line 844, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col1, .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col2, .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col3 {
   width: 100%;
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  /* line 847, content/stylesheets/stylesheet.scss */
+  /* line 848, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col1 {
     clear: right;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 847, content/stylesheets/stylesheet.scss */
+  /* line 848, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col1 {
     width: 50%;
   }
 }
 @media (min-width: 961px) {
-  /* line 847, content/stylesheets/stylesheet.scss */
+  /* line 848, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col1 {
     width: 50%;
   }
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  /* line 861, content/stylesheets/stylesheet.scss */
+  /* line 862, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col2, .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col3 {
     width: 50%;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 861, content/stylesheets/stylesheet.scss */
+  /* line 862, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col2, .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col3 {
     width: 25%;
     padding-left: .5em;
   }
 }
 @media (min-width: 961px) {
-  /* line 861, content/stylesheets/stylesheet.scss */
+  /* line 862, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col2, .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col3 {
     width: 25%;
     padding-left: .5em;
   }
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  /* line 877, content/stylesheets/stylesheet.scss */
+  /* line 878, content/stylesheets/stylesheet.scss */
   .newsletter-subscription form#mc-embedded-subscribe-form .mc-field-group.col3 {
     padding-left: .5em;
   }
 }
-/* line 885, content/stylesheets/stylesheet.scss */
+/* line 886, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form label {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-/* line 890, content/stylesheets/stylesheet.scss */
+/* line 891, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form label span.asterisk {
   font-size: 1.25em;
 }
-/* line 895, content/stylesheets/stylesheet.scss */
+/* line 896, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form input[type="text"], .newsletter-subscription form#mc-embedded-subscribe-form input[type="email"], .newsletter-subscription form#mc-embedded-subscribe-form input[type="search"] {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1484,17 +1485,17 @@ ul.menu li a:hover, ul.menu li a.active {
   border-radius: 0;
   outline: 0;
 }
-/* line 905, content/stylesheets/stylesheet.scss */
+/* line 906, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form input[type="text"]:hover, .newsletter-subscription form#mc-embedded-subscribe-form input[type="text"]:focus, .newsletter-subscription form#mc-embedded-subscribe-form input[type="email"]:hover, .newsletter-subscription form#mc-embedded-subscribe-form input[type="email"]:focus, .newsletter-subscription form#mc-embedded-subscribe-form input[type="search"]:hover, .newsletter-subscription form#mc-embedded-subscribe-form input[type="search"]:focus {
   border-color: black;
 }
-/* line 910, content/stylesheets/stylesheet.scss */
+/* line 911, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form .mce_inline_error {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1em;
 }
-/* line 916, content/stylesheets/stylesheet.scss */
+/* line 917, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form #mc-embedded-subscribe {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1505,44 +1506,44 @@ ul.menu li a:hover, ul.menu li a.active {
   padding: 0 25px;
   margin-bottom: 0;
 }
-/* line 926, content/stylesheets/stylesheet.scss */
+/* line 927, content/stylesheets/stylesheet.scss */
 .newsletter-subscription form#mc-embedded-subscribe-form #mc-embedded-subscribe:hover {
   color: black;
   background: #f8d800;
 }
 
 /* Footer menu */
-/* line 935, content/stylesheets/stylesheet.scss */
+/* line 936, content/stylesheets/stylesheet.scss */
 .footer-nav {
   background: white;
   border-top: 1px dotted #333333;
   padding: 20px 10px;
   text-align: center;
 }
-/* line 941, content/stylesheets/stylesheet.scss */
+/* line 942, content/stylesheets/stylesheet.scss */
 .footer-nav ul, .footer-nav li {
   list-style: none;
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-/* line 948, content/stylesheets/stylesheet.scss */
+/* line 949, content/stylesheets/stylesheet.scss */
 .footer-nav nav li {
   padding: .65em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 948, content/stylesheets/stylesheet.scss */
+  /* line 949, content/stylesheets/stylesheet.scss */
   .footer-nav nav li {
     padding: .55em .45em;
   }
 }
 @media (min-width: 961px) {
-  /* line 948, content/stylesheets/stylesheet.scss */
+  /* line 949, content/stylesheets/stylesheet.scss */
   .footer-nav nav li {
     padding: .55em .45em;
   }
 }
-/* line 960, content/stylesheets/stylesheet.scss */
+/* line 961, content/stylesheets/stylesheet.scss */
 .footer-nav nav a {
   display: block;
   color: #666666;
@@ -1551,25 +1552,25 @@ ul.menu li a:hover, ul.menu li a.active {
   font-size: 0.9em;
   text-decoration: none;
 }
-/* line 968, content/stylesheets/stylesheet.scss */
+/* line 969, content/stylesheets/stylesheet.scss */
 .footer-nav nav a:hover {
   color: black;
 }
 
 /* Wrapper with background */
-/* line 975, content/stylesheets/stylesheet.scss */
+/* line 976, content/stylesheets/stylesheet.scss */
 .bg-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 20px 20px 20px;
 }
-/* line 980, content/stylesheets/stylesheet.scss */
+/* line 981, content/stylesheets/stylesheet.scss */
 .bg-wrap h3 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.75em;
 }
-/* line 986, content/stylesheets/stylesheet.scss */
+/* line 987, content/stylesheets/stylesheet.scss */
 .bg-wrap hr {
   height: 1px;
   margin: 2.2em 0;
@@ -1577,24 +1578,24 @@ ul.menu li a:hover, ul.menu li a.active {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   background: none;
 }
-/* line 994, content/stylesheets/stylesheet.scss */
+/* line 995, content/stylesheets/stylesheet.scss */
 .bg-wrap p.intro {
   font-size: 1.25em;
   line-height: 1.4em;
 }
-/* line 999, content/stylesheets/stylesheet.scss */
+/* line 1000, content/stylesheets/stylesheet.scss */
 .bg-wrap ul {
   margin: 0 0 1.1em 1.1em;
   font-size: 1.05em;
   line-height: 1.4em;
   color: white;
 }
-/* line 1005, content/stylesheets/stylesheet.scss */
+/* line 1006, content/stylesheets/stylesheet.scss */
 .bg-wrap ul li {
   padding: 3px 0;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 1010, content/stylesheets/stylesheet.scss */
+  /* line 1011, content/stylesheets/stylesheet.scss */
   .bg-wrap .columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -1609,7 +1610,7 @@ ul.menu li a:hover, ul.menu li a.active {
   }
 }
 @media (min-width: 961px) {
-  /* line 1010, content/stylesheets/stylesheet.scss */
+  /* line 1011, content/stylesheets/stylesheet.scss */
   .bg-wrap .columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -1625,18 +1626,18 @@ ul.menu li a:hover, ul.menu li a.active {
 }
 
 /* Credits team list */
-/* line 1023, content/stylesheets/stylesheet.scss */
+/* line 1024, content/stylesheets/stylesheet.scss */
 .credits-team-wrap {
   padding: 1.25em 0;
 }
-/* line 1026, content/stylesheets/stylesheet.scss */
+/* line 1027, content/stylesheets/stylesheet.scss */
 .credits-team-wrap .credits-team-list {
   width: 100%;
   margin: 3em auto 2em auto;
   padding: 0;
   text-align: center;
 }
-/* line 1032, content/stylesheets/stylesheet.scss */
+/* line 1033, content/stylesheets/stylesheet.scss */
 .credits-team-wrap .credits-team-list li {
   float: left;
   display: block;
@@ -1646,25 +1647,25 @@ ul.menu li a:hover, ul.menu li a.active {
   list-style: none;
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  /* line 1032, content/stylesheets/stylesheet.scss */
+  /* line 1033, content/stylesheets/stylesheet.scss */
   .credits-team-wrap .credits-team-list li {
     width: 50%;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 1032, content/stylesheets/stylesheet.scss */
+  /* line 1033, content/stylesheets/stylesheet.scss */
   .credits-team-wrap .credits-team-list li {
     width: 33.33%;
   }
 }
 @media (min-width: 961px) {
-  /* line 1032, content/stylesheets/stylesheet.scss */
+  /* line 1033, content/stylesheets/stylesheet.scss */
   .credits-team-wrap .credits-team-list li {
     width: 23%;
     margin: 0 2% 7% 0;
   }
 }
-/* line 1051, content/stylesheets/stylesheet.scss */
+/* line 1052, content/stylesheets/stylesheet.scss */
 .credits-team-wrap .credits-team-list li:last-child {
   margin-bottom: 0;
   margin-right: 0;
@@ -1679,7 +1680,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 1071, content/stylesheets/stylesheet.scss */
+/* line 1072, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1688,7 +1689,7 @@ ul.menu li a:hover, ul.menu li a.active {
   /* 2 */
 }
 
-/* line 1076, content/stylesheets/stylesheet.scss */
+/* line 1077, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1697,7 +1698,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 1084, content/stylesheets/stylesheet.scss */
+/* line 1085, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
