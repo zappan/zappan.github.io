@@ -533,6 +533,34 @@
   },
   {
     "_id": {
+      "$id": "53af0c091414141d48963a0a"
+    },
+    "short_abstract": "Intro into Redis, Lua scripts and debugging of Lua scripts in Redis. Real life examples of how can Redis speed up your application.",
+    "language": "English",
+    "title": "Redis in practice",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1401760371,
+      "usec": 0
+    },
+    "row_id": 15,
+    "long_abstract": "You know that old saying \"Right tool for the right job\"? I want to show you some jobs in which Redis is that right tool. We'll talk about some real life examples of how can Redis speed up your application and some of it's not so obvious usages.\n\nThere will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you'll have to debug those Lua scripts and I'll show you one interesting way of how to do it.",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bad14141403187e96a5"
+      },
+      "github": "zlikavac32",
+      "short_bio": "Student on FER, Computer science section. I love artificial intelligence and algorithms. In my free time I drive my bike and go hunting.",
+      "name": "Marijan Šuflaj",
+      "twitter": "",
+      "long_bio": "Young developer willing to learn new things and explore new technologies. Also I like to share my experience about what I know and what I have learned so far. As a student, I work for Trikoder d.o.o. and with few other developers I take care of njuskalo.hr.",
+      "image": "http://2014.webcampzg.org/images/speakers/marijan-suflaj.png",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
       "$id": "53d8d4996fc3853a3b4ff4de"
     },
     "status": "accepted",
@@ -668,34 +696,6 @@
       "twitter": "sidonath",
       "long_bio": "Damir has been developing web applications for over ten years and is currently working on STCKbay, a fashion marketplace, using Ruby on Rails and Ember.js.\n\nSince March 2013 Damir has been organizing Sarma: Sarajevo Ruby meetups and helped organize two BarCamps in Sarajevo in 2012 and 2013.\n\nWhen not working, he's still writing code either to learn a new language, explore a new framework, or contribute to OSS. When not writing code, he can be seen running, hiking or taking photos.",
       "image": "http://f.cl.ly/items/3V011Y061R281R39160P/damir.png",
-      "shirt": "Male L"
-    }
-  },
-  {
-    "_id": {
-      "$id": "53af0c091414141d48963a0a"
-    },
-    "short_abstract": "Intro into Redis, Lua scripts and debugging of Lua scripts in Redis. Real life examples of how can Redis speed up your application.",
-    "language": "English",
-    "title": "Redis in practice",
-    "level": "Intermediate",
-    "submitted": {
-      "sec": 1401760371,
-      "usec": 0
-    },
-    "row_id": 15,
-    "long_abstract": "You know that old saying \"Right tool for the right job\"? I want to show you some jobs in which Redis is that right tool. We'll talk about some real life examples of how can Redis speed up your application and some of it's not so obvious usages.\n\nThere will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you'll have to debug those Lua scripts and I'll show you one interesting way of how to do it.",
-    "status": "accepted",
-    "speaker": {
-      "_id": {
-        "$id": "53af0bad14141403187e96a5"
-      },
-      "github": "zlikavac32",
-      "short_bio": "Student on FER, Computer science section. I love artificial intelligence and algorithms. In my free time I drive my bike and go hunting.",
-      "name": "Marijan Šuflaj",
-      "twitter": "",
-      "long_bio": "Young developer willing to learn new things and explore new technologies. Also I like to share my experience about what I know and what I have learned so far. As a student, I work for Trikoder d.o.o. and with few other developers I take care of njuskalo.hr.",
-      "image": "http://2014.webcampzg.org/images/speakers/marijan-suflaj.png",
       "shirt": "Male L"
     }
   }
