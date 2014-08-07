@@ -1235,6 +1235,7 @@ a.back-to-top {
   border-radius: 20px;
   height: 23px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 /* line 671, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
