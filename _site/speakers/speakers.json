@@ -57,6 +57,34 @@
   },
   {
     "_id": {
+      "$id": "53db39431414141e04df2ab4"
+    },
+    "status": "accepted",
+    "short_abstract": "Is it possible that JS - as a first class citizen of Software Development - went mad and want to conquer our planet and kill all the humans?",
+    "long_abstract": "Is this going for the page? I would like to describe what I'll talk about just for the organizers.\n\nI made a lot of neural networking experiments with JS, mostly in Node. I want to explain people how Artificial Intelligence works, how it can be used in games, in robots, and in creating code & design. You can threat this topic as an introduction to AI & genetic algorithms with examples in JavaScript. If you will like it, and need longer description than this one for the page, I can prepare something, but I think that this 140 chars description is mysterious enough to make interest among the audience. Thanks.\nMichał",
+    "language": "English",
+    "title": "JS, JS, are you mad?",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406819023,
+      "usec": 0
+    },
+    "row_id": 95,
+    "speaker": {
+      "_id": {
+        "$id": "53db39431414141e04df2ab3"
+      },
+      "github": "michalbe",
+      "short_bio": "Hi, I'm Michał. I'm 174, white (caucasian) male with glasses (just recently). I like pizza & beer.",
+      "name": "Michał Budzyński",
+      "twitter": "michalbe",
+      "long_bio": "Michal is former Karate (1 kyu) & MMA fighter and Star Alliance Gold Senator. He loves subway systems & TV shows and collect ancient roman coins. Time to time he codes <github.com/michalbe>, tweets <@michalbe> and blogs <michalbe.blogspot.com>. As a former mercenary in Mozilla FirefoxOS army & now volunteer, he is a front line soldier in war for the best mobile operating system.",
+      "image": "https://avatars2.githubusercontent.com/u/347657?v=1&s=460",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
       "$id": "53b320ab141414136846868f"
     },
     "short_abstract": "How do you develop a 3D flight simulator for an experimental drone? Take an open source gaming engine, hone in a lot of Python, and here is your flying drone!",
@@ -137,6 +165,34 @@
       "long_bio": "I'm software engineer living in Zagreb, Croatia, with several years of experience in software development and system administration.\n\nI currently work at Bitovi on building data aggregation, REST API platform in Ruby. Other work is related on frontend development in CanJs.\n\nPrevious experience would include Linux administration, network stack, PostgreSQL, C, web development in Python/Django and parallel computing in MPI and OpenCL.\n\nI'm passionate about functional programming and would consider myself as Haskell newbie.",
       "image": "http://2014.webcampzg.org/images/speakers/veljko-dragasic.png",
       "shirt": "Male S"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d4d7696fc385384df66192"
+    },
+    "language": "English",
+    "level": "Intermediate",
+    "long_abstract": "How do we combine streams? What technologies can we use on the web today to utilize streaming technologies today? How do streams work in Node.js? What do the web standards bodies have to say for our browsers?\n\nStreaming is very useful technology that we use everyday in our tools, without even thinking about them. In JavaScript, especially Node.js, streams take more prominent place, due to their non-blocking nature. But besides streaming video files to mobile clients, where else do we use them at? What else can we do to bring up some power on them?\n\nIf you like to hear about terms like backpressure, readable and writable, passthrough and aborts, this is the talk. In this talk we ask these questions and try to answer some of them.",
+    "row_id": 70,
+    "short_abstract": "Let's see what we can do with streams and streaming on the web.",
+    "status": "accepted",
+    "submitted": {
+      "sec": 1406164444,
+      "usec": 0
+    },
+    "title": "Wildest streams",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bac14141403187e96a0"
+      },
+      "github": "zladuric",
+      "image": "http://0.gravatar.com/avatar/fda09c54de7bb03f0d77127cec09fd12?size=400px",
+      "long_bio": "A JavaScript guy with a decent Linux beard. Loves tinkering with shiny new things and trying technology out, but only has a fragment of the usual programmers' OCDs that make them use all the tools out there. Tries to follow the latest news but too much reading gets in the way of doing.\n\nFor the last few years Zlatko freelances, working on Node.js and usually Angular.js projects.",
+      "name": "Zlatko Đurić",
+      "shirt": "Male L",
+      "short_bio": "Mostly harmless.",
+      "twitter": "zladuric"
     }
   },
   {
@@ -281,6 +337,34 @@
   },
   {
     "_id": {
+      "$id": "53dc99b86fc3850d17182e1b"
+    },
+    "status": "accepted",
+    "short_abstract": "In a mobile-first world, can we finally start designing smart first and phones later?",
+    "long_abstract": "Are responsive interfaces really just intelligent interfaces? Should our tools act smarter? Is it too much to ask for designers and developers to invest that extra mile? A few seconds each day X millions of users means hours saved.\n\nNow that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that’s already collected and available.\n\nIn a mobile-first world, can we finally start designing smart first and phones later?",
+    "language": "English",
+    "title": "Taking Responsive a Step Further",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406900635,
+      "usec": 0
+    },
+    "row_id": 101,
+    "speaker": {
+      "_id": {
+        "$id": "53dc99b66fc3850d17182e1a"
+      },
+      "github": "",
+      "short_bio": "I am an interaction artist / designer / educator living in Croatia. Co-founder at @brlog, lecturer at @studijdizajna",
+      "name": "Tin Kadoic",
+      "twitter": "tinkadoic",
+      "long_bio": "Tin is a M.Design and a lecturer at the School of Design in Zagreb. He lives and works with interactive media, balancing commercial, educational and personal work.\n\nWorking for more than 10 years with local studios and agencies for clients such as Coca-Cola, Adris, T-Com, Snickers, Ericsson, Carlsberg, Nutella. In 2009. co-founds a digital agency Brlog, part of Bruketa&Žinić OM group, where he is in charge of all aspects of digital communication. In his career he has been awarded with the Red Dot, ID, Adobe achievement award, IdejaX, MIXX, Effie, and has exhibited at the HDD Biennale (biennale Exhibition of Croatian Design), ZGRAF, and smaller exhibitions.\n\nFor the last four years he has also been working as a lecturer at the School of Design in Zagreb - Interactive media department, where he leads and organises workshops, guest lecturers and actively works on promoting interactive media inside the academic community.\n\nAs of 2014, he organises events and meet-ups as a local leader for IxDA Croatia, and helps as an IxDA Europe core team member.",
+      "image": "https://d262ilb51hltx0.cloudfront.net/max/1896/1*cF6dH37dBwWJ1PdwXFyYOw.gif",
+      "shirt": "Male M"
+    }
+  },
+  {
+    "_id": {
       "$id": "53d8d4966fc3853a3b4ff4db"
     },
     "status": "accepted",
@@ -305,6 +389,34 @@
       "shirt": "Male XXL",
       "short_bio": "Doing web for a living for over 10 years, escaped from ASP to PHP, from PHP to Python. despises frontend, likes doing talks.",
       "twitter": "allixsenos"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53af0c081414141d48963a04"
+    },
+    "short_abstract": "It's about how product managers and developers perceive their designer or design team - and why is it wrong.",
+    "language": "English",
+    "title": "Your designer is not your slut!",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1401390042,
+      "usec": 0
+    },
+    "row_id": 9,
+    "long_abstract": "Purpose of this talk is for business owners, project leaders and developers (and all alike) to see the other side of design, beyond what is shown in the presentation slides once the design process is at its end.\n\nAnd also, to see what happens (or will happen) to the creative mind they employ once they force them to add a golden crown on top of the milking cow in the election posters. (Yes! That happend!)\n\nTalk is based on 10 year experience in graphic, web and start-up industry, of which better part was being Don Quixote in defense of best practices, and why it was time to stop.\n\nDevelopers need to trust in designers - not be clients from hell.",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bac14141403187e96a2"
+      },
+      "github": "universeceo",
+      "short_bio": "UI/UX designer, front end developer, entrepreneur, Stand Up Comedian, ...and some more big words also.",
+      "name": "Tomislav Kozačinski",
+      "twitter": "UniverseCEO",
+      "long_bio": "My name is Tomislav Kozačinski.\nI am UI / UX designer and front end developer from Velika Gorica.\n\nI just finished my contract with Hitlist, New York based start-up centered around flight search. www.hitlistapp.com\nWhere, among other things, I worked on redesigning the app into new iOS 7 version.\n\nBeside that, I work for TopTal network as a freelancer, on mobile app design and front end development.\n\nMy current focus is further work on mobile apps, and getting my own start-up off the ground.\n\nIn my spare time I perform as a Stand Up comedian across the Balkans.",
+      "image": "http://tomislav.kozacinski.com/kozacinskiprofilna.png",
+      "shirt": "Male L"
     }
   },
   {
@@ -393,6 +505,34 @@
   },
   {
     "_id": {
+      "$id": "53d4d7686fc385384df6618d"
+    },
+    "status": "accepted",
+    "short_abstract": "In this talk we will make a review of existing solutions which provide \nan entire backend as a service, and show how to use them \nfor syncing data and creating real time web applications.",
+    "long_abstract": "Much of the backend code we write for most small and many mid-sized applications is boilerplate. \nAs a matter of fact, it is so boilerplate that very often it can be abstracted and consumed as a service.\nThis type of architecture allows developers to work mostly, if not entirely, on the front end,\nfocusing on delivering more features, and a much better user experience.\nOn the other hand, a NoBackend service can take care of creating user accounts, sending emails, storing data, issuing payments and any other\nfunctionality that you have implemented several times before.\nTo take things even further, we can easily leverage this type of architecture to synchronize data between clients in real time.\n\nIn this talk we will present existing solutions, both commercial and open source, \nwhich provide a \"backend as a service\", and show how you can use them \nfor either rapid prototyping, or developing a full blown, real time application.",
+    "language": "English",
+    "title": "Abstracting the backend. NoBackend solutions and syncing data in real time.",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1405605880,
+      "usec": 0
+    },
+    "row_id": 67,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d7686fc385384df6618c"
+      },
+      "github": "",
+      "short_bio": "I am web developer with a passion for the JavaScript ecosystem. \nWorking as a freelancer, I get to use new technologies on regular basis,\nwhich motivates me to share my experiences with other people in the industry.\n",
+      "name": "Filip Petkovski",
+      "twitter": "",
+      "long_bio": "I am a web developer working at IN2 Ltd, Croatia. In the past I have worked on an open source platform for machine translation through the Google Summer of Code project.\n\nMy interest are JavaScript, WebComponents and AngularJS.",
+      "image": "http://www.deviantpics.com/DST",
+      "shirt": "Male M"
+    }
+  },
+  {
+    "_id": {
       "$id": "53d4d7686fc385384df6618b"
     },
     "status": "accepted",
@@ -445,6 +585,34 @@
       "long_bio": "Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there's an entire world of other languages, technologies, and approaches to developing software out there.\n\nI'm a big fan of free software, a regular at Zagreb's Hacklab in Mama, and a member of various Croatian tech communities.",
       "image": "http://2014.webcampzg.org/images/speakers/nikola-plejic.png",
       "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53d775616fc3851defc3886d"
+    },
+    "status": "accepted",
+    "short_abstract": "Why having a single person tracking project from start to finish matters.",
+    "long_abstract": "Why planning matters. Why organisational structure matters, even if you are a freelancer. Why is time tracking good for your sanity. Learn that every member of the team has his/her role with a reason. And don't bend over for your client.",
+    "language": "English",
+    "title": "I'll just do it myself!",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1406628424,
+      "usec": 0
+    },
+    "row_id": 80,
+    "speaker": {
+      "_id": {
+        "$id": "53d775606fc3851defc3886c"
+      },
+      "github": "",
+      "short_bio": "If I see a mess, I need to sort it out. ",
+      "name": "Lora Pleško",
+      "twitter": "LoraLollipop",
+      "long_bio": "After almost 4 years working as tester and business analyst in a company developing banking software, I decided to turn to more dynamic and faster changing environment of web and mobile technologies. I co-founded and currently work as CEO and project manager in Mašinerija. Coming from a bigger system, I cherish the knowledge I gained there and try to implement strict project procedures to our small team.",
+      "image": "http://i62.tinypic.com/t9veif.jpg",
+      "shirt": "Female XL"
     }
   },
   {
@@ -505,6 +673,34 @@
   },
   {
     "_id": {
+      "$id": "53b1d3cf141414115c7c9b0b"
+    },
+    "short_abstract": "On what I hate about front-end web development and what tools and methods to use to ease the pain.",
+    "language": "English",
+    "title": "Front-end h8#ff0000!!1;",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1404166043,
+      "usec": 0
+    },
+    "row_id": 51,
+    "long_abstract": "The talk is about front-end web development of a larger web-applications within a medium-sized development team.\nThe emphasis will be on importance of coding style, naming conventions, keeping your codebase small and clean, code reviews, continuous measurements, code cleanup, (automated) visual testing, etc.\nMethods, tools and workflow will be mentioned.\nAlso, an interesting novel approach towards continuous visual regression testing will be presented, currently with a working name WizEye - an automation tool that notifies you whenever you visual design gets broken.",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53b1d3cf141414115c7c9b0a"
+      },
+      "github": "sedovsek",
+      "short_bio": "R&D at @CeltraMobile, a PhD student.\nA full-time continuously learning passionately curious enthusiast.\nhttp://galjot.si/about",
+      "name": "Robert Sedovšek",
+      "twitter": "sedovsek",
+      "long_bio": "Robert Sedovšek is a PhD candidate at the University of Ljubljana (title of thesis: Evaluation of user experience in mobile advertising) and elected assistant professor in the field of information and graphic technologies. He has 7 years experience in web development/design.\nCurrently employed at Celtra Mobile as a researcher/developer, mainly working with front-end technologies to develop different tools for digital display advertising industry, such as campaign management dashboard, media analytics and many more.\n\nHe is also a mentor to many brilliant young engineers working on a different internal projects in the field of front-end technologies, such as form (re)design library, chart creation library, UI Pattern Library, WizEye - continuous visual testing tool, etc.",
+      "image": "http://galjot.si/sedovsek.jpg",
+      "shirt": "Male XL"
+    }
+  },
+  {
+    "_id": {
       "$id": "53d4d7696fc385384df66194"
     },
     "status": "accepted",
@@ -561,6 +757,34 @@
   },
   {
     "_id": {
+      "$id": "53d4d76a6fc385384df66199"
+    },
+    "status": "accepted",
+    "short_abstract": "Apache Cassandra, BigData Web-scale data platform with linear scalability and proven fault tolerance. What's behind it & how does it work?",
+    "long_abstract": "A short history of Apache Cassandra, how it developed and who is using it today. The basic theoretical concepts behind it like the CAP Theorem and Consistent Hashing technique. An architecture overview and description of replication strategies. Dynamic nature of the system and how it adapts using the Gossip protocol and the Snitch. Data paths, writing, updating, removal, compaction and reading. Basic interacting with the Cassandra using the Cassandra Query Language and the CQL Shell.",
+    "language": "English",
+    "title": "Cassandra, web-scale NoSQL data platform",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406378937,
+      "usec": 0
+    },
+    "row_id": 74,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d76a6fc385384df66198"
+      },
+      "github": "msval",
+      "short_bio": "Web and javascript, html5 canvas demo fan, game developer wannabe, arduino tinkerer, who recently discovered the joys of cassandra.",
+      "name": "Marko Švaljek",
+      "twitter": "msvaljek",
+      "long_bio": "Developer working at the Machine Networks department of the Kapsch CarrierCom group. Blog author with entries ranging from HTML 5 Canvas animations to BigData stuff. Loves experimenting with the web technologies and if the circumstances allow it playing with the arduino. Recently he discovered the joys of Big data with Apache Cassandra. ",
+      "image": "https://pbs.twimg.com/profile_images/460372885563924480/6nDFrud3.jpeg",
+      "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
       "$id": "53d8d4996fc3853a3b4ff4de"
     },
     "status": "accepted",
@@ -584,6 +808,34 @@
       "twitter": "rosstuck",
       "long_bio": "I’m an independent consultant and engineer, originally from the US and now living in the Netherlands. I started coding in 2000 and now specialize in building web apps, primarily with PHP and Javascript. I also speak at conferences and write articles. My hobbies are reading and hats.",
       "image": "https://pbs.twimg.com/profile_images/655208872/ross2.jpg",
+      "shirt": "Male M"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53dc99be6fc3850d17182e1f"
+    },
+    "status": "accepted",
+    "short_abstract": "When cooking a meal, you always try it before serving. Learn some of the industry's leading practices in trying your project before serving.",
+    "long_abstract": "Regardless of the good product planning, UX process and efforts put into the development of the Web or mobile app, final product often misses the opportunity to communicate its abilities to users.\n\nSolving some points of product usage confusion requires significant effort, but some interface issues could be solved in matter of minutes, providing better user experience and better business results. In order to find some of the bad points of your product's experience, the best and fastest way is to do some kind of user testing. \n\nUsability testing has always been considered as complicated and expensive process intended for someone with bigger budget, more time or more knowledge. The goal of this talk is to present basic steps for conducting quick usability testing and improving product in minimum time.\n\nTalk will show usability testing best pracices and tools used at Five Minutes.",
+    "language": "English",
+    "title": "Try the meal before you serve it - usability testing for your product",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1406930623,
+      "usec": 0
+    },
+    "row_id": 103,
+    "speaker": {
+      "_id": {
+        "$id": "53dc99bc6fc3850d17182e1e"
+      },
+      "github": "",
+      "short_bio": "Tech guy in love with creating meaningful and beautiful products. UX designer at Five Minutes.",
+      "name": "Luka Vida",
+      "twitter": "lukavida",
+      "long_bio": "Unfocused to some specific area which he'd like to pursue, in the last few years Luka has done frontend, graduating from FER, leading the student organization eSTUDENT, and has finally landed in position which covers multiple areas he's interested in. Passionate about changing the surroundings using the technology, he is designer of user experience on products Five Minutes is delivering. Interests reach from architecture and psychology to machine learning and computer vision. Unfortunately, life is too short, so UX design will do.",
+      "image": "https://dl.dropboxusercontent.com/u/140336/LukaVida/LukaVidaSquare.jpg",
       "shirt": "Male M"
     }
   },
