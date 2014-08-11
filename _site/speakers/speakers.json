@@ -467,12 +467,12 @@
         "$id": "53d4d7696fc385384df66190"
       },
       "github": "senko",
-      "short_bio": "A practitioning bit-shifting magician turned cat herder. Runs Good Code, a team of passionate web developers working on projects all around the world.",
-      "name": "Senko Rasic",
-      "twitter": "senkorasic",
-      "long_bio": "Senko runs a web development shop by day and experiments with programming languages by night. Programmer since the days of C64, for the past few years he's worked on all kinds of web application projects.\n\nLately he spends his days with an email client and spreadsheet more than a code editor, and he's as likely to rant about processes, methodologies and go-to-market strategies as to rant about generalized algebraic data types in Haskell and concurrency in Go.\n\nHe's \n\nSenko Rašić je zaljubljenik u programiranje od kad je kao klinac na poklon dobio C64 bez igrica, a u open source od kad je otkrio Linux. U zadnje vrijeme sve manje programira, a sve više vremena provodi vodeći tvrtku Dobar Kod koja se bavi razvojem web aplikacija za klijente širom svijeta.\n\n",
       "image": "https://www.dropbox.com/s/po503wgucr2b5tr/Senko-Hipster-Avatar-2.jpg?dl=1",
-      "shirt": "Male XXL"
+      "long_bio": "Senko runs a web development shop by day and experiments with programming languages by night. Programmer since the days of C64, for the past few years he's worked on all kinds of web application projects.\n\nLately he spends his days with an email client and spreadsheet more than a code editor, and he's as likely to rant about processes, methodologies and go-to-market strategies as to rant about generalized algebraic data types in Haskell and concurrency in Go.",
+      "name": "Senko Rasic",
+      "shirt": "Male XXL",
+      "short_bio": "A practitioning bit-shifting magician turned cat herder. Runs Good Code, a team of passionate web developers working on projects all around the world.",
+      "twitter": "senkorasic"
     }
   },
   {
