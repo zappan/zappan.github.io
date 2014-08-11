@@ -19,12 +19,12 @@
         "$id": "53dc99b96fc3850d17182e1c"
       },
       "github": "",
-      "short_bio": "JavaScript connoisseur",
-      "name": "Kresimir Antolic ",
-      "twitter": "Kantolic ",
-      "long_bio": "The main reason why Kresimir entered the mystical world of web development is the fact he had no Internet access while growing up. Once he was introduced to its magic he instantly fell in love with it and all the possibilities this platform provides.  Now he’s passionate about the Web and having the possibility to work on it and hopes to do so for many years to come.\n\nHe spends his days as a JavaScript Team Dictator at Infinum. He loves his job and the Web.",
       "image": "https://pbs-0.twimg.com/profile_images/426061032759386112/arbGRnew.jpeg",
-      "shirt": "Male XL"
+      "long_bio": "The main reason why Kresimir entered the mystical world of web development is the fact he had no Internet access while growing up. Once he was introduced to its magic he instantly fell in love with it and all the possibilities this platform provides.  Now he’s passionate about the Web and having the possibility to work on it and hopes to do so for many years to come.\n\nHe spends his days as a JavaScript Team Dictator at Infinum. He loves his job and the Web.",
+      "name": "Krešimir Antolić",
+      "shirt": "Male XL",
+      "short_bio": "JavaScript connoisseur",
+      "twitter": "Kantolic "
     }
   },
   {
@@ -47,12 +47,12 @@
         "$id": "53db39431414141e04df2ab7"
       },
       "github": "https://github.com/denibertovic",
-      "short_bio": "Software Engineer. Python. Haskell. Linux. Devops.",
-      "name": "Deni Bertovic",
-      "twitter": "denibertovic",
-      "long_bio": "Deni is a Software Engineer from Zagreb/Croatia, currently focusing mainly on Python, but enjoys learning about Clojure, Haskell and FP languages in general. Deni likes to do Sysadmin stuff with special interest in virtualization, continuous deployment and automating everything he can. When he's not hacking on open source, he spends most of his time happily coding away at GoodCode.io.\n\nInterested in continuous #deployment, #debian, #django, #docker, #functional programming, #haskell, #lxc, #python, #testing, #virtualization, #web.",
       "image": "http://pixbin.us/media/cache/8f/32/8f32f1045f3ebaf3d3468738d76ebde5.jpg",
-      "shirt": "Male L"
+      "long_bio": "Deni is a Software Engineer from Zagreb/Croatia, currently focusing mainly on Python, but enjoys learning about Clojure, Haskell and FP languages in general. Deni likes to do Sysadmin stuff with special interest in virtualization, continuous deployment and automating everything he can. When he's not hacking on open source, he spends most of his time happily coding away at GoodCode.io.\n\nInterested in continuous #deployment, #debian, #django, #docker, #functional programming, #haskell, #lxc, #python, #testing, #virtualization, #web.",
+      "name": "Deni Bertović",
+      "shirt": "Male L",
+      "short_bio": "Software Engineer. Python. Haskell. Linux. Devops.",
+      "twitter": "denibertovic"
     }
   },
   {
@@ -299,12 +299,12 @@
         "$id": "53d8d4956fc3853a3b4ff4da"
       },
       "github": "allixsenos",
-      "short_bio": "Doing web for a living for over 10 years, escaped from ASP to PHP, from PHP to Python. despises frontend, likes doing talks.",
-      "name": "Luka Kladaric",
-      "twitter": "allixsenos",
-      "long_bio": "After 10 years of web development just about ready to go herd sheep on some hill somewhere. Currently CTO at hitlistapp.com, formerly developer at deviantart.com. Ran a small web studio in Croatia with a dozen happy customers. Dreams in matrixcode.",
       "image": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10420410_10154281932860368_3858648230653567025_n.jpg",
-      "shirt": "Male XXL"
+      "long_bio": "After 10 years of web development just about ready to go herd sheep on some hill somewhere. Currently CTO at hitlistapp.com, formerly developer at deviantart.com. Ran a small web studio in Croatia with a dozen happy customers. Dreams in matrixcode.",
+      "name": "Luka Kladarić",
+      "shirt": "Male XXL",
+      "short_bio": "Doing web for a living for over 10 years, escaped from ASP to PHP, from PHP to Python. despises frontend, likes doing talks.",
+      "twitter": "allixsenos"
     }
   },
   {
@@ -469,7 +469,7 @@
       "github": "senko",
       "image": "https://www.dropbox.com/s/po503wgucr2b5tr/Senko-Hipster-Avatar-2.jpg?dl=1",
       "long_bio": "Senko runs a web development shop by day and experiments with programming languages by night. Programmer since the days of C64, for the past few years he's worked on all kinds of web application projects.\n\nLately he spends his days with an email client and spreadsheet more than a code editor, and he's as likely to rant about processes, methodologies and go-to-market strategies as to rant about generalized algebraic data types in Haskell and concurrency in Go.",
-      "name": "Senko Rasic",
+      "name": "Senko Rašić",
       "shirt": "Male XXL",
       "short_bio": "A practitioning bit-shifting magician turned cat herder. Runs Good Code, a team of passionate web developers working on projects all around the world.",
       "twitter": "senkorasic"
@@ -495,12 +495,12 @@
         "$id": "53d8d4926fc3853a3b4ff4d7"
       },
       "github": "merlinrebrovic",
-      "short_bio": "Designer. Engineer. Wizard.",
-      "name": "Merlin Rebrovic",
-      "twitter": "merlinrebrovic",
-      "long_bio": "Merlin works as an interaction designer at Google and YouTube. With a computer science degree and a few years of working experience as a software engineer, he shifted to design realizing that you need both design and engineering to make great products. When not building something new, Merlin can be found reading or relaxing in nature. ",
       "image": "http://merlin.rebrovic.net/pub/profile_HD.jpg",
-      "shirt": "Male L"
+      "long_bio": "Merlin works as an interaction designer at Google and YouTube. With a computer science degree and a few years of working experience as a software engineer, he shifted to design realizing that you need both design and engineering to make great products. When not building something new, Merlin can be found reading or relaxing in nature. ",
+      "name": "Merlin Rebrović",
+      "shirt": "Male L",
+      "short_bio": "Designer. Engineer. Wizard.",
+      "twitter": "merlinrebrovic"
     }
   },
   {
@@ -523,12 +523,12 @@
         "$id": "53d4d7696fc385384df66193"
       },
       "github": "dselmanovic",
-      "short_bio": "Software developer with over 15 years of experience creating wonderful things in different development platforms. Engaged as one of one of TopTal freelancers and Head of development in DevLogic Sarajevo",
-      "name": "Demir Selmanovic",
-      "twitter": "",
-      "long_bio": "Developer and project manager with over 15 years of professional experience in a wide range of software development roles. Excels as a solo developer, team member, team leader, or manager of multiple distributed teams. Working closely with clients to define ideas and deliver products. Latest personal preference is NodeJS and Android development but looking at history it is likely to change again in the next few years.",
       "image": "https://www.toptal.com/uploads/user/photo/27528/large_001.jpg",
-      "shirt": "Male XL"
+      "long_bio": "Developer and project manager with over 15 years of professional experience in a wide range of software development roles. Excels as a solo developer, team member, team leader, or manager of multiple distributed teams. Working closely with clients to define ideas and deliver products. Latest personal preference is NodeJS and Android development but looking at history it is likely to change again in the next few years.",
+      "name": "Demir Selmanović",
+      "shirt": "Male XL",
+      "short_bio": "Software developer with over 15 years of experience creating wonderful things in different development platforms. Engaged as one of one of TopTal freelancers and Head of development in DevLogic Sarajevo",
+      "twitter": ""
     }
   },
   {
