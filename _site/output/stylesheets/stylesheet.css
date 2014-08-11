@@ -1235,8 +1235,9 @@ a.back-to-top {
   border-radius: 20px;
   height: 23px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
-/* line 671, content/stylesheets/stylesheet.scss */
+/* line 672, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
   -webkit-border-radius: 8px 0 0 8px;
   -moz-border-radius: 8px 0 0 8px;
@@ -1251,15 +1252,15 @@ a.back-to-top {
   -o-transition: width 0.5s ease-in;
   transition: width 0.5s ease-in;
 }
-/* line 682, content/stylesheets/stylesheet.scss */
+/* line 683, content/stylesheets/stylesheet.scss */
 .supporter-wrap .sold {
   float: left;
 }
-/* line 685, content/stylesheets/stylesheet.scss */
+/* line 686, content/stylesheets/stylesheet.scss */
 .supporter-wrap .whos-coming {
   float: right;
 }
-/* line 688, content/stylesheets/stylesheet.scss */
+/* line 689, content/stylesheets/stylesheet.scss */
 .supporter-wrap .loading {
   color: white;
   -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
@@ -1268,55 +1269,55 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
-/* line 697, content/stylesheets/stylesheet.scss */
+/* line 698, content/stylesheets/stylesheet.scss */
 .visitors-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 10px 20px 20px;
 }
-/* line 702, content/stylesheets/stylesheet.scss */
+/* line 703, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor {
   float: left;
   width: 33.333%;
   padding: 20px 10px 0 0;
 }
-/* line 706, content/stylesheets/stylesheet.scss */
+/* line 707, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor img {
   float: left;
   margin-right: 10px;
 }
-/* line 710, content/stylesheets/stylesheet.scss */
+/* line 711, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span, .visitors-wrap .visitor a {
   display: block;
   line-height: 20px;
   height: 20px;
 }
-/* line 715, content/stylesheets/stylesheet.scss */
+/* line 716, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span {
   margin-top: 5px;
 }
 
-/* line 721, content/stylesheets/stylesheet.scss */
+/* line 722, content/stylesheets/stylesheet.scss */
 h2.visitors-title {
   font-size: 3.3em;
   color: #f8d800;
   font-weight: bold;
 }
 
-/* line 727, content/stylesheets/stylesheet.scss */
+/* line 728, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 731, content/stylesheets/stylesheet.scss */
+/* line 732, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 25%;
 }
-/* line 736, content/stylesheets/stylesheet.scss */
+/* line 737, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -1329,26 +1330,26 @@ ul.menu li a {
   font-size: 1.5em;
   margin: 0 1px 0 0;
 }
-/* line 747, content/stylesheets/stylesheet.scss */
+/* line 748, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 755, content/stylesheets/stylesheet.scss */
+/* line 756, content/stylesheets/stylesheet.scss */
 .small-menu {
   width: 68.2%;
   float: right;
   margin: -105px 20px 0 0;
 }
-/* line 759, content/stylesheets/stylesheet.scss */
+/* line 760, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 764, content/stylesheets/stylesheet.scss */
+/* line 765, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
@@ -1363,7 +1364,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 781, content/stylesheets/stylesheet.scss */
+/* line 782, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1372,7 +1373,7 @@ ul.menu li a:hover, ul.menu li a.active {
   /* 2 */
 }
 
-/* line 786, content/stylesheets/stylesheet.scss */
+/* line 787, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1381,7 +1382,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 794, content/stylesheets/stylesheet.scss */
+/* line 795, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }

@@ -1261,7 +1261,7 @@ I"Û<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@I"/;T{;{	;I"J<!DOCTYPE HTML>
+</article>;T;@I"/;T{;{	;I"J<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1403,8 +1403,8 @@ I"Û<h2 class="section-title">Call for Papers</h2>
         
         <li id="speaker-kresimir-antolic">
           <a href="/speakers/kresimir-antolic-building-applications-with-a-hammer/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/kresimir-antolic.jpg" alt="Kresimir Antolic "></span>
-            <span class="name">Kresimir Antolic </span>
+            <span class="avatar"><img src="/images/speakers/kresimir-antolic.jpg" alt="Kre≈°imir Antoliƒá"></span>
+            <span class="name">Kre≈°imir Antoliƒá</span>
             <span class="twtr">@Kantolic </span>
            
           </a>
@@ -1412,8 +1412,8 @@ I"Û<h2 class="section-title">Call for Papers</h2>
         
         <li id="speaker-deni-bertovic">
           <a href="/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertovic"></span>
-            <span class="name">Deni Bertovic</span>
+            <span class="avatar"><img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertoviƒá"></span>
+            <span class="name">Deni Bertoviƒá</span>
             <span class="twtr">@denibertovic</span>
            
           </a>
@@ -1493,8 +1493,8 @@ I"Û<h2 class="section-title">Call for Papers</h2>
         
         <li id="speaker-luka-kladaric">
           <a href="/speakers/luka-kladaric-bad-ideas-and-worst-practices/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladaric"></span>
-            <span class="name">Luka Kladaric</span>
+            <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá"></span>
+            <span class="name">Luka Kladariƒá</span>
             <span class="twtr">@allixsenos</span>
            
           </a>
@@ -1547,8 +1547,8 @@ I"Û<h2 class="section-title">Call for Papers</h2>
         
         <li id="speaker-senko-rasic">
           <a href="/speakers/senko-rasic-how-to-build-a-web-api/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/senko-rasic.jpg" alt="Senko Rasic"></span>
-            <span class="name">Senko Rasic</span>
+            <span class="avatar"><img src="/images/speakers/senko-rasic.jpg" alt="Senko Ra≈°iƒá"></span>
+            <span class="name">Senko Ra≈°iƒá</span>
             <span class="twtr">@senkorasic</span>
            
           </a>
@@ -1556,8 +1556,8 @@ I"Û<h2 class="section-title">Call for Papers</h2>
         
         <li id="speaker-merlin-rebrovic">
           <a href="/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebrovic"></span>
-            <span class="name">Merlin Rebrovic</span>
+            <span class="avatar"><img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebroviƒá"></span>
+            <span class="name">Merlin Rebroviƒá</span>
             <span class="twtr">@merlinrebrovic</span>
            
           </a>
@@ -1565,8 +1565,8 @@ I"Û<h2 class="section-title">Call for Papers</h2>
         
         <li id="speaker-demir-selmanovic">
           <a href="/speakers/demir-selmanovic-google-glass-for-web-developers/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanovic"></span>
-            <span class="name">Demir Selmanovic</span>
+            <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá"></span>
+            <span class="name">Demir Selmanoviƒá</span>
             <span class="twtr">&nbsp;</span>
            
           </a>
@@ -3837,7 +3837,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.</p>
 ;T;
-@±;@∞I"/stylesheets/stylesheet/;T{;{;I"Å/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+@±;@∞I"/stylesheets/stylesheet/;T{;{;I"$Å/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -5074,8 +5074,9 @@ a.back-to-top {
   border-radius: 20px;
   height: 23px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
-/* line 671, content/stylesheets/stylesheet.scss */
+/* line 672, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
   -webkit-border-radius: 8px 0 0 8px;
   -moz-border-radius: 8px 0 0 8px;
@@ -5090,15 +5091,15 @@ a.back-to-top {
   -o-transition: width 0.5s ease-in;
   transition: width 0.5s ease-in;
 }
-/* line 682, content/stylesheets/stylesheet.scss */
+/* line 683, content/stylesheets/stylesheet.scss */
 .supporter-wrap .sold {
   float: left;
 }
-/* line 685, content/stylesheets/stylesheet.scss */
+/* line 686, content/stylesheets/stylesheet.scss */
 .supporter-wrap .whos-coming {
   float: right;
 }
-/* line 688, content/stylesheets/stylesheet.scss */
+/* line 689, content/stylesheets/stylesheet.scss */
 .supporter-wrap .loading {
   color: white;
   -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
@@ -5107,55 +5108,55 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
-/* line 697, content/stylesheets/stylesheet.scss */
+/* line 698, content/stylesheets/stylesheet.scss */
 .visitors-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 10px 20px 20px;
 }
-/* line 702, content/stylesheets/stylesheet.scss */
+/* line 703, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor {
   float: left;
   width: 33.333%;
   padding: 20px 10px 0 0;
 }
-/* line 706, content/stylesheets/stylesheet.scss */
+/* line 707, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor img {
   float: left;
   margin-right: 10px;
 }
-/* line 710, content/stylesheets/stylesheet.scss */
+/* line 711, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span, .visitors-wrap .visitor a {
   display: block;
   line-height: 20px;
   height: 20px;
 }
-/* line 715, content/stylesheets/stylesheet.scss */
+/* line 716, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span {
   margin-top: 5px;
 }
 
-/* line 721, content/stylesheets/stylesheet.scss */
+/* line 722, content/stylesheets/stylesheet.scss */
 h2.visitors-title {
   font-size: 3.3em;
   color: #f8d800;
   font-weight: bold;
 }
 
-/* line 727, content/stylesheets/stylesheet.scss */
+/* line 728, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 731, content/stylesheets/stylesheet.scss */
+/* line 732, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 25%;
 }
-/* line 736, content/stylesheets/stylesheet.scss */
+/* line 737, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -5168,26 +5169,26 @@ ul.menu li a {
   font-size: 1.5em;
   margin: 0 1px 0 0;
 }
-/* line 747, content/stylesheets/stylesheet.scss */
+/* line 748, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 755, content/stylesheets/stylesheet.scss */
+/* line 756, content/stylesheets/stylesheet.scss */
 .small-menu {
   width: 68.2%;
   float: right;
   margin: -105px 20px 0 0;
 }
-/* line 759, content/stylesheets/stylesheet.scss */
+/* line 760, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 764, content/stylesheets/stylesheet.scss */
+/* line 765, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
@@ -5202,7 +5203,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 781, content/stylesheets/stylesheet.scss */
+/* line 782, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -5211,7 +5212,7 @@ ul.menu li a:hover, ul.menu li a.active {
   /* 2 */
 }
 
-/* line 786, content/stylesheets/stylesheet.scss */
+/* line 787, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -5220,11 +5221,11 @@ ul.menu li a:hover, ul.menu li a.active {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 794, content/stylesheets/stylesheet.scss */
+/* line 795, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
-;T;	I"†6@import "compass";
+;T;	I"µ6@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -5894,6 +5895,7 @@ a.back-to-top {
     @include border-radius(20px);
     height: 23px;
     margin-bottom: 20px;
+    overflow: hidden;
     .progress-bar {
       @include border-radius(8px 0 0 8px);
       background: #f8d800;
@@ -5924,7 +5926,7 @@ a.back-to-top {
   margin: 20px 0 0;
   background: rgba(0,0,0,0.2);
   padding: 0 10px 20px 20px;
- 
+
   .visitor {
     float: left;
     width: 33.333%;
@@ -6021,7 +6023,7 @@ ul.menu {
     *zoom: 1;
 }
 ;T;
-@µI"/about/;T{;{	;I"SZ<!DOCTYPE HTML>
+@µI"/about/;T{;{	;I"aZ<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6259,8 +6261,8 @@ ul.menu {
         
         <li id="speaker-kresimir-antolic">
           <a href="/speakers/kresimir-antolic-building-applications-with-a-hammer/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/kresimir-antolic.jpg" alt="Kresimir Antolic "></span>
-            <span class="name">Kresimir Antolic </span>
+            <span class="avatar"><img src="/images/speakers/kresimir-antolic.jpg" alt="Kre≈°imir Antoliƒá"></span>
+            <span class="name">Kre≈°imir Antoliƒá</span>
             <span class="twtr">@Kantolic </span>
            
           </a>
@@ -6268,8 +6270,8 @@ ul.menu {
         
         <li id="speaker-deni-bertovic">
           <a href="/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertovic"></span>
-            <span class="name">Deni Bertovic</span>
+            <span class="avatar"><img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertoviƒá"></span>
+            <span class="name">Deni Bertoviƒá</span>
             <span class="twtr">@denibertovic</span>
            
           </a>
@@ -6349,8 +6351,8 @@ ul.menu {
         
         <li id="speaker-luka-kladaric">
           <a href="/speakers/luka-kladaric-bad-ideas-and-worst-practices/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladaric"></span>
-            <span class="name">Luka Kladaric</span>
+            <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá"></span>
+            <span class="name">Luka Kladariƒá</span>
             <span class="twtr">@allixsenos</span>
            
           </a>
@@ -6403,8 +6405,8 @@ ul.menu {
         
         <li id="speaker-senko-rasic">
           <a href="/speakers/senko-rasic-how-to-build-a-web-api/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/senko-rasic.jpg" alt="Senko Rasic"></span>
-            <span class="name">Senko Rasic</span>
+            <span class="avatar"><img src="/images/speakers/senko-rasic.jpg" alt="Senko Ra≈°iƒá"></span>
+            <span class="name">Senko Ra≈°iƒá</span>
             <span class="twtr">@senkorasic</span>
            
           </a>
@@ -6412,8 +6414,8 @@ ul.menu {
         
         <li id="speaker-merlin-rebrovic">
           <a href="/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebrovic"></span>
-            <span class="name">Merlin Rebrovic</span>
+            <span class="avatar"><img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebroviƒá"></span>
+            <span class="name">Merlin Rebroviƒá</span>
             <span class="twtr">@merlinrebrovic</span>
            
           </a>
@@ -6421,8 +6423,8 @@ ul.menu {
         
         <li id="speaker-demir-selmanovic">
           <a href="/speakers/demir-selmanovic-google-glass-for-web-developers/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanovic"></span>
-            <span class="name">Demir Selmanovic</span>
+            <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá"></span>
+            <span class="name">Demir Selmanoviƒá</span>
             <span class="twtr">&nbsp;</span>
            
           </a>
@@ -16516,7 +16518,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk we will walk you through the problem definition, the architecture we built, and the metrics we use for monitoring the system.</p>
 ;T;
-@‘;@”I"2/speakers/senko-rasic-how-to-build-a-web-api/;T{;{	;I"≥<!DOCTYPE HTML>
+@‘;@”I"2/speakers/senko-rasic-how-to-build-a-web-api/;T{;{	;I"u<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16580,18 +16582,14 @@ document.write(unescape("%3Cscript%20src='"+
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="/images/speakers/senko-rasic.jpg" alt="Senko Rasic" />
+              <img src="/images/speakers/senko-rasic.jpg" alt="Senko Ra≈°iƒá" />
             </div>
             <div class="info">
-              <h2 class="name">Senko Rasic</h2>
+              <h2 class="name">Senko Ra≈°iƒá</h2>
               <div class="desc">
                 <p>Senko runs a web development shop by day and experiments with programming languages by night. Programmer since the days of C64, for the past few years he&#39;s worked on all kinds of web application projects.</p>
 
 <p>Lately he spends his days with an email client and spreadsheet more than a code editor, and he&#39;s as likely to rant about processes, methodologies and go-to-market strategies as to rant about generalized algebraic data types in Haskell and concurrency in Go.</p>
-
-<p>He&#39;s </p>
-
-<p>Senko Ra≈°iƒá je zaljubljenik u programiranje od kad je kao klinac na poklon dobio C64 bez igrica, a u open source od kad je otkrio Linux. U zadnje vrijeme sve manje programira, a sve vi≈°e vremena provodi vodeƒái tvrtku Dobar Kod koja se bavi razvojem web aplikacija za klijente ≈°irom svijeta.</p>
 
               </div>
             </div>
@@ -16677,7 +16675,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This talk will talk about the importance of good web API, show best practices, show worst practices (and argue why they&#39;re bad), and hopefully convince you to pay attention to your APIs even if &quot;nobody but devs can see it&quot;.</p>
 ;T;
-@Ÿ;@ÿI"@/speakers/demir-selmanovic-google-glass-for-web-developers/;T{;{	;I"4<!DOCTYPE HTML>
+@Ÿ;@ÿI"@/speakers/demir-selmanovic-google-glass-for-web-developers/;T{;{	;I"6<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16737,10 +16735,10 @@ document.write(unescape("%3Cscript%20src='"+
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanovic" />
+              <img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá" />
             </div>
             <div class="info">
-              <h2 class="name">Demir Selmanovic</h2>
+              <h2 class="name">Demir Selmanoviƒá</h2>
               <div class="desc">
                 <p>Developer and project manager with over 15 years of professional experience in a wide range of software development roles. Excels as a solo developer, team member, team leader, or manager of multiple distributed teams. Working closely with clients to define ideas and deliver products. Latest personal preference is NodeJS and Android development but looking at history it is likely to change again in the next few years.</p>
 
@@ -17166,7 +17164,7 @@ document.write(unescape("%3Cscript%20src='"+
 <li>ES is a nice and in reality ready-to-use example that can change perspective of development of some type of software systems</li>
 </ul>
 ;T;
-@Ë;@ÁI"F/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/;T{;{	;I"V<!DOCTYPE HTML>
+@Ë;@ÁI"F/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/;T{;{	;I"X<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17226,10 +17224,10 @@ document.write(unescape("%3Cscript%20src='"+
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebrovic" />
+              <img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebroviƒá" />
             </div>
             <div class="info">
-              <h2 class="name">Merlin Rebrovic</h2>
+              <h2 class="name">Merlin Rebroviƒá</h2>
               <div class="desc">
                 <p>Merlin works as an interaction designer at Google and YouTube. With a computer science degree and a few years of working experience as a software engineer, he shifted to design realizing that you need both design and engineering to make great products. When not building something new, Merlin can be found reading or relaxing in nature. </p>
 
@@ -17313,7 +17311,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"˛<p>When someone says &quot;storytelling&quot;, either marketing or children bedtime stories come to mind. Both are valid, but far from being the only places storytelling appears in. Stories are illustrative, easily memorable and often reach us on an emotional level. They are very much a part of design and engineering cultures today, it&#39;s just that we&#39;re not consciously aware of them. Let us go through some examples and see how you can use storytelling to improve motivation, planning, hiring and changing perspectives. Whatever we tell ourselves, people often don&#39;t respond to reason, they respond to emotion. It doesn&#39;t matter if you&#39;re a project manager, a freelance designer or an engineer in an agile team - this applies to everyone.</p>
 ;T;
-@Ì;@ÏI";/speakers/luka-kladaric-bad-ideas-and-worst-practices/;T{;{	;I"<!DOCTYPE HTML>
+@Ì;@ÏI";/speakers/luka-kladaric-bad-ideas-and-worst-practices/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17375,10 +17373,10 @@ document.write(unescape("%3Cscript%20src='"+
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladaric" />
+              <img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá" />
             </div>
             <div class="info">
-              <h2 class="name">Luka Kladaric</h2>
+              <h2 class="name">Luka Kladariƒá</h2>
               <div class="desc">
                 <p>After 10 years of web development just about ready to go herd sheep on some hill somewhere. Currently CTO at hitlistapp.com, formerly developer at deviantart.com. Ran a small web studio in Croatia with a dozen happy customers. Dreams in matrixcode.</p>
 
@@ -17615,7 +17613,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk, I&#39;ll share the most helpful, humiliating and hilarious pieces of advice I ever got and how they shaped my career (whether I listened or not). We&#39;ll also discuss why giving and receiving advice is important, how to handle it gracefully and why it can be so powerful. As Dijkstra said: &quot;We must be very careful when we give advice to younger people: sometimes they follow it!&quot;</p>
 ;T;
-@˜;@ˆI"S/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/;T{;{	;I"˘<!DOCTYPE HTML>
+@˜;@ˆI"S/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/;T{;{	;I"˚<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17677,10 +17675,10 @@ document.write(unescape("%3Cscript%20src='"+
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertovic" />
+              <img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertoviƒá" />
             </div>
             <div class="info">
-              <h2 class="name">Deni Bertovic</h2>
+              <h2 class="name">Deni Bertoviƒá</h2>
               <div class="desc">
                 <p>Deni is a Software Engineer from Zagreb/Croatia, currently focusing mainly on Python, but enjoys learning about Clojure, Haskell and FP languages in general. Deni likes to do Sysadmin stuff with special interest in virtualization, continuous deployment and automating everything he can. When he&#39;s not hacking on open source, he spends most of his time happily coding away at GoodCode.io.</p>
 
@@ -17950,7 +17948,7 @@ Concretely, a chimera of Scala, PHP, Java, C#, JS and a lot of WD-40 that makes 
 <p>Yeah, WebDriver Firefox <em>is</em> neat, but CasperJS is spooky fast. So, let&#39;s combine the two!
 Everything may crash ~ so arm yourselves with exceptional exception handling ~ or you may just want to pivot to manually scanning printouts.</p>
 ;T;
-@;@ I"D/speakers/kresimir-antolic-building-applications-with-a-hammer/;T{;{	;I"	<!DOCTYPE HTML>
+@;@ I"D/speakers/kresimir-antolic-building-applications-with-a-hammer/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -18011,10 +18009,10 @@ The secret ingredient for this recipe is to ‚Äújust add JavaScript‚Äù. In this t
           </div>
           <div class="speaker-info cf">
             <div class="img">
-              <img src="/images/speakers/kresimir-antolic.jpg" alt="Kresimir Antolic " />
+              <img src="/images/speakers/kresimir-antolic.jpg" alt="Kre≈°imir Antoliƒá" />
             </div>
             <div class="info">
-              <h2 class="name">Kresimir Antolic </h2>
+              <h2 class="name">Kre≈°imir Antoliƒá</h2>
               <div class="desc">
                 <p>The main reason why Kresimir entered the mystical world of web development is the fact he had no Internet access while growing up. Once he was introduced to its magic he instantly fell in love with it and all the possibilities this platform provides.  Now he‚Äôs passionate about the Web and having the possibility to work on it and hopes to do so for many years to come.</p>
 
@@ -19025,7 +19023,7 @@ I"ƒ<article class="news">
   <p>
 
   </p>
-</article>;T;@<I"/cfp_done/;T{;{	;I"DQ<!DOCTYPE HTML>
+</article>;T;@<I"/cfp_done/;T{;{	;I"RQ<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -19164,8 +19162,8 @@ I"ƒ<article class="news">
         
         <li id="speaker-kresimir-antolic">
           <a href="/speakers/kresimir-antolic-building-applications-with-a-hammer/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/kresimir-antolic.jpg" alt="Kresimir Antolic "></span>
-            <span class="name">Kresimir Antolic </span>
+            <span class="avatar"><img src="/images/speakers/kresimir-antolic.jpg" alt="Kre≈°imir Antoliƒá"></span>
+            <span class="name">Kre≈°imir Antoliƒá</span>
             <span class="twtr">@Kantolic </span>
            
           </a>
@@ -19173,8 +19171,8 @@ I"ƒ<article class="news">
         
         <li id="speaker-deni-bertovic">
           <a href="/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertovic"></span>
-            <span class="name">Deni Bertovic</span>
+            <span class="avatar"><img src="/images/speakers/deni-bertovic.jpg" alt="Deni Bertoviƒá"></span>
+            <span class="name">Deni Bertoviƒá</span>
             <span class="twtr">@denibertovic</span>
            
           </a>
@@ -19254,8 +19252,8 @@ I"ƒ<article class="news">
         
         <li id="speaker-luka-kladaric">
           <a href="/speakers/luka-kladaric-bad-ideas-and-worst-practices/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladaric"></span>
-            <span class="name">Luka Kladaric</span>
+            <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá"></span>
+            <span class="name">Luka Kladariƒá</span>
             <span class="twtr">@allixsenos</span>
            
           </a>
@@ -19308,8 +19306,8 @@ I"ƒ<article class="news">
         
         <li id="speaker-senko-rasic">
           <a href="/speakers/senko-rasic-how-to-build-a-web-api/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/senko-rasic.jpg" alt="Senko Rasic"></span>
-            <span class="name">Senko Rasic</span>
+            <span class="avatar"><img src="/images/speakers/senko-rasic.jpg" alt="Senko Ra≈°iƒá"></span>
+            <span class="name">Senko Ra≈°iƒá</span>
             <span class="twtr">@senkorasic</span>
            
           </a>
@@ -19317,8 +19315,8 @@ I"ƒ<article class="news">
         
         <li id="speaker-merlin-rebrovic">
           <a href="/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebrovic"></span>
-            <span class="name">Merlin Rebrovic</span>
+            <span class="avatar"><img src="/images/speakers/merlin-rebrovic.jpg" alt="Merlin Rebroviƒá"></span>
+            <span class="name">Merlin Rebroviƒá</span>
             <span class="twtr">@merlinrebrovic</span>
            
           </a>
@@ -19326,8 +19324,8 @@ I"ƒ<article class="news">
         
         <li id="speaker-demir-selmanovic">
           <a href="/speakers/demir-selmanovic-google-glass-for-web-developers/" class="speaker">
-            <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanovic"></span>
-            <span class="name">Demir Selmanovic</span>
+            <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá"></span>
+            <span class="name">Demir Selmanoviƒá</span>
             <span class="twtr">&nbsp;</span>
            
           </a>
