@@ -1,4 +1,4 @@
-{:	data{°I"/stylesheets/normalize/:ET{:default{:	lastI"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+{:	data{´I"/stylesheets/normalize/:ET{:default{:	lastI"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -1261,7 +1261,7 @@ I"Û<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@I"/;T{;{	;I"J<!DOCTYPE HTML>
+</article>;T;@I"/;T{;{	;I"ëY<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1419,6 +1419,15 @@ I"Û<h2 class="section-title">Call for Papers</h2>
           </a>
         </li>
         
+        <li id="speaker-michal-budzynski">
+          <a href="/speakers/michal-budzynski-js-js-are-you-mad/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/michal-budzynski.jpg" alt="Micha≈Ç Budzy≈Ñski"></span>
+            <span class="name">Micha≈Ç Budzy≈Ñski</span>
+            <span class="twtr">@michalbe</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-anna-chiara-bellini">
           <a href="/speakers/anna-chiara-bellini-gaming-a-drone-simulator/" class="speaker">
             <span class="avatar"><img src="/images/speakers/anna-chiara-bellini.jpg" alt="Anna Chiara Bellini"></span>
@@ -1442,6 +1451,15 @@ I"Û<h2 class="section-title">Call for Papers</h2>
             <span class="avatar"><img src="/images/speakers/veljko-dragsic.jpg" alt="Veljko Drag≈°iƒá"></span>
             <span class="name">Veljko Drag≈°iƒá</span>
             <span class="twtr">@vdragsic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-zlatko-duric">
+          <a href="/speakers/zlatko-duric-wildest-streams/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/zlatko-duric.jpg" alt="Zlatko ƒêuriƒá"></span>
+            <span class="name">Zlatko ƒêuriƒá</span>
+            <span class="twtr">@zladuric</span>
            
           </a>
         </li>
@@ -1491,11 +1509,38 @@ I"Û<h2 class="section-title">Call for Papers</h2>
           </a>
         </li>
         
+        <li id="speaker-tin-kadoic">
+          <a href="/speakers/tin-kadoic-taking-responsive-a-step-further/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/tin-kadoic.jpg" alt="Tin Kadoic"></span>
+            <span class="name">Tin Kadoic</span>
+            <span class="twtr">@tinkadoic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-danish-khan">
+          <a href="/speakers/danish-khan-everyones-in-sales/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/danish-khan.jpg" alt="Danish Khan"></span>
+            <span class="name">Danish Khan</span>
+            <span class="twtr">@danishkhan</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-luka-kladaric">
           <a href="/speakers/luka-kladaric-bad-ideas-and-worst-practices/" class="speaker">
             <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá"></span>
             <span class="name">Luka Kladariƒá</span>
             <span class="twtr">@allixsenos</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-tomislav-kozacinski">
+          <a href="/speakers/tomislav-kozacinski-your-designer-is-not-your-slut/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/tomislav-kozacinski.jpg" alt="Tomislav Kozaƒçinski"></span>
+            <span class="name">Tomislav Kozaƒçinski</span>
+            <span class="twtr">@UniverseCEO</span>
            
           </a>
         </li>
@@ -1527,6 +1572,15 @@ I"Û<h2 class="section-title">Call for Papers</h2>
           </a>
         </li>
         
+        <li id="speaker-filip-petkovski">
+          <a href="/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/filip-petkovski.jpg" alt="Filip Petkovski"></span>
+            <span class="name">Filip Petkovski</span>
+            <span class="twtr">&nbsp;</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-premshree-pillai">
           <a href="/speakers/premshree-pillai-building-a-scalable-system-for-tracking-shipping-packages/" class="speaker">
             <span class="avatar"><img src="/images/speakers/premshree-pillai.jpg" alt="Premshree Pillai"></span>
@@ -1541,6 +1595,15 @@ I"Û<h2 class="section-title">Call for Papers</h2>
             <span class="avatar"><img src="/images/speakers/nikola-plejic.jpg" alt="Nikola Plejiƒá"></span>
             <span class="name">Nikola Plejiƒá</span>
             <span class="twtr">@nikolaplejic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-lora-plesko">
+          <a href="/speakers/lora-plesko-ill-just-do-it-myself/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/lora-plesko.jpg" alt="Lora Ple≈°ko"></span>
+            <span class="name">Lora Ple≈°ko</span>
+            <span class="twtr">@LoraLollipop</span>
            
           </a>
         </li>
@@ -1563,6 +1626,15 @@ I"Û<h2 class="section-title">Call for Papers</h2>
           </a>
         </li>
         
+        <li id="speaker-robert-sedovsek">
+          <a href="/speakers/robert-sedovsek-front-end-h8ff00001/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/robert-sedovsek.jpg" alt="Robert Sedov≈°ek"></span>
+            <span class="name">Robert Sedov≈°ek</span>
+            <span class="twtr">@sedovsek</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-demir-selmanovic">
           <a href="/speakers/demir-selmanovic-google-glass-for-web-developers/" class="speaker">
             <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá"></span>
@@ -1581,11 +1653,29 @@ I"Û<h2 class="section-title">Call for Papers</h2>
           </a>
         </li>
         
+        <li id="speaker-marko-svaljek">
+          <a href="/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/marko-svaljek.jpg" alt="Marko ≈†valjek"></span>
+            <span class="name">Marko ≈†valjek</span>
+            <span class="twtr">@msvaljek</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-ross-tuck">
           <a href="/speakers/ross-tuck-things-i-believe-now-that-im-old/" class="speaker">
             <span class="avatar"><img src="/images/speakers/ross-tuck.jpg" alt="Ross Tuck"></span>
             <span class="name">Ross Tuck</span>
             <span class="twtr">@rosstuck</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-luka-vida">
+          <a href="/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/luka-vida.jpg" alt="Luka Vida"></span>
+            <span class="name">Luka Vida</span>
+            <span class="twtr">@lukavida</span>
            
           </a>
         </li>
@@ -6023,7 +6113,7 @@ ul.menu {
     *zoom: 1;
 }
 ;T;
-@µI"/about/;T{;{	;I"aZ<!DOCTYPE HTML>
+@µI"/about/;T{;{	;I"ÿi<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6277,6 +6367,15 @@ ul.menu {
           </a>
         </li>
         
+        <li id="speaker-michal-budzynski">
+          <a href="/speakers/michal-budzynski-js-js-are-you-mad/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/michal-budzynski.jpg" alt="Micha≈Ç Budzy≈Ñski"></span>
+            <span class="name">Micha≈Ç Budzy≈Ñski</span>
+            <span class="twtr">@michalbe</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-anna-chiara-bellini">
           <a href="/speakers/anna-chiara-bellini-gaming-a-drone-simulator/" class="speaker">
             <span class="avatar"><img src="/images/speakers/anna-chiara-bellini.jpg" alt="Anna Chiara Bellini"></span>
@@ -6300,6 +6399,15 @@ ul.menu {
             <span class="avatar"><img src="/images/speakers/veljko-dragsic.jpg" alt="Veljko Drag≈°iƒá"></span>
             <span class="name">Veljko Drag≈°iƒá</span>
             <span class="twtr">@vdragsic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-zlatko-duric">
+          <a href="/speakers/zlatko-duric-wildest-streams/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/zlatko-duric.jpg" alt="Zlatko ƒêuriƒá"></span>
+            <span class="name">Zlatko ƒêuriƒá</span>
+            <span class="twtr">@zladuric</span>
            
           </a>
         </li>
@@ -6349,11 +6457,38 @@ ul.menu {
           </a>
         </li>
         
+        <li id="speaker-tin-kadoic">
+          <a href="/speakers/tin-kadoic-taking-responsive-a-step-further/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/tin-kadoic.jpg" alt="Tin Kadoic"></span>
+            <span class="name">Tin Kadoic</span>
+            <span class="twtr">@tinkadoic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-danish-khan">
+          <a href="/speakers/danish-khan-everyones-in-sales/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/danish-khan.jpg" alt="Danish Khan"></span>
+            <span class="name">Danish Khan</span>
+            <span class="twtr">@danishkhan</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-luka-kladaric">
           <a href="/speakers/luka-kladaric-bad-ideas-and-worst-practices/" class="speaker">
             <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá"></span>
             <span class="name">Luka Kladariƒá</span>
             <span class="twtr">@allixsenos</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-tomislav-kozacinski">
+          <a href="/speakers/tomislav-kozacinski-your-designer-is-not-your-slut/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/tomislav-kozacinski.jpg" alt="Tomislav Kozaƒçinski"></span>
+            <span class="name">Tomislav Kozaƒçinski</span>
+            <span class="twtr">@UniverseCEO</span>
            
           </a>
         </li>
@@ -6385,6 +6520,15 @@ ul.menu {
           </a>
         </li>
         
+        <li id="speaker-filip-petkovski">
+          <a href="/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/filip-petkovski.jpg" alt="Filip Petkovski"></span>
+            <span class="name">Filip Petkovski</span>
+            <span class="twtr">&nbsp;</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-premshree-pillai">
           <a href="/speakers/premshree-pillai-building-a-scalable-system-for-tracking-shipping-packages/" class="speaker">
             <span class="avatar"><img src="/images/speakers/premshree-pillai.jpg" alt="Premshree Pillai"></span>
@@ -6399,6 +6543,15 @@ ul.menu {
             <span class="avatar"><img src="/images/speakers/nikola-plejic.jpg" alt="Nikola Plejiƒá"></span>
             <span class="name">Nikola Plejiƒá</span>
             <span class="twtr">@nikolaplejic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-lora-plesko">
+          <a href="/speakers/lora-plesko-ill-just-do-it-myself/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/lora-plesko.jpg" alt="Lora Ple≈°ko"></span>
+            <span class="name">Lora Ple≈°ko</span>
+            <span class="twtr">@LoraLollipop</span>
            
           </a>
         </li>
@@ -6421,6 +6574,15 @@ ul.menu {
           </a>
         </li>
         
+        <li id="speaker-robert-sedovsek">
+          <a href="/speakers/robert-sedovsek-front-end-h8ff00001/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/robert-sedovsek.jpg" alt="Robert Sedov≈°ek"></span>
+            <span class="name">Robert Sedov≈°ek</span>
+            <span class="twtr">@sedovsek</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-demir-selmanovic">
           <a href="/speakers/demir-selmanovic-google-glass-for-web-developers/" class="speaker">
             <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá"></span>
@@ -6439,11 +6601,29 @@ ul.menu {
           </a>
         </li>
         
+        <li id="speaker-marko-svaljek">
+          <a href="/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/marko-svaljek.jpg" alt="Marko ≈†valjek"></span>
+            <span class="name">Marko ≈†valjek</span>
+            <span class="twtr">@msvaljek</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-ross-tuck">
           <a href="/speakers/ross-tuck-things-i-believe-now-that-im-old/" class="speaker">
             <span class="avatar"><img src="/images/speakers/ross-tuck.jpg" alt="Ross Tuck"></span>
             <span class="name">Ross Tuck</span>
             <span class="twtr">@rosstuck</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-luka-vida">
+          <a href="/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/luka-vida.jpg" alt="Luka Vida"></span>
+            <span class="name">Luka Vida</span>
+            <span class="twtr">@lukavida</span>
            
           </a>
         </li>
@@ -19023,7 +19203,7 @@ I"ƒ<article class="news">
   <p>
 
   </p>
-</article>;T;@<I"/cfp_done/;T{;{	;I"RQ<!DOCTYPE HTML>
+</article>;T;@<I"/cfp_done/;T{;{	;I"…`<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -19178,6 +19358,15 @@ I"ƒ<article class="news">
           </a>
         </li>
         
+        <li id="speaker-michal-budzynski">
+          <a href="/speakers/michal-budzynski-js-js-are-you-mad/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/michal-budzynski.jpg" alt="Micha≈Ç Budzy≈Ñski"></span>
+            <span class="name">Micha≈Ç Budzy≈Ñski</span>
+            <span class="twtr">@michalbe</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-anna-chiara-bellini">
           <a href="/speakers/anna-chiara-bellini-gaming-a-drone-simulator/" class="speaker">
             <span class="avatar"><img src="/images/speakers/anna-chiara-bellini.jpg" alt="Anna Chiara Bellini"></span>
@@ -19201,6 +19390,15 @@ I"ƒ<article class="news">
             <span class="avatar"><img src="/images/speakers/veljko-dragsic.jpg" alt="Veljko Drag≈°iƒá"></span>
             <span class="name">Veljko Drag≈°iƒá</span>
             <span class="twtr">@vdragsic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-zlatko-duric">
+          <a href="/speakers/zlatko-duric-wildest-streams/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/zlatko-duric.jpg" alt="Zlatko ƒêuriƒá"></span>
+            <span class="name">Zlatko ƒêuriƒá</span>
+            <span class="twtr">@zladuric</span>
            
           </a>
         </li>
@@ -19250,11 +19448,38 @@ I"ƒ<article class="news">
           </a>
         </li>
         
+        <li id="speaker-tin-kadoic">
+          <a href="/speakers/tin-kadoic-taking-responsive-a-step-further/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/tin-kadoic.jpg" alt="Tin Kadoic"></span>
+            <span class="name">Tin Kadoic</span>
+            <span class="twtr">@tinkadoic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-danish-khan">
+          <a href="/speakers/danish-khan-everyones-in-sales/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/danish-khan.jpg" alt="Danish Khan"></span>
+            <span class="name">Danish Khan</span>
+            <span class="twtr">@danishkhan</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-luka-kladaric">
           <a href="/speakers/luka-kladaric-bad-ideas-and-worst-practices/" class="speaker">
             <span class="avatar"><img src="/images/speakers/luka-kladaric.jpg" alt="Luka Kladariƒá"></span>
             <span class="name">Luka Kladariƒá</span>
             <span class="twtr">@allixsenos</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-tomislav-kozacinski">
+          <a href="/speakers/tomislav-kozacinski-your-designer-is-not-your-slut/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/tomislav-kozacinski.jpg" alt="Tomislav Kozaƒçinski"></span>
+            <span class="name">Tomislav Kozaƒçinski</span>
+            <span class="twtr">@UniverseCEO</span>
            
           </a>
         </li>
@@ -19286,6 +19511,15 @@ I"ƒ<article class="news">
           </a>
         </li>
         
+        <li id="speaker-filip-petkovski">
+          <a href="/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/filip-petkovski.jpg" alt="Filip Petkovski"></span>
+            <span class="name">Filip Petkovski</span>
+            <span class="twtr">&nbsp;</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-premshree-pillai">
           <a href="/speakers/premshree-pillai-building-a-scalable-system-for-tracking-shipping-packages/" class="speaker">
             <span class="avatar"><img src="/images/speakers/premshree-pillai.jpg" alt="Premshree Pillai"></span>
@@ -19300,6 +19534,15 @@ I"ƒ<article class="news">
             <span class="avatar"><img src="/images/speakers/nikola-plejic.jpg" alt="Nikola Plejiƒá"></span>
             <span class="name">Nikola Plejiƒá</span>
             <span class="twtr">@nikolaplejic</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-lora-plesko">
+          <a href="/speakers/lora-plesko-ill-just-do-it-myself/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/lora-plesko.jpg" alt="Lora Ple≈°ko"></span>
+            <span class="name">Lora Ple≈°ko</span>
+            <span class="twtr">@LoraLollipop</span>
            
           </a>
         </li>
@@ -19322,6 +19565,15 @@ I"ƒ<article class="news">
           </a>
         </li>
         
+        <li id="speaker-robert-sedovsek">
+          <a href="/speakers/robert-sedovsek-front-end-h8ff00001/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/robert-sedovsek.jpg" alt="Robert Sedov≈°ek"></span>
+            <span class="name">Robert Sedov≈°ek</span>
+            <span class="twtr">@sedovsek</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-demir-selmanovic">
           <a href="/speakers/demir-selmanovic-google-glass-for-web-developers/" class="speaker">
             <span class="avatar"><img src="/images/speakers/demir-selmanovic.jpg" alt="Demir Selmanoviƒá"></span>
@@ -19340,11 +19592,29 @@ I"ƒ<article class="news">
           </a>
         </li>
         
+        <li id="speaker-marko-svaljek">
+          <a href="/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/marko-svaljek.jpg" alt="Marko ≈†valjek"></span>
+            <span class="name">Marko ≈†valjek</span>
+            <span class="twtr">@msvaljek</span>
+           
+          </a>
+        </li>
+        
         <li id="speaker-ross-tuck">
           <a href="/speakers/ross-tuck-things-i-believe-now-that-im-old/" class="speaker">
             <span class="avatar"><img src="/images/speakers/ross-tuck.jpg" alt="Ross Tuck"></span>
             <span class="name">Ross Tuck</span>
             <span class="twtr">@rosstuck</span>
+           
+          </a>
+        </li>
+        
+        <li id="speaker-luka-vida">
+          <a href="/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product/" class="speaker">
+            <span class="avatar"><img src="/images/speakers/luka-vida.jpg" alt="Luka Vida"></span>
+            <span class="name">Luka Vida</span>
+            <span class="twtr">@lukavida</span>
            
           </a>
         </li>
@@ -23286,7 +23556,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"É<p>As CSS landscape changes with time so do CSS layout grids. With the advent of Sass grids markup became more clean but also, depending on your past experience and approach to CSS, sometimes harder to use. Find out about the best and latest approaches to grids, why you should use them, how to make sense of their underlining concepts and how to pick one to be your grid of choice.</p>
 ;T;
-@«;@∆I";/speakers/tin-kadoic-taking-responsive-a-step-further/;T{;{	;I"h<!DOCTYPE HTML>
+@«;@∆I";/speakers/tin-kadoic-taking-responsive-a-step-further/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -23342,8 +23612,7 @@ document.write(unescape("%3Cscript%20src='"+
 
               <p>Are responsive interfaces really just intelligent interfaces? Should our tools act smarter? Is it too much to ask for designers and developers to invest that extra mile? A few seconds each day X millions of users means hours saved.</p>
 
-<p>Intelligence and fewer features always wins over ignorance and more features.
-Now that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that‚Äôs already collected and available.</p>
+<p>Now that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that‚Äôs already collected and available.</p>
 
 <p>In a mobile-first world, can we finally start designing smart first and phones later?</p>
 
@@ -23442,10 +23711,9 @@ document.write(unescape("%3Cscript%20src='"+
 <script src="/javascripts/app.js"></script>
 </body>
 </html>
-;T;	I"b<p>Are responsive interfaces really just intelligent interfaces? Should our tools act smarter? Is it too much to ask for designers and developers to invest that extra mile? A few seconds each day X millions of users means hours saved.</p>
+;T;	I"<p>Are responsive interfaces really just intelligent interfaces? Should our tools act smarter? Is it too much to ask for designers and developers to invest that extra mile? A few seconds each day X millions of users means hours saved.</p>
 
-<p>Intelligence and fewer features always wins over ignorance and more features.
-Now that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that‚Äôs already collected and available.</p>
+<p>Now that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that‚Äôs already collected and available.</p>
 
 <p>In a mobile-first world, can we finally start designing smart first and phones later?</p>
 ;T;
@@ -23946,9 +24214,9 @@ document.write(unescape("%3Cscript%20src='"+
           <div class="talk-info">
             <h1 class="name">Everyone's in Sales</h1>
             <div class="desc">
-              <p>Whether you like it or not you are doing sales all the time. Convincing your boss to use a new tool, applying for a job, and getting a freelance contract all require selling. If you work for a product company even if you are a developer when you talk about your product you are selling. When people think of sales they immediately think of the sleazy car salesman stereotype, but that is a very negative view of sales. Sales doesn&#39;t have to be done that way. The fact is everyone is doing sales all the time. Being aware of that fact and spending some time to learn a bit about how to do sales the right way will help you talk about your product and convince your boss to try something new you think will be good for the team.</p>
-
               <p>Sales is an important skill that everyone needs to know about. It can help someone with their career or product. Even being aware of the fact that you are selling something can help a conversation you are a part of.</p>
+
+              <p>Whether you like it or not you are doing sales all the time. Convincing your boss to use a new tool, applying for a job, and getting a freelance contract all require selling. If you work for a product company even if you are a developer when you talk about your product you are selling. When people think of sales they immediately think of the sleazy car salesman stereotype, but that is a very negative view of sales. Sales doesn&#39;t have to be done that way. The fact is everyone is doing sales all the time. Being aware of that fact and spending some time to learn a bit about how to do sales the right way will help you talk about your product and convince your boss to try something new you think will be good for the team.</p>
 
             </div>
           </div>
@@ -24039,7 +24307,7 @@ document.write(unescape("%3Cscript%20src='"+
 <script src="/javascripts/app.js"></script>
 </body>
 </html>
-;T;	I"ﬂ<p>Sales is an important skill that everyone needs to know about. It can help someone with their career or product. Even being aware of the fact that you are selling something can help a conversation you are a part of.</p>
+;T;	I"‚<p>Whether you like it or not you are doing sales all the time. Convincing your boss to use a new tool, applying for a job, and getting a freelance contract all require selling. If you work for a product company even if you are a developer when you talk about your product you are selling. When people think of sales they immediately think of the sleazy car salesman stereotype, but that is a very negative view of sales. Sales doesn&#39;t have to be done that way. The fact is everyone is doing sales all the time. Being aware of that fact and spending some time to learn a bit about how to do sales the right way will help you talk about your product and convince your boss to try something new you think will be good for the team.</p>
 ;T;
 @‡;@ﬂI"2/speakers/vladimir-kocjacic-unit-testing-101/;T{;{	;I"…<!DOCTYPE HTML>
 <html lang="en">
@@ -30323,7 +30591,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"ü<p>Web components are becoming a part of our mainstream developer toolset, but we still haven&#39;t unlocked their true potential. And that is the re-usability which will allow us to compose totally new pages from existing elements. But how do you ensure that you can reuse an element  in a totally different context? How do you know that you can use an element both in your website&#39;s main area of eg. 1000px and in your website&#39;s sidebar of 300px and it would still look and function properly? In this talk we will see how we can combine web components with the concept of element queries and create responsive components that can adapt to their environment</p>
 ;T;
-@≠;@¨I",/speakers/zlatko-duric-wildest-streams/;T{;{	;I"à<!DOCTYPE HTML>
+@≠;@¨I",/speakers/zlatko-duric-wildest-streams/;T{;{	;I"/<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -30377,11 +30645,11 @@ document.write(unescape("%3Cscript%20src='"+
             <div class="desc">
               <p>Let&#39;s see what we can do with streams and streaming on the web.</p>
 
-              <p>What are advantages of streaming over plain ole POSTing files down the wire? What are the common issues there?</p>
+              <p>How do we combine streams? What technologies can we use on the web today to utilize streaming technologies today? How do streams work in Node.js? What do the web standards bodies have to say for our browsers?</p>
 
-<p>How do we combine streams? What technologies can we use on the web today to utilize streaming technologies today?</p>
+<p>Streaming is very useful technology that we use everyday in our tools, without even thinking about them. In JavaScript, especially Node.js, streams take more prominent place, due to their non-blocking nature. But besides streaming video files to mobile clients, where else do we use them at? What else can we do to bring up some power on them?</p>
 
-<p>In this talk we ask those and more questions and try to answer some of them. If you like to hear about terms like backpressure, readable and writable, passthrough and aborts, this is the talk.</p>
+<p>If you like to hear about terms like backpressure, readable and writable, passthrough and aborts, this is the talk. In this talk we ask these questions and try to answer some of them.</p>
 
             </div>
           </div>
@@ -30392,9 +30660,9 @@ document.write(unescape("%3Cscript%20src='"+
             <div class="info">
               <h2 class="name">Zlatko ƒêuriƒá</h2>
               <div class="desc">
-                <p>A JavaScript guy with a decent Linux beard. Loves tinkering with shiny new things and trying technology out, but only has a fragment of the usual programmers&#39; OCDs that make them use all the tools.</p>
+                <p>A JavaScript guy with a decent Linux beard. Loves tinkering with shiny new things and trying technology out, but only has a fragment of the usual programmers&#39; OCDs that make them use all the tools out there. Tries to follow the latest news but too much reading gets in the way of doing.</p>
 
-<p>Freelances and works on interesting Node.js (and usually Angular.js) projects.</p>
+<p>For the last few years Zlatko freelances, working on Node.js and usually Angular.js projects.</p>
 
               </div>
             </div>
@@ -30474,11 +30742,11 @@ document.write(unescape("%3Cscript%20src='"+
 <script src="/javascripts/app.js"></script>
 </body>
 </html>
-;T;	I"π<p>What are advantages of streaming over plain ole POSTing files down the wire? What are the common issues there?</p>
+;T;	I"¯<p>How do we combine streams? What technologies can we use on the web today to utilize streaming technologies today? How do streams work in Node.js? What do the web standards bodies have to say for our browsers?</p>
 
-<p>How do we combine streams? What technologies can we use on the web today to utilize streaming technologies today?</p>
+<p>Streaming is very useful technology that we use everyday in our tools, without even thinking about them. In JavaScript, especially Node.js, streams take more prominent place, due to their non-blocking nature. But besides streaming video files to mobile clients, where else do we use them at? What else can we do to bring up some power on them?</p>
 
-<p>In this talk we ask those and more questions and try to answer some of them. If you like to hear about terms like backpressure, readable and writable, passthrough and aborts, this is the talk.</p>
+<p>If you like to hear about terms like backpressure, readable and writable, passthrough and aborts, this is the talk. In this talk we ask these questions and try to answer some of them.</p>
 ;T;
 @≤;@±I">/speakers/zlatko-duric-how-to-hook-the-client-in-3-steps/;T{;{	;I"b<!DOCTYPE HTML>
 <html lang="en">
@@ -31396,4 +31664,4 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"<p>A short history of Apache Cassandra, how it developed and who is using it today. The basic theoretical concepts behind it like the CAP Theorem and Consistent Hashing technique. An architecture overview and description of replication strategies. Dynamic nature of the system and how it adapts using the Gossip protocol and the Snitch. Data paths, writing, updating, removal, compaction and reading. Basic interacting with the Cassandra using the Cassandra Query Language and the CQL Shell.</p>
 ;T;
-@–;@œ:versioni
+@–;@œI""/images/speakers/danish-khan/;T{;{ I""/images/speakers/lora-plesko/;T{;{ I" /images/speakers/luka-vida/;T{;{ I"$/images/speakers/marko-svaljek/;T{;{ I"&/images/speakers/robert-sedovsek/;T{;{ I"*/images/speakers/tomislav-kozacinski/;T{;{ I"!/images/speakers/tin-kadoic/;T{;{ I"'/images/speakers/michal-budzynski/;T{;{ I"&/images/speakers/filip-petkovski/;T{;{ I"#/images/speakers/zlatko-duric/;T{;{ :versioni

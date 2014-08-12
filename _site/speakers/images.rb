@@ -6,8 +6,7 @@ require "open-uri"
 contents = JSON.parse(File.read('speakers.json'))
 
 contents.each do |speaker|
-  ext = File.extname(speaker["speaker"]["image"].split('?').first)
-  image =  speaker["speaker"]["name"].to_slug.normalize.to_s + ext
+  image =  speaker["speaker"]["name"].to_slug.normalize.to_s + '.jpg'
   path = File.expand_path(File.join('..', 'content', 'images', 'speakers', image))
 
   unless File.file? path
