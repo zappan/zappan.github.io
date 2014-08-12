@@ -1,4 +1,4 @@
-{:	data{´I"/stylesheets/normalize/:ET{:default{:	lastI"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+{:	data{¨I"/stylesheets/normalize/:ET{:default{:	lastI"s$/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -820,7 +820,7 @@ table {
     border-spacing: 0;
 }
 ;T:pre@
-I"/sponsors/;T{;{	;I"C<!DOCTYPE HTML>
+I"/sponsors/;T{;{	;I"k<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -858,9 +858,6 @@ I"/sponsors/;T{;{	;I"C<!DOCTYPE HTML>
     <a href="/sponsors" class="active">Sponsor WebCamp</a>
   </li>
   <li>
-    <a href="/cfp" >Submit a talk</a>
-  </li>
-  <li>
     <a href="/visitors" >Who's coming</a>
   </li>
 </ul>
@@ -872,11 +869,6 @@ I"/sponsors/;T{;{	;I"C<!DOCTYPE HTML>
     <span class="icon">$$</span>
     <b>Sponsor WebCamp!</b>
     More about sponsor packages
-  </a>
-  <a class="right-panel cf" href="/cfp/index.html#content">
-    <span class="icon">{...}</span>
-    <b>Submit your talk</b>
-    Our call-for-paper is open!
   </a>
 </div>
 
@@ -993,7 +985,7 @@ I"Ì<h2 class="section-title">Call for Sponsorship</h2>
 
   <p>You can find more information about the sponsorship packages in <a href="/documents/sponsors.pdf">this .pdf file.</a></p>
 </article>;T:	post@I"
-/cfp/;T{;{	;I"I&<!DOCTYPE HTML>
+/cfp/;T{;{	;I"c%<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1031,9 +1023,6 @@ I"Ì<h2 class="section-title">Call for Sponsorship</h2>
     <a href="/sponsors" >Sponsor WebCamp</a>
   </li>
   <li>
-    <a href="/cfp" class="active">Submit a talk</a>
-  </li>
-  <li>
     <a href="/visitors" >Who's coming</a>
   </li>
 </ul>
@@ -1045,11 +1034,6 @@ I"Ì<h2 class="section-title">Call for Sponsorship</h2>
     <span class="icon">$$</span>
     <b>Sponsor WebCamp!</b>
     More about sponsor packages
-  </a>
-  <a class="right-panel cf" href="/cfp/index.html#content">
-    <span class="icon">{...}</span>
-    <b>Submit your talk</b>
-    Our call-for-paper is open!
   </a>
 </div>
 
@@ -1261,7 +1245,7 @@ I"Û<h2 class="section-title">Call for Papers</h2>
   <p>
   If you have any questions, free to contact us at <a href="mailto:talks@webcampzg.org">talks@webcampzg.org</a> .
   </p>
-</article>;T;@I"/;T{;{	;I"ëY<!DOCTYPE HTML>
+</article>;T;@I"/;T{;{	;I"?Z<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1299,9 +1283,6 @@ I"Û<h2 class="section-title">Call for Papers</h2>
     <a href="/sponsors" >Sponsor WebCamp</a>
   </li>
   <li>
-    <a href="/cfp" >Submit a talk</a>
-  </li>
-  <li>
     <a href="/visitors" >Who's coming</a>
   </li>
 </ul>
@@ -1312,11 +1293,6 @@ I"Û<h2 class="section-title">Call for Papers</h2>
     <span class="icon">$$</span>
     <b>Sponsor WebCamp!</b>
     More about sponsor packages
-  </a>
-  <a class="right-panel cf" href="/cfp/index.html#content">
-    <span class="icon">{...}</span>
-    <b>Submit your talk</b>
-    Our call-for-paper is open!
   </a>
 </div>
 
@@ -1338,6 +1314,14 @@ I"Û<h2 class="section-title">Call for Papers</h2>
   
 </div>
         <article class="news">
+  <h2>Announcing the 2nd conference day</h2>
+  <time>12.08.2014.</time>
+  <p> The crowdfunding campaign ended yesterday at midnight, and we‚Äôre proud to announce the second conference day at this year‚Äôs WebCamp Zagreb conference. We‚Äôre now bringing you the third round of speakers.
+  <a href="/two_day_success/">Read more about it &raquo;</a>
+  </p>
+
+</article>
+<article class="news">
   <h2>Announcing the speakers line-up</h2>
   <time>07.08.2014.</time>
   <p>CFP has ended on August 1st, and with 105 proposals submitted, we are very positively surprised by the outcome. As we sat down to do the selection, we knew it wouldn't be easy and that many great talks will fall below the line. Still, even greater talks will bubble up to the top and we‚Äôre sure we‚Äôll be delivering an awesome event for all our visitors.
@@ -1772,7 +1756,15 @@ document.write(unescape("%3Cscript%20src='"+
 <script src="/javascripts/app.js"></script>
 </body>
 </html>
-;T;	I"o<article class="news">
+;T;	I"ı	<article class="news">
+  <h2>Announcing the 2nd conference day</h2>
+  <time>12.08.2014.</time>
+  <p> The crowdfunding campaign ended yesterday at midnight, and we‚Äôre proud to announce the second conference day at this year‚Äôs WebCamp Zagreb conference. We‚Äôre now bringing you the third round of speakers.
+  <a href="/two_day_success/">Read more about it &raquo;</a>
+  </p>
+
+</article>
+<article class="news">
   <h2>Announcing the speakers line-up</h2>
   <time>07.08.2014.</time>
   <p>CFP has ended on August 1st, and with 105 proposals submitted, we are very positively surprised by the outcome. As we sat down to do the selection, we knew it wouldn't be easy and that many great talks will fall below the line. Still, even greater talks will bubble up to the top and we‚Äôre sure we‚Äôll be delivering an awesome event for all our visitors.
@@ -1808,7 +1800,15 @@ document.write(unescape("%3Cscript%20src='"+
     With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
 </article>;T;
-I"o<article class="news">
+I"ı	<article class="news">
+  <h2>Announcing the 2nd conference day</h2>
+  <time>12.08.2014.</time>
+  <p> The crowdfunding campaign ended yesterday at midnight, and we‚Äôre proud to announce the second conference day at this year‚Äôs WebCamp Zagreb conference. We‚Äôre now bringing you the third round of speakers.
+  <a href="/two_day_success/">Read more about it &raquo;</a>
+  </p>
+
+</article>
+<article class="news">
   <h2>Announcing the speakers line-up</h2>
   <time>07.08.2014.</time>
   <p>CFP has ended on August 1st, and with 105 proposals submitted, we are very positively surprised by the outcome. As we sat down to do the selection, we knew it wouldn't be easy and that many great talks will fall below the line. Still, even greater talks will bubble up to the top and we‚Äôre sure we‚Äôll be delivering an awesome event for all our visitors.
@@ -1843,7 +1843,7 @@ I"o<article class="news">
   <p>
     With more than <b>600 web developers &amp; designers</b> attending last years conference, concept of sharing expiriences &amp; knowledge across different communities in South East Europe becomes even more apparent: this year we are targeting more <strong>talks in English!</strong>
   </p>
-</article>;T;@I"/images/hedr/;T{;{ I"/images/organizersbg/;T{;{ I"%/images/speakers/marijan-suflaj/;T{;{ I"$/images/speakers/nikica-jokic2/;T{;{ I"+/images/speakers/sebastian-gottschkes/;T{;{ I"$/images/speakers/jonn-mostovoy/;T{;{ I"#/images/speakers/nikica-jokic/;T{;{ I"!/images/speakers/sasa-juric/;T{;{ I"'/images/speakers/zdeslav-vojkovic/;T{;{ I"&/images/speakers/marko-ivankovic/;T{;{ I"&/images/speakers/veljko-dragasic/;T{;{ I"#/images/speakers/luka-muzinic/;T{;{ I"$/images/speakers/nikola-plejic/;T{;{ I"$/images/speakers/srdjan-vranac/;T{;{ I"*/images/speakers/anna-chiara-bellini/;T{;{ I"/images/fb/;T{;{ I"/images/twitter/;T{;{ I"/images/logo/;T{;{ I"/images/background/;T{;{ I""/images/organizers/python_hr/;T{;{ I"$/images/organizers/code_at_six/;T{;{ I"/images/organizers/hujak/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/zgphp/;T{;{ I"%/images/organizers/ms_community/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"/documents/sponsors/;T{;{ I"/supporter-packages/;T{;{	;I"a<!DOCTYPE HTML>
+</article>;T;@I"/images/hedr/;T{;{ I"/images/organizersbg/;T{;{ I"%/images/speakers/marijan-suflaj/;T{;{ I"$/images/speakers/nikica-jokic2/;T{;{ I"+/images/speakers/sebastian-gottschkes/;T{;{ I"$/images/speakers/jonn-mostovoy/;T{;{ I"#/images/speakers/nikica-jokic/;T{;{ I"!/images/speakers/sasa-juric/;T{;{ I"'/images/speakers/zdeslav-vojkovic/;T{;{ I"&/images/speakers/marko-ivankovic/;T{;{ I"&/images/speakers/veljko-dragasic/;T{;{ I"#/images/speakers/luka-muzinic/;T{;{ I"$/images/speakers/nikola-plejic/;T{;{ I"$/images/speakers/srdjan-vranac/;T{;{ I"*/images/speakers/anna-chiara-bellini/;T{;{ I"/images/fb/;T{;{ I"/images/twitter/;T{;{ I"/images/logo/;T{;{ I"/images/background/;T{;{ I""/images/organizers/python_hr/;T{;{ I"$/images/organizers/code_at_six/;T{;{ I"/images/organizers/hujak/;T{;{ I"*/images/organizers/girl_geek_dinners/;T{;{ I"/images/organizers/zgphp/;T{;{ I"%/images/organizers/ms_community/;T{;{ I"$/images/organizers/frontman_hr/;T{;{ I")/images/organizers/javascriptzagreb/;T{;{ I"/documents/sponsors/;T{;{ I"/supporter-packages/;T{;{	;I"æ<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -1878,11 +1878,6 @@ I"o<article class="news">
     <span class="icon">$$</span>
     <b>Sponsor WebCamp!</b>
     More about sponsor packages
-  </a>
-  <a class="right-panel cf" href="/cfp/index.html#content">
-    <span class="icon">{...}</span>
-    <b>Submit your talk</b>
-    Our call-for-paper is open!
   </a>
 </div>
 
@@ -2050,7 +2045,7 @@ I"<h2 class="section-title">Supporter packs </h2>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="webcampzg" data-hashtags="wczg">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>;T;@uI"/CNAME/;T{;{ I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"v<!DOCTYPE HTML>
+</div>;T;@uI"/CNAME/;T{;{ I"0/speakers/marijan-suflaj-redis-in-practice/;T{;{	;I"A<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2084,9 +2079,6 @@ I"<h2 class="section-title">Supporter packs </h2>
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -2201,7 +2193,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>There will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you&#39;ll have to debug those Lua scripts and I&#39;ll show you one interesting way of how to do it.</p>
 ;T;
-@;@~I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"<!DOCTYPE HTML>
+@;@~I"F/speakers/luka-muzinic-dashboards-for-devops-and-other-web-folks/;T{;{	;I"Í<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2235,9 +2227,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -2351,7 +2340,7 @@ document.write(unescape("%3Cscript%20src='"+
 ;T;	I"◊<p>It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. 
 Talk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.</p>
 ;T;
-@;@~I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"Ò<!DOCTYPE HTML>
+@;@~I"I/speakers/jonn-mostovoy-modern-approaches-to-the-javascript-problem/;T{;{	;I"º<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2385,9 +2374,6 @@ Talk will focus on importance of monitoring web applications and give advice on 
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -2506,7 +2492,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.</p>
 ;T;
-@Ñ;@ÉI")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"<!DOCTYPE HTML>
+@Ñ;@ÉI")/speakers/veljko-dragsic-beyond-get/;T{;{	;I"÷<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2540,9 +2526,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -2675,7 +2658,7 @@ GET /articles?title=%REST%&amp;embed=author&amp;order=created_at:desc
 
 <p>This talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.</p>
 ;T;
-@â;@àI":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"g<!DOCTYPE HTML>
+@â;@àI":/speakers/sebastian-gottschkes-vagrant-to-the-rescue/;T{;{	;I"2<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2709,9 +2692,6 @@ GET /articles?title=%REST%&amp;embed=author&amp;order=created_at:desc
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -2826,7 +2806,7 @@ document.write(unescape("%3Cscript%20src='"+
 Within this talk, I&#39;ll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I&#39;ll talk about devops and configuration management briefly and show how one can get started with vagrant.
 After this talk, the audience knows what problems vagrant solves and how to get started.</p>
 ;T;
-@é;@çI"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"à<!DOCTYPE HTML>
+@é;@çI"9/speakers/srdjan-vranac-ansible-just-orchestrate-it/;T{;{	;I"S<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2860,9 +2840,6 @@ After this talk, the audience knows what problems vagrant solves and how to get 
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -2988,7 +2965,7 @@ We will examine how easy it is to get up and running and manage single or multip
 
 <p>Join us for this talk and you‚Äôll see why this award winning Python project has relevance for your work life through getting your servers under control.</p>
 ;T;
-@ì;@íI"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"K<!DOCTYPE HTML>
+@ì;@íI"6/speakers/nikola-plejic-how-when-and-why-clojure/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3022,9 +2999,6 @@ We will examine how easy it is to get up and running and manage single or multip
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -3151,7 +3125,7 @@ document.write(unescape("%3Cscript%20src='"+
 <p>(with-conference {:name &quot;WebCampZG 2014&quot;}
     (praise &quot;McCarthy&quot;))</p>
 ;T;
-@ò;@óI"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"_<!DOCTYPE HTML>
+@ò;@óI"-/speakers/sasa-juric-thinking-in-actors/;T{;{	;I"*<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3185,9 +3159,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -3310,7 +3281,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.</p>
 ;T;
-@ù;@úI"J/speakers/nikica-jokic-aggregating-data-consistently-and-accountably/;T{;{	;I"E<!DOCTYPE HTML>
+@ù;@úI"J/speakers/nikica-jokic-aggregating-data-consistently-and-accountably/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3344,9 +3315,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -3461,7 +3429,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk, an abstraction layer that was built to solve the described problem will be presented. It&#39;s called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.</p>
 ;T;
-@¢;@°I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I"o<!DOCTYPE HTML>
+@¢;@°I"]/speakers/zdeslav-vojkovic-zeromq-toolset-for-high-performance-distributed-applications/;T{;{	;I":<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3495,9 +3463,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -3620,7 +3585,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.</p>
 ;T;
-@ß;@¶I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"ﬂ<!DOCTYPE HTML>
+@ß;@¶I"</speakers/anna-chiara-bellini-gaming-a-drone-simulator/;T{;{	;I"™<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3654,9 +3619,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -3770,7 +3732,7 @@ document.write(unescape("%3Cscript%20src='"+
 ;T;	I"◊<p>This simulator was developed for an EU research project: AIRobots. 
 How do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I&#39;ll walk you through the tools and libraries required for this project, its many pitfalls and its successes. </p>
 ;T;
-@¨;@´I"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"X<!DOCTYPE HTML>
+@¨;@´I"A/speakers/marko-ivankovic-measuring-test-coverage-at-google/;T{;{	;I"#<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -3804,9 +3766,6 @@ How do you tie the real drone control system, based on Simulink, to Blender, in 
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -3927,7 +3886,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.</p>
 ;T;
-@±;@∞I"/stylesheets/stylesheet/;T{;{;I"$Å/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+@±;@∞I"/stylesheets/stylesheet/;T{;{;I"(Å/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -5244,7 +5203,7 @@ ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
-  width: 25%;
+  width: 33.333%;
 }
 /* line 737, content/stylesheets/stylesheet.scss */
 ul.menu li a {
@@ -5315,7 +5274,7 @@ ul.menu li a:hover, ul.menu li a.active {
 .cf {
   *zoom: 1;
 }
-;T;	I"µ6@import "compass";
+;T;	I"π6@import "compass";
 @import "compass/css3/images";
 @import "compass/css3/box-sizing";
 @import "modular-scale";
@@ -6050,7 +6009,7 @@ ul.menu {
     padding: 0;
     margin: 0;
     float: left;
-    width: 25%;
+    width: 33.333%;
     a {
       display: block;
       height: 50px;
@@ -6113,7 +6072,7 @@ ul.menu {
     *zoom: 1;
 }
 ;T;
-@µI"/about/;T{;{	;I"ÿi<!DOCTYPE HTML>
+@µI"/about/;T{;{	;I" i<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6151,9 +6110,6 @@ ul.menu {
     <a href="/sponsors" >Sponsor WebCamp</a>
   </li>
   <li>
-    <a href="/cfp" >Submit a talk</a>
-  </li>
-  <li>
     <a href="/visitors" >Who's coming</a>
   </li>
 </ul>
@@ -6164,11 +6120,6 @@ ul.menu {
     <span class="icon">$$</span>
     <b>Sponsor WebCamp!</b>
     More about sponsor packages
-  </a>
-  <a class="right-panel cf" href="/cfp/index.html#content">
-    <span class="icon">{...}</span>
-    <b>Submit your talk</b>
-    Our call-for-paper is open!
   </a>
 </div>
 
@@ -16246,7 +16197,7 @@ return jQuery;
 		})()
 	}
 })();;T;	@ƒ;
-@ƒI"/visitors/;T{;{	;I"ï<!DOCTYPE HTML>
+@ƒI"/visitors/;T{;{	;I"`<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16280,9 +16231,6 @@ return jQuery;
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" class="active">Who's coming</a>
@@ -16374,7 +16322,7 @@ document.write(unescape("%3Cscript%20src='"+
 ;T;	I"p<h2 class="section-title visitors-title">See who's coming</h2>
 <article class="visitors-wrap cf"></article>;T;
 I"p<h2 class="section-title visitors-title">See who's coming</h2>
-<article class="visitors-wrap cf"></article>;T;@»I"L/speakers/michelle-dnetto-responsive-emails-from-design-to-development/;T{;{	;I"î<!DOCTYPE HTML>
+<article class="visitors-wrap cf"></article>;T;@»I"L/speakers/michelle-dnetto-responsive-emails-from-design-to-development/;T{;{	;I"_<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16408,9 +16356,6 @@ I"p<h2 class="section-title visitors-title">See who's coming</h2>
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -16533,7 +16478,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>We‚Äôll walk you through a recent case study whereby &#39;building specifically for mobile&#39; influenced the design and development decisions we ultimately made. We&#39;ll also highlight the value of a simple, two-column layout and show you ways to code for mobile to achieve pixel perfect emails that look great across a multitude of phones, tablets and desktop devices.</p>
 ;T;
-@œ;@ŒI"Z/speakers/premshree-pillai-building-a-scalable-system-for-tracking-shipping-packages/;T{;{	;I")<!DOCTYPE HTML>
+@œ;@ŒI"Z/speakers/premshree-pillai-building-a-scalable-system-for-tracking-shipping-packages/;T{;{	;I"Ù<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16567,9 +16512,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -16698,7 +16640,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk we will walk you through the problem definition, the architecture we built, and the metrics we use for monitoring the system.</p>
 ;T;
-@‘;@”I"2/speakers/senko-rasic-how-to-build-a-web-api/;T{;{	;I"u<!DOCTYPE HTML>
+@‘;@”I"2/speakers/senko-rasic-how-to-build-a-web-api/;T{;{	;I"@<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16732,9 +16674,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -16855,7 +16794,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This talk will talk about the importance of good web API, show best practices, show worst practices (and argue why they&#39;re bad), and hopefully convince you to pay attention to your APIs even if &quot;nobody but devs can see it&quot;.</p>
 ;T;
-@Ÿ;@ÿI"@/speakers/demir-selmanovic-google-glass-for-web-developers/;T{;{	;I"6<!DOCTYPE HTML>
+@Ÿ;@ÿI"@/speakers/demir-selmanovic-google-glass-for-web-developers/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16889,9 +16828,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17002,7 +16938,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"¡<p>There are two ways to develop Google Glass application. Advanced method is using standard GDK (Android) development for building native applications that run on Glass. However, Google has made it possible for web developers with no Java/Android knowledge to build simple applications and interact with Google Glass using REST services and their knowledge of web development. This demo is targeting web developers with basic knowledge of REST</p>
 ;T;
-@ﬁ;@›I"7/speakers/damir-zekic-oop-and-fp-bridging-the-gap/;T{;{	;I"Ì<!DOCTYPE HTML>
+@ﬁ;@›I"7/speakers/damir-zekic-oop-and-fp-bridging-the-gap/;T{;{	;I"∏<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17036,9 +16972,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17165,7 +17098,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This talk was already held at Developers Arena in Sarajevo in a slightly trimmed version (20 min). The slides are available: https://speakerdeck.com/damir/oop-and-fp-bridging-the-gap</p>
 ;T;
-@„;@‚I"`/speakers/robert-lujo-elasticsearch-index-server-used-as-a-document-database-with-examples/;T{;{	;I"ˆ<!DOCTYPE HTML>
+@„;@‚I"`/speakers/robert-lujo-elasticsearch-index-server-used-as-a-document-database-with-examples/;T{;{	;I"¡<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17199,9 +17132,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17344,7 +17274,7 @@ document.write(unescape("%3Cscript%20src='"+
 <li>ES is a nice and in reality ready-to-use example that can change perspective of development of some type of software systems</li>
 </ul>
 ;T;
-@Ë;@ÁI"F/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/;T{;{	;I"X<!DOCTYPE HTML>
+@Ë;@ÁI"F/speakers/merlin-rebrovic-storytelling-in-design-and-engineering/;T{;{	;I"#<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17378,9 +17308,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17491,7 +17418,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"˛<p>When someone says &quot;storytelling&quot;, either marketing or children bedtime stories come to mind. Both are valid, but far from being the only places storytelling appears in. Stories are illustrative, easily memorable and often reach us on an emotional level. They are very much a part of design and engineering cultures today, it&#39;s just that we&#39;re not consciously aware of them. Let us go through some examples and see how you can use storytelling to improve motivation, planning, hiring and changing perspectives. Whatever we tell ourselves, people often don&#39;t respond to reason, they respond to emotion. It doesn&#39;t matter if you&#39;re a project manager, a freelance designer or an engineer in an agile team - this applies to everyone.</p>
 ;T;
-@Ì;@ÏI";/speakers/luka-kladaric-bad-ideas-and-worst-practices/;T{;{	;I"<!DOCTYPE HTML>
+@Ì;@ÏI";/speakers/luka-kladaric-bad-ideas-and-worst-practices/;T{;{	;I"—<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17525,9 +17452,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17642,7 +17566,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>Technology-wise it will cover frontend, backend, databases, ...</p>
 ;T;
-@Ú;@ÒI":/speakers/ross-tuck-things-i-believe-now-that-im-old/;T{;{	;I"0<!DOCTYPE HTML>
+@Ú;@ÒI":/speakers/ross-tuck-things-i-believe-now-that-im-old/;T{;{	;I"˚<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17676,9 +17600,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17793,7 +17714,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk, I&#39;ll share the most helpful, humiliating and hilarious pieces of advice I ever got and how they shaped my career (whether I listened or not). We&#39;ll also discuss why giving and receiving advice is important, how to handle it gracefully and why it can be so powerful. As Dijkstra said: &quot;We must be very careful when we give advice to younger people: sometimes they follow it!&quot;</p>
 ;T;
-@˜;@ˆI"S/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/;T{;{	;I"˚<!DOCTYPE HTML>
+@˜;@ˆI"S/speakers/deni-bertovic-supercharge-your-development-environment-using-docker/;T{;{	;I"∆<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17827,9 +17748,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -17946,7 +17864,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>In this talk I am going to show how to utilize light weight lxc containers using docker, and make your development process much more straightforward. How to share container images among your development team and be sure that everyone is running the exact same stack. Do all this without hogging too many resources, without the need for complex provisioning scripts and management systems. And above all else, how to do it fast!</p>
 ;T;
-@¸;@˚I"@/speakers/marko-elezovic-man-in-the-middle-attack-on-banks/;T{;{	;I"œ<!DOCTYPE HTML>
+@¸;@˚I"@/speakers/marko-elezovic-man-in-the-middle-attack-on-banks/;T{;{	;I"ö<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17980,9 +17898,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -18128,7 +18043,7 @@ Concretely, a chimera of Scala, PHP, Java, C#, JS and a lot of WD-40 that makes 
 <p>Yeah, WebDriver Firefox <em>is</em> neat, but CasperJS is spooky fast. So, let&#39;s combine the two!
 Everything may crash ~ so arm yourselves with exceptional exception handling ~ or you may just want to pivot to manually scanning printouts.</p>
 ;T;
-@;@ I"D/speakers/kresimir-antolic-building-applications-with-a-hammer/;T{;{	;I"<!DOCTYPE HTML>
+@;@ I"D/speakers/kresimir-antolic-building-applications-with-a-hammer/;T{;{	;I"÷<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -18162,9 +18077,6 @@ Everything may crash ~ so arm yourselves with exceptional exception handling ~ o
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -18279,7 +18191,7 @@ document.write(unescape("%3Cscript%20src='"+
 ;T;	I"F<p>Let us start by quoting Atwood&#39;s Law: ‚Äúany application that can be written in JavaScript, will eventually be written in JavaScript‚Äù. And so it came to be - you either love it or hate it but JavaScript became the ‚Äúall solving hammer‚Äù. It has come to the point that you can write anything in it - including your very own desktop and mobile application, using only web frontend technologies ruled by the almighty JavaScript.
 The secret ingredient for this recipe is to ‚Äújust add JavaScript‚Äù. In this talk some alternatives to native desktop and mobile development will be presented. There will be alternatives such as phonegap, node-webit and even something promising as NativeScript. But it won‚Äôt just sing praises to the mighty JavaScript king it will also cover the dark side of developing this type of software.</p>
 ;T;
-@;@I"E/speakers/marcin-warpechowski-get-practical-with-web-components/;T{;{	;I"q<!DOCTYPE HTML>
+@;@I"E/speakers/marcin-warpechowski-get-practical-with-web-components/;T{;{	;I"<<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -18313,9 +18225,6 @@ The secret ingredient for this recipe is to ‚Äújust add JavaScript‚Äù. In this t
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -19203,7 +19112,7 @@ I"ƒ<article class="news">
   <p>
 
   </p>
-</article>;T;@<I"/cfp_done/;T{;{	;I"…`<!DOCTYPE HTML>
+</article>;T;@<I"/cfp_done/;T{;{	;I"Ò_<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -19241,9 +19150,6 @@ I"ƒ<article class="news">
     <a href="/sponsors" >Sponsor WebCamp</a>
   </li>
   <li>
-    <a href="/cfp" >Submit a talk</a>
-  </li>
-  <li>
     <a href="/visitors" >Who's coming</a>
   </li>
 </ul>
@@ -19254,11 +19160,6 @@ I"ƒ<article class="news">
     <span class="icon">$$</span>
     <b>Sponsor WebCamp!</b>
     More about sponsor packages
-  </a>
-  <a class="right-panel cf" href="/cfp/index.html#content">
-    <span class="icon">{...}</span>
-    <b>Submit your talk</b>
-    Our call-for-paper is open!
   </a>
 </div>
 
@@ -20691,7 +20592,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"Q<p>You plan, design and develope a great web project or mobile app - launch it or deliver it to your client. Would be nice to see it in the media, right? To attract new clients, motivate your team maybe? Blah, those journalists know nothing. Well, here&#39;s some practical tips to get them writing about your portfolio of projects!</p>
 ;T;
-@h;@gI"2/speakers/michal-budzynski-js-js-are-you-mad/;T{;{	;I"!<!DOCTYPE HTML>
+@h;@gI"2/speakers/michal-budzynski-js-js-are-you-mad/;T{;{	;I"Ï<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -20725,9 +20626,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -23556,7 +23454,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"É<p>As CSS landscape changes with time so do CSS layout grids. With the advent of Sass grids markup became more clean but also, depending on your past experience and approach to CSS, sometimes harder to use. Find out about the best and latest approaches to grids, why you should use them, how to make sense of their underlining concepts and how to pick one to be your grid of choice.</p>
 ;T;
-@«;@∆I";/speakers/tin-kadoic-taking-responsive-a-step-further/;T{;{	;I"<!DOCTYPE HTML>
+@«;@∆I";/speakers/tin-kadoic-taking-responsive-a-step-further/;T{;{	;I"Â<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -23590,9 +23488,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -24162,7 +24057,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"#<p>Many people know about how large corporations run, but they never hear about the companies that have been around for decades, but are mostly a lifestyle business. These are the companies that have truly learned to grow with their user and make sure they stay relevant for many years.</p>
 ;T;
-@€;@⁄I"./speakers/danish-khan-everyones-in-sales/;T{;{	;I".<!DOCTYPE HTML>
+@€;@⁄I"./speakers/danish-khan-everyones-in-sales/;T{;{	;I"˘<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -24196,9 +24091,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -24617,7 +24509,7 @@ document.write(unescape("%3Cscript%20src='"+
 <p>Microsoft is continuing it&#39;s open source vision and as a part of that, new C# compiler and a part of ASP.NET is made open source. It&#39;s a big move for Microsoft, since it enables ASP.NET developers to work on platforms other then Windows. Talk will cover new technologies that make this possible (&quot;Roslyn&quot;, ASP.NET vNext) and show how do this things work in practice.
 Since this is not yet finished product, talk will also cover tips&amp;tricks to avoid frequent configuration issues and problems.</p>
 ;T;
-@Í;@ÈI"B/speakers/tomislav-kozacinski-your-designer-is-not-your-slut/;T{;{	;I"¸<!DOCTYPE HTML>
+@Í;@ÈI"B/speakers/tomislav-kozacinski-your-designer-is-not-your-slut/;T{;{	;I"«<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -24651,9 +24543,6 @@ Since this is not yet finished product, talk will also cover tips&amp;tricks to 
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -26798,7 +26687,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"r<p>You think that conferences are just for yuppies, hipsters or serious businesses? You think that whole point of a conference is to send your employees for a paid leave? You think that people are just wasting their time? Well you are f*cking wrong! If you are tired of working underpaid local jobs, see how we used our presence on conferences to grow our business.</p>
 ;T;
-@0;@/I"i/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time/;T{;{	;I"<!DOCTYPE HTML>
+@0;@/I"i/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time/;T{;{	;I"‡<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -26832,9 +26721,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -27420,7 +27306,7 @@ document.write(unescape("%3Cscript%20src='"+
 
 <p>This talk will be a more succinct version of a similar talk the author gave at ZgPHP Meetup #34.</p>
 ;T;
-@D;@CI"1/speakers/lora-plesko-ill-just-do-it-myself/;T{;{	;I"I<!DOCTYPE HTML>
+@D;@CI"1/speakers/lora-plesko-ill-just-do-it-myself/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -27454,9 +27340,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -28157,7 +28040,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"û<p>Building the right product to a high standard quickly should be the goal of any product team. When programming, the priority is to write code that is correct first and foremost - it solves the problem correctly and consistently. After that, it should be &quot;beautiful&quot;. Then, and only then, do we optimise. But what does it mean to be &quot;correct, beautiful and fast&quot; when building a product?</p>
 ;T;
-@];@\I"3/speakers/robert-sedovsek-front-end-h8ff00001/;T{;{	;I"4<!DOCTYPE HTML>
+@];@\I"3/speakers/robert-sedovsek-front-end-h8ff00001/;T{;{	;I"ˇ<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -28191,9 +28074,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -29668,7 +29548,7 @@ How can you be a great coach, and help new developers trancend even your own ski
 <p>Looking for expert developers can be hard, nearly impossible, because everybody is looking. We should invest in new developers with apprenticeships.
 In my presentation I&#39;m going to explain why that&#39;s a good idea, how you can be a good coach and what to teach during an apprenticeship.</p>
 ;T;
-@è;@éI"]/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product/;T{;{	;I"‡<!DOCTYPE HTML>
+@è;@éI"]/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product/;T{;{	;I"´<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -29702,9 +29582,6 @@ In my presentation I&#39;m going to explain why that&#39;s a good idea, how you 
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -30591,7 +30468,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"ü<p>Web components are becoming a part of our mainstream developer toolset, but we still haven&#39;t unlocked their true potential. And that is the re-usability which will allow us to compose totally new pages from existing elements. But how do you ensure that you can reuse an element  in a totally different context? How do you know that you can use an element both in your website&#39;s main area of eg. 1000px and in your website&#39;s sidebar of 300px and it would still look and function properly? In this talk we will see how we can combine web components with the concept of element queries and create responsive components that can adapt to their environment</p>
 ;T;
-@≠;@¨I",/speakers/zlatko-duric-wildest-streams/;T{;{	;I"/<!DOCTYPE HTML>
+@≠;@¨I",/speakers/zlatko-duric-wildest-streams/;T{;{	;I"˙<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -30625,9 +30502,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -31517,7 +31391,7 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"«<p>Zanimljivosti o redisu. Skaliranje vertikalno i horizontalno. Pisanje Lua skripti kako bi se smanjio mre≈æni promet i opƒáenito se ubrzala aplikacija. Ne tako oƒçite primjene Redisa u praksi.</p>
 ;T;
-@À;@ I"E/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform/;T{;{	;I"[<!DOCTYPE HTML>
+@À;@ I"E/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform/;T{;{	;I"&<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -31551,9 +31425,6 @@ document.write(unescape("%3Cscript%20src='"+
   </li>
   <li>
     <a href="/sponsors" >Sponsor WebCamp</a>
-  </li>
-  <li>
-    <a href="/cfp" >Submit a talk</a>
   </li>
   <li>
     <a href="/visitors" >Who's coming</a>
@@ -31664,4 +31535,276 @@ document.write(unescape("%3Cscript%20src='"+
 </html>
 ;T;	I"<p>A short history of Apache Cassandra, how it developed and who is using it today. The basic theoretical concepts behind it like the CAP Theorem and Consistent Hashing technique. An architecture overview and description of replication strategies. Dynamic nature of the system and how it adapts using the Gossip protocol and the Snitch. Data paths, writing, updating, removal, compaction and reading. Basic interacting with the Cassandra using the Cassandra Query Language and the CQL Shell.</p>
 ;T;
-@–;@œI""/images/speakers/danish-khan/;T{;{ I""/images/speakers/lora-plesko/;T{;{ I" /images/speakers/luka-vida/;T{;{ I"$/images/speakers/marko-svaljek/;T{;{ I"&/images/speakers/robert-sedovsek/;T{;{ I"*/images/speakers/tomislav-kozacinski/;T{;{ I"!/images/speakers/tin-kadoic/;T{;{ I"'/images/speakers/michal-budzynski/;T{;{ I"&/images/speakers/filip-petkovski/;T{;{ I"#/images/speakers/zlatko-duric/;T{;{ :versioni
+@–;@œI""/images/speakers/danish-khan/;T{;{ I""/images/speakers/lora-plesko/;T{;{ I" /images/speakers/luka-vida/;T{;{ I"$/images/speakers/marko-svaljek/;T{;{ I"&/images/speakers/robert-sedovsek/;T{;{ I"*/images/speakers/tomislav-kozacinski/;T{;{ I"!/images/speakers/tin-kadoic/;T{;{ I"'/images/speakers/michal-budzynski/;T{;{ I"&/images/speakers/filip-petkovski/;T{;{ I"#/images/speakers/zlatko-duric/;T{;{ I"/two_day_success/;T{;{	;I"‰&<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WebCamp Zagreb - 2014</title>
+  <link href='http://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+  <!-- ClickTale Top part -->
+  <script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+  </script>
+  <!-- ClickTale end of Top part -->
+
+  <main>
+    <header>
+      <h1>WebCamp 2014, Zagreb 04.10.2014.</h1>
+      <a href="/"><img src="/images/logo.png" alt=""></a>
+    </header>
+    <h2 class="punchline">
+      Technology oriented conference for<br>developers &amp; designers
+    </h2>
+    <h2 class="date-location">
+      &#8902; <b>04.10.2014.</b> <b>&bull;</b> Conference center Hypo Expo XXI <b>&bull;</b> Slavonska avenija 6 &#8902;
+    </h2>
+    <p class="introduction">
+      WebCamp Zagreb is a tech conference built by community for the community. With more than <b>600 web developers &amp; designers</b> attending last years conference, the concept of sharing experiences and knowledge across different communities in South East Europe becomes even more apparent. This year we are targeting more <b>talks in English</b>.
+    </p>
+    <ul class="menu cf">
+  <li>
+    <a href="/" >Homepage</a>
+  </li>
+  <li>
+    <a href="/sponsors" >Sponsor WebCamp</a>
+  </li>
+  <li>
+    <a href="/visitors" >Who's coming</a>
+  </li>
+</ul>
+
+    <section class="content cf" id="content">
+
+      <div class="sponsorship-cfp-wrap cf">
+  <a class="left-panel cf" href="/sponsors/index.html#content">
+    <span class="icon">$$</span>
+    <b>Sponsor WebCamp!</b>
+    More about sponsor packages
+  </a>
+</div>
+
+      <div class="wrap">
+        <h2 class="section-title">Announcing the 2nd conference day</h2>
+<article>
+  <p>
+    The crowdfunding campaign ended yesterday at midnight, and we‚Äôre proud to announce the second conference day at this year‚Äôs WebCamp Zagreb conference. We‚Äôre now bringing you the third round of speakers.
+  </p>
+  <h3>Crowdfunding campaign results</h3>
+  <p>
+    As you probably know, a crowdfunding campaign was organized to confirm your interest in having a world-class 2-day conference experience in Zagreb. The main purpose of the campaign was to cover the costs of the venue for the second day, which are not negligible. After five weeks of expectation, we finally reached the goal in the last week of the campaign, but it wasn't easy. 
+  </p>
+  
+  <p>
+    We have sold over 200 Supporter Packs, and thanks to additional direct support from two of our community members, we have reached our goal and overshot it. Huuuuge thanks to the everyone who supported us and shown us that you wish WebCamp to grow!
+  </p>
+
+  <h3>3rd round of speakers and a keynote</h3>
+  <p>Based on the success of the crowdfunding campaign, we have selected additional 12 speakers:</p>
+
+  <ul>
+    <li>Zlatko ƒêuriƒá: <a href="/speakers/zlatko-duric-wildest-streams">Wildest streams</a></li>
+    <li>Marko ≈†valjek: <a href="/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform">Cassandra, web-scale NoSQL data platform</a></li>
+    <li>Tomislav Kozaƒçinski: <a href="/speakers/tomislav-kozacinski-your-designer-is-not-your-slut">Your designer is not your slut!</a></li>
+    <li>Luka Vida: <a href="/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product">Try the meal before you serve it - usability testing for your prod</a>uct</li>
+    <li>Robert Sedov≈°ek: <a href="/speakers/robert-sedovsek-front-end-h8ff00001">Front-end h8#ff0000!!1;</a></li>
+    <li>Tin Kadoic: <a href="/speakers/tin-kadoic-taking-responsive-a-step-further">Taking Responsive a Step Further</a></li>
+    <li>Filip Petkovski: <a href="/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time">Abstracting the backend. NoBackend solutions and syncing dat</a>a in real time.</li>
+    <li>Danish Khan: <a href="/speakers/danish-khan-everyones-in-sales">Everyone's in Sales</a></li>
+    <li>Lora Ple≈°ko: <a href="/speakers/lora-plesko-ill-just-do-it-myself">I'll just do it myself!</a></li>
+    <li>Micha≈Ç Budzy≈Ñski: <a href="/speakers/michal-budzynski-js-js-are-you-mad">JS, JS, are you mad?</a></li>
+    <li><i>To Be Announced (waiting for confirmation)</i></li>
+    <li><i>To Be Announced (waiting for confirmation)</i></li>
+  </ul>
+
+  <p>
+   Also, we‚Äôd like to announce we‚Äôll be having one keynote topic this year, and we have selected Ross Tuck to be our keynote speaker, with the topic <a href="/speakers/ross-tuck-things-i-believe-now-that-im-old/">Things I Believe Now That I‚Äôm Old</a>.
+
+ </p>
+
+ <h3>Tickets info</h3>
+
+ <p>
+  And a final note regarding Supporter Packs and tickets availability - we‚Äôre keeping <b>Supporter Packs</b> available for people who still wish to support the conference (all the funds collected this way are going towards improving the conference experience), and get their own supporter T-shirt (they‚Äôre available only through this offer, and <b>won‚Äôt</b> be sold at the conference) plus their free conference ticket included. As the crowdfunding campaign has finished, the new Supporter Pack price is <b>300 HRK/ 40 EUR / $55</b>, starting tomorrow, and available until free tickets get released.</p>
+  <p>
+   <b>Free tickets</b> will be released early September (stay tuned for the exact date and time). The exact number depends on the amount of the remaining tickets released free through our communities, for people who‚Äôve been active in them throughout the year; but as we‚Äôve promised, there will be <b>a minimum of 200 free tickets</b> available this way.
+
+  </p>
+  <h3>And yet another ‚ÄòThank you‚Äô!</h3>
+  <p>Once again, thank you all who participated in the crowdfunding campaign and made all this possible! We‚Äôll do our best to reward you with an exceptional conference experience this October in Zagreb.</p>
+</article>
+      </div>
+
+      <div class="twitter-wrap">
+  <h3>
+    <a href="http://twitter.com/webcampzg">
+      <img src="/images/twitter.png" alt="">
+      @webcampzg on Twitter
+    </a>
+  </h3>
+  <a class="twitter-timeline"  href="https://twitter.com/webcampzg"  data-chrome="noheader nofooter transparent" data-widget-id="470254716689981440" data-tweet-limit="3" data-border-color="#6b6b6b">Tweets by @webcampzg</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <h3 class="facebook">
+    <a href="http://facebook.com/WebCampZg">
+      <img src="/images/fb.png" alt="">
+      @webcampzg on Facebook
+    </a>
+  </h3>
+
+</div>
+
+    </section>
+
+    <a href="#" class="back-to-top">&uarr; Back to top</a>
+  </main>
+
+    <section class="organizers">
+    <a href="http://codeatsix.infinum.hr/meetup" target="_blank" title="Code at Six"><img src="/images/organizers/code_at_six.png" alt="Code at Six" /></a>
+    <a href="http://croatia.girlgeekdinners.com/" title="Girl Geek Dinners" target="_blank"><img src="/images/organizers/girl_geek_dinners.png" alt="Girl Geek Dinners" /></a>
+    <a href="http://www.frontman-hr.org/" title="Frontman HR" target="_blank"><img src="/images/organizers/frontman_hr.png" alt="Frontman HR" /></a>
+    <a href="http://jszgb.com" title="Javascript Zagreb" target="_blank"><img src="/images/organizers/javascriptzagreb.png" alt="Javascript Zagreb" /></a>
+     <a href="http://zgphp.org/" title="ZgPHP" target="_blank"><img src="/images/organizers/zgphp.png" alt="ZgPHP" /></a>
+    <br />
+    <a href="http://www.mscommunity.hr/" title="FutureDEV" target="_blank"><img src="/images/organizers/ms_community.png" alt="FutureDEV" /></a>
+    <a href="http://hujak.hr/" title="HUJAK" target="_blank"><img src="/images/organizers/hujak.png" alt="HUJAK" /></a>
+    
+    <a href="http://www.meetup.com/Python-Hrvatska/" title="Python Hrvatska" target="_blank"><img src="/images/organizers/python_hr.png" alt="Python Hrvatska" /></a>
+   
+    <a href="http://ixda.hr/" target="_blank" title="IXDA Croatia"><img src="/images/organizers/ixda.png" alt="IXDA Croatia" /></a>
+    <a href="https://twitter.com/RubyHR" target="_blank" title="Ruby Hrvatska"><img src="/images/organizers/rubyhr.png" alt="Ruby Hrvatska" /></a>
+    
+  </section>
+  <footer>
+    &copy; WebCamp Zagreb 2012 &mdash; 2014
+  </footer>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35198834-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  
+  <!-- ClickTale Bottom part -->
+
+  <script type='text/javascript'>
+// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+// 
+//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+//
+// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+document.write(unescape("%3Cscript%20src='"+
+  (document.location.protocol=='https:'?
+    "https://cdnssl.clicktale.net/www07/ptc/90a0f588-6e5f-4859-b64b-9abdc7cabdca.js":
+    "http://cdn.clicktale.net/www07/ptc/90a0f588-6e5f-4859-b64b-9abdc7cabdca.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- ClickTale end of Bottom part -->
+  <script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/app.js"></script>
+</body>
+</html>
+;T;	I"t<h2 class="section-title">Announcing the 2nd conference day</h2>
+<article>
+  <p>
+    The crowdfunding campaign ended yesterday at midnight, and we‚Äôre proud to announce the second conference day at this year‚Äôs WebCamp Zagreb conference. We‚Äôre now bringing you the third round of speakers.
+  </p>
+  <h3>Crowdfunding campaign results</h3>
+  <p>
+    As you probably know, a crowdfunding campaign was organized to confirm your interest in having a world-class 2-day conference experience in Zagreb. The main purpose of the campaign was to cover the costs of the venue for the second day, which are not negligible. After five weeks of expectation, we finally reached the goal in the last week of the campaign, but it wasn't easy. 
+  </p>
+  
+  <p>
+    We have sold over 200 Supporter Packs, and thanks to additional direct support from two of our community members, we have reached our goal and overshot it. Huuuuge thanks to the everyone who supported us and shown us that you wish WebCamp to grow!
+  </p>
+
+  <h3>3rd round of speakers and a keynote</h3>
+  <p>Based on the success of the crowdfunding campaign, we have selected additional 12 speakers:</p>
+
+  <ul>
+    <li>Zlatko ƒêuriƒá: <a href="/speakers/zlatko-duric-wildest-streams">Wildest streams</a></li>
+    <li>Marko ≈†valjek: <a href="/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform">Cassandra, web-scale NoSQL data platform</a></li>
+    <li>Tomislav Kozaƒçinski: <a href="/speakers/tomislav-kozacinski-your-designer-is-not-your-slut">Your designer is not your slut!</a></li>
+    <li>Luka Vida: <a href="/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product">Try the meal before you serve it - usability testing for your prod</a>uct</li>
+    <li>Robert Sedov≈°ek: <a href="/speakers/robert-sedovsek-front-end-h8ff00001">Front-end h8#ff0000!!1;</a></li>
+    <li>Tin Kadoic: <a href="/speakers/tin-kadoic-taking-responsive-a-step-further">Taking Responsive a Step Further</a></li>
+    <li>Filip Petkovski: <a href="/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time">Abstracting the backend. NoBackend solutions and syncing dat</a>a in real time.</li>
+    <li>Danish Khan: <a href="/speakers/danish-khan-everyones-in-sales">Everyone's in Sales</a></li>
+    <li>Lora Ple≈°ko: <a href="/speakers/lora-plesko-ill-just-do-it-myself">I'll just do it myself!</a></li>
+    <li>Micha≈Ç Budzy≈Ñski: <a href="/speakers/michal-budzynski-js-js-are-you-mad">JS, JS, are you mad?</a></li>
+    <li><i>To Be Announced (waiting for confirmation)</i></li>
+    <li><i>To Be Announced (waiting for confirmation)</i></li>
+  </ul>
+
+  <p>
+   Also, we‚Äôd like to announce we‚Äôll be having one keynote topic this year, and we have selected Ross Tuck to be our keynote speaker, with the topic <a href="/speakers/ross-tuck-things-i-believe-now-that-im-old/">Things I Believe Now That I‚Äôm Old</a>.
+
+ </p>
+
+ <h3>Tickets info</h3>
+
+ <p>
+  And a final note regarding Supporter Packs and tickets availability - we‚Äôre keeping <b>Supporter Packs</b> available for people who still wish to support the conference (all the funds collected this way are going towards improving the conference experience), and get their own supporter T-shirt (they‚Äôre available only through this offer, and <b>won‚Äôt</b> be sold at the conference) plus their free conference ticket included. As the crowdfunding campaign has finished, the new Supporter Pack price is <b>300 HRK/ 40 EUR / $55</b>, starting tomorrow, and available until free tickets get released.</p>
+  <p>
+   <b>Free tickets</b> will be released early September (stay tuned for the exact date and time). The exact number depends on the amount of the remaining tickets released free through our communities, for people who‚Äôve been active in them throughout the year; but as we‚Äôve promised, there will be <b>a minimum of 200 free tickets</b> available this way.
+
+  </p>
+  <h3>And yet another ‚ÄòThank you‚Äô!</h3>
+  <p>Once again, thank you all who participated in the crowdfunding campaign and made all this possible! We‚Äôll do our best to reward you with an exceptional conference experience this October in Zagreb.</p>
+</article>;T;
+I"t<h2 class="section-title">Announcing the 2nd conference day</h2>
+<article>
+  <p>
+    The crowdfunding campaign ended yesterday at midnight, and we‚Äôre proud to announce the second conference day at this year‚Äôs WebCamp Zagreb conference. We‚Äôre now bringing you the third round of speakers.
+  </p>
+  <h3>Crowdfunding campaign results</h3>
+  <p>
+    As you probably know, a crowdfunding campaign was organized to confirm your interest in having a world-class 2-day conference experience in Zagreb. The main purpose of the campaign was to cover the costs of the venue for the second day, which are not negligible. After five weeks of expectation, we finally reached the goal in the last week of the campaign, but it wasn't easy. 
+  </p>
+  
+  <p>
+    We have sold over 200 Supporter Packs, and thanks to additional direct support from two of our community members, we have reached our goal and overshot it. Huuuuge thanks to the everyone who supported us and shown us that you wish WebCamp to grow!
+  </p>
+
+  <h3>3rd round of speakers and a keynote</h3>
+  <p>Based on the success of the crowdfunding campaign, we have selected additional 12 speakers:</p>
+
+  <ul>
+    <li>Zlatko ƒêuriƒá: <a href="/speakers/zlatko-duric-wildest-streams">Wildest streams</a></li>
+    <li>Marko ≈†valjek: <a href="/speakers/marko-svaljek-cassandra-web-scale-nosql-data-platform">Cassandra, web-scale NoSQL data platform</a></li>
+    <li>Tomislav Kozaƒçinski: <a href="/speakers/tomislav-kozacinski-your-designer-is-not-your-slut">Your designer is not your slut!</a></li>
+    <li>Luka Vida: <a href="/speakers/luka-vida-try-the-meal-before-you-serve-it-usability-testing-for-your-product">Try the meal before you serve it - usability testing for your prod</a>uct</li>
+    <li>Robert Sedov≈°ek: <a href="/speakers/robert-sedovsek-front-end-h8ff00001">Front-end h8#ff0000!!1;</a></li>
+    <li>Tin Kadoic: <a href="/speakers/tin-kadoic-taking-responsive-a-step-further">Taking Responsive a Step Further</a></li>
+    <li>Filip Petkovski: <a href="/speakers/filip-petkovski-abstracting-the-backend-nobackend-solutions-and-syncing-data-in-real-time">Abstracting the backend. NoBackend solutions and syncing dat</a>a in real time.</li>
+    <li>Danish Khan: <a href="/speakers/danish-khan-everyones-in-sales">Everyone's in Sales</a></li>
+    <li>Lora Ple≈°ko: <a href="/speakers/lora-plesko-ill-just-do-it-myself">I'll just do it myself!</a></li>
+    <li>Micha≈Ç Budzy≈Ñski: <a href="/speakers/michal-budzynski-js-js-are-you-mad">JS, JS, are you mad?</a></li>
+    <li><i>To Be Announced (waiting for confirmation)</i></li>
+    <li><i>To Be Announced (waiting for confirmation)</i></li>
+  </ul>
+
+  <p>
+   Also, we‚Äôd like to announce we‚Äôll be having one keynote topic this year, and we have selected Ross Tuck to be our keynote speaker, with the topic <a href="/speakers/ross-tuck-things-i-believe-now-that-im-old/">Things I Believe Now That I‚Äôm Old</a>.
+
+ </p>
+
+ <h3>Tickets info</h3>
+
+ <p>
+  And a final note regarding Supporter Packs and tickets availability - we‚Äôre keeping <b>Supporter Packs</b> available for people who still wish to support the conference (all the funds collected this way are going towards improving the conference experience), and get their own supporter T-shirt (they‚Äôre available only through this offer, and <b>won‚Äôt</b> be sold at the conference) plus their free conference ticket included. As the crowdfunding campaign has finished, the new Supporter Pack price is <b>300 HRK/ 40 EUR / $55</b>, starting tomorrow, and available until free tickets get released.</p>
+  <p>
+   <b>Free tickets</b> will be released early September (stay tuned for the exact date and time). The exact number depends on the amount of the remaining tickets released free through our communities, for people who‚Äôve been active in them throughout the year; but as we‚Äôve promised, there will be <b>a minimum of 200 free tickets</b> available this way.
+
+  </p>
+  <h3>And yet another ‚ÄòThank you‚Äô!</h3>
+  <p>Once again, thank you all who participated in the crowdfunding campaign and made all this possible! We‚Äôll do our best to reward you with an exceptional conference experience this October in Zagreb.</p>
+</article>;T;@Ú:versioni
