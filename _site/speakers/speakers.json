@@ -1007,5 +1007,33 @@
       "image": "http://f.cl.ly/items/3V011Y061R281R39160P/damir.png",
       "shirt": "Male L"
     }
+  },
+  {
+    "_id": {
+      "$id": "53d4d76b6fc385384df6619e"
+    },
+    "status": "accepted",
+    "short_abstract": "Change your way of thinking about responsive web design, by focusing on making the elements themselves adapt to different contexts.",
+    "long_abstract": "Web components are becoming a part of our mainstream developer toolset, but we still haven't unlocked their true potential. And that is the re-usability which will allow us to compose totally new pages from existing elements. But how do you ensure that you can reuse an element  in a totally different context? How do you know that you can use an element both in your website's main area of eg. 1000px and in your website's sidebar of 300px and it would still look and function properly? In this talk we will see how we can combine web components with the concept of element queries and create responsive components that can adapt to their environment",
+    "language": "English",
+    "title": "Responsive Web Components - A glimpse at the future",
+    "level": "Intermediate",
+    "submitted": {
+      "sec": 1406453709,
+      "usec": 0
+    },
+    "row_id": 77,
+    "speaker": {
+      "_id": {
+        "$id": "53d4d76b6fc385384df6619d"
+      },
+      "github": "zinas",
+      "short_bio": "In constant search for the question of the answer to life, the universe and everything. In the meantime, I pass my time working as a frontend developer and focusing on web standards and technologies.",
+      "name": "Nikos Zinas",
+      "twitter": "nzinas",
+      "long_bio": "I have been working with web technologies for about 10 years. During this time I learned to love the web, all that it represents and all the opportunities that it offers.\n\nI focus on writing clean, reusable code, I adhere to web standards and I enjoy using cutting-edge technologies that work best on modern browsers while degrading gracefully on older ones.",
+      "image": "https://drive.google.com/file/d/0B4QGnOPbG2lCc00zMTlIUjdhSFE",
+      "shirt": "Male M"
+    }
   }
 ]
