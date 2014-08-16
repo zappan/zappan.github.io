@@ -62,6 +62,7 @@
     "status": "accepted",
     "short_abstract": "Is it possible that JS - as a first class citizen of Software Development - went mad and want to conquer our planet and kill all the humans?",
     "long_abstract": "",
+    "comment": "Is this going for the page? I would like to describe what I'll talk about just for the organizers.\n\nI made a lot of neural networking experiments with JS, mostly in Node. I want to explain people how Artificial Intelligence works, how it can be used in games, in robots, and in creating code & design. You can threat this topic as an introduction to AI & genetic algorithms with examples in JavaScript. If you will like it, and need longer description than this one for the page, I can prepare something, but I think that this 140 chars description is mysterious enough to make interest among the audience. Thanks.\nMichał",
     "language": "English",
     "title": "JS, JS, are you mad?",
     "level": "Intermediate",
@@ -249,6 +250,34 @@
       "long_bio": "I co-founded my first company, Pictureplix, while still in university. Being responsible for the API that connected frontends with our production backend, I learned how to scale stuff and how important it is to develop with a stack that is close to the production environment. I joined wogibtswas.at, a location based bargain hunting plattform in mid 2013 and try to guide a team of software developers through the fog of business requirements. I am using PHP and Python in my free time for various spare projects. All of them run with vagrant of course.",
       "image": "http://2014.webcampzg.org/images/speakers/sebastian-gottschkes.png",
       "shirt": "Male L"
+    }
+  },
+  {
+    "_id": {
+      "$id": "53af0c0c1414141d48963a16"
+    },
+    "short_abstract": "Apache Cordova helps you to bring your web application to mobile platforms - this talk shows you some chances and pitfalls.",
+    "language": "English",
+    "title": "Go mobile with Apache Cordova",
+    "level": "Elementary",
+    "submitted": {
+      "sec": 1403087727,
+      "usec": 0
+    },
+    "row_id": 27,
+    "long_abstract": "Apache Cordova is just a container for your HTML5/JS/CSS app. It works best with ajax driven single page applications. It's actually very easy to start creating apps for Android, iPhone and others and put them on their respective app stores. However its not only gold what what shines: there are also drawbacks compared to native applications. This talk will show you how you can build an easy app and then explains a few problems you need to solve, when the first excitement is gone.",
+    "status": "accepted",
+    "speaker": {
+      "_id": {
+        "$id": "53af0bb014141403187e96b0"
+      },
+      "github": "grobmeier",
+      "short_bio": "I am a german software developer and Apache Software Foundation hacker, focussing on web apps. At the moment, I enjoy dynamic languages.",
+      "name": "Christian Grobmeier",
+      "twitter": "grobmeier",
+      "long_bio": "Christian Grobmeier is a developer, author and occasional trainer focusing on web technologies. Grobmeier currently works with JavaScript/AngularJS, PHP, Java. While he is available for hire, Grobmeier dedicates a lot of his time to his own projects like \"Time & Bill\".\nRecently he self-published \"The Zen Programmer\", a book explaining how programmers can use Zen to reduce their stress level.",
+      "image": "http://images.grobmeier.de/grobmeier-400x400.png",
+      "shirt": "Male XL"
     }
   },
   {
