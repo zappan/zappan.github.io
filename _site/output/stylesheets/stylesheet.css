@@ -1304,20 +1304,264 @@ h2.visitors-title {
   font-weight: bold;
 }
 
-/* line 728, content/stylesheets/stylesheet.scss */
+/* Wrapper with background */
+/* line 729, content/stylesheets/stylesheet.scss */
+.bg-wrap {
+  margin: 20px 0 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0 20px 20px 20px;
+}
+/* line 734, content/stylesheets/stylesheet.scss */
+.bg-wrap h3 {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.75em;
+}
+/* line 740, content/stylesheets/stylesheet.scss */
+.bg-wrap h4 {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+/* line 746, content/stylesheets/stylesheet.scss */
+.bg-wrap hr {
+  height: 1px;
+  margin: 2.2em 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  background: none;
+}
+/* line 754, content/stylesheets/stylesheet.scss */
+.bg-wrap p.intro {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+/* line 759, content/stylesheets/stylesheet.scss */
+.bg-wrap ul {
+  margin: 0 0 1.1em 1.1em;
+  font-size: 1.05em;
+  line-height: 1.4em;
+  color: #fff;
+}
+/* line 765, content/stylesheets/stylesheet.scss */
+.bg-wrap ul li {
+  padding: 3px 0;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 770, content/stylesheets/stylesheet.scss */
+  .bg-wrap .columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    -ms-column-gap: 30px;
+    -o-column-gap: 30px;
+    column-gap: 30px;
+  }
+}
+@media (min-width: 961px) {
+  /* line 770, content/stylesheets/stylesheet.scss */
+  .bg-wrap .columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    -ms-column-gap: 40px;
+    -o-column-gap: 40px;
+    column-gap: 40px;
+  }
+}
+
+/* Avatar description meta list */
+/* line 783, content/stylesheets/stylesheet.scss */
+ul.avatar-desc-meta-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 2.2em;
+  padding-top: 2.2em;
+}
+/* line 789, content/stylesheets/stylesheet.scss */
+ul.avatar-desc-meta-list li {
+  padding: 0 !important;
+  margin-bottom: 2.2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  list-style: none;
+  text-overflow: ellipsis;
+}
+/* line 797, content/stylesheets/stylesheet.scss */
+ul.avatar-desc-meta-list li:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+/* line 804, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta {
+  padding-bottom: 1.1em;
+  overflow: hidden;
+}
+/* line 808, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .avatar {
+  float: right;
+  margin: 22px 22px 30px 30px;
+  display: block;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 808, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .avatar {
+    width: 22%;
+    margin: 22px 7% 0 25px;
+    float: left;
+  }
+}
+@media (min-width: 961px) {
+  /* line 808, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .avatar {
+    width: 20%;
+    margin: 22px 5% 0 25px;
+    float: left;
+  }
+}
+/* line 825, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .avatar .img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+@media (min-width: 961px) {
+  /* line 825, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .avatar .img {
+    height: 150px;
+    width: 150px;
+  }
+}
+/* line 838, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .avatar .img img {
+  position: absolute;
+  top: -75px;
+  left: -75px;
+  z-index: 2;
+  -webkit-transform: rotate(-45deg) scale(0.7);
+  -moz-transform: rotate(-45deg) scale(0.7);
+  -ms-transform: rotate(-45deg) scale(0.7);
+  -o-transform: rotate(-45deg) scale(0.7);
+  transform: rotate(-45deg) scale(0.7);
+}
+/* line 849, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .desc {
+  width: 100%;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 849, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .desc {
+    width: 66%;
+    float: left;
+  }
+}
+@media (min-width: 961px) {
+  /* line 849, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .desc {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+  }
+}
+/* line 863, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .desc h4 {
+  margin-top: 1.5em;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 863, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .desc h4 {
+    margin-top: 0 !important;
+    margin-bottom: 1.25em;
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 961px) {
+  /* line 863, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .desc h4 {
+    margin-top: 0 !important;
+    margin-bottom: 1.25em;
+    font-size: 1.75em;
+  }
+}
+/* line 878, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .desc h4 a {
+  color: #f8d800;
+  text-decoration: none;
+}
+/* line 885, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .meta {
+  padding-top: 2.2em;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  /* line 885, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .meta {
+    width: auto;
+    margin-left: 33%;
+    padding-top: 22px;
+    clear: both;
+  }
+}
+@media (min-width: 961px) {
+  /* line 885, content/stylesheets/stylesheet.scss */
+  .avatar-desc-meta .meta {
+    width: 22%;
+    padding-top: 3.45em;
+    float: left;
+  }
+}
+/* line 901, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .meta dt {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+/* line 907, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .meta dd {
+  margin-left: 0 !important;
+  margin-bottom: 0.85em;
+}
+/* line 911, content/stylesheets/stylesheet.scss */
+.avatar-desc-meta .meta dd.link {
+  overflow: hidden;
+  color: #97C0DF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 923, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 732, content/stylesheets/stylesheet.scss */
+/* line 927, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 33.333%;
 }
-/* line 737, content/stylesheets/stylesheet.scss */
+/* line 932, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -1330,26 +1574,33 @@ ul.menu li a {
   font-size: 1.5em;
   margin: 0 1px 0 0;
 }
-/* line 748, content/stylesheets/stylesheet.scss */
+/* line 943, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 756, content/stylesheets/stylesheet.scss */
+/* line 951, content/stylesheets/stylesheet.scss */
 .small-menu {
-  width: 68.2%;
-  float: right;
-  margin: -105px 20px 0 0;
+  width: 100%;
+  margin: -30px 20px 0 0;
 }
-/* line 760, content/stylesheets/stylesheet.scss */
+@media screen and (min-width: 800px) {
+  /* line 951, content/stylesheets/stylesheet.scss */
+  .small-menu {
+    width: 68.2%;
+    float: right;
+    margin-top: -105px;
+  }
+}
+/* line 961, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 765, content/stylesheets/stylesheet.scss */
+/* line 966, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
@@ -1364,7 +1615,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 782, content/stylesheets/stylesheet.scss */
+/* line 983, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1373,7 +1624,7 @@ ul.menu li a:hover, ul.menu li a.active {
   /* 2 */
 }
 
-/* line 787, content/stylesheets/stylesheet.scss */
+/* line 988, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1382,7 +1633,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 795, content/stylesheets/stylesheet.scss */
+/* line 996, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
