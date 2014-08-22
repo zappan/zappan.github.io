@@ -516,6 +516,23 @@ a.speaker {
     }
   }
 
+  .twitter {
+    text-align: center;
+    font-size: 1em;
+
+    a {
+      font-weight: 700;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: .0625em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
   .img {
     position: relative;
     margin: 0 auto;
@@ -546,6 +563,11 @@ a.speaker {
 
     .name {
       margin-top: 0;
+      text-align: left;
+    }
+
+    .twitter {
+      margin-top: .75em;
       text-align: left;
     }
 
@@ -754,9 +776,15 @@ ul.menu {
 }
 
 .small-menu {
-  width: 68.2%;
-  float: right;
-  margin: -105px 20px 0 0;
+  width: 100%;
+  margin: -30px 20px 0 0;
+
+  @media screen and (min-width:800px) {
+    width: 68.2%;
+    float: right;
+    margin-top: -105px;
+  }
+
   ul.menu li a {
     font-size: 1.2em;
     height: 40px;

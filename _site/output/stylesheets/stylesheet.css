@@ -1036,6 +1036,23 @@ a.speaker:hover .avatar::before {
   display: none;
 }
 /* line 519, content/stylesheets/stylesheet.scss */
+.speaker-info .twitter {
+  text-align: center;
+  font-size: 1em;
+}
+/* line 523, content/stylesheets/stylesheet.scss */
+.speaker-info .twitter a {
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .0625em;
+}
+/* line 530, content/stylesheets/stylesheet.scss */
+.speaker-info .twitter a:hover {
+  text-decoration: underline;
+}
+/* line 536, content/stylesheets/stylesheet.scss */
 .speaker-info .img {
   position: relative;
   margin: 0 auto;
@@ -1053,7 +1070,7 @@ a.speaker:hover .avatar::before {
   -o-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 528, content/stylesheets/stylesheet.scss */
+/* line 545, content/stylesheets/stylesheet.scss */
 .speaker-info .img img {
   position: absolute;
   top: -75px;
@@ -1067,71 +1084,76 @@ a.speaker:hover .avatar::before {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 539, content/stylesheets/stylesheet.scss */
+  /* line 556, content/stylesheets/stylesheet.scss */
   .speaker-main h2.date-location {
     padding: 0.4em 0;
     font-size: 1.5em;
   }
 
-  /* line 544, content/stylesheets/stylesheet.scss */
+  /* line 561, content/stylesheets/stylesheet.scss */
   .speaker-info {
     margin-top: 4.5em;
   }
-  /* line 547, content/stylesheets/stylesheet.scss */
+  /* line 564, content/stylesheets/stylesheet.scss */
   .speaker-info .name {
     margin-top: 0;
     text-align: left;
   }
-  /* line 552, content/stylesheets/stylesheet.scss */
+  /* line 569, content/stylesheets/stylesheet.scss */
+  .speaker-info .twitter {
+    margin-top: .75em;
+    text-align: left;
+  }
+  /* line 574, content/stylesheets/stylesheet.scss */
   .speaker-info .img {
     float: left;
   }
-  /* line 556, content/stylesheets/stylesheet.scss */
+  /* line 578, content/stylesheets/stylesheet.scss */
   .speaker-info .info {
     overflow: hidden;
     padding-left: 2.7em;
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 565, content/stylesheets/stylesheet.scss */
+  /* line 587, content/stylesheets/stylesheet.scss */
   .talk-info .name {
     font-size: 2.7em;
   }
-  /* line 568, content/stylesheets/stylesheet.scss */
+  /* line 590, content/stylesheets/stylesheet.scss */
   .talk-info .desc {
     font-size: 1.15em;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 577, content/stylesheets/stylesheet.scss */
+  /* line 599, content/stylesheets/stylesheet.scss */
   .speaker-main section.content {
     padding-top: 2.8em;
   }
-  /* line 581, content/stylesheets/stylesheet.scss */
+  /* line 603, content/stylesheets/stylesheet.scss */
   .speaker-main header img {
     width: 25%;
     margin: 0;
   }
-  /* line 586, content/stylesheets/stylesheet.scss */
+  /* line 608, content/stylesheets/stylesheet.scss */
   .speaker-main h2.date-location {
     font-size: 1.7em;
   }
 
-  /* line 591, content/stylesheets/stylesheet.scss */
+  /* line 613, content/stylesheets/stylesheet.scss */
   .talk-info .name {
     font-size: 3.3em;
   }
-  /* line 594, content/stylesheets/stylesheet.scss */
+  /* line 616, content/stylesheets/stylesheet.scss */
   .talk-info .desc {
     font-size: 1.3em;
   }
 
-  /* line 598, content/stylesheets/stylesheet.scss */
+  /* line 620, content/stylesheets/stylesheet.scss */
   .speaker-info .desc {
     padding-right: 6em;
   }
 }
-/* line 603, content/stylesheets/stylesheet.scss */
+/* line 625, content/stylesheets/stylesheet.scss */
 .support-webcamp {
   clear: both;
   font-size: 200%;
@@ -1145,7 +1167,7 @@ a.speaker:hover .avatar::before {
   font-family: Share, Helvetica, Arial, sans-serif;
 }
 
-/* line 616, content/stylesheets/stylesheet.scss */
+/* line 638, content/stylesheets/stylesheet.scss */
 a.back-to-top {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -1165,7 +1187,7 @@ a.back-to-top {
   border-radius: 0px 0px 3px 3px;
 }
 
-/* line 631, content/stylesheets/stylesheet.scss */
+/* line 653, content/stylesheets/stylesheet.scss */
 #speaker-nikica-jokic span.avatar:hover img {
   content: url("../images/speakers/nikica-jokic2.png");
   -webkit-transform: rotate(-45deg) scale(0.65);
@@ -1176,40 +1198,40 @@ a.back-to-top {
 }
 
 @-webkit-keyframes blinkloading {
-  /* line 637, content/stylesheets/stylesheet.scss */
+  /* line 659, content/stylesheets/stylesheet.scss */
   to {
     color: #0d0c0b;
   }
 }
 
 @-moz-keyframes blinkloading {
-  /* line 640, content/stylesheets/stylesheet.scss */
+  /* line 662, content/stylesheets/stylesheet.scss */
   to {
     color: #0d0c0b;
   }
 }
 
 @-o-keyframes blinkloading {
-  /* line 643, content/stylesheets/stylesheet.scss */
+  /* line 665, content/stylesheets/stylesheet.scss */
   to {
     color: #0d0c0b;
   }
 }
 
 @keyframes blinkloading {
-  /* line 646, content/stylesheets/stylesheet.scss */
+  /* line 668, content/stylesheets/stylesheet.scss */
   to {
     color: #0d0c0b;
   }
 }
 
-/* line 649, content/stylesheets/stylesheet.scss */
+/* line 671, content/stylesheets/stylesheet.scss */
 .supporter-wrap {
   margin-bottom: 23px;
   padding-bottom: 24px;
   border-bottom: 1px solid white;
 }
-/* line 653, content/stylesheets/stylesheet.scss */
+/* line 675, content/stylesheets/stylesheet.scss */
 .supporter-wrap h2 {
   color: #f8d800;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -1217,15 +1239,15 @@ a.back-to-top {
   font-weight: normal;
   margin: 0;
 }
-/* line 660, content/stylesheets/stylesheet.scss */
+/* line 682, content/stylesheets/stylesheet.scss */
 .supporter-wrap p {
   line-height: 1.5;
 }
-/* line 663, content/stylesheets/stylesheet.scss */
+/* line 685, content/stylesheets/stylesheet.scss */
 .supporter-wrap b {
   color: #f8d800;
 }
-/* line 666, content/stylesheets/stylesheet.scss */
+/* line 688, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress {
   border: 2px solid #f8d800;
   -webkit-border-radius: 20px;
@@ -1237,7 +1259,7 @@ a.back-to-top {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 672, content/stylesheets/stylesheet.scss */
+/* line 694, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
   -webkit-border-radius: 8px 0 0 8px;
   -moz-border-radius: 8px 0 0 8px;
@@ -1252,15 +1274,15 @@ a.back-to-top {
   -o-transition: width 0.5s ease-in;
   transition: width 0.5s ease-in;
 }
-/* line 683, content/stylesheets/stylesheet.scss */
+/* line 705, content/stylesheets/stylesheet.scss */
 .supporter-wrap .sold {
   float: left;
 }
-/* line 686, content/stylesheets/stylesheet.scss */
+/* line 708, content/stylesheets/stylesheet.scss */
 .supporter-wrap .whos-coming {
   float: right;
 }
-/* line 689, content/stylesheets/stylesheet.scss */
+/* line 711, content/stylesheets/stylesheet.scss */
 .supporter-wrap .loading {
   color: white;
   -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
@@ -1269,55 +1291,55 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
-/* line 698, content/stylesheets/stylesheet.scss */
+/* line 720, content/stylesheets/stylesheet.scss */
 .visitors-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 10px 20px 20px;
 }
-/* line 703, content/stylesheets/stylesheet.scss */
+/* line 725, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor {
   float: left;
   width: 33.333%;
   padding: 20px 10px 0 0;
 }
-/* line 707, content/stylesheets/stylesheet.scss */
+/* line 729, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor img {
   float: left;
   margin-right: 10px;
 }
-/* line 711, content/stylesheets/stylesheet.scss */
+/* line 733, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span, .visitors-wrap .visitor a {
   display: block;
   line-height: 20px;
   height: 20px;
 }
-/* line 716, content/stylesheets/stylesheet.scss */
+/* line 738, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span {
   margin-top: 5px;
 }
 
-/* line 722, content/stylesheets/stylesheet.scss */
+/* line 744, content/stylesheets/stylesheet.scss */
 h2.visitors-title {
   font-size: 3.3em;
   color: #f8d800;
   font-weight: bold;
 }
 
-/* line 728, content/stylesheets/stylesheet.scss */
+/* line 750, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 732, content/stylesheets/stylesheet.scss */
+/* line 754, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 33.333%;
 }
-/* line 737, content/stylesheets/stylesheet.scss */
+/* line 759, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -1330,26 +1352,33 @@ ul.menu li a {
   font-size: 1.5em;
   margin: 0 1px 0 0;
 }
-/* line 748, content/stylesheets/stylesheet.scss */
+/* line 770, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 756, content/stylesheets/stylesheet.scss */
+/* line 778, content/stylesheets/stylesheet.scss */
 .small-menu {
-  width: 68.2%;
-  float: right;
-  margin: -105px 20px 0 0;
+  width: 100%;
+  margin: -30px 20px 0 0;
 }
-/* line 760, content/stylesheets/stylesheet.scss */
+@media screen and (min-width: 800px) {
+  /* line 778, content/stylesheets/stylesheet.scss */
+  .small-menu {
+    width: 68.2%;
+    float: right;
+    margin-top: -105px;
+  }
+}
+/* line 788, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 765, content/stylesheets/stylesheet.scss */
+/* line 793, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
@@ -1364,7 +1393,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 782, content/stylesheets/stylesheet.scss */
+/* line 810, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1373,7 +1402,7 @@ ul.menu li a:hover, ul.menu li a.active {
   /* 2 */
 }
 
-/* line 787, content/stylesheets/stylesheet.scss */
+/* line 815, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1382,7 +1411,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 795, content/stylesheets/stylesheet.scss */
+/* line 823, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
