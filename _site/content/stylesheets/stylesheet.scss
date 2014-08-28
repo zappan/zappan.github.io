@@ -777,6 +777,30 @@ a.back-to-top {
   }
 }
 
+.bg-wrap.wow-wrap {
+  h4 {
+    margin-bottom: 10px;
+    &.main-event {
+      color: #f8d800;
+    }
+  }
+  hr {
+    margin: 1.2em 0 -0.6em 0;
+  }
+  p {
+    margin-top: 1.4em;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      line-height: 1.5;
+      list-style-position: inside;
+    }
+  }
+}
+
+h2.wow-title,
 h2.visitors-title {
   font-size: 3.3em;
   color: #f8d800;
