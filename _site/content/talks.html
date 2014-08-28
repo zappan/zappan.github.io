@@ -1,0 +1,51 @@
+---
+title: Talks
+layout: visitors
+---
+<h2 class="section-title visitors-title">Talks</h2>
+<article class="bg-wrap cf">
+
+	<p class="introduction"></p>
+
+	<hr>
+
+
+	<ul class="avatar-desc-meta-list cf">
+        <% speakers.each do |speaker| %>
+        <% unless speaker.nil? %>
+
+		<li class="cf" id="speaker-<%= (speaker[:name] || "").to_slug.normalize.to_s %>">
+			<div class="avatar-desc-meta">
+				<a class="avatar" href="<%= speaker.identifier %>">
+					<div class="img">
+						<img src="<%= speaker[:image] %>" alt="<%= speaker[:name] %>">
+					</div>
+				</a>
+
+				<div class="desc">
+					<h4><a href="<%= speaker.identifier %>"><%= speaker[:title] %></a></h4>
+					<%= speaker[:short_abstract] %>
+					<a href="<%= speaker.identifier %>">Read more &raquo;</a>
+				</div>
+				<div class="meta cf">
+					<dl>
+						<dt>Speaker</dt>
+						<dd class="link"><a href="<%= speaker.identifier %>"><%= speaker[:name] %> </a></dd>
+						<% unless (speaker[:github] || "").empty? %>
+						<dt>On Github</dt>
+						<dd class="link"><a href="https://github.com/<%= speaker[:github] %>" target="_blank"><%= speaker[:github] %></a></dd>
+						<% end %>
+						<% unless (speaker[:twitter] || "").empty? %>
+						<dt>On Twitter</dt>
+						<dd class="link"><a href="https://twitter.com/<%= speaker[:twitter] %>" target="_blank">@<%= speaker[:twitter] %></a></dd>
+						<% end %>
+					</dl>
+				</div>
+			</div>
+		</li>
+
+        <% end %>
+        <% end %>
+	</ul>
+	
+</article>

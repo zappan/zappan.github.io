@@ -21,7 +21,7 @@ module Nanoc3::DataSources
         # Convert to items
         raw_items.each_with_index.map do |raw_item, i|
 
-          image = raw_item["speaker"]["name"].to_slug.normalize.to_s + '.jpg'
+          image = (raw_item["speaker"]["name"] || "").to_slug.normalize.to_s + '.jpg'
           path = "/" + ['images', 'speakers', image].join('/')
 
           # Get data
@@ -36,7 +36,7 @@ module Nanoc3::DataSources
             long_bio: markdown.render(raw_item['speaker']['long_bio']),
             short_bio: markdown.render(raw_item['speaker']['short_bio']),
           }
-          identifier = [attributes[:name], attributes[:title]].join(' ').to_slug.normalize.to_s
+          identifier = ([attributes[:name], attributes[:title]].join(' ') || "").to_slug.normalize.to_s
           mtime = nil
 
           # Build item
