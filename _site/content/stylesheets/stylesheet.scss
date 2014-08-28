@@ -400,16 +400,16 @@ p.introduction {
     li {
       float: left;
       display: block;
-      width: 100%;
+      width: 50%;
       margin-bottom: 4em;
       text-align: center;
       list-style: none;
 
       @media (min-width: 481px) and (max-width: 600px) {
-            width: 50%;
+        width: 33.33%;
       }
       @include at(2){
-        width: 33.33%;
+        width: 20%;
       }
       @include at(3){
         width: 10%;
