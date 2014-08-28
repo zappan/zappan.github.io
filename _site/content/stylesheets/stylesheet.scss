@@ -412,8 +412,8 @@ p.introduction {
         width: 33.33%;
       }
       @include at(3){
-        width: 23%;
-        margin: 0 2% 7% 0;
+        width: 10%;
+        margin: 0 2% 3.5% 0;
       }
 
       &:last-child {
@@ -437,18 +437,18 @@ a.speaker {
   .avatar {
     position: relative;
     margin: 0 auto;
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
     overflow: hidden;
     @include transform(rotate(45deg));
     @include border-radius(20px);
 
     img {
       position: absolute;
-      top: -75px;
-      left: -75px;
+      top: -112px;
+      left: -112px;
       z-index: 2;
-      @include transform(rotate(-45deg) scale(0.65));
+      @include transform(rotate(-45deg) scale(0.30));
     }
 
     &::before {
@@ -471,15 +471,17 @@ a.speaker {
   }
 
   .name, .twtr {
-    line-height: 1.6;
+    line-height: 1.25;
     color: #ddd;
   }
 
   .name {
     font-family: Share, Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
-    padding-top: 1.75em;
+    font-size: 1.0em;
+    padding-top: 0.25em;
     margin-top: 1em;
+    height: 2.75em;
+    overflow: hidden;
   }
 
   .twtr {
@@ -488,6 +490,7 @@ a.speaker {
     text-transform: uppercase;
     letter-spacing: .0625em;
     margin-top: .3125em;
+    display: none;
   }
 
   &:hover .avatar::before {
@@ -786,7 +789,7 @@ h2.visitors-title {
   background: rgba(0,0,0,0.2);
   padding: 0 20px 20px 20px;
 
-  h3 { 
+  h3 {
     font-family: Share, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1.75em;
@@ -865,13 +868,13 @@ ul.avatar-desc-meta-list {
     margin: 22px 22px 30px 30px;
     display: block;
 
-    @include at(2){ 
+    @include at(2){
       width: 22%;
       margin: 22px 7% 0 25px;
       float: left;
     }
 
-    @include at(3){ 
+    @include at(3){
       width: 20%;
       margin: 22px 5% 0 25px;
       float: left;
@@ -885,7 +888,7 @@ ul.avatar-desc-meta-list {
       @include transform(rotate(45deg));
       @include border-radius(20px);
 
-      @include at(3){ 
+      @include at(3){
         height: 150px;
         width: 150px;
       }
@@ -904,12 +907,12 @@ ul.avatar-desc-meta-list {
   .desc {
     width: 100%;
 
-    @include at(2){ 
+    @include at(2){
       width: 66%;
       float: left;
     }
 
-    @include at(3){ 
+    @include at(3){
       width: 45%;
       margin-right: 5%;
       float: left;
@@ -918,13 +921,13 @@ ul.avatar-desc-meta-list {
     h4 {
       margin-top: 1.5em;
 
-      @include at(2){ 
+      @include at(2){
         margin-top: 0 !important;
         margin-bottom: 1.25em;
         font-size: 1.75em;
       }
 
-      @include at(3){ 
+      @include at(3){
         margin-top: 0 !important;
         margin-bottom: 1.25em;
         font-size: 1.75em;
