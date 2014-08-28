@@ -263,6 +263,39 @@ section.content {
   }
 }
 
+#mc_embed_signup {
+  padding-top: 20px;
+
+  input {
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  #mce-EMAIL {
+    width: 210px;
+    border-radius: 0;
+  }
+
+  #mc-embedded-subscribe {
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid #f8d800;
+    color: black;
+    background: #f8d800;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #f8d800;
+    margin: 0;
+    font-size: 1.8em;
+  }
+}
+
 article.news, article {
   h2, time {
     font-family: Share, Helvetica, Arial, sans-serif;
@@ -823,3 +856,4 @@ ul.menu {
 .cf {
     *zoom: 1;
 }
+
