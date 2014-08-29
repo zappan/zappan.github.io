@@ -263,6 +263,39 @@ section.content {
   }
 }
 
+#mc_embed_signup {
+  padding-top: 20px;
+
+  input {
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  #mce-EMAIL {
+    width: 210px;
+    border-radius: 0;
+  }
+
+  #mc-embedded-subscribe {
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid #f8d800;
+    color: black;
+    background: #f8d800;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #f8d800;
+    margin: 0;
+    font-size: 1.8em;
+  }
+}
+
 article.news, article {
   h2, time {
     font-family: Share, Helvetica, Arial, sans-serif;
@@ -367,20 +400,20 @@ p.introduction {
     li {
       float: left;
       display: block;
-      width: 100%;
+      width: 50%;
       margin-bottom: 4em;
       text-align: center;
       list-style: none;
 
       @media (min-width: 481px) and (max-width: 600px) {
-            width: 50%;
-      }
-      @include at(2){
         width: 33.33%;
       }
+      @include at(2){
+        width: 20%;
+      }
       @include at(3){
-        width: 23%;
-        margin: 0 2% 7% 0;
+        width: 10%;
+        margin: 0 2% 3.5% 0;
       }
 
       &:last-child {
@@ -404,18 +437,18 @@ a.speaker {
   .avatar {
     position: relative;
     margin: 0 auto;
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
     overflow: hidden;
     @include transform(rotate(45deg));
     @include border-radius(20px);
 
     img {
       position: absolute;
-      top: -75px;
-      left: -75px;
+      top: -112px;
+      left: -112px;
       z-index: 2;
-      @include transform(rotate(-45deg) scale(0.65));
+      @include transform(rotate(-45deg) scale(0.30));
     }
 
     &::before {
@@ -438,15 +471,17 @@ a.speaker {
   }
 
   .name, .twtr {
-    line-height: 1.6;
+    line-height: 1.25;
     color: #ddd;
   }
 
   .name {
     font-family: Share, Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
-    padding-top: 1.75em;
+    font-size: 1.0em;
+    padding-top: 0.25em;
     margin-top: 1em;
+    height: 2.75em;
+    overflow: hidden;
   }
 
   .twtr {
@@ -455,6 +490,7 @@ a.speaker {
     text-transform: uppercase;
     letter-spacing: .0625em;
     margin-top: .3125em;
+    display: none;
   }
 
   &:hover .avatar::before {
@@ -516,6 +552,23 @@ a.speaker {
     }
   }
 
+  .twitter {
+    text-align: center;
+    font-size: 1em;
+
+    a {
+      font-weight: 700;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: .0625em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
   .img {
     position: relative;
     margin: 0 auto;
@@ -546,6 +599,11 @@ a.speaker {
 
     .name {
       margin-top: 0;
+      text-align: left;
+    }
+
+    .twitter {
+      margin-top: .75em;
       text-align: left;
     }
 
@@ -719,10 +777,34 @@ a.back-to-top {
   }
 }
 
+.bg-wrap.wow-wrap {
+  h4 {
+    margin-bottom: 10px;
+    &.main-event {
+      color: #f8d800;
+    }
+  }
+  hr {
+    margin: 1.2em 0 -0.6em 0;
+  }
+  p {
+    margin-top: 1.4em;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      line-height: 1.5;
+      list-style-position: inside;
+    }
+  }
+}
+
+h2.wow-title,
 h2.visitors-title {
   font-size: 3.3em;
   color: #f8d800;
-  font-weight: bold
+  font-weight: bold;
 }
 
 /* Wrapper with background */
@@ -731,7 +813,7 @@ h2.visitors-title {
   background: rgba(0,0,0,0.2);
   padding: 0 20px 20px 20px;
 
-  h3 { 
+  h3 {
     font-family: Share, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1.75em;
@@ -775,6 +857,146 @@ h2.visitors-title {
     @include at(3){
       @include column-count(2);
       @include column-gap(40px);
+    }
+  }
+}
+
+
+/* Avatar description meta list */
+ul.avatar-desc-meta-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 2.2em;
+  padding-top: 2.2em;
+
+  li {
+    padding: 0 !important;
+    margin-bottom: 2.2em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    list-style: none;
+    text-overflow: ellipsis;
+
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+}
+
+.avatar-desc-meta {
+  padding-bottom: 1.1em;
+  overflow: hidden;
+
+  .avatar {
+    float: right;
+    margin: 22px 22px 30px 30px;
+    display: block;
+
+    @include at(2){
+      width: 22%;
+      margin: 22px 7% 0 25px;
+      float: left;
+    }
+
+    @include at(3){
+      width: 20%;
+      margin: 22px 5% 0 25px;
+      float: left;
+    }
+
+    .img {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      @include transform(rotate(45deg));
+      @include border-radius(20px);
+
+      @include at(3){
+        height: 150px;
+        width: 150px;
+      }
+
+      img {
+        position: absolute;
+        top: -75px;
+        left: -75px;
+        z-index: 2;
+        @include transform(rotate(-45deg) scale(0.7));
+      }
+    }
+
+  }
+
+  .desc {
+    width: 100%;
+
+    @include at(2){
+      width: 66%;
+      float: left;
+    }
+
+    @include at(3){
+      width: 45%;
+      margin-right: 5%;
+      float: left;
+    }
+
+    h4 {
+      margin-top: 1.5em;
+
+      @include at(2){
+        margin-top: 0 !important;
+        margin-bottom: 1.25em;
+        font-size: 1.75em;
+      }
+
+      @include at(3){
+        margin-top: 0 !important;
+        margin-bottom: 1.25em;
+        font-size: 1.75em;
+      }
+
+        a {
+        color: #f8d800;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .meta {
+    padding-top: 2.2em;
+
+    @include at(2){
+      width: auto;
+      margin-left: 33%;
+      padding-top: 22px;
+      clear: both;
+    }
+
+    @include at(3){
+      width: 22%;
+      padding-top: 3.45em;
+      float: left;
+    }
+
+    dt {
+      font-family: Share, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.25em;
+    }
+
+    dd {
+      margin-left: 0 !important;
+      margin-bottom: 0.85em;
+
+      &.link {
+        overflow: hidden;
+        color: #97C0DF;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
     }
   }
 }
