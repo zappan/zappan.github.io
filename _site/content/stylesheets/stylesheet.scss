@@ -182,22 +182,29 @@ section.content {
   }
   @include at(2){
     margin: -2.6em 0 1.3em;
-    .left-panel, .right-panel {
-      padding-top: 1.5em;
-      font-size: 0.8em;
+
+    .panels {
+      display:table;
     }
+
+    .left-panel, .right-panel {
+      padding: 1.5em;
+      font-size: 0.8em;
+      border: 1px solid #6b6b6b;
+      border-left-width:0;
+    }
+
     .left-panel {
+      display:table-cell;
       width: 50%;
-      border-right: 1px solid #6b6b6b;
-      float: left;
+      border-left-width:1px;
       .icon {
         margin-right: 0.5em;
       }
     }
     .right-panel {
-
+      display:table-cell;
       width: 50%;
-      float: right;
       text-align: right;
       .icon {
         float: right;
@@ -275,6 +282,7 @@ section.content {
   #mce-EMAIL {
     width: 210px;
     border-radius: 0;
+    outline:0;
   }
 
   #mc-embedded-subscribe {
@@ -293,6 +301,21 @@ section.content {
     color: #f8d800;
     margin: 0;
     font-size: 1.8em;
+  }
+
+  @media screen and (max-width:400px) {
+
+    #mce-EMAIL {
+      width:100%;
+      padding:0.65em;
+    }
+
+    #mc-embedded-subscribe {
+      width:100%;
+      font-size:1.2em;
+      padding:0.5em;
+      margin:0.5em 0 0;
+    }
   }
 }
 
