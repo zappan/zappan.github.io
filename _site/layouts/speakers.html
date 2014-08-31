@@ -46,10 +46,20 @@
             </div>
             <div class="info">
               <h2 class="name"><%= @item[:name] %></h2>
-              <% unless @item[:twitter].empty? %><h3 class="twitter"><a href="http://twitter.com/@<%= @item[:twitter] %>" target="_blank">@<%= @item[:twitter] %></a></h3><% end %>
+
+              <ul class="social-profiles cf">
+                <% unless @item[:twitter].empty? %>
+                <li class="profile-item"><span class="link"><a href="http://twitter.com/@<%= @item[:twitter] %>">@<%= @item[:twitter] %></a></span></li>
+                <% end %>
+                <% unless @item[:github].empty? %>
+                <li class="profile-item"><span class="link"><a href="https://github.com/<%= @item[:github] %>">github.com/<%= @item[:github] %></a></span></li>
+                <% end %>
+              </ul>
+
               <div class="desc">
                 <%= @item[:long_bio] %>
               </div>
+
             </div>
           </div>
         </article>

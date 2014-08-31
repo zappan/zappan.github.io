@@ -552,23 +552,6 @@ a.speaker {
     }
   }
 
-  .twitter {
-    text-align: center;
-    font-size: 1em;
-
-    a {
-      font-weight: 700;
-      text-decoration: none;
-      color: white;
-      text-transform: uppercase;
-      letter-spacing: .0625em;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-
   .img {
     position: relative;
     margin: 0 auto;
@@ -584,6 +567,33 @@ a.speaker {
       left: -75px;
       z-index: 2;
       @include transform(rotate(-45deg) scale(0.65));
+    }
+  }
+
+  .social-profiles {
+    text-align:center;
+    margin:10px 0 20px;
+
+    &,
+    & li {
+      list-style:none;
+      padding:0;
+    }
+
+    .link {
+      font-size: 1em;
+      margin:0;
+
+      a {
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        letter-spacing: -0.02em;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
@@ -602,9 +612,38 @@ a.speaker {
       text-align: left;
     }
 
-    .twitter {
-      margin-top: .75em;
-      text-align: left;
+    .social-profiles {
+
+      .profile-item {
+        float:left;
+        margin-left:10px;
+
+        &:before {
+          content:'\2022';
+          color:darken(white, 50%);
+        }
+
+        &:first-child {
+          margin-left:0;
+
+          &:before {
+            display:none;
+          }
+
+          .link {
+            padding-left:0;
+          }
+        }
+      }
+
+      .link {
+        padding-left:10px;
+
+        a {
+          margin-top:0;
+          text-align: left;
+        }
+      }
     }
 
     .img {
@@ -870,7 +909,6 @@ ul.avatar-desc-meta-list {
 
   li {
     padding: 0 !important;
-    margin-bottom: 2.2em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     overflow: hidden;
     list-style: none;
@@ -881,26 +919,47 @@ ul.avatar-desc-meta-list {
       border-bottom: 0;
     }
   }
+
+  .talk-item {
+    text-decoration:none;
+    display:block;
+
+    .talk {
+      span {
+        color: #f8d800;
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+
+      .talk {
+        span {
+          color: darken(#f8d800, 10%);
+        }
+      }
+    }
+  }
 }
 
 .avatar-desc-meta {
-  padding-bottom: 1.1em;
+  padding: 1.1em 0;
   overflow: hidden;
 
   .avatar {
     float: right;
-    margin: 22px 22px 30px 30px;
+    margin: 22px 20px 30px 25px;
     display: block;
 
     @include at(2){
       width: 22%;
-      margin: 22px 7% 0 25px;
+      margin: 22px 20px 30px 25px;
       float: left;
     }
 
     @include at(3){
       width: 20%;
-      margin: 22px 5% 0 25px;
+      margin: 22px 20px 30px 25px;
       float: left;
     }
 
@@ -937,30 +996,34 @@ ul.avatar-desc-meta-list {
     }
 
     @include at(3){
-      width: 45%;
-      margin-right: 5%;
+      width: 66%;
       float: left;
     }
 
     h4 {
+      line-height:1.1;
       margin-top: 1.5em;
 
       @include at(2){
         margin-top: 0 !important;
-        margin-bottom: 1.25em;
+        margin-bottom: 0.2em;
         font-size: 1.75em;
       }
 
       @include at(3){
         margin-top: 0 !important;
-        margin-bottom: 1.25em;
+        margin-bottom: 0.2em;
         font-size: 1.75em;
       }
+    }
+  }
 
-        a {
-        color: #f8d800;
-        text-decoration: none;
-      }
+  .talk-meta {
+    margin-bottom:1.3em;
+
+    .name {
+      font-weight:bold;
+      color: darken(#f8d800, 10%);
     }
   }
 
