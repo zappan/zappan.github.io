@@ -35,7 +35,7 @@
 				}
 
 				$('.sold').html(supporters + ' / 300 Supporter Packs sold!').removeClass('loading');
-				$('.progress-bar').width(Math.min(100, (supporters / 300 * 100)) + '%');
+				$('.progress-bar').width(Math.min(100, (supporters/300 * 100)) + '%');
 			})
 		})()
 	}
@@ -52,11 +52,13 @@
 				for(var i = 0; i < data.length; i++){
 					visitor = data[i];
 
+					visitor.twitter = visitor.twitter.replace(/^https?:\/\/twitter\.com\//i,'');
+
 					visitorHtml = ['<div class="visitor cf">'];
 
 					visitorHtml.push(renderTemplate('img', visitor));
 					visitorHtml.push(renderTemplate('name', visitor));
-					
+
 					if(visitor.twitter){
 						visitorHtml.push(renderTemplate('twitter', visitor));
 					}
