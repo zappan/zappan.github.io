@@ -1,0 +1,38 @@
+/* Shared stuff because of Nanoc */
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 960px;
+
+.twitter-wrap {
+  display: none;
+  
+  @include at(3){
+    float: right;
+    display: block;
+    width: 38.2%;
+    padding-left: 20px;
+    margin-top: 2.6em;
+  }
+
+  h3 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: $grey_2;
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    height: 1.5em;
+    &.facebook {
+      margin-top: 1.5em;
+    }
+    a {
+      color: $grey_2;
+      text-decoration: none;
+    }
+    img {
+      height: 1.5em;
+      float: right;
+    }
+  }
+}

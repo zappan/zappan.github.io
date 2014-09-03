@@ -1,0 +1,32 @@
+#mc_embed_signup {
+  padding-top: 20px;
+
+  input {
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  #mce-EMAIL {
+    width: 210px;
+    border-radius: 0;
+  }
+
+  #mc-embedded-subscribe {
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid $yellow;
+    color: $black;
+    background: $yellow;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: $yellow;
+    margin: 0;
+    font-size: 1.8em;
+  }
+}

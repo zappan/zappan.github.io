@@ -1,0 +1,122 @@
+/* Shared stuff because of Nanoc */
+@import "compass";
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 960px;
+
+/* Homepage speakers list */
+.speakers {
+  padding: 1.25em 0;
+
+  .speakers-list {
+    width: 100%;
+    margin: 3em auto 2em auto;
+    padding: 0;
+    text-align: center;
+
+    li {
+      float: left;
+      display: block;
+      width: 50%;
+      margin-bottom: 4em;
+      text-align: center;
+      list-style: none;
+
+      @media (min-width: 481px) and (max-width: 600px) {
+        width: 33.33%;
+      }
+      @include at(2){
+        width: 20%;
+      }
+      @include at(3){
+        width: 10%;
+        margin: 0 2% 3.5% 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+a.speaker {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+
+  span {
+    display: block;
+  }
+
+  .avatar {
+    position: relative;
+    margin: 0 auto;
+    height: 75px;
+    width: 75px;
+    overflow: hidden;
+    @include transform(rotate(45deg));
+    @include border-radius(20px);
+
+    img {
+      position: absolute;
+      top: -112px;
+      left: -112px;
+      z-index: 2;
+      @include transform(rotate(-45deg) scale(0.30));
+    }
+
+    &::before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      @include border-radius(20px);
+      @include box-shadow($yellow 0 0 0 0 inset);
+      -webkit-transition: -webkit-box-shadow 100ms;
+      -moz-transition: -moz-box-shadow 100ms;
+      -ms-transition: -ms-box-shadow 100ms;
+      -o-transition: -o-box-shadow 100ms;
+      transition: box-shadow 100ms;
+    }
+  }
+
+  .name, .twtr {
+    line-height: 1.25;
+    color: $grey_lighter;
+  }
+
+  .name {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+    padding-top: 0.25em;
+    margin-top: 1em;
+    height: 2.75em;
+    overflow: hidden;
+  }
+
+  .twtr {
+    font-size: .75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .0625em;
+    margin-top: .3125em;
+    display: none;
+  }
+
+  &:hover .avatar::before {
+    @include box-shadow($yellow 0 0 0 4px inset);
+  }
+}
+
+#speaker-nikica-jokic span.avatar:hover img {
+  content: url('../images/speakers/nikica-jokic2.png');
+  @include transform(rotate(-45deg) scale(0.65));
+}

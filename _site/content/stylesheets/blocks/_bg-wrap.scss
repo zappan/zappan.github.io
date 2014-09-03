@@ -1,0 +1,60 @@
+/* Shared stuff because of Nanoc */
+@import "compass";
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 960px;
+
+/* Wrapper with background */
+.bg-wrap {
+  margin: 20px 0 0;
+  background: rgba(0,0,0,0.2);
+  padding: 0 20px 20px 20px;
+
+  h3 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+  }
+
+  h4 {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+
+  hr {
+    height: 1px;
+    margin: 2.2em 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    background: none;
+  }
+
+  p.intro {
+    font-size: 1.25em;
+    line-height: 1.4em;
+  }
+
+  ul {
+    margin: 0 0 1.1em 1.1em;
+    font-size: 1.05em;
+    line-height: 1.4em;
+    color: $white;
+
+    li {
+      padding: 3px 0;
+    }
+  }
+
+  .columns {
+    @include at(2){
+      @include column-count(2);
+      @include column-gap(30px);
+    }
+    @include at(3){
+      @include column-count(2);
+      @include column-gap(40px);
+    }
+  }
+}

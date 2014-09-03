@@ -1,0 +1,23 @@
+/* Shared stuff because of Nanoc */
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 960px;
+
+header {
+  padding: 1.3em 0;
+  h1 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  img {
+    width: 105%;
+    margin-left: -2.5%;
+    display: block;
+    @include at(3){
+      width: 110%;
+      margin-left: -5%;
+    }
+  }
+}

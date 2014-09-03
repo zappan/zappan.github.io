@@ -1,0 +1,40 @@
+/* Shared stuff because of Nanoc */
+@import "compass";
+
+a {
+  color: $blue;
+  &:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: $blue_lighter;
+  }
+}
+
+a.back-to-top {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: block;
+  background: $grey_darker;
+  padding: 0 20px;
+  line-height: 30px;
+  height: 30px;
+  font-size: 0.8em;
+  text-decoration: none;
+  position: absolute;
+  margin-top: -2px;
+  @include border-radius(0px 0px 3px 3px);
+}
+
+a.support-webcamp {
+  clear: both;
+  font-size: 200%;
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: $yellow;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 50px;
+  font-family: Share, Helvetica, Arial, sans-serif;
+}

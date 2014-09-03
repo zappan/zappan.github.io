@@ -1,0 +1,22 @@
+.twitter-wrap-simple {
+  display:block;
+  float:none;
+  width:100%;
+  margin:2em auto 0;
+  padding-left:0;
+  padding-top:1.5em;
+  clear:both;
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,0.2);
+
+  h3,
+  h3.facebook {
+    display:inline-block;
+    margin:0.5em 1em 0;
+    vertical-align:top;
+
+    a {
+      margin-right:0.6em;
+    }
+  }
+}

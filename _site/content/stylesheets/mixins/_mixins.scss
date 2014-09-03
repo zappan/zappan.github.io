@@ -1,0 +1,48 @@
+/* Hide content off-screen */
+@mixin accessibility {
+    border:0!important;
+    clip:rect(0 0 0 0)!important;
+    height:1px!important;
+    margin:-1px!important;
+    overflow:hidden!important;
+    padding:0!important;
+    position: absolute!important;
+    width:1px!important;
+}
+
+/* Create CSS keyframe animations */
+@mixin keyframe ($animation-name){
+    @-webkit-keyframes $animation-name{
+        @content;
+    }
+
+    @-moz-keyframes $animation-name{
+        @content;
+    }
+
+    @-ms-keyframes $animation-name{
+        @content;
+    }
+
+    @-o-keyframes $animation-name{
+        @content;
+    }
+
+    @keyframes $animation-name{
+        @content;
+    }
+}
+
+/**
+ * Force overly long spans of text to truncate, e.g.:
+ *
+   @include truncate(100%);`
+ *
+ * Where `$truncation-boundary` is a united measurement.
+ */
+@mixin truncate($truncation-boundary){
+    max-width:$truncation-boundary;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}

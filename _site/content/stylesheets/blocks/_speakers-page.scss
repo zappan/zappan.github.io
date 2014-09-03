@@ -1,0 +1,162 @@
+/* Shared stuff because of Nanoc */
+@import "compass";
+
+/* Speaker/talk page */
+.speaker-main {
+
+  header img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  h2.date-location {
+    padding: 0.4em 0;
+    border-color: rgba(255,255,255,0.2);
+    font-size: 1.2em;
+  }
+
+  section.content .wrap {
+    width: 100%;
+    float: none;
+  }
+}
+
+.talk-info {
+  .name {
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: $yellow;
+    margin: 0;
+    font-size: 2.1em;
+    letter-spacing: -0.03em;
+  }
+
+  .desc {
+    font-size: 1.05em;
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+
+.speaker-info {
+  margin-top: 3.5em;
+
+  .name {
+    margin-top: .6em;
+    font-weight: 700;
+    font-size: 2.3em;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .twitter {
+    text-align: center;
+    font-size: 1em;
+
+    a {
+      font-weight: 700;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: .0625em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .img {
+    position: relative;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    @include transform(rotate(45deg));
+    @include border-radius(20px);
+
+    img {
+      position: absolute;
+      top: -75px;
+      left: -75px;
+      z-index: 2;
+      @include transform(rotate(-45deg) scale(0.65));
+    }
+  }
+}
+
+@media screen and (min-width:600px) {
+  .speaker-main h2.date-location {
+    padding: 0.4em 0;
+    font-size: 1.5em;
+  }
+
+  .speaker-info {
+    margin-top: 4.5em;
+
+    .name {
+      margin-top: 0;
+      text-align: left;
+    }
+
+    .twitter {
+      margin-top: .75em;
+      text-align: left;
+    }
+
+    .img {
+      float: left;
+    }
+
+    .info {
+      overflow: hidden;
+      padding-left: 2.7em;
+    }
+  }
+}
+
+@media screen and (min-width:700px) {
+  .talk-info {
+    .name {
+      font-size: 2.7em;
+    }
+    .desc {
+      font-size: 1.15em;
+    }
+  }
+}
+
+@media screen and (min-width:800px) {
+  .speaker-main {
+
+    section.content {
+      padding-top: 2.8em;
+    }
+
+    header img {
+      width: 25%;
+      margin: 0;
+    }
+
+    h2.date-location {
+      font-size: 1.7em;
+    }
+  }
+  .talk-info {
+    .name {
+      font-size: 3.3em;
+    }
+    .desc {
+      font-size: 1.3em;
+    }
+  }
+  .speaker-info .desc {
+    padding-right: 6em;
+  }
+}

@@ -1,3 +1,4 @@
+/* Config */
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -5,7 +6,6 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 22, content/stylesheets/normalize.scss */
 article,
 aside,
 details,
@@ -24,7 +24,6 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 32, content/stylesheets/normalize.scss */
 audio,
 canvas,
 video {
@@ -35,7 +34,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 41, content/stylesheets/normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -45,7 +43,6 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 52, content/stylesheets/normalize.scss */
 [hidden],
 template {
   display: none;
@@ -59,7 +56,6 @@ template {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 66, content/stylesheets/normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -72,7 +68,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 76, content/stylesheets/normalize.scss */
 body {
   margin: 0;
 }
@@ -83,7 +78,6 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 88, content/stylesheets/normalize.scss */
 a {
   background: transparent;
 }
@@ -91,7 +85,6 @@ a {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 96, content/stylesheets/normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -99,7 +92,6 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 105, content/stylesheets/normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -112,7 +104,6 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 118, content/stylesheets/normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -121,7 +112,6 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 127, content/stylesheets/normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -129,7 +119,6 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 136, content/stylesheets/normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -138,7 +127,6 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 144, content/stylesheets/normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -146,7 +134,6 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 152, content/stylesheets/normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -156,7 +143,6 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 162, content/stylesheets/normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -165,7 +151,6 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 174, content/stylesheets/normalize.scss */
 code,
 kbd,
 pre,
@@ -177,7 +162,6 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 183, content/stylesheets/normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -185,7 +169,6 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 191, content/stylesheets/normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -193,7 +176,6 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 199, content/stylesheets/normalize.scss */
 small {
   font-size: 80%;
 }
@@ -201,7 +183,6 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 208, content/stylesheets/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -210,12 +191,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 215, content/stylesheets/normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 219, content/stylesheets/normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -226,7 +205,6 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 231, content/stylesheets/normalize.scss */
 img {
   border: 0;
 }
@@ -234,7 +212,6 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 239, content/stylesheets/normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -245,7 +222,6 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 251, content/stylesheets/normalize.scss */
 figure {
   margin: 0;
 }
@@ -256,7 +232,6 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 263, content/stylesheets/normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -267,7 +242,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 274, content/stylesheets/normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -280,7 +254,6 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 288, content/stylesheets/normalize.scss */
 button,
 input,
 select,
@@ -297,7 +270,6 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 300, content/stylesheets/normalize.scss */
 button,
 input {
   line-height: normal;
@@ -309,7 +281,6 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 312, content/stylesheets/normalize.scss */
 button,
 select {
   text-transform: none;
@@ -322,7 +293,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 327, content/stylesheets/normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -336,7 +306,6 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 337, content/stylesheets/normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -346,7 +315,6 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 347, content/stylesheets/normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -360,7 +328,6 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 358, content/stylesheets/normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -374,7 +341,6 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 371, content/stylesheets/normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -383,7 +349,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 380, content/stylesheets/normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -394,7 +359,6 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 390, content/stylesheets/normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -408,28 +372,163 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 403, content/stylesheets/normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* Mixins */
+/* Hide content off-screen */
+/* Create CSS keyframe animations */
+/**
+ * Force overly long spans of text to truncate, e.g.:
+ *
+   @include truncate(100%);`
+ *
+ * Where `$truncation-boundary` is a united measurement.
+ */
+/* Misc */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+/* Add/remove floats */
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+/* Text alignment */
+.text-left {
+  text-align: left  !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+/* Font weights */
+.weight-light {
+  font-weight: 300 !important;
+}
+
+.weight-normal {
+  font-weight: 400 !important;
+}
+
+.weight-semibold {
+  font-weight: 600 !important;
+}
+
+.weight-bold {
+  font-weight: 700 !important;
+}
+
+/* Add a help cursor to any element that gives the user extra information on `:hover` */
+.informative {
+  cursor: help !important;
+}
+
+/* Mark an object as inactive by reducing its opacity */
+.inactive {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=50) !important;
+}
+
+/* Apply capital case to an element */
+.caps {
+  text-transform: uppercase !important;
+}
+
+/* Hide content off-screen without resorting to `display:none;`, also provide breakpoint specific hidden elements */
+.accessibility,
+.visuallyhidden {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+@-webkit-keyframes blinkloading {
+  to {
+    color: #0d0c0b;
+  }
+}
+
+@-moz-keyframes blinkloading {
+  to {
+    color: #0d0c0b;
+  }
+}
+
+@-o-keyframes blinkloading {
+  to {
+    color: #0d0c0b;
+  }
+}
+
+@keyframes blinkloading {
+  to {
+    color: #0d0c0b;
+  }
+}
+
+/* Colors */
+/* Base */
+/* Shared stuff because of Nanoc */
 /* apply a natural box layout model to all elements */
-/* line 12, content/stylesheets/stylesheet.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 18, content/stylesheets/stylesheet.scss */
 body, html {
   margin: 0;
   height: 100%;
   background: url(../images/background.gif);
 }
 
-/* line 24, content/stylesheets/stylesheet.scss */
 body {
   font-size: 100%;
   font-family: Helvetica, Arial, sans-serif;
@@ -440,7 +539,6 @@ body {
   overflow-x: hidden;
 }
 
-/* line 34, content/stylesheets/stylesheet.scss */
 main {
   max-width: 1000px;
   min-width: 200px;
@@ -449,47 +547,219 @@ main {
   overflow-x: hidden;
 }
 @media (min-width: 961px) {
-  /* line 34, content/stylesheets/stylesheet.scss */
   main {
     overflow-x: visible;
   }
 }
 
-/* line 46, content/stylesheets/stylesheet.scss */
+h2.punchline, h2.date-location {
+  color: white;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+}
+
+h2.punchline {
+  margin: 0.25em 0 0.5em;
+  font-weight: 700;
+  font-size: 2em;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  h2.punchline {
+    font-size: 2.6em;
+  }
+}
+@media (min-width: 961px) {
+  h2.punchline {
+    font-size: 3.5em;
+  }
+}
+
+h2.date-location {
+  border-top: 2px solid white;
+  border-bottom: 1px solid white;
+  padding: 0.8em 0;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  h2.date-location {
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 961px) {
+  h2.date-location {
+    font-size: 2em;
+  }
+}
+
+h2.section-title {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+h2.wow-title,
+h2.visitors-title {
+  font-size: 3.3em;
+  color: #f8d800;
+  font-weight: bold;
+}
+
+section.content {
+  padding: 1.5em 0 3em;
+}
+@media (min-width: 961px) {
+  section.content .wrap {
+    float: left;
+    width: 61.8%;
+    padding-right: 20px;
+  }
+}
+
+article.news h2, article.news time, article h2, article time {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #f8d800;
+  margin: 0;
+  font-size: 1.8em;
+}
+@media (min-width: 961px) {
+  article.news h2:before, article h2:before {
+    content: "\2192";
+    position: absolute;
+    margin: 5px 0 0 -30px;
+    font-size: 0.62em;
+  }
+}
+article.news time, article time {
+  font-size: 1.2em;
+}
+article.news p, article.news li, article p, article li {
+  line-height: 1.6;
+  color: #ddd;
+}
+article.news p:last-child, article.news li:last-child, article p:last-child, article li:last-child {
+  margin-bottom: 0;
+}
+
+article.news {
+  margin-bottom: 20px;
+}
+article.news:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 1.3em 0;
+  border: 2px solid white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+p.introduction {
+  line-height: 1.6;
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 1.5em 0;
+  color: #ddd;
+}
+@media (min-width: 601px) and (max-width: 960px) {
+  p.introduction {
+    font-size: 1.15em;
+  }
+}
+@media (min-width: 961px) {
+  p.introduction {
+    font-size: 1.3em;
+  }
+}
+
+/* Fluid images */
+img {
+  max-width: 100%;
+}
+
+/* Non-fluid images if you specify `width` and/or `height` attributes */
+img[width],
+img[height] {
+  max-width: none;
+}
+
+/* Images in `figure` elements */
+figure > img {
+  display: block;
+}
+
+/* Shared stuff because of Nanoc */
 a {
   color: #55A4E0;
 }
-/* line 48, content/stylesheets/stylesheet.scss */
-a:hover {
+a:hover,
+a a:focus,
+a a:active {
   text-decoration: none;
   color: #97C0DF;
 }
 
-/* line 54, content/stylesheets/stylesheet.scss */
+a.back-to-top {
+  font-family: Share, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: block;
+  background: #0d0c0b;
+  padding: 0 20px;
+  line-height: 30px;
+  height: 30px;
+  font-size: 0.8em;
+  text-decoration: none;
+  position: absolute;
+  margin-top: -2px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  -ms-border-radius: 0px 0px 3px 3px;
+  -o-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+}
+
+a.support-webcamp {
+  clear: both;
+  font-size: 200%;
+  padding-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #f8d800;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 50px;
+  font-family: Share, Helvetica, Arial, sans-serif;
+}
+
+/* Blocks */
+/* Shared stuff because of Nanoc */
 header {
   padding: 1.3em 0;
 }
-/* line 56, content/stylesheets/stylesheet.scss */
 header h1 {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
-/* line 61, content/stylesheets/stylesheet.scss */
 header img {
   width: 105%;
   margin-left: -2.5%;
   display: block;
 }
 @media (min-width: 961px) {
-  /* line 61, content/stylesheets/stylesheet.scss */
   header img {
     width: 110%;
     margin-left: -5%;
   }
 }
 
-/* line 72, content/stylesheets/stylesheet.scss */
 footer {
   text-align: center;
   color: #666;
@@ -501,84 +771,19 @@ footer {
   border-top: 1px dotted #333;
 }
 
-/* line 83, content/stylesheets/stylesheet.scss */
-h2.punchline, h2.date-location {
-  color: white;
-  font-family: Share, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  text-align: center;
-  line-height: 1;
-  margin: 0;
-}
-
-/* line 91, content/stylesheets/stylesheet.scss */
-h2.punchline {
-  margin: 0.25em 0 0.5em;
-  font-weight: 700;
-  font-size: 2em;
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  /* line 91, content/stylesheets/stylesheet.scss */
-  h2.punchline {
-    font-size: 2.6em;
-  }
-}
+/* Shared stuff because of Nanoc */
 @media (min-width: 961px) {
-  /* line 91, content/stylesheets/stylesheet.scss */
-  h2.punchline {
-    font-size: 3.5em;
-  }
-}
-
-/* line 102, content/stylesheets/stylesheet.scss */
-h2.date-location {
-  border-top: 2px solid white;
-  border-bottom: 1px solid white;
-  padding: 0.8em 0;
-  line-height: 1.5;
-  font-size: 1.5em;
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  /* line 102, content/stylesheets/stylesheet.scss */
-  h2.date-location {
-    font-size: 1.75em;
-  }
-}
-@media (min-width: 961px) {
-  /* line 102, content/stylesheets/stylesheet.scss */
-  h2.date-location {
-    font-size: 2em;
-  }
-}
-
-/* line 115, content/stylesheets/stylesheet.scss */
-section.content {
-  padding: 1.5em 0 3em;
-}
-@media (min-width: 961px) {
-  /* line 117, content/stylesheets/stylesheet.scss */
-  section.content .wrap {
-    float: left;
-    width: 61.8%;
-    padding-right: 20px;
-  }
-}
-
-@media (min-width: 961px) {
-  /* line 127, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap {
     float: right;
     width: 38.2%;
     padding-left: 1.25em;
   }
 }
-/* line 135, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a {
   color: #6b6b6b;
   text-decoration: none;
   display: block;
 }
-/* line 139, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a b {
   display: block;
   color: #a6a6a5;
@@ -588,19 +793,15 @@ section.content {
   line-height: 1;
   margin-top: 0.65em;
 }
-/* line 148, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover {
   color: white;
 }
-/* line 150, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover b {
   color: white;
 }
-/* line 153, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap a:hover .icon {
   background: rgba(255, 255, 255, 0.05);
 }
-/* line 158, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .icon {
   width: 2.3em;
   height: 2.3em;
@@ -612,53 +813,43 @@ section.content {
   font-size: 2.1em;
   border-radius: 50%;
 }
-/* line 169, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
   padding: 1.5em 0;
   border-bottom: 1px solid #6b6b6b;
 }
-/* line 172, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel .icon, .sponsorship-cfp-wrap .right-panel .icon {
   float: left;
   margin-right: 1em;
 }
-/* line 177, content/stylesheets/stylesheet.scss */
 .sponsorship-cfp-wrap .left-panel {
   padding-top: 0;
 }
 @media (max-width: 600px) {
-  /* line 127, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap {
     margin: -1.3em 0 1.3em 0;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 127, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap {
     margin: -2.6em 0 1.3em;
   }
-  /* line 185, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .left-panel, .sponsorship-cfp-wrap .right-panel {
     padding-top: 1.5em;
     font-size: 0.8em;
   }
-  /* line 189, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .left-panel {
     width: 50%;
     border-right: 1px solid #6b6b6b;
     float: left;
   }
-  /* line 193, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .left-panel .icon {
     margin-right: 0.5em;
   }
-  /* line 197, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .right-panel {
     width: 50%;
     float: right;
     text-align: right;
   }
-  /* line 202, content/stylesheets/stylesheet.scss */
   .sponsorship-cfp-wrap .right-panel .icon {
     float: right;
     margin-right: 0;
@@ -666,12 +857,11 @@ section.content {
   }
 }
 
-/* line 211, content/stylesheets/stylesheet.scss */
+/* Shared stuff because of Nanoc */
 .twitter-wrap {
   display: none;
 }
 @media (min-width: 961px) {
-  /* line 211, content/stylesheets/stylesheet.scss */
   .twitter-wrap {
     float: right;
     display: block;
@@ -680,7 +870,6 @@ section.content {
     margin-top: 2.6em;
   }
 }
-/* line 221, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -690,22 +879,18 @@ section.content {
   line-height: 1.5em;
   height: 1.5em;
 }
-/* line 229, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3.facebook {
   margin-top: 1.5em;
 }
-/* line 232, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 a {
   color: #a6a6a5;
   text-decoration: none;
 }
-/* line 236, content/stylesheets/stylesheet.scss */
 .twitter-wrap h3 img {
   height: 1.5em;
   float: right;
 }
 
-/* line 243, content/stylesheets/stylesheet.scss */
 .twitter-wrap-simple {
   display: block;
   float: none;
@@ -717,35 +902,29 @@ section.content {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* line 255, content/stylesheets/stylesheet.scss */
 .twitter-wrap-simple h3,
 .twitter-wrap-simple h3.facebook {
   display: inline-block;
   margin: 0.5em 1em 0;
   vertical-align: top;
 }
-/* line 260, content/stylesheets/stylesheet.scss */
 .twitter-wrap-simple h3 a,
 .twitter-wrap-simple h3.facebook a {
   margin-right: 0.6em;
 }
 
-/* line 266, content/stylesheets/stylesheet.scss */
 #mc_embed_signup {
   padding-top: 20px;
 }
-/* line 269, content/stylesheets/stylesheet.scss */
 #mc_embed_signup input {
   float: left;
   padding: 5px;
   margin-top: 5px;
 }
-/* line 275, content/stylesheets/stylesheet.scss */
 #mc_embed_signup #mce-EMAIL {
   width: 210px;
   border-radius: 0;
 }
-/* line 280, content/stylesheets/stylesheet.scss */
 #mc_embed_signup #mc-embedded-subscribe {
   width: 100px;
   margin-left: 10px;
@@ -755,7 +934,6 @@ section.content {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-/* line 290, content/stylesheets/stylesheet.scss */
 #mc_embed_signup h2 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -764,85 +942,7 @@ section.content {
   font-size: 1.8em;
 }
 
-/* line 300, content/stylesheets/stylesheet.scss */
-article.news h2, article.news time, article h2, article time {
-  font-family: Share, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #f8d800;
-  margin: 0;
-  font-size: 1.8em;
-}
-@media (min-width: 961px) {
-  /* line 309, content/stylesheets/stylesheet.scss */
-  article.news h2:before, article h2:before {
-    content: "\2192";
-    position: absolute;
-    margin: 5px 0 0 -30px;
-    font-size: 0.62em;
-  }
-}
-/* line 317, content/stylesheets/stylesheet.scss */
-article.news time, article time {
-  font-size: 1.2em;
-}
-/* line 320, content/stylesheets/stylesheet.scss */
-article.news p, article.news li, article p, article li {
-  line-height: 1.6;
-  color: #ddd;
-}
-/* line 323, content/stylesheets/stylesheet.scss */
-article.news p:last-child, article.news li:last-child, article p:last-child, article li:last-child {
-  margin-bottom: 0;
-}
-
-/* line 329, content/stylesheets/stylesheet.scss */
-article.news {
-  margin-bottom: 20px;
-}
-/* line 331, content/stylesheets/stylesheet.scss */
-article.news:last-child {
-  margin-bottom: 0;
-}
-
-/* line 336, content/stylesheets/stylesheet.scss */
-h2.section-title {
-  font-family: Share, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 2.3em;
-  margin: 0;
-}
-
-/* line 343, content/stylesheets/stylesheet.scss */
-hr {
-  margin: 1.3em 0;
-  border: 2px solid white;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-}
-
-/* line 351, content/stylesheets/stylesheet.scss */
-p.introduction {
-  line-height: 1.6;
-  font-family: Share, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  margin: 1.5em 0;
-  color: #ddd;
-}
-@media (min-width: 601px) and (max-width: 960px) {
-  /* line 351, content/stylesheets/stylesheet.scss */
-  p.introduction {
-    font-size: 1.15em;
-  }
-}
-@media (min-width: 961px) {
-  /* line 351, content/stylesheets/stylesheet.scss */
-  p.introduction {
-    font-size: 1.3em;
-  }
-}
-
-/* line 365, content/stylesheets/stylesheet.scss */
+/* Shared stuff because of Nanoc */
 .organizers {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
@@ -852,46 +952,39 @@ p.introduction {
   text-align: center;
 }
 @media (max-width: 600px) {
-  /* line 365, content/stylesheets/stylesheet.scss */
   .organizers {
     padding-top: 40px;
   }
 }
-/* line 375, content/stylesheets/stylesheet.scss */
 .organizers img {
   display: inline-block;
   margin: 9px 9px;
 }
-/* line 379, content/stylesheets/stylesheet.scss */
 .organizers br {
   display: none;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 379, content/stylesheets/stylesheet.scss */
   .organizers br {
     display: block;
   }
 }
 @media (min-width: 961px) {
-  /* line 379, content/stylesheets/stylesheet.scss */
   .organizers br {
     display: block;
   }
 }
 
+/* Shared stuff because of Nanoc */
 /* Homepage speakers list */
-/* line 391, content/stylesheets/stylesheet.scss */
 .speakers {
   padding: 1.25em 0;
 }
-/* line 394, content/stylesheets/stylesheet.scss */
 .speakers .speakers-list {
   width: 100%;
   margin: 3em auto 2em auto;
   padding: 0;
   text-align: center;
 }
-/* line 400, content/stylesheets/stylesheet.scss */
 .speakers .speakers-list li {
   float: left;
   display: block;
@@ -901,42 +994,35 @@ p.introduction {
   list-style: none;
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  /* line 400, content/stylesheets/stylesheet.scss */
   .speakers .speakers-list li {
     width: 33.33%;
   }
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 400, content/stylesheets/stylesheet.scss */
   .speakers .speakers-list li {
     width: 20%;
   }
 }
 @media (min-width: 961px) {
-  /* line 400, content/stylesheets/stylesheet.scss */
   .speakers .speakers-list li {
     width: 10%;
     margin: 0 2% 3.5% 0;
   }
 }
-/* line 419, content/stylesheets/stylesheet.scss */
 .speakers .speakers-list li:last-child {
   margin-bottom: 0;
   margin-right: 0;
 }
 
-/* line 427, content/stylesheets/stylesheet.scss */
 a.speaker {
   display: inline-block;
   width: 100%;
   text-align: center;
   text-decoration: none;
 }
-/* line 433, content/stylesheets/stylesheet.scss */
 a.speaker span {
   display: block;
 }
-/* line 437, content/stylesheets/stylesheet.scss */
 a.speaker .avatar {
   position: relative;
   margin: 0 auto;
@@ -954,7 +1040,6 @@ a.speaker .avatar {
   -o-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 446, content/stylesheets/stylesheet.scss */
 a.speaker .avatar img {
   position: absolute;
   top: -112px;
@@ -966,7 +1051,6 @@ a.speaker .avatar img {
   -o-transform: rotate(-45deg) scale(0.3);
   transform: rotate(-45deg) scale(0.3);
 }
-/* line 454, content/stylesheets/stylesheet.scss */
 a.speaker .avatar::before {
   content: ' ';
   display: block;
@@ -990,12 +1074,10 @@ a.speaker .avatar::before {
   -o-transition: -o-box-shadow 100ms;
   transition: box-shadow 100ms;
 }
-/* line 473, content/stylesheets/stylesheet.scss */
 a.speaker .name, a.speaker .twtr {
   line-height: 1.25;
   color: #ddd;
 }
-/* line 478, content/stylesheets/stylesheet.scss */
 a.speaker .name {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-size: 1.0em;
@@ -1004,7 +1086,6 @@ a.speaker .name {
   height: 2.75em;
   overflow: hidden;
 }
-/* line 487, content/stylesheets/stylesheet.scss */
 a.speaker .twtr {
   font-size: .75em;
   font-weight: 700;
@@ -1013,32 +1094,37 @@ a.speaker .twtr {
   margin-top: .3125em;
   display: none;
 }
-/* line 496, content/stylesheets/stylesheet.scss */
 a.speaker:hover .avatar::before {
   -webkit-box-shadow: #f8d800 0 0 0 4px inset;
   -moz-box-shadow: #f8d800 0 0 0 4px inset;
   box-shadow: #f8d800 0 0 0 4px inset;
 }
 
+#speaker-nikica-jokic span.avatar:hover img {
+  content: url("../images/speakers/nikica-jokic2.png");
+  -webkit-transform: rotate(-45deg) scale(0.65);
+  -moz-transform: rotate(-45deg) scale(0.65);
+  -ms-transform: rotate(-45deg) scale(0.65);
+  -o-transform: rotate(-45deg) scale(0.65);
+  transform: rotate(-45deg) scale(0.65);
+}
+
+/* Shared stuff because of Nanoc */
 /* Speaker/talk page */
-/* line 504, content/stylesheets/stylesheet.scss */
 .speaker-main header img {
   width: 70%;
   margin: 0 auto;
 }
-/* line 509, content/stylesheets/stylesheet.scss */
 .speaker-main h2.date-location {
   padding: 0.4em 0;
   border-color: rgba(255, 255, 255, 0.2);
   font-size: 1.2em;
 }
-/* line 515, content/stylesheets/stylesheet.scss */
 .speaker-main section.content .wrap {
   width: 100%;
   float: none;
 }
 
-/* line 522, content/stylesheets/stylesheet.scss */
 .talk-info .name {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -1047,20 +1133,16 @@ a.speaker:hover .avatar::before {
   font-size: 2.1em;
   letter-spacing: -0.03em;
 }
-/* line 531, content/stylesheets/stylesheet.scss */
 .talk-info .desc {
   font-size: 1.05em;
 }
-/* line 534, content/stylesheets/stylesheet.scss */
 .talk-info .desc p {
   line-height: 1.5;
 }
 
-/* line 540, content/stylesheets/stylesheet.scss */
 .speaker-info {
   margin-top: 3.5em;
 }
-/* line 543, content/stylesheets/stylesheet.scss */
 .speaker-info .name {
   margin-top: .6em;
   font-weight: 700;
@@ -1068,16 +1150,13 @@ a.speaker:hover .avatar::before {
   letter-spacing: -0.03em;
   text-align: center;
 }
-/* line 550, content/stylesheets/stylesheet.scss */
 .speaker-info .name::before {
   display: none;
 }
-/* line 555, content/stylesheets/stylesheet.scss */
 .speaker-info .twitter {
   text-align: center;
   font-size: 1em;
 }
-/* line 559, content/stylesheets/stylesheet.scss */
 .speaker-info .twitter a {
   font-weight: 700;
   text-decoration: none;
@@ -1085,11 +1164,9 @@ a.speaker:hover .avatar::before {
   text-transform: uppercase;
   letter-spacing: .0625em;
 }
-/* line 566, content/stylesheets/stylesheet.scss */
 .speaker-info .twitter a:hover {
   text-decoration: underline;
 }
-/* line 572, content/stylesheets/stylesheet.scss */
 .speaker-info .img {
   position: relative;
   margin: 0 auto;
@@ -1107,7 +1184,6 @@ a.speaker:hover .avatar::before {
   -o-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 581, content/stylesheets/stylesheet.scss */
 .speaker-info .img img {
   position: absolute;
   top: -75px;
@@ -1121,154 +1197,67 @@ a.speaker:hover .avatar::before {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 592, content/stylesheets/stylesheet.scss */
   .speaker-main h2.date-location {
     padding: 0.4em 0;
     font-size: 1.5em;
   }
 
-  /* line 597, content/stylesheets/stylesheet.scss */
   .speaker-info {
     margin-top: 4.5em;
   }
-  /* line 600, content/stylesheets/stylesheet.scss */
   .speaker-info .name {
     margin-top: 0;
     text-align: left;
   }
-  /* line 605, content/stylesheets/stylesheet.scss */
   .speaker-info .twitter {
     margin-top: .75em;
     text-align: left;
   }
-  /* line 610, content/stylesheets/stylesheet.scss */
   .speaker-info .img {
     float: left;
   }
-  /* line 614, content/stylesheets/stylesheet.scss */
   .speaker-info .info {
     overflow: hidden;
     padding-left: 2.7em;
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 623, content/stylesheets/stylesheet.scss */
   .talk-info .name {
     font-size: 2.7em;
   }
-  /* line 626, content/stylesheets/stylesheet.scss */
   .talk-info .desc {
     font-size: 1.15em;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 635, content/stylesheets/stylesheet.scss */
   .speaker-main section.content {
     padding-top: 2.8em;
   }
-  /* line 639, content/stylesheets/stylesheet.scss */
   .speaker-main header img {
     width: 25%;
     margin: 0;
   }
-  /* line 644, content/stylesheets/stylesheet.scss */
   .speaker-main h2.date-location {
     font-size: 1.7em;
   }
 
-  /* line 649, content/stylesheets/stylesheet.scss */
   .talk-info .name {
     font-size: 3.3em;
   }
-  /* line 652, content/stylesheets/stylesheet.scss */
   .talk-info .desc {
     font-size: 1.3em;
   }
 
-  /* line 656, content/stylesheets/stylesheet.scss */
   .speaker-info .desc {
     padding-right: 6em;
   }
 }
-/* line 661, content/stylesheets/stylesheet.scss */
-.support-webcamp {
-  clear: both;
-  font-size: 200%;
-  padding-top: 30px;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  color: #f8d800;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  margin-top: 50px;
-  font-family: Share, Helvetica, Arial, sans-serif;
-}
-
-/* line 674, content/stylesheets/stylesheet.scss */
-a.back-to-top {
-  font-family: Share, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  display: block;
-  background: #0d0c0b;
-  padding: 0 20px;
-  line-height: 30px;
-  height: 30px;
-  font-size: 0.8em;
-  text-decoration: none;
-  position: absolute;
-  margin-top: -2px;
-  -webkit-border-radius: 0px 0px 3px 3px;
-  -moz-border-radius: 0px 0px 3px 3px;
-  -ms-border-radius: 0px 0px 3px 3px;
-  -o-border-radius: 0px 0px 3px 3px;
-  border-radius: 0px 0px 3px 3px;
-}
-
-/* line 689, content/stylesheets/stylesheet.scss */
-#speaker-nikica-jokic span.avatar:hover img {
-  content: url("../images/speakers/nikica-jokic2.png");
-  -webkit-transform: rotate(-45deg) scale(0.65);
-  -moz-transform: rotate(-45deg) scale(0.65);
-  -ms-transform: rotate(-45deg) scale(0.65);
-  -o-transform: rotate(-45deg) scale(0.65);
-  transform: rotate(-45deg) scale(0.65);
-}
-
-@-webkit-keyframes blinkloading {
-  /* line 695, content/stylesheets/stylesheet.scss */
-  to {
-    color: #0d0c0b;
-  }
-}
-
-@-moz-keyframes blinkloading {
-  /* line 698, content/stylesheets/stylesheet.scss */
-  to {
-    color: #0d0c0b;
-  }
-}
-
-@-o-keyframes blinkloading {
-  /* line 701, content/stylesheets/stylesheet.scss */
-  to {
-    color: #0d0c0b;
-  }
-}
-
-@keyframes blinkloading {
-  /* line 704, content/stylesheets/stylesheet.scss */
-  to {
-    color: #0d0c0b;
-  }
-}
-
-/* line 707, content/stylesheets/stylesheet.scss */
+/* Shared stuff because of Nanoc */
 .supporter-wrap {
   margin-bottom: 23px;
   padding-bottom: 24px;
   border-bottom: 1px solid white;
 }
-/* line 711, content/stylesheets/stylesheet.scss */
 .supporter-wrap h2 {
   color: #f8d800;
   font-family: Share, Helvetica, Arial, sans-serif;
@@ -1276,15 +1265,12 @@ a.back-to-top {
   font-weight: normal;
   margin: 0;
 }
-/* line 718, content/stylesheets/stylesheet.scss */
 .supporter-wrap p {
   line-height: 1.5;
 }
-/* line 721, content/stylesheets/stylesheet.scss */
 .supporter-wrap b {
   color: #f8d800;
 }
-/* line 724, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress {
   border: 2px solid #f8d800;
   -webkit-border-radius: 20px;
@@ -1296,7 +1282,6 @@ a.back-to-top {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 730, content/stylesheets/stylesheet.scss */
 .supporter-wrap .progress .progress-bar {
   -webkit-border-radius: 8px 0 0 8px;
   -moz-border-radius: 8px 0 0 8px;
@@ -1311,15 +1296,12 @@ a.back-to-top {
   -o-transition: width 0.5s ease-in;
   transition: width 0.5s ease-in;
 }
-/* line 741, content/stylesheets/stylesheet.scss */
 .supporter-wrap .sold {
   float: left;
 }
-/* line 744, content/stylesheets/stylesheet.scss */
 .supporter-wrap .whos-coming {
   float: right;
 }
-/* line 747, content/stylesheets/stylesheet.scss */
 .supporter-wrap .loading {
   color: white;
   -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
@@ -1328,89 +1310,67 @@ a.back-to-top {
   animation: blinkloading 0.5s steps(10, start) infinite;
 }
 
-/* line 756, content/stylesheets/stylesheet.scss */
 .visitors-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 10px 20px 20px;
 }
-/* line 761, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor {
   float: left;
   width: 33.333%;
   padding: 20px 10px 0 0;
 }
-/* line 765, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor img {
   float: left;
   margin-right: 10px;
 }
-/* line 769, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span, .visitors-wrap .visitor a {
   display: block;
   line-height: 20px;
   height: 20px;
 }
-/* line 774, content/stylesheets/stylesheet.scss */
 .visitors-wrap .visitor span {
   margin-top: 5px;
 }
 
-/* line 781, content/stylesheets/stylesheet.scss */
 .bg-wrap.wow-wrap h4 {
   margin-bottom: 10px;
 }
-/* line 783, content/stylesheets/stylesheet.scss */
 .bg-wrap.wow-wrap h4.main-event {
   color: #f8d800;
 }
-/* line 787, content/stylesheets/stylesheet.scss */
 .bg-wrap.wow-wrap hr {
   margin: 1.2em 0 -0.6em 0;
 }
-/* line 790, content/stylesheets/stylesheet.scss */
 .bg-wrap.wow-wrap p {
   margin-top: 1.4em;
 }
-/* line 793, content/stylesheets/stylesheet.scss */
 .bg-wrap.wow-wrap ul {
   margin: 0;
   padding: 0;
 }
-/* line 796, content/stylesheets/stylesheet.scss */
 .bg-wrap.wow-wrap ul li {
   line-height: 1.5;
   list-style-position: inside;
 }
 
-/* line 804, content/stylesheets/stylesheet.scss */
-h2.wow-title,
-h2.visitors-title {
-  font-size: 3.3em;
-  color: #f8d800;
-  font-weight: bold;
-}
-
+/* Shared stuff because of Nanoc */
 /* Wrapper with background */
-/* line 811, content/stylesheets/stylesheet.scss */
 .bg-wrap {
   margin: 20px 0 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 0 20px 20px 20px;
 }
-/* line 816, content/stylesheets/stylesheet.scss */
 .bg-wrap h3 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.75em;
 }
-/* line 822, content/stylesheets/stylesheet.scss */
 .bg-wrap h4 {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
 }
-/* line 828, content/stylesheets/stylesheet.scss */
 .bg-wrap hr {
   height: 1px;
   margin: 2.2em 0;
@@ -1418,24 +1378,20 @@ h2.visitors-title {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   background: none;
 }
-/* line 836, content/stylesheets/stylesheet.scss */
 .bg-wrap p.intro {
   font-size: 1.25em;
   line-height: 1.4em;
 }
-/* line 841, content/stylesheets/stylesheet.scss */
 .bg-wrap ul {
   margin: 0 0 1.1em 1.1em;
   font-size: 1.05em;
   line-height: 1.4em;
   color: #fff;
 }
-/* line 847, content/stylesheets/stylesheet.scss */
 .bg-wrap ul li {
   padding: 3px 0;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 852, content/stylesheets/stylesheet.scss */
   .bg-wrap .columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -1450,7 +1406,6 @@ h2.visitors-title {
   }
 }
 @media (min-width: 961px) {
-  /* line 852, content/stylesheets/stylesheet.scss */
   .bg-wrap .columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -1465,15 +1420,14 @@ h2.visitors-title {
   }
 }
 
+/* Shared stuff because of Nanoc */
 /* Avatar description meta list */
-/* line 865, content/stylesheets/stylesheet.scss */
 ul.avatar-desc-meta-list {
   margin: 0 !important;
   padding: 0 !important;
   margin-top: 2.2em;
   padding-top: 2.2em;
 }
-/* line 871, content/stylesheets/stylesheet.scss */
 ul.avatar-desc-meta-list li {
   padding: 0 !important;
   margin-bottom: 2.2em;
@@ -1482,25 +1436,21 @@ ul.avatar-desc-meta-list li {
   list-style: none;
   text-overflow: ellipsis;
 }
-/* line 879, content/stylesheets/stylesheet.scss */
 ul.avatar-desc-meta-list li:last-child {
   margin-bottom: 0;
   border-bottom: 0;
 }
 
-/* line 886, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta {
   padding-bottom: 1.1em;
   overflow: hidden;
 }
-/* line 890, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .avatar {
   float: right;
   margin: 22px 22px 30px 30px;
   display: block;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 890, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .avatar {
     width: 22%;
     margin: 22px 7% 0 25px;
@@ -1508,14 +1458,12 @@ ul.avatar-desc-meta-list li:last-child {
   }
 }
 @media (min-width: 961px) {
-  /* line 890, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .avatar {
     width: 20%;
     margin: 22px 5% 0 25px;
     float: left;
   }
 }
-/* line 907, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .avatar .img {
   position: relative;
   width: 120px;
@@ -1533,13 +1481,11 @@ ul.avatar-desc-meta-list li:last-child {
   border-radius: 20px;
 }
 @media (min-width: 961px) {
-  /* line 907, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .avatar .img {
     height: 150px;
     width: 150px;
   }
 }
-/* line 920, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .avatar .img img {
   position: absolute;
   top: -75px;
@@ -1551,31 +1497,26 @@ ul.avatar-desc-meta-list li:last-child {
   -o-transform: rotate(-45deg) scale(0.7);
   transform: rotate(-45deg) scale(0.7);
 }
-/* line 931, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .desc {
   width: 100%;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 931, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc {
     width: 66%;
     float: left;
   }
 }
 @media (min-width: 961px) {
-  /* line 931, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc {
     width: 45%;
     margin-right: 5%;
     float: left;
   }
 }
-/* line 945, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .desc h4 {
   margin-top: 1.5em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 945, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc h4 {
     margin-top: 0 !important;
     margin-bottom: 1.25em;
@@ -1583,24 +1524,20 @@ ul.avatar-desc-meta-list li:last-child {
   }
 }
 @media (min-width: 961px) {
-  /* line 945, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc h4 {
     margin-top: 0 !important;
     margin-bottom: 1.25em;
     font-size: 1.75em;
   }
 }
-/* line 960, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .desc h4 a {
   color: #f8d800;
   text-decoration: none;
 }
-/* line 967, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta {
   padding-top: 2.2em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 967, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .meta {
     width: auto;
     margin-left: 33%;
@@ -1609,25 +1546,21 @@ ul.avatar-desc-meta-list li:last-child {
   }
 }
 @media (min-width: 961px) {
-  /* line 967, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .meta {
     width: 22%;
     padding-top: 3.45em;
     float: left;
   }
 }
-/* line 983, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta dt {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.25em;
 }
-/* line 989, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta dd {
   margin-left: 0 !important;
   margin-bottom: 0.85em;
 }
-/* line 993, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta dd.link {
   overflow: hidden;
   color: #97C0DF;
@@ -1635,20 +1568,17 @@ ul.avatar-desc-meta-list li:last-child {
   white-space: nowrap;
 }
 
-/* line 1005, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 1009, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 33.333%;
 }
-/* line 1014, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -1661,66 +1591,29 @@ ul.menu li a {
   font-size: 1.5em;
   margin: 0 1px 0 0;
 }
-/* line 1025, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 1033, content/stylesheets/stylesheet.scss */
 .small-menu {
   width: 100%;
   margin: -30px 20px 0 0;
 }
 @media screen and (min-width: 800px) {
-  /* line 1033, content/stylesheets/stylesheet.scss */
   .small-menu {
     width: 68.2%;
     float: right;
     margin-top: -105px;
   }
 }
-/* line 1043, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 1048, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
-}
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-/* line 1065, content/stylesheets/stylesheet.scss */
-.cf:before,
-.cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-/* line 1070, content/stylesheets/stylesheet.scss */
-.cf:after {
-  clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-/* line 1078, content/stylesheets/stylesheet.scss */
-.cf {
-  *zoom: 1;
 }

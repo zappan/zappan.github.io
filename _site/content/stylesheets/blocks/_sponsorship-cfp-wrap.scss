@@ -1,0 +1,94 @@
+/* Shared stuff because of Nanoc */
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 960px;
+
+.sponsorship-cfp-wrap {
+
+  @include at(3){
+    float: right;
+    width: 38.2%;
+    padding-left: 1.25em;
+  }
+
+  a {
+    color: $grey_1;
+    text-decoration: none;
+    display: block;
+
+    b {
+      display: block;
+      color: $grey_2;
+      font-size: 1.7em;
+      font-weight: 400;
+      font-family: Share, Helvetica, Arial, sans-serif;
+      line-height: 1;
+      margin-top: 0.65em;
+    }
+
+    &:hover {
+      color: $white;
+
+      b {
+        color: $white;
+      }
+
+      .icon {
+        background: rgba(255,255,255,0.05);
+      }
+    }
+  }
+
+  .icon {
+    width: 2.3em;
+    height: 2.3em;
+    border: 2px solid $grey_1;
+    color: $grey_2;
+    line-height: 2.3em;
+    text-align: center;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 2.1em;
+    border-radius: 50%;
+  }
+  .left-panel, .right-panel {
+    padding: 1.5em 0;
+    border-bottom: 1px solid $grey_1;
+    .icon {
+      float: left;
+      margin-right: 1em;
+    }
+  }
+  .left-panel {
+    padding-top: 0;
+  }
+  @include at(1){
+    margin: -1.3em 0 1.3em 0;
+  }
+  @include at(2){
+    margin: -2.6em 0 1.3em;
+    .left-panel, .right-panel {
+      padding-top: 1.5em;
+      font-size: 0.8em;
+    }
+    .left-panel {
+      width: 50%;
+      border-right: 1px solid $grey_1;
+      float: left;
+      .icon {
+        margin-right: 0.5em;
+      }
+    }
+    .right-panel {
+
+      width: 50%;
+      float: right;
+      text-align: right;
+      .icon {
+        float: right;
+        margin-right: 0;
+        margin-left: 0.5em;
+      }
+    }
+  }
+}

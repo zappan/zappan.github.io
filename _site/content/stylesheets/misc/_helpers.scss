@@ -1,0 +1,44 @@
+/* Add/remove floats */
+.float-right { float:right!important; }
+.float-left { float:left !important; }
+.float-none { float:none !important; }
+
+/* Text alignment */
+.text-left { text-align:left  !important; }
+.text-center { text-align:center!important; }
+.text-right { text-align:right !important; }
+
+/* Font weights */
+.weight-light { font-weight:300!important; }
+.weight-normal { font-weight:400!important; }
+.weight-semibold { font-weight:600!important; }
+.weight-bold { font-weight:700!important; }
+
+/* Add a help cursor to any element that gives the user extra information on `:hover` */
+.informative { cursor:help!important; }
+
+/* Mark an object as inactive by reducing its opacity */
+.inactive {
+    opacity:0.5!important;
+    filter:alpha(opacity = 50)!important;
+}
+
+/* Apply capital case to an element */
+.caps { text-transform:uppercase!important; }
+
+/* Hide content off-screen without resorting to `display:none;`, also provide breakpoint specific hidden elements */
+@mixin accessibility {
+    border:0!important;
+    clip:rect(0 0 0 0)!important;
+    height:1px!important;
+    margin:-1px!important;
+    overflow:hidden!important;
+    padding:0!important;
+    position: absolute!important;
+    width:1px!important;
+}
+
+.accessibility,
+.visuallyhidden {
+    @include accessibility;
+}

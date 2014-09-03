@@ -1,0 +1,51 @@
+/* Shared stuff because of Nanoc */
+@import "compass";
+
+.supporter-wrap {
+  margin-bottom: 23px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid $white;
+  h2 {
+    color: $yellow;
+    font-family: Share, Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    font-weight: normal;
+    margin: 0;
+  }
+  p {
+    line-height: 1.5;
+  }
+  b {
+    color: $yellow;
+  }
+  .progress {
+    border: 2px solid $yellow;
+    @include border-radius(20px);
+    height: 23px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    .progress-bar {
+      @include border-radius(8px 0 0 8px);
+      background: $yellow;
+      height: 100%;
+      width: 0;
+      -webkit-transition: width 0.5s ease-in;
+      -moz-transition: width 0.5s ease-in;
+      -o-transition: width 0.5s ease-in;
+      transition: width 0.5s ease-in;
+    }
+  }
+  .sold {
+    float: left;
+  }
+  .whos-coming {
+    float: right;
+  }
+  .loading {
+    color: white;
+    -webkit-animation: blinkloading 0.5s steps(10, start) infinite;
+    -moz-animation: blinkloading 0.5s steps(10, start) infinite;
+    -o-animation: blinkloading 0.5s steps(10, start) infinite;
+    animation: blinkloading 0.5s steps(10, start) infinite;
+  }
+}

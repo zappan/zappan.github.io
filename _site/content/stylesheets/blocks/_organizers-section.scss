@@ -1,0 +1,30 @@
+/* Shared stuff because of Nanoc */
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 960px;
+
+.organizers {
+  background: url(../images/organizersbg.png);
+  background-repeat: repeat-x;
+  background-color: $white;
+  border-top: 1px solid $grey_lightest;
+  padding: 20px 10px;
+  text-align: center;
+  @include at(1){
+    padding-top: 40px;
+  }
+  img {
+    display: inline-block;
+    margin: 9px 9px;
+  }
+  br {
+    display: none;
+    @include at(2){
+      display: block;
+    }
+    @include at(3){
+      display: block;
+    }
+  }
+}
