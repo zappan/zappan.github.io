@@ -1474,7 +1474,7 @@ ul.avatar-desc-meta-list {
   padding-top: 2.2em;
 }
 /* line 871, content/stylesheets/stylesheet.scss */
-ul.avatar-desc-meta-list li {
+ul.avatar-desc-meta-list > li {
   padding: 0 !important;
   margin-bottom: 2.2em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1483,7 +1483,7 @@ ul.avatar-desc-meta-list li {
   text-overflow: ellipsis;
 }
 /* line 879, content/stylesheets/stylesheet.scss */
-ul.avatar-desc-meta-list li:last-child {
+ul.avatar-desc-meta-list > li:last-child {
   margin-bottom: 0;
   border-bottom: 0;
 }
@@ -1646,7 +1646,7 @@ ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
-  width: 33.333%;
+  width: 20%;
 }
 /* line 1014, content/stylesheets/stylesheet.scss */
 ul.menu li a {
@@ -1658,7 +1658,7 @@ ul.menu li a {
   background: rgba(255, 255, 255, 0.1);
   text-decoration: none;
   font-family: Share, Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 0 1px 0 0;
 }
 /* line 1025, content/stylesheets/stylesheet.scss */

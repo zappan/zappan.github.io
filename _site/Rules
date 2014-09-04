@@ -46,6 +46,17 @@ compile '/speakers/*' do
   end
 end
 
+
+compile '/workshops/*' do
+  if item.identifier == '/workshops/'
+    layout item[:layout] || 'default'
+  else
+    layout 'workshops' 
+  end
+
+  filter :erb
+end
+
 # compile '/' do
 #   layout 'homepage'
 # end

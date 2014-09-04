@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WebCamp Zagreb - 2014</title>
+  <link href='http://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+  <!-- ClickTale Top part -->
+  <script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+  </script>
+  <!-- ClickTale end of Top part -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=722382704443005&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <main class="speaker-main">
+    <header>
+      <h1>WebCamp 2014: Supporter packs - the awesome in small bags!</h1>
+      <a href="/"><img src="/images/logo.png" alt=""></a>
+      <div class="small-menu">
+        <%= render('partials/menu') %>
+      </div>
+    </header>
+    <section class="content cf" id="content">
+
+      <div class="wrap">
+        <article class="news">
+          <div class="talk-info">
+            <h1 class="name"><%= @item[:title] %></h1>
+            <div class="desc">
+              <p><%= @item[:abstract] %></p>
+              <h4>Prerequisites:</h4>
+              <p><%= @item[:prerequisites] %></p>
+              <h4>Info:</h4>
+              <ul>
+                <li><b>Time:</b> <%= @item[:time] %></li>
+                <li><b>Duration:</b> <%= @item[:duration] %></li>
+                <li><b>Language:</b> <%= @item[:lang] %></li>
+                <li><b>Level:</b> <%= @item[:level] %></li>
+                <li><b>Price:</b> <%= @item[:price] %></li>
+              </ul>
+            </div>
+          </div>
+          <div class="speaker-info cf">
+            <div class="img">
+              <img src="<%= @item[:image] %>" alt="<%= @item[:name] %>" />
+            </div>
+            <div class="info">
+              <h2 class="name"><%= @item[:name] %></h2>
+              <div class="desc">
+                <%= @item[:long_bio] %>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <a href="https://www.entrio.hr/en/event/webcamp-zagreb-2014-1579" class="support-webcamp"><b>Get your Supporter Pack now &raquo;</b></a>
+
+      <div class="twitter-wrap twitter-wrap-simple">
+        <h3>
+          <a href="http://twitter.com/webcampzg">
+            <img src="/images/twitter.png" alt="">
+            @webcampzg on Twitter
+          </a>
+        </h3>
+        <h3 class="facebook">
+          <a href="http://facebook.com/WebCampZg">
+            <img src="/images/fb.png" alt="">
+            @webcampzg on Facebook
+          </a>
+        </h3>
+      </div>
+
+    </section>
+    <a href="#" class="back-to-top">&uarr; Back to top</a>
+  </main>
+
+  <%= render('partials/footer') %>
+  <%= render('partials/scripts') %>
+</body>
+</html>

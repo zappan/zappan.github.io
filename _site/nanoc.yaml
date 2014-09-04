@@ -65,6 +65,11 @@ data_sources:
     items_root: /speakers
     layouts_root: /
 
+  -
+    type: workshops
+    items_root: /workshops
+    layouts_root: /
+
 # Configuration for the “watch” command, which watches a site for changes and
 # recompiles if necessary.
 watcher:

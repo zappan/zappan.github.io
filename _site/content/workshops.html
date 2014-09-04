@@ -3,6 +3,38 @@ title: WebCamp Workshops
 layout: visitors
 ---
 <h2 class="section-title visitors-title">WebCamp Workshops</h2>
-<article>
-	
+<article class="bg-wrap">
+	<p class="introduction">
+    All workshops are being held on <b>Friday, October 3rd</b>, at the HGK (Croatian Chamber of Commerce) building, Nova Cesta 3-7, Zagreb.
+    <br><br>
+    Tickets will be available starting Thursday, October 11th @ 10:00, through <a href="https://www.entrio.hr/event/webcamp-workshops-2014-1700">Entrio.hr</a>
+     
+  </p>
+  <ul class="avatar-desc-meta-list cf">
+    <% workshops.each do |workshop| %>
+
+    <li class="cf" id="workshop-<%= (workshop[:name] || "").to_slug.normalize.to_s %>">
+      <div class="avatar-desc-meta">
+        <a class="avatar" href="<%= workshop.identifier %>">
+          <div class="img">
+            <img src="<%= workshop[:image] %>" alt="<%= workshop[:name] %>">
+          </div>
+        </a>
+
+        <div class="desc">
+          <h4><a href="<%= workshop.identifier %>"><%= workshop[:title] %></a></h4>
+          <p><%= workshop[:abstract] %></p>
+          <a href="<%= workshop.identifier %>">Read more &raquo;</a>
+        </div>
+        <div class="meta cf">
+          <dl>
+            <dt>Speaker</dt>
+            <dd class="link"><a href="<%= workshop.identifier %>"><%= workshop[:name] %> </a></dd>
+          </dl>
+        </div>
+      </div>
+    </li>
+
+    <% end %>
+  </ul>
 </article>
