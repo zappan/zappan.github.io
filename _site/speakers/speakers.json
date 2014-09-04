@@ -779,7 +779,7 @@
       "short_bio": "R&D at @CeltraMobile, a PhD student.\nA full-time continuously learning passionately curious enthusiast.\nhttp://galjot.si/about",
       "name": "Robert Sedovšek",
       "twitter": "sedovsek",
-      "long_bio": "Robert Sedovšek is a PhD candidate at the University of Ljubljana (title of thesis: Evaluation of user experience in mobile advertising) and elected assistant professor in the field of information and graphic technologies. He has 7 years experience in web development/design.\nCurrently employed at Celtra as a researcher/developer, mainly working with front-end technologies to develop different tools for digital display advertising industry, such as campaign management dashboard, media analytics and many more.\n\nHe is also a mentor to many brilliant young engineers working on a different internal projects in the field of front-end technologies, such as form (re)design library, chart creation library, UI Pattern Library, WizEye - continuous visual testing tool, etc.",
+      "long_bio": "Robert Sedovšek is a PhD candidate at the University of Ljubljana (title of thesis: Evaluation of user experience in mobile advertising) and elected assistant professor in the field of information and graphic technologies. He has 7 years experience in web development/design.\nCurrently employed at Celtra as a researcher/developer, mainly working with front-end technologies to develop different tools for digital display advertising industry, such as [campaign management dashboard](http://www.celtra.com/adcreator/management), [media analytics](http://www.celtra.com/analytics) and many more.\n\nHe is also a mentor to many brilliant young engineers working on a different internal projects in the field of front-end technologies, such as form (re)design library, chart creation library, UI Pattern Library, WizEye - continuous visual testing tool, etc.",
       "image": "http://galjot.si/sedovsek.jpg",
       "shirt": "Male XL"
     }
@@ -1006,34 +1006,6 @@
       "long_bio": "Marcin Warpechowski is a developer at Starcounter. He builds web applications with emerging Open Web Platform technologies, including Web Components, and is the creator of an open source data grid editor, Handsontable. He lives in Gdynia, Poland.",
       "image": "https://dl.dropboxusercontent.com/u/313942/Marcin%20_W.png",
       "shirt": "Male M"
-    }
-  },
-  {
-    "_id": {
-      "$id": "53d4d76a6fc385384df66197"
-    },
-    "status": "accepted",
-    "short_abstract": "It may be hard to start writing FP code until you start to think functionally. Turns out you can do it in almost all modern OOP languages!",
-    "long_abstract": "The goal of this talk is to show easy steps for transitioning from OOP to functional programming.\n\nWe'll start this talk with explaining the benefits of functional programming and discussing the stigma that's associated with it. After that we'll see how FP languages are getting used in real life and that we can indeed write a web app using solely FP languages.\n\nAfter that we'll show samples of functional code as written in many OOP languages (JavaScript, C# and Ruby) and compare it to the implementation in F#, an FP language.\n\nThis talk was already held at Developers Arena in Sarajevo in a slightly trimmed version (20 min). The slides are available: https://speakerdeck.com/damir/oop-and-fp-bridging-the-gap",
-    "language": "English",
-    "title": "OOP and FP: Bridging the Gap",
-    "level": "Intermediate",
-    "submitted": {
-      "sec": 1406304563,
-      "usec": 0
-    },
-    "row_id": 73,
-    "speaker": {
-      "_id": {
-        "$id": "53af0bab14141403187e969d"
-      },
-      "github": "sidonath",
-      "short_bio": "I write Ruby and JavaScript/CoffeeScript, run, hang out above the city with my fiancé and a camera. Adopted by two cats: Mogwai and Midori.",
-      "name": "Damir Zekić",
-      "twitter": "sidonath",
-      "long_bio": "Damir has been developing web applications for over ten years and is currently working on STCKbay, a fashion marketplace, using Ruby on Rails and Ember.js.\n\nSince March 2013 Damir has been organizing Sarma: Sarajevo Ruby meetups and helped organize two BarCamps in Sarajevo in 2012 and 2013.\n\nWhen not working, he's still writing code either to learn a new language, explore a new framework, or contribute to OSS. When not writing code, he can be seen running, hiking or taking photos.",
-      "image": "http://f.cl.ly/items/3V011Y061R281R39160P/damir.png",
-      "shirt": "Male L"
     }
   },
   {
