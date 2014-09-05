@@ -1020,6 +1020,11 @@ a.speaker:hover .avatar::before {
   box-shadow: #f8d800 0 0 0 4px inset;
 }
 
+/* Workshops page */
+.workshops-wrap .bio      { font-size: 0.85em; margin-top: 3.5em; margin-left: -22px; }
+.workshops-wrap .bio h4   { font-family: Share, Helvetica, Arial, sans-serif; }
+
+
 /* Speaker/talk page */
 /* line 504, content/stylesheets/stylesheet.scss */
 .speaker-main header img {
